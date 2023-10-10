@@ -1,0 +1,88 @@
+body{
+    margin:0px
+}
+.sectionAzul{
+    float: left;
+    background-color: rgba(0, 0, 63, 0.788);
+    height:100%;
+    width: 70%;
+    border:0px solid black;
+}
+
+.headerNome{
+    font-family: 'Kanit', sans-serif;
+    color:rgb(186, 255, 206);
+    font-size:4vw;
+    width:28vh;
+    position:relative;
+    left:2vw;
+    top:5vh;
+    border:0px solid black;
+    }
+
+.imgFotoJunior{
+    border:0px dashed black;
+    position:absolute;
+    left:64vw;
+    top:30vh;
+    width:10vw;
+}
+
+.sectionNomeEDescricao{
+    position:relative;
+    top:20vh;
+    left:2vw
+}
+
+.h1FullStackWeb{
+    color:rgb(186, 255, 206);
+    font-family: 'Roboto', sans-serif;
+    font-size:4vw;
+}
+
+.sectionDescricao{
+    position:relative;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size:1.7vw;
+    top:-6vh;
+}
+
+.spanExperienciaFrontEnd{
+    position:relative;
+    top:34vh;
+    left:2vw;
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+    font-size:1.3vw;
+    float:left
+}
+
+.spanExperienciaBackEnd{
+    position:relative;
+    top:34vh;
+    left:13vw;
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+    font-size:1.3vw;
+    
+}
+
+.h1Contactme{
+    position:relative;
+    left:5vw;
+    top:10vh;
+    border:0px solid black;
+    width:22vw;
+    color:rgb(0, 255, 72);
+    font-family: 'Roboto', sans-serif;
+    font-size:4vw;
+}
+
+.sectionBranco{
+    position:relative;
+    float:left;
+    border:0px solid black;
+    width:29.84%;
+    height:100%;
+}
