@@ -5,7 +5,7 @@ body{
     float: left;
     background-color: rgba(0, 0, 63, 0.788);
     height:100%;
-    width: 70%;
+    width: 60%;
     border:0px solid black;
 }
 
@@ -23,7 +23,7 @@ body{
 .imgFotoJunior{
     border:0px dashed black;
     position:absolute;
-    left:64vw;
+    left:54vw;
     top:30vh;
     width:10vw;
 }
@@ -68,21 +68,42 @@ body{
     
 }
 
-.h1Contactme{
-    position:relative;
-    left:5vw;
-    top:10vh;
-    border:0px solid black;
-    width:22vw;
-    color:rgb(0, 255, 72);
-    font-family: 'Roboto', sans-serif;
-    font-size:4vw;
-}
 
 .sectionBranco{
     position:relative;
     float:left;
     border:0px solid black;
-    width:29.84%;
+    width:39.84%;
     height:100%;
+    text-align: center;
+}
+
+.h1Contactme{
+    position:relative;
+    left:9vw;
+    top:20vh;
+    border:0px solid black;
+    width:22vw;
+    color:rgba(0, 0, 63, 0.788);
+    font-family: 'Roboto', sans-serif;
+    font-size:4vw;
+}
+
+.divEmail{
+    position:relative;
+    border:0px solid black;
+    width:100%;
+    text-align: center;
+    top:29vh;
+    font-size: 1.8vw;
+    color:gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+.divWhatssap{
+    position:relative;
+    top:39vh;
+    font-size: 1.8vw;
+    color:gray;
+    font-family: 'Roboto', sans-serif;
 }
