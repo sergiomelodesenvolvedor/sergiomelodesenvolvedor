@@ -49,36 +49,12 @@ body {
   width:36vw;
 }
 
-#spanIDevelop {
-}
-#thatBring {
-  position: relative;
-  top: 5vh;
-  left: -34vw;
-}
-
-#toYourBusiness {
-  position: relative;
-  top: 5vh;
-  left: -34vw;
-}
 .spanExperienciaFrontEnd {
-  position: relative;
-  top: 45vh;
-  left: 2vw;
-  color: white;
-  font-family: "Quicksand", sans-serif;
-  font-size: 1.3vw;
-  float: left;
+  display:none;
 }
 
 .spanExperienciaBackEnd {
-  position: relative;
-  top: 45vh;
-  left: 13vw;
-  color: white;
-  font-family: "Quicksand", sans-serif;
-  font-size: 1.3vw;
+  display:none;
 }
 
 .sectionBranco {
@@ -153,7 +129,7 @@ body {
     border: 0px dashed black;
     position: absolute;
     left: 36vw;
-    top: 65vh;
+    top: 75vh;
     width: 28vw;
   }
 
@@ -168,13 +144,51 @@ body {
     color: white;
     font-family: "Roboto", sans-serif;
     border: 0px solid black;
-    width: 100vw;
+    width: 95vw;
     font-size: calc(1.8vw + 1.8vh);
-    top: 4vh;
+    top: 1vh;
     left:-2vw;
-
-    
   }
+
+  .sectionBranco {
+    position: relative;
+    float: left;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .h1Contactme {
+    position: relative;
+    left: 0vw;
+    top: 45vh;
+    border: 0px solid black;
+    width: 100vw;
+    color: rgba(0, 0, 63, 0.788);
+    font-family: "Roboto", sans-serif;
+    font-size: 12vw;
+  }
+  
+  .divEmail {
+    position: relative;
+    border: 0px solid black;
+    width: 100%;
+    text-align: center;
+    top: 49vh;
+    font-size: 5.4vw;
+    color: gray;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .divWhatssap {
+    position: relative;
+    top: 55vh;
+    font-size: 5.4vw;
+    color: gray;
+    font-family: "Roboto", sans-serif;
+  }
+  
 
  
 }
