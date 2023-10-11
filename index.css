@@ -1,109 +1,180 @@
-body{
-    margin:0px
+body {
+  margin: 0px;
 }
-.sectionAzul{
-    float: left;
-    background-color: rgba(0, 0, 63, 0.788);
-    height:100%;
-    width: 60%;
-    border:0px solid black;
+.sectionAzul {
+  float: left;
+  background-color: rgba(0, 0, 63, 0.788);
+  height: 100%;
+  width: 60%;
+  border: 0px solid black;
 }
 
-.headerNome{
-    font-family: 'Kanit', sans-serif;
-    color:rgb(186, 255, 206);
-    font-size:4vw;
-    width:28vh;
-    position:relative;
-    left:2vw;
-    top:5vh;
-    border:0px solid black;
+.headerNome {
+  font-family: "Kanit", sans-serif;
+  color: rgb(186, 255, 206);
+  font-size: 4vw;
+  width: 28vh;
+  position: relative;
+  left: 2vw;
+  top: 5vh;
+  border: 0px solid black;
+}
+.sectionNomeEDescricao {
+  position: relative;
+  top: 25vh;
+  left: 2vw;
+}
+
+.imgFotoJunior {
+  border: 0px dashed black;
+  position: absolute;
+  left: 54vw;
+  top: 30vh;
+  width: 10vw;
+}
+
+.h1FullStackWeb {
+  color: rgb(186, 255, 206);
+  font-family: "Roboto", sans-serif;
+  font-size: 4vw;
+}
+
+.sectionDescricao {
+  position: relative;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.7vw;
+  top: -6vh;
+  border:0px solid black;
+  width:36vw;
+}
+
+#spanIDevelop {
+}
+#thatBring {
+  position: relative;
+  top: 5vh;
+  left: -34vw;
+}
+
+#toYourBusiness {
+  position: relative;
+  top: 5vh;
+  left: -34vw;
+}
+.spanExperienciaFrontEnd {
+  position: relative;
+  top: 45vh;
+  left: 2vw;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.3vw;
+  float: left;
+}
+
+.spanExperienciaBackEnd {
+  position: relative;
+  top: 45vh;
+  left: 13vw;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.3vw;
+}
+
+.sectionBranco {
+  position: relative;
+  float: left;
+  border: 0px solid black;
+  width: 39.84%;
+  height: 100%;
+  text-align: center;
+}
+
+.h1Contactme {
+  position: relative;
+  left: 9vw;
+  top: 20vh;
+  border: 0px solid black;
+  width: 22vw;
+  color: rgba(0, 0, 63, 0.788);
+  font-family: "Roboto", sans-serif;
+  font-size: 4vw;
+}
+
+.divEmail {
+  position: relative;
+  border: 0px solid black;
+  width: 100%;
+  text-align: center;
+  top: 29vh;
+  font-size: 1.8vw;
+  color: gray;
+  font-family: "Roboto", sans-serif;
+}
+
+.divWhatssap {
+  position: relative;
+  top: 39vh;
+  font-size: 1.8vw;
+  color: gray;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 980px) {
+    body{
+        margin:0px;
     }
+  .sectionAzul {
+    background-color: rgba(0, 0, 63, 0.788);
+    height: 60%;
+    width: 100%;
+    border: 0px solid black;
+  }
 
-.imgFotoJunior{
-    border:0px dashed black;
-    position:absolute;
-    left:54vw;
-    top:30vh;
-    width:10vw;
-}
+  .headerNome {
+    font-family: "Kanit", sans-serif;
+    color: rgb(186, 255, 206);
+    font-size: 10vw;
+    width: 28vh;
+    position: relative;
+    left: 5vw;
+    top: 5vh;
+    border: 0px solid black;
+  }
 
-.sectionNomeEDescricao{
-    position:relative;
-    top:25vh;
-    left:2vw
-}
+  .sectionNomeEDescricao {
+    position: relative;
+    text-align: center;
+    top: 9vh;
+    left: 2vw;
+  }
 
-.h1FullStackWeb{
-    color:rgb(186, 255, 206);
-    font-family: 'Roboto', sans-serif;
-    font-size:4vw;
-}
+  .imgFotoJunior {
+    border: 0px dashed black;
+    position: absolute;
+    left: 36vw;
+    top: 65vh;
+    width: 28vw;
+  }
 
-.sectionDescricao{
-    position:relative;
-    color:white;
-    font-family: 'Roboto', sans-serif;
-    font-size:1.7vw;
-    top:-6vh;
-}
+  .h1FullStackWeb {
+    color: rgb(186, 255, 206);
+    font-family: "Roboto", sans-serif;
+    font-size: 10vw;
+  }
 
-.spanExperienciaFrontEnd{
-    position:relative;
-    top:45vh;
-    left:2vw;
-    color:white;
-    font-family: 'Quicksand', sans-serif;
-    font-size:1.3vw;
-    float:left
-}
+  .sectionDescricao {
+    position: relative;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    border: 0px solid black;
+    width: 100vw;
+    font-size: calc(1.8vw + 1.8vh);
+    top: 4vh;
+    left:-2vw;
 
-.spanExperienciaBackEnd{
-    position:relative;
-    top:45vh;
-    left:13vw;
-    color:white;
-    font-family: 'Quicksand', sans-serif;
-    font-size:1.3vw;
     
-}
+  }
 
-
-.sectionBranco{
-    position:relative;
-    float:left;
-    border:0px solid black;
-    width:39.84%;
-    height:100%;
-    text-align: center;
-}
-
-.h1Contactme{
-    position:relative;
-    left:9vw;
-    top:20vh;
-    border:0px solid black;
-    width:22vw;
-    color:rgba(0, 0, 63, 0.788);
-    font-family: 'Roboto', sans-serif;
-    font-size:4vw;
-}
-
-.divEmail{
-    position:relative;
-    border:0px solid black;
-    width:100%;
-    text-align: center;
-    top:29vh;
-    font-size: 1.8vw;
-    color:gray;
-    font-family: 'Roboto', sans-serif;
-}
-
-.divWhatssap{
-    position:relative;
-    top:39vh;
-    font-size: 1.8vw;
-    color:gray;
-    font-family: 'Roboto', sans-serif;
+ 
 }
