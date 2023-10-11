@@ -30,7 +30,7 @@ body{
 
 .sectionNomeEDescricao{
     position:relative;
-    top:20vh;
+    top:25vh;
     left:2vw
 }
 
@@ -50,7 +50,7 @@ body{
 
 .spanExperienciaFrontEnd{
     position:relative;
-    top:34vh;
+    top:45vh;
     left:2vw;
     color:white;
     font-family: 'Quicksand', sans-serif;
@@ -60,7 +60,7 @@ body{
 
 .spanExperienciaBackEnd{
     position:relative;
-    top:34vh;
+    top:45vh;
     left:13vw;
     color:white;
     font-family: 'Quicksand', sans-serif;
