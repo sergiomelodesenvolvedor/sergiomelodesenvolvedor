@@ -372,7 +372,7 @@ svg:hover #fillRect {
   
   
   #fillRect {
-    transition: width 0.5s;
+    transition: width 0.2s;
     
   }
   
