@@ -244,6 +244,7 @@ svg:hover #fillRect {
     left: 36vw;
     top: 75vh;
     width: 28vw;
+    z-index: 9999;
   }
 
   .h1FullStackWeb {
