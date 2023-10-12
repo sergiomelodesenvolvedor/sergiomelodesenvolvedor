@@ -1,6 +1,8 @@
 body {
   margin: 0px;
 }
+
+.main{position:relative;}
 .sectionAzul {
   float: left;
   background-color: rgba(0, 0, 63, 0.788);
@@ -31,6 +33,7 @@ body {
   left: 54vw;
   top: 30vh;
   width: 10vw;
+  z-index: 9999;
 }
 
 .h1FullStackWeb {
@@ -70,6 +73,7 @@ body {
 
 .sectionBranco {
   position: relative;
+  background-color: rgb(240, 240, 240);
   float: left;
   border: 0px solid black;
   width: 39.84%;
@@ -106,6 +110,100 @@ body {
   color: gray;
   font-family: "Roboto", sans-serif;
 }
+
+.minhasExperiencias{
+  height: 100%;
+  width:100%;
+  border:0px solid black;
+  position:absolute;
+  top:100%;
+}
+
+.sectionMeusProjetosFrontend{
+  position:relative;
+  top:10vh;
+  float: left;
+  border: 0px solid black;
+  width:50%;
+  text-align: center;
+  
+}
+
+.h1MeusProjetosFrontend{
+  position:relative;
+  font-family: "Roboto", sans-serif;
+  color:#4831d4;
+  font-size:3vw;
+  text-align: center;
+}
+
+.spanDescricaoTrabalhosFrontend{
+  position:relative;
+  left:13vw;
+  top:0vh;
+  font-family: Quicksand;
+  font-size:2vw;
+  border:0px solid black;
+  display: block;
+  width:22vw;
+}
+.svgButtonFrontend{
+  cursor:pointer;
+  position:relative;
+  top:7vh;
+  border:1px solid #4831d4;
+  width:20vw;
+  height:5vh;
+}
+
+.textFrontEnd{
+  transition: fill 0.5s;
+}
+
+.svgButtonFrontend:hover .textFrontEnd{
+  fill:white;
+}
+
+
+#fillRect {
+  transition: width 0.5s;
+  
+}
+
+svg:hover #fillRect {
+  width: 100%;
+}
+
+
+
+.sectionMeusProjetosBackend{
+  position:relative;
+  float: left;
+  top:10vh;
+  border: 0px solid black;
+  width:49%;
+  text-align: center;  
+}
+
+.h1MeusProjetosBackend{
+  position:relative;
+  font-family: "Roboto", sans-serif;
+  color:#4831d4;
+  font-size:3vw;
+  text-align: center;
+}
+
+.spanDescricaoTrabalhosBackend{
+  position:relative;
+  left:13vw;
+  top:0vh;
+  font-family: Quicksand;
+  font-size:2vw;
+  border:0px solid black;
+  display: block;
+  width:22vw;
+}
+
 
 @media (max-width: 980px) {
   body {
@@ -176,6 +274,7 @@ body {
     width: 100%;
     height: 100%;
     text-align: center;
+    background-color: rgb(240, 240, 240);;
   }
 
   .h1Contactme {
