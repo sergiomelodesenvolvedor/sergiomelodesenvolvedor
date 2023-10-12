@@ -123,8 +123,9 @@ body {
   position:relative;
   top:10vh;
   float: left;
-  border: 0px solid black;
+  border-right: 1px solid gray;
   width:50%;
+  height:50vh;
   text-align: center;
   
 }
