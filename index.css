@@ -469,8 +469,9 @@ svg:hover #fillRect {
   }
   
   .h1AboutMe{
+    width:30vw;
     position:relative;
-    border:0px solid black;
+    border:1px solid black;
     font-family: Roboto;
     font-size: 8vw;
     color:rgba(0, 0, 63, 0.788);
