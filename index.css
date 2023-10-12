@@ -56,7 +56,7 @@ body {
 
 .spanExperienciaFrontEnd {
   position: relative;
-  top: 43vh;
+  top: 33vh;
   left: 2vw;
   font-family: "Quicksand", sans-serif;
   color: white;
@@ -65,7 +65,7 @@ body {
 
 .spanExperienciaBackEnd {
   position: relative;
-  top: 43vh;
+  top: 33vh;
   left: 13vw;
   font-family: "Quicksand", sans-serif;
   color: white;
@@ -207,6 +207,45 @@ svg:hover #fillRect {
   width:22vw;
 }
 
+.sectionSobreMim{
+  position:absolute;
+  top:190vh;
+  width:100%;
+  height:120%;
+  background-color:rgb(241, 241, 241) ;
+  border:0px solid black;
+}
+
+.h1AboutMe{
+  position:relative;
+  left:10vw;
+  width:32vw;
+  border:0px solid black;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 5vw;
+  color:rgba(0, 0, 63, 0.788);
+}
+.spanDescricaoAboutme{
+  position:relative;
+  left:5vw;
+  border:0px solid black;
+  display:block;
+  width:50vw;
+  color:#f6f6fdc9;
+  font-family:Quicksand;
+  
+  font-size:2vw;
+  letter-spacing:0.3vw;
+  font-size: 24px;
+  color:#4831d4;
+  }
+}
+
+.imgFotoJuniorSobreMim{
+  position:absolute;
+  left:60vw;
+  top:15vh;
 }
 
 @media (max-width: 980px) {
@@ -410,5 +449,11 @@ svg:hover #fillRect {
     border:0px solid black;
     display: block;
     width:80vw;
+  }
+
+  .sectionSobreMim{
+    position:relative;
+    width:100%;
+    border:1px solid black;
   }
 }
