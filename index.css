@@ -121,7 +121,7 @@ body {
 
 .sectionMeusProjetosFrontend{
   position:relative;
-  top:10vh;
+  top:25vh;
   float: left;
   border-right: 1px solid gray;
   width:50%;
@@ -180,7 +180,7 @@ svg:hover #fillRect {
 .sectionMeusProjetosBackend{
   position:relative;
   float: left;
-  top:10vh;
+  top:25vh;
   border: 0px solid black;
   width:49%;
   text-align: center;  
