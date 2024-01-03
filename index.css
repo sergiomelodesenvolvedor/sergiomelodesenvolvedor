@@ -543,4 +543,41 @@ svg:hover #fillRect {
   }
   
   
+  #footer{position:relative;
+    border:0px solid black;
+    top:210vh;
+    background-color: rgba(194, 194, 196, 0.788);
+    height:22vh;
+    text-align: center;
+  }
+  
+  #iconeEmail{
+    position:relative;
+    left:-3vw;
+    top:2vh;
+    width:3.4vw;
+  }
+  
+  #iconeWhatssap{
+    position:relative;
+    top:2.5vh;
+    left:2vw;
+    width:3.1vw;
+  }
+  
+  #div-tell{
+    position:relative;
+    top:4vh;
+    font-size: calc(1.3vw + 0.7vh);
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  #div-copyright{
+    position:relative;
+    top:6vh;
+    font-family: "Quicksand", sans-serif;
+  }
+
+
+
 }
