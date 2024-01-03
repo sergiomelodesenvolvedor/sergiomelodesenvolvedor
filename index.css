@@ -542,40 +542,44 @@ svg:hover #fillRect {
     top:24vh;
   }
   
-  
-  #footer{position:relative;
+  #idEmbaixoSobreMim{
+    display: none;
+  }
+
+  #footer{position:absolute;
     border:0px solid black;
-    top:210vh;
+    top:390vh;
     background-color: rgba(194, 194, 196, 0.788);
-    height:22vh;
+    height:28vh;
     text-align: center;
   }
   
   #iconeEmail{
     position:relative;
-    left:-3vw;
+    left:-5vw;
     top:2vh;
-    width:3.4vw;
+    width:12.4vw;
   }
   
   #iconeWhatssap{
     position:relative;
     top:2.5vh;
-    left:2vw;
-    width:3.1vw;
+    left:7vw;
+    width:11.1vw;
   }
   
   #div-tell{
     position:relative;
-    top:4vh;
-    font-size: calc(1.3vw + 0.7vh);
+    top:5.5vh;
+    font-size: calc(2.3vw + 1.7vh);
     font-family: "Quicksand", sans-serif;
   }
   
   #div-copyright{
     position:relative;
-    top:6vh;
+    top:10vh;
     font-family: "Quicksand", sans-serif;
+    font-size: calc(1.8vw + 1.2vh);
   }
 
 
