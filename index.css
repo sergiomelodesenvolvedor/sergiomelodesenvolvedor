@@ -318,8 +318,9 @@ svg:hover #fillRect {
   .sectionNomeEDescricao {
     position: relative;
     text-align: center;
+    border:0px solid black;
     top: 9vh;
-    left: 2vw;
+    left: 0vw;
   }
 
   .imgFotoJunior {
@@ -565,6 +566,7 @@ svg:hover #fillRect {
   }
   
   #div-tell{
+    border: 0px solid black;
     position:relative;
     top:5.5vh;
     font-size: calc(2.3vw + 1.7vh);
