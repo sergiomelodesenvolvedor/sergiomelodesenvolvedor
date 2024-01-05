@@ -1,0 +1,103 @@
+body{background-color: rgb(241, 241, 241);}
+
+#header{
+    position:relative;
+    top:10vh;
+    border:0px solid black;
+}
+
+#h1Sergio{
+    font-family: "Kanit", sans-serif;
+    color:rgb(1, 88, 26);
+    font-size:3vw;
+    position:relative;
+    left:5vw;
+    border:0px solid yellow;
+    display:inline
+}
+
+
+#divMenuHrs{
+    position:absolute;
+    left:80vw;
+    top:3vh;
+    border:0px solid black;
+    width:5vw;
+}
+
+
+.hrMenuLinha{
+    border-color:rgb(1, 88, 26);
+}
+
+#hrMenuLinha1{
+
+}
+
+#hrMenuLinha2{
+    width:3vw;
+}   
+
+main{
+    position:relative;
+    top:30vh;
+    border: 0px solid black;
+}
+
+#h2MyWorks{
+    text-align: center;
+    color: gray;
+    font-size:3vw;
+    font-family: "Roboto", sans-serif;
+}
+
+#cardMaConsultoriaHospitalar{
+    background-color: white;
+    width:20vw;
+    height:50vh;
+    border: 0px solid black;
+    border-radius:1vw;
+    position: relative;
+    top:10vh;
+    left:5vw;
+    cursor:pointer
+}
+
+#imgLogoMaConsultoriaHospitalar{
+    width:17vw;
+    position:relative;
+    top:15vh;
+    left:1.7vw;
+}
+
+
+#divNomeLinkProjeto{
+    background-color: rgb(230, 230, 230);
+    position:relative;
+    top:30vh;
+    height:13vh;
+}
+
+
+#h3-click-on-the-project{
+    border:0px solid black;
+    display:inline;
+    font-family: Quicksand;
+    font-size: 1.7vw;
+    position:relative;
+    left:69.5vh;
+    font-weight: 100;
+    color:gray;
+}
+
+
+#h3-maconsultoriahospitalar{
+    position:relative;
+    left:1vw;
+    top:5vh;
+    font-family: "Roboto", sans-serif;
+    color:blue;
+    text-decoration: none;
+    display: inline;
+}
+
