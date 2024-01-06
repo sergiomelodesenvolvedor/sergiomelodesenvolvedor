@@ -70,14 +70,18 @@ main{
     left:1.7vw;
 }
 
-
 #divNomeLinkProjeto{
-    background-color: rgb(230, 230, 230);
     position:relative;
     top:30vh;
-    height:13vh;
+    
 }
 
+
+.divNomeLinkProjeto{
+    background-color: rgb(230, 230, 230);
+    
+    height:13vh;
+}
 
 #h3-click-on-the-project{
     border:0px solid black;
@@ -85,7 +89,7 @@ main{
     font-family: Quicksand;
     font-size: 1.7vw;
     position:relative;
-    left:69.5vh;
+    left:34.3vw;
     font-weight: 100;
     color:gray;
 }
@@ -101,3 +105,35 @@ main{
     display: inline;
 }
 
+
+
+
+
+#cardMaNishiConsult{
+    border:1px solid black;
+    border-radius: 1vw;
+    position:absolute;
+    top:28vh;
+    left:30vw;
+    
+
+    background-color: white;
+    height:50vh;
+    width:20vw;
+    border: 0px solid black;
+    border-radius:1vw;
+    cursor:pointer
+}
+
+#imgLogoNishiConsult{
+    width:10vw;
+    position:relative;
+    left:5vw;
+    top:5vh;
+}
+
+#divNomeLinkProjeto2{
+    position:relative;
+    top:10vh;
+    
+}
