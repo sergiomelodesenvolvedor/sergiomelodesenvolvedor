@@ -89,7 +89,7 @@ main{
     font-family: Quicksand;
     font-size: 1.7vw;
     position:relative;
-    left:34.3vw;
+    left:34.3dadvw;
     font-weight: 100;
     color:gray;
 }
@@ -136,4 +136,15 @@ main{
     position:relative;
     top:10vh;
     
+}
+
+
+#h3-nishiconsult{
+    position:relative;
+    left:6vw;
+    top:5vh;
+    font-family: "Roboto", sans-serif;
+    color:blue;
+    text-decoration: none;
+    display: inline;
 }

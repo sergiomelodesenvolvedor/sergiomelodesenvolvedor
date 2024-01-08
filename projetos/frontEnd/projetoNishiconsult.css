@@ -1,0 +1,60 @@
+#header{
+    position:relative;
+    top:10vh;
+    border:0px solid black;
+}
+
+#h1Sergio{
+    font-family: "Kanit", sans-serif;
+    color:rgb(117, 170, 132);
+    font-size:3vw;
+    position:relative;
+    left:5vw;
+    border:0px solid yellow;
+    display:inline
+}
+
+
+#divMenuHrs{
+    position:absolute;
+    left:80vw;
+    top:3vh;
+    border:0px solid black;
+    width:5vw;
+}
+
+
+.hrMenuLinha{
+    border-color:rgb(186, 255, 206);
+}
+
+#hrMenuLinha1{
+
+}
+
+#hrMenuLinha2{
+    width:3vw;
+}
+
+#h1-nishi-consult{
+    font-family: roboto;
+    display:inline;
+    color:gray;
+    position:relative;
+    top:30vh;
+    left:40vw;
+}
+
+#descricao-nishiconsult{
+    position:relative;
+    top:40vh;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-size:2vw
+}
+
+#gifNishiconsult{
+    position:relative;
+    top:44vh;
+    left:16vw;
+}
