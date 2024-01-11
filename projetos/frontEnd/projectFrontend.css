@@ -36,7 +36,7 @@ body{background-color: rgb(241, 241, 241);}
 
 #hrMenuLinha1{
     transition: transform 0.3s ease;
-
+    width: 4vw;
 }
 
 #hrMenuLinha2{
