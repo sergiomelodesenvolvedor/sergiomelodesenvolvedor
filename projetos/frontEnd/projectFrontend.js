@@ -10,22 +10,29 @@ cardNishi.addEventListener("click", () => {
   window.open("./projetoNishiconsult/projetoNishiconsult.html", "_blank");
 });
 
-let xEstado = "menu";
+//aqui pra baixo é a função de abrir e fechar menu
 
-//aqui vou fazer a parte de abrir o x do menu
+let xEstado = "menu";
 
 let divMenuHrs = document.querySelector("#divMenuHrs");
 
+let menuComOptions = document.querySelector("#menuComOptions");
+
+let divHrMenuCelular = document.querySelector("#div-hr-menu-celular")
+
+
 divMenuHrs.addEventListener("click", async () => {
-  console.log(divMenuHrs)
   if (xEstado === "menu") {
     document.querySelector("#menuComOptions").style.height = "40vh";
+    document.querySelector("#menuComOptions").style.width = "19vw";
     document.querySelector("#menuComOptions").style.opacity = "1";
     document.querySelector("#hrMenuLinha1").style.width = "1.9vw";
     document.querySelector("#hrMenuLinha2").style.width = "1.9vw";
     document.querySelector("#hrMenuLinha1").style.transform = "rotate(-44deg)";
     document.querySelector("#hrMenuLinha2").style.transform = "rotate(44deg)";
     document.querySelector("#hrMenuLinha2").style.top = "-1.6vh";
+
+    
 
     xEstado = "x";
   } else {
@@ -40,15 +47,17 @@ divMenuHrs.addEventListener("click", async () => {
   }
 });
 
-let menuComOptions = document.querySelector("#menuComOptions");
+
 
 document.addEventListener("click", (event) => {
   if (
     !menuComOptions.contains(event.target) &&
     !divMenuHrs.contains(event.target) &&
+    !divHrMenuCelular.contains(event.target) &&
     xEstado === "x"
   ) {
     menuComOptions.style.opacity = "0";
+    menuComOptions.style.width = "0px";
     menuComOptions.style.height = "0px";
 
     document.querySelector("#hrMenuLinha1").style.transform = "rotate(0deg)";
@@ -59,5 +68,16 @@ document.addEventListener("click", (event) => {
     xEstado = "menu";
   }
 });
+
+
+
+
+divHrMenuCelular.addEventListener("click", ()=>{
+  menuComOptions.style.opacity = "1";
+  menuComOptions.style.height = "40vh";
+  menuComOptions.style.width = "80vw";
+  xEstado = "x"
+})
+
 
 
