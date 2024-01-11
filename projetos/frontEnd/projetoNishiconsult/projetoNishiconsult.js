@@ -1,15 +1,3 @@
-let cardMa = document.querySelector("#cardMaConsultoriaHospitalar");
-
-cardMa.addEventListener("click", () => {
-  window.open("https://maconsultoriahospitalar.com.br", "_blank");
-});
-
-let cardNishi = document.querySelector("#cardMaNishiConsult");
-
-cardNishi.addEventListener("click", () => {
-  window.open("./projetoNishiconsult/projetoNishiconsult.html", "_blank");
-});
-
 let xEstado = "menu";
 
 //aqui vou fazer a parte de abrir o x do menu
@@ -59,5 +47,3 @@ document.addEventListener("click", (event) => {
     xEstado = "menu";
   }
 });
-
-//aqui vou fazer a parte de fechar o x do menu

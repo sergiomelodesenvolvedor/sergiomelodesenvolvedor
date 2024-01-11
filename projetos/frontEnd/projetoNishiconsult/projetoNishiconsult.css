@@ -1,0 +1,130 @@
+body{background-color: rgb(241, 241, 241);}
+
+#header{
+    position:relative;
+    top:10vh;
+    border:0px solid black;
+}
+
+#h1Sergio{
+    font-family: "Kanit", sans-serif;
+    color:rgb(117, 170, 132);
+    font-size:3vw;
+    position:relative;
+    left:5vw;
+    border:0px solid yellow;
+    display:inline
+}
+
+
+#divMenuHrs{
+    position:absolute;
+    left:80vw;
+    top:3vh;
+    border:0px solid black;
+    width:5vw;
+    z-index: 99999;
+    cursor:pointer;
+}
+
+
+.hrMenuLinha{
+    border:0.3vh solid rgb(34, 172, 73);
+    background-color: rgb(34, 172, 73);
+}
+
+#hrMenuLinha1{
+    transition: transform 0.3s ease;
+    width: 4vw;
+}
+
+#hrMenuLinha2{
+    position: relative;
+    width:3vw;
+    transition: transform 0.3s ease;
+}
+
+
+#menuComOptions{
+    position:absolute;
+    left:66vw;
+    top:1.2vh;
+    overflow: hidden;
+    width:19vw;
+    height:0vh;
+    border:0px solid black;
+    opacity: 0;
+    transition:height 0.5s ease, opacity 1.5s ease;
+    background-color: white;
+}
+
+
+#divMenuHome{
+    position: relative;
+    top:10vh;
+    left:7.4vw;
+    border: 0px solid black;
+    width:7vw;
+    font-family: Quicksand;
+    font-size: 1.5vw;
+    font-weight: 900;
+}
+
+#divMenuHome a{
+    text-decoration: none;
+}
+
+
+#divMenuMyWorksFrontEnd{
+    position: relative;
+    top:15vh;
+    left:2.4vw;
+    border: 0px solid black;
+    width:16vw;
+    font-family: Quicksand;
+    font-size: 1.5vw;
+    font-weight: 900;
+}
+
+#divMenuMyWorksFrontEnd a{
+    text-decoration: none;
+}
+
+#divMenuMyWorksBackEnd{
+    position: relative;
+    top:20vh;
+    left:2.4vw;
+    border: 0px solid black;
+    width:16vw;
+    font-family: Quicksand;
+    font-size: 1.5vw;
+    font-weight: 900;
+}
+
+#divMenuMyWorksBackEnd a{
+    text-decoration: none;
+}
+
+
+#h1-nishi-consult{
+    font-family: roboto;
+    display:inline;
+    color:gray;
+    position:relative;
+    top:30vh;
+    left:40vw;
+}
+
+#descricao-nishiconsult{
+    position:relative;
+    top:40vh;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-size:2vw
+}
+
+#gifNishiconsult{
+    position:relative;
+    top:44vh;
+    left:16vw;
+}
