@@ -60,4 +60,4 @@ document.addEventListener("click", (event) => {
   }
 });
 
-//aqui vou fazer a parte de fechar o x do menu
+
