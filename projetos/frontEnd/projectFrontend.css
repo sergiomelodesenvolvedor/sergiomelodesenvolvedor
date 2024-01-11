@@ -1,216 +1,266 @@
-body{background-color: rgb(241, 241, 241);}
+@media (min-width: 980px) {
+  body {
+    background-color: rgb(241, 241, 241);
+  }
 
-#header{
-    position:relative;
-    top:10vh;
-    border:0px solid black;
-}
+  #header {
+    position: relative;
+    top: 10vh;
+    border: 0px solid black;
+  }
 
-#h1Sergio{
+  #hr-menu-celular{
+    display:none;
+  }
+
+  #h1Sergio {
     font-family: "Kanit", sans-serif;
-    color:rgb(117, 170, 132);
-    font-size:3vw;
-    position:relative;
-    left:5vw;
-    border:0px solid yellow;
-    display:inline
-}
+    color: rgb(117, 170, 132);
+    font-size: 3vw;
+    position: relative;
+    left: 5vw;
+    border: 0px solid yellow;
+    display: inline;
+  }
 
-
-#divMenuHrs{
-    position:absolute;
-    left:80vw;
-    top:3vh;
-    border:0px solid black;
-    width:5vw;
+  #divMenuHrs {
+    position: absolute;
+    left: 80vw;
+    top: 3vh;
+    border: 0px solid black;
+    width: 5vw;
     z-index: 99999;
-    cursor:pointer;
-}
+    cursor: pointer;
+  }
 
-
-
-.hrMenuLinha{
-    border:0.3vh solid rgb(34, 172, 73);
+  .hrMenuLinha {
+    border: 0.3vh solid rgb(34, 172, 73);
     background-color: rgb(34, 172, 73);
-}
+  }
 
-#hrMenuLinha1{
+  #hrMenuLinha1 {
     transition: transform 0.3s ease;
     width: 4vw;
-}
+  }
 
-#hrMenuLinha2{
+  #hrMenuLinha2 {
     position: relative;
-    width:3vw;
+    width: 3vw;
     transition: transform 0.3s ease;
-}
+  }
 
-#menuComOptions{
-    position:absolute;
-    left:66vw;
-    top:1.2vh;
+  #menuComOptions {
+    position: absolute;
+    left: 66vw;
+    top: 1.2vh;
     overflow: hidden;
-    width:19vw;
-    height:0vh;
-    border:0px solid black;
+    width: 19vw;
+    height: 0vh;
+    border: 0px solid black;
     opacity: 0;
-    transition:height 0.5s ease, opacity 1.5s ease;
+    transition: height 0.5s ease, opacity 1.5s ease;
     background-color: white;
-}
+  }
 
-#divMenuHome{
+  #divMenuHome {
     position: relative;
-    top:10vh;
-    left:7.4vw;
+    top: 10vh;
+    left: 7.4vw;
     border: 0px solid black;
-    width:7vw;
+    width: 7vw;
     font-family: Quicksand;
     font-size: 1.5vw;
     font-weight: 900;
-}
+  }
 
-#divMenuHome a{
+  #divMenuHome a {
     text-decoration: none;
-}
+  }
 
-
-#divMenuMyWorksFrontEnd{
+  #divMenuMyWorksFrontEnd {
     position: relative;
-    top:15vh;
-    left:2.4vw;
+    top: 15vh;
+    left: 2.4vw;
     border: 0px solid black;
-    width:16vw;
+    width: 16vw;
     font-family: Quicksand;
     font-size: 1.5vw;
     font-weight: 900;
-}
+  }
 
-#divMenuMyWorksFrontEnd a{
+  #divMenuMyWorksFrontEnd a {
     text-decoration: none;
-}
+  }
 
-#divMenuMyWorksBackEnd{
+  #divMenuMyWorksBackEnd {
     position: relative;
-    top:20vh;
-    left:2.4vw;
+    top: 20vh;
+    left: 2.4vw;
     border: 0px solid black;
-    width:16vw;
+    width: 16vw;
     font-family: Quicksand;
     font-size: 1.5vw;
     font-weight: 900;
-}
+  }
 
-#divMenuMyWorksBackEnd a{
+  #divMenuMyWorksBackEnd a {
     text-decoration: none;
-}
+  }
 
-main{
-    position:relative;
-    top:30vh;
+  main {
+    position: relative;
+    top: 30vh;
     border: 0px solid black;
-}
+  }
 
-#h2MyWorks{
+  #h2MyWorks {
     text-align: center;
     color: gray;
-    font-size:3vw;
+    font-size: 3vw;
     font-family: "Roboto", sans-serif;
-}
+  }
 
-#cardMaConsultoriaHospitalar{
+  #cardMaConsultoriaHospitalar {
     background-color: white;
-    width:20vw;
-    height:50vh;
+    width: 20vw;
+    height: 50vh;
     border: 0px solid black;
-    border-radius:1vw;
+    border-radius: 1vw;
     position: relative;
-    top:10vh;
-    left:5vw;
-    cursor:pointer
-}
+    top: 10vh;
+    left: 5vw;
+    cursor: pointer;
+  }
 
-#imgLogoMaConsultoriaHospitalar{
-    width:17vw;
-    position:relative;
-    top:15vh;
-    left:1.7vw;
-}
+  #imgLogoMaConsultoriaHospitalar {
+    width: 17vw;
+    position: relative;
+    top: 15vh;
+    left: 1.7vw;
+  }
 
-#divNomeLinkProjeto{
-    position:relative;
-    top:30vh;
-    
-}
+  #divNomeLinkProjeto {
+    position: relative;
+    top: 30vh;
+  }
 
-
-.divNomeLinkProjeto{
+  .divNomeLinkProjeto {
     background-color: rgb(230, 230, 230);
-    
-    height:13vh;
-}
 
-#h3-click-on-the-project{
-    border:0px solid black;
-    display:inline;
+    height: 13vh;
+  }
+
+  #h3-click-on-the-project {
+    border: 0px solid black;
+    display: inline;
     font-family: Quicksand;
     font-size: 1.7vw;
-    position:relative;
-    left:34.3vw;
+    position: relative;
+    left: 34.3vw;
     font-weight: 100;
-    color:gray;
-}
+    color: gray;
+  }
 
-
-#h3-maconsultoriahospitalar{
-    position:relative;
-    left:1vw;
-    top:5vh;
+  #h3-maconsultoriahospitalar {
+    position: relative;
+    left: 1vw;
+    top: 5vh;
     font-family: "Roboto", sans-serif;
-    color:blue;
+    color: blue;
     text-decoration: none;
     display: inline;
-}
+  }
 
-
-
-
-
-#cardMaNishiConsult{
-    border:1px solid black;
+  #cardMaNishiConsult {
+    border: 1px solid black;
     border-radius: 1vw;
-    position:absolute;
-    top:28vh;
-    left:30vw;
-    
+    position: absolute;
+    top: 28vh;
+    left: 30vw;
 
     background-color: white;
-    height:50vh;
-    width:20vw;
+    height: 50vh;
+    width: 20vw;
     border: 0px solid black;
-    border-radius:1vw;
-    cursor:pointer
-}
+    border-radius: 1vw;
+    cursor: pointer;
+  }
 
-#imgLogoNishiConsult{
-    width:10vw;
-    position:relative;
-    left:5vw;
-    top:5vh;
-}
+  #imgLogoNishiConsult {
+    width: 10vw;
+    position: relative;
+    left: 5vw;
+    top: 5vh;
+  }
 
-#divNomeLinkProjeto2{
-    position:relative;
-    top:10vh;
-    
-}
+  #divNomeLinkProjeto2 {
+    position: relative;
+    top: 10vh;
+  }
 
-
-#h3-nishiconsult{
-    position:relative;
-    left:6vw;
-    top:5vh;
+  #h3-nishiconsult {
+    position: relative;
+    left: 6vw;
+    top: 5vh;
     font-family: "Roboto", sans-serif;
-    color:blue;
+    color: blue;
     text-decoration: none;
     display: inline;
+  }
+}
+
+@media (max-width: 980px) {
+  body {
+    background-color: rgb(241, 241, 241);
+  }
+
+  #header {
+    position: relative;
+    top: 10vh;
+    border: 0px solid black;
+  }
+
+  #div-hr-menu-celular{
+    position:relative;
+    top:-6vh;
+    left:5vw;
+    border:0px solid black;
+    width:10vw;
+    height:7vh
+  }
+
+  #hr-menu-1{
+    position:relative;
+    top:1vh;
+    border:1vw solid rgb(117, 170, 132);
+    background-color: rgb(117, 170, 132);
+  }
+
+  #hr-menu-2{
+    position:relative;
+    top:1.2vh;
+    border:1vw solid rgb(117, 170, 132);
+    background-color: rgb(117, 170, 132);
+  }
+
+  #hr-menu-3{
+    position:relative;
+    top:1.4vh;
+    border:1vw solid rgb(117, 170, 132);
+    background-color: rgb(117, 170, 132);
+  }
+
+  #h1Sergio {
+    font-family: "Kanit", sans-serif;
+    color: rgb(117, 170, 132);
+    font-size: 10vw;
+    position: relative;
+    left: 5vw;
+    border: 0px solid yellow;
+    display: inline;
+  }
+
+  #divMenuHrs {
+    display: none;
+  }
 }
