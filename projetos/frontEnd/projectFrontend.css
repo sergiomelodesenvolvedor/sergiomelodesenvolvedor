@@ -353,4 +353,28 @@
     font-weight: 900;
     border:0px solid black
   }
+
+  main{
+    border: 0px solid black;
+    position:relative;
+    top:22vh
+  }
+
+  #h2MyWorks{
+    text-align: center;
+    color: gray;
+    font-size: 8vw;
+    font-family: "Roboto", sans-serif;
+  }
+
+  #h3-click-on-the-project{
+    border: 0px solid black;
+    display: inline;
+    font-family: Quicksand;
+    font-size: 5.5vw;
+    position: relative;
+    left: 1.9vw;
+    font-weight: 100;
+    color: gray;
+  }
 }
