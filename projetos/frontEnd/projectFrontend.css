@@ -1,6 +1,7 @@
 @media (min-width: 980px) {
   body {
     background-color: rgb(241, 241, 241);
+    margin: 0px;
   }
 
   #header {
@@ -211,6 +212,51 @@
     text-decoration: none;
     display: inline;
   }
+
+
+
+  footer{
+    position:relative;
+    border:0px solid black;
+    top:70vh;
+    background-color: rgba(194, 194, 196, 0.788);
+    height:24vh;
+    width:100%;
+    text-align: center;
+  }
+
+  #iconeEmail{
+    position:relative;
+    left:-7vw;
+    top:0vh;
+    width:3.4vw;
+  }
+  
+  #iconeWhatssap{
+    position:relative;
+    top:1vh;
+    left:7vw;
+    width:3.1vw;
+  }
+  
+  #div-tell{
+    border: 0px solid black;
+    position:relative;
+    top:3.5vh;
+    
+    font-size: calc(1.5vw + 0.5vh);
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  #div-copyright{
+    width: 98vw;
+    border:0px solid black;
+    position:relative;
+    top:8vh;
+    font-family: "Quicksand", sans-serif;
+    font-size: calc(1.2vw + 0.4vh);
+  }
+
 }
 
 @media (max-width: 980px) {
