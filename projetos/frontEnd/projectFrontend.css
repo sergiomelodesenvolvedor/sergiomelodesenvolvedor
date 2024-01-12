@@ -399,12 +399,16 @@
   }
 
   .divNomeLinkProjeto{
+    border: 0px solid black;
+    position: relative;
+    top: 30vh;
     text-align: center;
   }
 
   #h3-maconsultoriahospitalar{
     position:relative;
     left:0vw;
+    top:5vh;
     font-size: calc(2.7vw + 1vh);
   }
 
@@ -429,6 +433,7 @@
   #h3-nishiconsult{
     position:relative;
     left:0vw;
+    top:5vh;
     font-size: calc(2.7vw + 1vh);
   }
 }
