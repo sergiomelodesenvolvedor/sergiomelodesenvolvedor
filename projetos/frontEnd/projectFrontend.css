@@ -403,6 +403,8 @@
     position: relative;
     top: 30vh;
     text-align: center;
+    background-color: rgb(230, 230, 230);
+    height: 13vh;
   }
 
   #h3-maconsultoriahospitalar{
