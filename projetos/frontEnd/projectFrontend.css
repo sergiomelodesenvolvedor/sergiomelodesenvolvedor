@@ -399,7 +399,7 @@
   }
 
   .divNomeLinkProjeto{
-    border: 0px solid black;
+    border: 1px solid black;
     position: relative;
     top: 30vh;
     text-align: center;
