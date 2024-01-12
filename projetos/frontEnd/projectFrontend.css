@@ -534,10 +534,11 @@
   }
   
   #div-copyright{
-    width: 100vw;
+    width: 90vw;
     border:0px solid black;
     position:relative;
     top:8vh;
+    left:4vw;
     font-family: "Quicksand", sans-serif;
     font-size: calc(1.8vw + 0.8vh);
   }
