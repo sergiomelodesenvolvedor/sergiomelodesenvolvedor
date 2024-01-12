@@ -276,9 +276,7 @@
         transform: rotate(-45deg);
       }
     
-      #divMenuHome {
-        font-size: 8vw;
-      }
+      
     
       #divMenuHome {
         position: relative;
@@ -291,6 +289,9 @@
         font-weight: 900;
       }
     
+      #divMenuHome a{
+        text-decoration: none;
+      }
       #divMenuMyWorksFrontEnd {
         position: relative;
         top: 12vh;
@@ -301,6 +302,10 @@
         font-size: 7.5vw;
         font-weight: 900;
         border: 0px solid black;
+      }
+
+      #divMenuMyWorksFrontEnd{
+        text-decoration: none;
       }
     
       #divMenuMyWorksBackEnd {
@@ -315,6 +320,9 @@
         border: 0px solid black;
       }
 
+      #divMenuMyWorksBackEnd{
+        text-decoration: none;
+      }
 
       #h1-nishi-consult{
         font-family: roboto;
