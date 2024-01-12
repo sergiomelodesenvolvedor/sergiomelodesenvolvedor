@@ -1,0 +1,339 @@
+@media (min-width: 980px) {
+  body {
+    background-color: rgb(241, 241, 241);
+  }
+
+  #header {
+    position: relative;
+    top: 10vh;
+    border: 0px solid black;
+  }
+
+  #div-hr-menu-celular {
+    display: none;
+  }
+
+  #h1Sergio {
+    font-family: "Kanit", sans-serif;
+    color: rgb(117, 170, 132);
+    font-size: 3vw;
+    position: relative;
+    left: 5vw;
+    border: 0px solid yellow;
+    display: inline;
+  }
+
+  #divMenuHrs {
+    position: absolute;
+    left: 80vw;
+    top: 3vh;
+    border: 0px solid black;
+    width: 5vw;
+    z-index: 99999;
+    cursor: pointer;
+  }
+
+  .hrMenuLinha {
+    border: 0.3vh solid rgb(34, 172, 73);
+    background-color: rgb(34, 172, 73);
+  }
+
+  #hrMenuLinha1 {
+    transition: transform 0.3s ease;
+    width: 4vw;
+  }
+
+  #hrMenuLinha2 {
+    position: relative;
+    width: 3vw;
+    transition: transform 0.3s ease;
+  }
+
+  #menuComOptions {
+    position: absolute;
+    left: 66vw;
+    top: 1.2vh;
+    overflow: hidden;
+    width: 19vw;
+    height: 0vh;
+    border: 0px solid black;
+    opacity: 0;
+    transition: height 0.5s ease, opacity 1.5s ease;
+    background-color: white;
+  }
+
+  #divMenuHome {
+    position: relative;
+    top: 10vh;
+    left: 7.4vw;
+    border: 0px solid black;
+    width: 7vw;
+    font-family: Quicksand;
+    font-size: 1.5vw;
+    font-weight: 900;
+  }
+
+  #divMenuHome a {
+    text-decoration: none;
+  }
+
+  #divMenuMyWorksFrontEnd {
+    position: relative;
+    top: 15vh;
+    left: 2.4vw;
+    border: 0px solid black;
+    width: 16vw;
+    font-family: Quicksand;
+    font-size: 1.5vw;
+    font-weight: 900;
+  }
+
+  #divMenuMyWorksFrontEnd a {
+    text-decoration: none;
+  }
+
+  #divMenuMyWorksBackEnd {
+    position: relative;
+    top: 20vh;
+    left: 2.4vw;
+    border: 0px solid black;
+    width: 16vw;
+    font-family: Quicksand;
+    font-size: 1.5vw;
+    font-weight: 900;
+  }
+
+  #divMenuMyWorksBackEnd a {
+    text-decoration: none;
+  }
+
+  #h1-nishi-consult {
+    font-family: roboto;
+    display: inline;
+    color: gray;
+    position: relative;
+    top: 30vh;
+    left: 40vw;
+  }
+
+  #descricao-nishiconsult {
+    position: relative;
+    top: 40vh;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-size: 2vw;
+  }
+
+  #gifNishiconsult {
+    position: relative;
+    top: 44vh;
+    left: 16vw;
+  }
+
+
+  #footer{position:absolute;
+    border:0px solid black;
+    top:200vh;
+    background-color: rgba(194, 194, 196, 0.788);
+    height:22vh;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #iconeEmail{
+    position:relative;
+    left:-3vw;
+    top:2vh;
+    width:3.4vw;
+  }
+  
+  #iconeWhatssap{
+    position:relative;
+    top:2.5vh;
+    left:2vw;
+    width:3.1vw;
+  }
+  
+  #div-tell{
+    position:relative;
+    top:4vh;
+    font-size: calc(1.3vw + 0.7vh);
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  #div-copyright{
+    position:relative;
+    top:6vh;
+    font-family: "Quicksand", sans-serif;
+  }
+
+}
+
+@media (max-width: 980px) {
+    body {
+        margin: 0px;
+        background-color: rgb(241, 241, 241);
+      }
+    
+      #header {
+        position: relative;
+        top: 10vh;
+        border: 0px solid black;
+      }
+    
+      #div-hr-menu-celular {
+        position: relative;
+        top: -6vh;
+        left: 5vw;
+        border: 0px solid black;
+        width: 10vw;
+        height: 7vh;
+        display: block;
+      }
+
+      #hr-menu-1 {
+        position: relative;
+        top: 1vh;
+        border: 1vw solid rgb(117, 170, 132);
+        background-color: rgb(117, 170, 132);
+      }
+    
+      #hr-menu-2 {
+        position: relative;
+        top: 1.2vh;
+        border: 1vw solid rgb(117, 170, 132);
+        background-color: rgb(117, 170, 132);
+      }
+    
+      #hr-menu-3 {
+        position: relative;
+        top: 1.4vh;
+        border: 1vw solid rgb(117, 170, 132);
+        background-color: rgb(117, 170, 132);
+      }
+
+      #h1Sergio {
+        font-family: "Kanit", sans-serif;
+        color: rgb(117, 170, 132);
+        font-size: 10vw;
+        position: relative;
+        left: 5vw;
+        border: 0px solid yellow;
+        display: inline;
+      }
+
+      #divMenuHrs {
+        display: none;
+      }
+
+      
+
+      #menuComOptions {
+        position: absolute;
+        left: 4.8vw;
+        top: -5.2vh;
+        overflow: hidden;
+        width: 0vw;
+        height: 0vh;
+        border: 0px solid black;
+        opacity: 999;
+        z-index: 9999;
+        transition: height 0.5s ease, width 0.5s ease, opacity 1.5s ease;
+        background-color: white;
+      }
+    
+      #div-x-celular {
+        display: block;
+        border: 0px solid black;
+        width: 15vw;
+        height: 7vh;
+        position: relative;
+        left: 4vw;
+        top: 3vh;
+      }
+    
+      #hr-x-celular-1 {
+        border: 0.8vw solid rgb(117, 170, 132);
+        background-color: rgb(117, 170, 132);
+        position: relative;
+        top: 2.5vh;
+        width: 7vw;
+        transform: rotate(45deg);
+      }
+    
+      #hr-x-celular-2 {
+        border: 0.8vw solid rgb(117, 170, 132);
+        background-color: rgb(117, 170, 132);
+        position: relative;
+        top: 1.07vh;
+        left: 0.23vw;
+        width: 7vw;
+        transform: rotate(-45deg);
+      }
+    
+      #divMenuHome {
+        font-size: 8vw;
+      }
+    
+      #divMenuHome {
+        position: relative;
+        top: 6vh;
+        left: 26.4vw;
+        border: 0px solid black;
+        width: 7vw;
+        font-family: Quicksand;
+        font-size: 7.5vw;
+        font-weight: 900;
+      }
+    
+      #divMenuMyWorksFrontEnd {
+        position: relative;
+        top: 12vh;
+        left: 3.9vw;
+        border: 0px solid black;
+        width: 76vw;
+        font-family: Quicksand;
+        font-size: 7.5vw;
+        font-weight: 900;
+        border: 0px solid black;
+      }
+    
+      #divMenuMyWorksBackEnd {
+        position: relative;
+        top: 19vh;
+        left: 3.9vw;
+        border: 0px solid black;
+        width: 76vw;
+        font-family: Quicksand;
+        font-size: 7.5vw;
+        font-weight: 900;
+        border: 0px solid black;
+      }
+
+
+      #h1-nishi-consult{
+        font-family: roboto;
+        font-size: 8vw;
+        display: inline;
+        color: gray;
+        position: relative;
+        top: 28vh;
+        left: 28vw;
+      }
+
+      #descricao-nishiconsult{
+        position: relative;
+        top: 40vh;
+        text-align: center;
+        font-family: "Quicksand", sans-serif;
+        font-size: 5vw;
+      }
+
+      #gifNishiconsult{
+        position: relative;
+        top: 44vh;
+        left: 0vw;
+        width:100vw;
+        height: 40vh;
+      }
+}
