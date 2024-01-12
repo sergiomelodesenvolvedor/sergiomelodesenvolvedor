@@ -20,6 +20,7 @@ let menuComOptions = document.querySelector("#menuComOptions");
 
 let divHrMenuCelular = document.querySelector("#div-hr-menu-celular")
 
+let divxcelular = document.querySelector("#div-x-celular");
 
 divMenuHrs.addEventListener("click", async () => {
   if (xEstado === "menu") {
@@ -54,6 +55,7 @@ document.addEventListener("click", (event) => {
     !menuComOptions.contains(event.target) &&
     !divMenuHrs.contains(event.target) &&
     !divHrMenuCelular.contains(event.target) &&
+    !divxcelular.contains(event.target) &&
     xEstado === "x"
   ) {
     menuComOptions.style.opacity = "0";
@@ -74,9 +76,18 @@ document.addEventListener("click", (event) => {
 
 divHrMenuCelular.addEventListener("click", ()=>{
   menuComOptions.style.opacity = "1";
-  menuComOptions.style.height = "40vh";
+  menuComOptions.style.height = "60vh";
   menuComOptions.style.width = "80vw";
   xEstado = "x"
+})
+
+
+
+divxcelular.addEventListener("click",()=>{
+  menuComOptions.style.opacity = "0";
+  menuComOptions.style.width = "0px";
+  menuComOptions.style.height = "0px";
+  xEstado="menu"
 })
 
 

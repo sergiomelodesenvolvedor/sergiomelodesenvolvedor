@@ -278,8 +278,40 @@
     height: 0vh;
     border: 0px solid black;
     opacity: 999;
+    z-index: 9999;
     transition: height 0.5s ease, width 0.5s ease, opacity 1.5s ease;
     background-color: white;
+  }
+
+  #div-x-celular{
+    display: block;
+    border:0px solid black;
+    width:15vw;
+    height:7vh;
+    position:relative;
+    left:4vw;
+    top:3vh;
+    
+  }
+
+
+  #hr-x-celular-1{
+    border:0.8vw solid rgb(117, 170, 132);
+    background-color: rgb(117, 170, 132);
+    position:relative;
+    top:2.5vh;
+    width:7vw;
+    transform: rotate(45deg);
+  }
+
+  #hr-x-celular-2{
+    border:0.8vw solid rgb(117, 170, 132);
+    background-color: rgb(117, 170, 132);
+    position:relative;
+    top:1vh;
+    left:0.3vw;
+    width:7vw;
+    transform: rotate(-45deg);
   }
 
   #divMenuHome {
