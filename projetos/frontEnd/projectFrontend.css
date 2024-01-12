@@ -150,7 +150,7 @@
 
   .divNomeLinkProjeto {
     background-color: rgb(230, 230, 230);
-
+    text-align: center;
     height: 13vh;
   }
 
@@ -167,7 +167,7 @@
 
   #h3-maconsultoriahospitalar {
     position: relative;
-    left: 1vw;
+    left: 0vw;
     top: 5vh;
     font-family: "Roboto", sans-serif;
     color: blue;
@@ -204,7 +204,7 @@
 
   #h3-nishiconsult {
     position: relative;
-    left: 6vw;
+    left: 0vw;
     top: 5vh;
     font-family: "Roboto", sans-serif;
     color: blue;
