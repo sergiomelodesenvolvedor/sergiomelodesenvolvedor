@@ -1,0 +1,554 @@
+@media (min-width: 980px) {
+    body {
+      background-color: rgb(241, 241, 241);
+      margin: 0px;
+    }
+  
+    #header {
+      position: relative;
+      top: 10vh;
+      border: 0px solid black;
+    }
+  
+    #div-hr-menu-celular {
+      display: none;
+    }
+  
+    #h1Sergio {
+      font-family: "Kanit", sans-serif;
+      color: rgb(117, 170, 132);
+      font-size: 3vw;
+      position: relative;
+      left: 5vw;
+      border: 0px solid yellow;
+      display: inline;
+    }
+  
+    #divMenuHrs {
+      position: absolute;
+      left: 80vw;
+      top: 3vh;
+      border: 0px solid black;
+      width: 5vw;
+      z-index: 99999;
+      cursor: pointer;
+    }
+  
+    .hrMenuLinha {
+      border: 0.3vh solid rgb(34, 172, 73);
+      background-color: rgb(34, 172, 73);
+    }
+  
+    #hrMenuLinha1 {
+      transition: transform 0.3s ease;
+      width: 4vw;
+    }
+  
+    #hrMenuLinha2 {
+      position: relative;
+      width: 3vw;
+      transition: transform 0.3s ease;
+    }
+  
+    #menuComOptions {
+      position: absolute;
+      left: 66vw;
+      top: 1.2vh;
+      overflow: hidden;
+      width: 19vw;
+      height: 0vh;
+      border: 0px solid black;
+      opacity: 0;
+      transition: height 0.5s ease, opacity 1.5s ease;
+      background-color: white;
+    }
+  
+    #div-x-celular {
+      display: none;
+    }
+  
+    #divMenuHome {
+      position: relative;
+      top: 10vh;
+      left: 7.4vw;
+      border: 0px solid black;
+      width: 7vw;
+      font-family: Quicksand;
+      font-size: 1.5vw;
+      font-weight: 900;
+    }
+  
+    #divMenuHome a {
+      text-decoration: none;
+    }
+  
+    #divMenuMyWorksFrontEnd {
+      position: relative;
+      top: 15vh;
+      left: 2.4vw;
+      border: 0px solid black;
+      width: 16vw;
+      font-family: Quicksand;
+      font-size: 1.5vw;
+      font-weight: 900;
+    }
+  
+    #divMenuMyWorksFrontEnd a {
+      text-decoration: none;
+    }
+  
+    #divMenuMyWorksBackEnd {
+      position: relative;
+      top: 20vh;
+      left: 2.4vw;
+      border: 0px solid black;
+      width: 16vw;
+      font-family: Quicksand;
+      font-size: 1.5vw;
+      font-weight: 900;
+    }
+  
+    #divMenuMyWorksBackEnd a {
+      text-decoration: none;
+    }
+  
+    main {
+      position: relative;
+      top: 30vh;
+      border: 0px solid black;
+    }
+  
+    #h2MyWorks {
+      text-align: center;
+      color: gray;
+      font-size: 3vw;
+      font-family: "Roboto", sans-serif;
+    }
+  
+    #cardMaConsultoriaHospitalar {
+      background-color: white;
+      width: 20vw;
+      height: 50vh;
+      border: 0px solid black;
+      border-radius: 1vw;
+      position: relative;
+      top: 10vh;
+      left: 5vw;
+      cursor: pointer;
+    }
+  
+    #imgLogoMaConsultoriaHospitalar {
+      width: 17vw;
+      position: relative;
+      top: 15vh;
+      left: 1.7vw;
+    }
+  
+    #divNomeLinkProjeto {
+      position: relative;
+      top: 30vh;
+    }
+  
+    .divNomeLinkProjeto {
+      background-color: rgb(230, 230, 230);
+      text-align: center;
+      height: 13vh;
+    }
+  
+    #h3-click-on-the-project {
+      border: 0px solid black;
+      display: inline;
+      font-family: Quicksand;
+      font-size: 1.7vw;
+      position: relative;
+      left: 34.3vw;
+      font-weight: 100;
+      color: gray;
+    }
+  
+    #h3-maconsultoriahospitalar {
+      position: relative;
+      left: 0vw;
+      top: 5vh;
+      font-family: "Roboto", sans-serif;
+      color: blue;
+      text-decoration: none;
+      display: inline;
+    }
+  
+    #cardMaNishiConsult {
+      border: 1px solid black;
+      border-radius: 1vw;
+      position: absolute;
+      top: 28vh;
+      left: 10vw;
+  
+      background-color: white;
+      height: 50vh;
+      width: 20vw;
+      border: 0px solid black;
+      border-radius: 1vw;
+      cursor: pointer;
+    }
+  
+    #imgLogoNishiConsult {
+      width:15vw;
+      position: relative;
+      left: 3vw;
+      top: 5vh;
+    }
+  
+    #divNomeLinkProjeto2 {
+      position: relative;
+      top: 20vh;
+    }
+  
+    #h3-nishiconsult {
+      position: relative;
+      left: 0vw;
+      top: 5vh;
+      font-family: "Roboto", sans-serif;
+      color: blue;
+      text-decoration: none;
+      display: inline;
+    }
+  
+    footer {
+      position: relative;
+      border: 0px solid black;
+      top: 110vh;
+      background-color: rgba(194, 194, 196, 0.788);
+      height: 24vh;
+      width: 100%;
+      text-align: center;
+    }
+  
+    #iconeEmail {
+      position: relative;
+      left: -7vw;
+      top: 0vh;
+      width: 3.4vw;
+    }
+  
+    #iconeWhatssap {
+      position: relative;
+      top: 1vh;
+      left: 7vw;
+      width: 3.1vw;
+    }
+  
+    #div-tell {
+      border: 0px solid black;
+      position: relative;
+      top: 3.5vh;
+  
+      font-size: calc(1.5vw + 0.5vh);
+      font-family: "Quicksand", sans-serif;
+    }
+  
+    #div-copyright {
+      width: 98vw;
+      border: 0px solid black;
+      position: relative;
+      top: 8vh;
+      font-family: "Quicksand", sans-serif;
+      font-size: calc(1.2vw + 0.4vh);
+    }
+  }
+  
+  @media (max-width: 980px) {
+    body {
+      margin: 0px;
+      background-color: rgb(241, 241, 241);
+    }
+  
+    #header {
+      position: relative;
+      top: 10vh;
+      border: 0px solid black;
+    }
+  
+    #div-hr-menu-celular {
+      position: relative;
+      top: -6vh;
+      left: 5vw;
+      border: 0px solid black;
+      width: 10vw;
+      height: 7vh;
+      display: block;
+    }
+  
+    #hr-menu-1 {
+      position: relative;
+      top: 1vh;
+      border: 1vw solid rgb(117, 170, 132);
+      background-color: rgb(117, 170, 132);
+    }
+  
+    #hr-menu-2 {
+      position: relative;
+      top: 1.2vh;
+      border: 1vw solid rgb(117, 170, 132);
+      background-color: rgb(117, 170, 132);
+    }
+  
+    #hr-menu-3 {
+      position: relative;
+      top: 1.4vh;
+      border: 1vw solid rgb(117, 170, 132);
+      background-color: rgb(117, 170, 132);
+    }
+  
+    #h1Sergio {
+      font-family: "Kanit", sans-serif;
+      color: rgb(117, 170, 132);
+      font-size: 10vw;
+      position: relative;
+      left: 5vw;
+      border: 0px solid yellow;
+      display: inline;
+    }
+  
+    #divMenuHrs {
+      display: none;
+    }
+  
+    #menuComOptions {
+      position: absolute;
+      left: 4.8vw;
+      top: -5.2vh;
+      overflow: hidden;
+      width: 0vw;
+      height: 0vh;
+      border: 0px solid black;
+      opacity: 999;
+      z-index: 9999;
+      transition: height 0.5s ease, width 0.5s ease, opacity 1.5s ease;
+      background-color: white;
+    }
+  
+    #div-x-celular {
+      display: block;
+      border: 0px solid black;
+      width: 15vw;
+      height: 7vh;
+      position: relative;
+      left: 4vw;
+      top: 3vh;
+    }
+  
+    #hr-x-celular-1 {
+      border: 0.8vw solid rgb(117, 170, 132);
+      background-color: rgb(117, 170, 132);
+      position: relative;
+      top: 2.5vh;
+      width: 7vw;
+      transform: rotate(45deg);
+    }
+  
+    #hr-x-celular-2 {
+      border: 0.8vw solid rgb(117, 170, 132);
+      background-color: rgb(117, 170, 132);
+      position: relative;
+      top: 1.07vh;
+      left: 0.23vw;
+      width: 7vw;
+      transform: rotate(-45deg);
+    }
+  
+    
+  
+    #divMenuHome {
+      position: relative;
+      top: 6vh;
+      left: 26.4vw;
+      border: 0px solid black;
+      width: 7vw;
+      font-family: Quicksand;
+      font-size: 7.5vw;
+      font-weight: 900;
+    }
+  
+    #divMenuHome a{
+      text-decoration: none;
+    }
+  
+    #divMenuMyWorksFrontEnd {
+      position: relative;
+      top: 12vh;
+      left: 3.9vw;
+      border: 0px solid black;
+      width: 76vw;
+      font-family: Quicksand;
+      font-size: 7.5vw;
+      font-weight: 900;
+      border: 0px solid black;
+    }
+  
+    #divMenuMyWorksFrontEnd a{
+      text-decoration: none;
+    }
+  
+    #divMenuMyWorksBackEnd {
+      position: relative;
+      top: 19vh;
+      left: 3.9vw;
+      border: 0px solid black;
+      width: 76vw;
+      font-family: Quicksand;
+      font-size: 7.5vw;
+      font-weight: 900;
+      border: 0px solid black;
+    }
+  
+    #divMenuMyWorksBackEnd a{
+      text-decoration: none;
+    }
+  
+    main {
+      border: 0px solid black;
+      position: relative;
+      top: 22vh;
+    }
+  
+    #h2MyWorks {
+      text-align: center;
+      color: gray;
+      font-size: 8vw;
+      font-family: "Roboto", sans-serif;
+    }
+  
+    #h3-click-on-the-project {
+      border: 0px solid black;
+      display: inline;
+      font-family: Quicksand;
+      font-size: 5.5vw;
+      position: relative;
+      left: 1.9vw;
+      font-weight: 100;
+      color: gray;
+    }
+  
+    #cardMaConsultoriaHospitalar {
+      background-color: white;
+      width: 60vw;
+      height: 52vh;
+      border: 0px solid black;
+      border-radius: 0vw;
+      position: relative;
+      top: 10vh;
+      left: 20vw;
+      cursor: pointer;
+    }
+  
+    #imgLogoMaConsultoriaHospitalar {
+      width: 50vw;
+      position: relative;
+      left: 6vw;
+      top: 13vh;
+    }
+  
+    .divNomeLinkProjeto {
+      border: 0px solid black;
+      position: relative;
+      text-align: center;
+      background-color: rgb(230, 230, 230);
+      height: 13vh;
+    }
+  
+    #divNomeLinkProjeto {
+      position: relative;
+      top: 41vh;
+    }
+  
+    #divNomeLinkProjeto a {
+      text-decoration: none;
+    }
+  
+    #divNomeLinkProjeto2 {
+      position: relative;
+      top: 20vh;
+    }
+  
+    #divNomeLinkProjeto2 a {
+      text-decoration: none;
+    }
+  
+    #h3-maconsultoriahospitalar {
+      position: relative;
+      left: 0vw;
+      top: 5vh;
+      font-size: calc(2.7vw + 1vh);
+      font-family: "Roboto", sans-serif;
+    }
+  
+    #cardMaNishiConsult {
+      background-color: white;
+      width: 60vw;
+      height: 50vh;
+      border: 0px solid black;
+      border-radius: 0vw;
+      position: relative;
+      top: 26vh;
+      left: 20vw;
+      cursor: pointer;
+    }
+  
+    #imgLogoNishiConsult {
+      width: 30vw;
+      position: relative;
+      left: 15vw;
+      top: 13vh;
+    }
+  
+    #h3-nishiconsult {
+      position: relative;
+      left: 0vw;
+      top: 5vh;
+      font-size: calc(2.7vw + 1vh);
+      font-family: "Roboto", sans-serif;
+    }
+  
+    footer {
+      position: relative;
+      border: 0px solid black;
+      top: 70vh;
+      background-color: rgba(194, 194, 196, 0.788);
+      height: 24vh;
+      width: 100%;
+      text-align: center;
+    }
+  
+    #iconeEmail {
+      position: relative;
+      left: -5vw;
+      top: 2vh;
+      width: 7.4vw;
+    }
+  
+    #iconeWhatssap {
+      position: relative;
+      top: 2.5vh;
+      left: 7vw;
+      width: 7.1vw;
+    }
+  
+    #div-tell {
+      border: 0px solid black;
+      position: relative;
+      top: 5.5vh;
+      font-size: calc(2.3vw + 1vh);
+      font-family: "Quicksand", sans-serif;
+    }
+  
+    #div-copyright {
+      width: 90vw;
+      border: 0px solid black;
+      position: relative;
+      top: 8vh;
+      left: 4vw;
+      font-family: "Quicksand", sans-serif;
+      font-size: calc(1.8vw + 0.8vh);
+    }
+  }
+  
