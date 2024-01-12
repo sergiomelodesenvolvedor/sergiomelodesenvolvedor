@@ -356,9 +356,7 @@
     transform: rotate(-45deg);
   }
 
-  #divMenuHome {
-    font-size: 8vw;
-  }
+  
 
   #divMenuHome {
     position: relative;
@@ -369,6 +367,10 @@
     font-family: Quicksand;
     font-size: 7.5vw;
     font-weight: 900;
+  }
+
+  #divMenuHome a{
+    text-decoration: none;
   }
 
   #divMenuMyWorksFrontEnd {
@@ -383,6 +385,10 @@
     border: 0px solid black;
   }
 
+  #divMenuMyWorksFrontEnd a{
+    text-decoration: none;
+  }
+
   #divMenuMyWorksBackEnd {
     position: relative;
     top: 19vh;
@@ -393,6 +399,10 @@
     font-size: 7.5vw;
     font-weight: 900;
     border: 0px solid black;
+  }
+
+  #divMenuMyWorksBackEnd a{
+    text-decoration: none;
   }
 
   main {
