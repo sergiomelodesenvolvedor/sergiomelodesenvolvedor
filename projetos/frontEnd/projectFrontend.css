@@ -261,6 +261,7 @@
 
 @media (max-width: 980px) {
   body {
+    margin: 0px;
     background-color: rgb(241, 241, 241);
   }
 
@@ -508,6 +509,7 @@
     top:70vh;
     background-color: rgba(194, 194, 196, 0.788);
     height:24vh;
+    width: 100%;
     text-align: center;
   }
 
