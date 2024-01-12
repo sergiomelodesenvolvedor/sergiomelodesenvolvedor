@@ -455,4 +455,45 @@
     font-size: calc(2.7vw + 1vh);
     font-family: "Roboto", sans-serif;
   }
+
+  footer{
+    position:relative;
+    border:0px solid black;
+    top:70vh;
+    background-color: rgba(194, 194, 196, 0.788);
+    height:24vh;
+    text-align: center;
+  }
+
+  #iconeEmail{
+    position:relative;
+    left:-5vw;
+    top:2vh;
+    width:7.4vw;
+  }
+  
+  #iconeWhatssap{
+    position:relative;
+    top:2.5vh;
+    left:7vw;
+    width:7.1vw;
+  }
+  
+  #div-tell{
+    border: 0px solid black;
+    position:relative;
+    top:5.5vh;
+    font-size: calc(2.3vw + 1vh);
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  #div-copyright{
+    width: 100vw;
+    border:0px solid black;
+    position:relative;
+    top:8vh;
+    font-family: "Quicksand", sans-serif;
+    font-size: calc(1.8vw + 0.8vh);
+  }
+
 }
