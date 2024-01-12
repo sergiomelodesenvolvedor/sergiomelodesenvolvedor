@@ -400,7 +400,7 @@
   }
 
   .divNomeLinkProjeto{
-    border: 1px solid black;
+    border: 0px solid black;
     position: relative;
     text-align: center;
     background-color: rgb(230, 230, 230);
@@ -409,19 +409,24 @@
 
   #divNomeLinkProjeto{
     position: relative;
-    top:30vh;
+    top:41vh;
   }
+
+  #divNomeLinkProjeto a{text-decoration: none;}
 
   #divNomeLinkProjeto2{
     position: relative;
     top:20vh;
   }
 
+  #divNomeLinkProjeto2 a{text-decoration: none;}
+
   #h3-maconsultoriahospitalar{
     position:relative;
     left:0vw;
     top:5vh;
     font-size: calc(2.7vw + 1vh);
+    font-family: "Roboto", sans-serif;
   }
 
   #cardMaNishiConsult{
@@ -448,5 +453,6 @@
     left:0vw;
     top:5vh;
     font-size: calc(2.7vw + 1vh);
+    font-family: "Roboto", sans-serif;
   }
 }
