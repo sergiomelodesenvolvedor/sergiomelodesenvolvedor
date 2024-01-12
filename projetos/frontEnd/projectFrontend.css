@@ -10,8 +10,8 @@
     border: 0px solid black;
   }
 
-  #div-hr-menu-celular{
-    display:none;
+  #div-hr-menu-celular {
+    display: none;
   }
 
   #h1Sergio {
@@ -63,7 +63,7 @@
     background-color: white;
   }
 
-  #div-x-celular{
+  #div-x-celular {
     display: none;
   }
 
@@ -213,50 +213,47 @@
     display: inline;
   }
 
-
-
-  footer{
-    position:relative;
-    border:0px solid black;
-    top:70vh;
+  footer {
+    position: relative;
+    border: 0px solid black;
+    top: 70vh;
     background-color: rgba(194, 194, 196, 0.788);
-    height:24vh;
-    width:100%;
+    height: 24vh;
+    width: 100%;
     text-align: center;
   }
 
-  #iconeEmail{
-    position:relative;
-    left:-7vw;
-    top:0vh;
-    width:3.4vw;
+  #iconeEmail {
+    position: relative;
+    left: -7vw;
+    top: 0vh;
+    width: 3.4vw;
   }
-  
-  #iconeWhatssap{
-    position:relative;
-    top:1vh;
-    left:7vw;
-    width:3.1vw;
+
+  #iconeWhatssap {
+    position: relative;
+    top: 1vh;
+    left: 7vw;
+    width: 3.1vw;
   }
-  
-  #div-tell{
+
+  #div-tell {
     border: 0px solid black;
-    position:relative;
-    top:3.5vh;
-    
+    position: relative;
+    top: 3.5vh;
+
     font-size: calc(1.5vw + 0.5vh);
     font-family: "Quicksand", sans-serif;
   }
-  
-  #div-copyright{
+
+  #div-copyright {
     width: 98vw;
-    border:0px solid black;
-    position:relative;
-    top:8vh;
+    border: 0px solid black;
+    position: relative;
+    top: 8vh;
     font-family: "Quicksand", sans-serif;
     font-size: calc(1.2vw + 0.4vh);
   }
-
 }
 
 @media (max-width: 980px) {
@@ -271,34 +268,34 @@
     border: 0px solid black;
   }
 
-  #div-hr-menu-celular{
-    position:relative;
-    top:-6vh;
-    left:5vw;
-    border:0px solid black;
-    width:10vw;
-    height:7vh;
+  #div-hr-menu-celular {
+    position: relative;
+    top: -6vh;
+    left: 5vw;
+    border: 0px solid black;
+    width: 10vw;
+    height: 7vh;
     display: block;
   }
 
-  #hr-menu-1{
-    position:relative;
-    top:1vh;
-    border:1vw solid rgb(117, 170, 132);
+  #hr-menu-1 {
+    position: relative;
+    top: 1vh;
+    border: 1vw solid rgb(117, 170, 132);
     background-color: rgb(117, 170, 132);
   }
 
-  #hr-menu-2{
-    position:relative;
-    top:1.2vh;
-    border:1vw solid rgb(117, 170, 132);
+  #hr-menu-2 {
+    position: relative;
+    top: 1.2vh;
+    border: 1vw solid rgb(117, 170, 132);
     background-color: rgb(117, 170, 132);
   }
 
-  #hr-menu-3{
-    position:relative;
-    top:1.4vh;
-    border:1vw solid rgb(117, 170, 132);
+  #hr-menu-3 {
+    position: relative;
+    top: 1.4vh;
+    border: 1vw solid rgb(117, 170, 132);
     background-color: rgb(117, 170, 132);
   }
 
@@ -330,43 +327,40 @@
     background-color: white;
   }
 
-  #div-x-celular{
+  #div-x-celular {
     display: block;
-    border:0px solid black;
-    width:15vw;
-    height:7vh;
-    position:relative;
-    left:4vw;
-    top:3vh;
-    
+    border: 0px solid black;
+    width: 15vw;
+    height: 7vh;
+    position: relative;
+    left: 4vw;
+    top: 3vh;
   }
 
-
-  #hr-x-celular-1{
-    border:0.8vw solid rgb(117, 170, 132);
+  #hr-x-celular-1 {
+    border: 0.8vw solid rgb(117, 170, 132);
     background-color: rgb(117, 170, 132);
-    position:relative;
-    top:2.5vh;
-    width:7vw;
+    position: relative;
+    top: 2.5vh;
+    width: 7vw;
     transform: rotate(45deg);
   }
 
-  #hr-x-celular-2{
-    border:0.8vw solid rgb(117, 170, 132);
+  #hr-x-celular-2 {
+    border: 0.8vw solid rgb(117, 170, 132);
     background-color: rgb(117, 170, 132);
-    position:relative;
-    top:1.07vh;
-    left:0.23vw;
-    width:7vw;
+    position: relative;
+    top: 1.07vh;
+    left: 0.23vw;
+    width: 7vw;
     transform: rotate(-45deg);
   }
 
   #divMenuHome {
-    
-    font-size:8vw;
+    font-size: 8vw;
   }
 
-  #divMenuHome{
+  #divMenuHome {
     position: relative;
     top: 6vh;
     left: 26.4vw;
@@ -377,7 +371,7 @@
     font-weight: 900;
   }
 
-  #divMenuMyWorksFrontEnd{
+  #divMenuMyWorksFrontEnd {
     position: relative;
     top: 12vh;
     left: 3.9vw;
@@ -386,10 +380,10 @@
     font-family: Quicksand;
     font-size: 7.5vw;
     font-weight: 900;
-    border:0px solid black
+    border: 0px solid black;
   }
 
-  #divMenuMyWorksBackEnd{
+  #divMenuMyWorksBackEnd {
     position: relative;
     top: 19vh;
     left: 3.9vw;
@@ -398,23 +392,23 @@
     font-family: Quicksand;
     font-size: 7.5vw;
     font-weight: 900;
-    border:0px solid black
-  }
-
-  main{
     border: 0px solid black;
-    position:relative;
-    top:22vh
   }
 
-  #h2MyWorks{
+  main {
+    border: 0px solid black;
+    position: relative;
+    top: 22vh;
+  }
+
+  #h2MyWorks {
     text-align: center;
     color: gray;
     font-size: 8vw;
     font-family: "Roboto", sans-serif;
   }
 
-  #h3-click-on-the-project{
+  #h3-click-on-the-project {
     border: 0px solid black;
     display: inline;
     font-family: Quicksand;
@@ -425,28 +419,26 @@
     color: gray;
   }
 
-  #cardMaConsultoriaHospitalar{
+  #cardMaConsultoriaHospitalar {
     background-color: white;
     width: 60vw;
     height: 52vh;
     border: 0px solid black;
-    border-radius:0vw;
+    border-radius: 0vw;
     position: relative;
     top: 10vh;
     left: 20vw;
     cursor: pointer;
-
   }
 
-
-  #imgLogoMaConsultoriaHospitalar{
-    width:50vw;
-    position:relative;
-    left:6vw;
-    top:13vh
+  #imgLogoMaConsultoriaHospitalar {
+    width: 50vw;
+    position: relative;
+    left: 6vw;
+    top: 13vh;
   }
 
-  .divNomeLinkProjeto{
+  .divNomeLinkProjeto {
     border: 0px solid black;
     position: relative;
     text-align: center;
@@ -454,29 +446,33 @@
     height: 13vh;
   }
 
-  #divNomeLinkProjeto{
+  #divNomeLinkProjeto {
     position: relative;
-    top:41vh;
+    top: 41vh;
   }
 
-  #divNomeLinkProjeto a{text-decoration: none;}
-
-  #divNomeLinkProjeto2{
-    position: relative;
-    top:20vh;
+  #divNomeLinkProjeto a {
+    text-decoration: none;
   }
 
-  #divNomeLinkProjeto2 a{text-decoration: none;}
+  #divNomeLinkProjeto2 {
+    position: relative;
+    top: 20vh;
+  }
 
-  #h3-maconsultoriahospitalar{
-    position:relative;
-    left:0vw;
-    top:5vh;
+  #divNomeLinkProjeto2 a {
+    text-decoration: none;
+  }
+
+  #h3-maconsultoriahospitalar {
+    position: relative;
+    left: 0vw;
+    top: 5vh;
     font-size: calc(2.7vw + 1vh);
     font-family: "Roboto", sans-serif;
   }
 
-  #cardMaNishiConsult{
+  #cardMaNishiConsult {
     background-color: white;
     width: 60vw;
     height: 50vh;
@@ -488,61 +484,60 @@
     cursor: pointer;
   }
 
-  #imgLogoNishiConsult{
-    width:30vw;
-    position:relative;
-    left:15vw;
-    top:13vh;
+  #imgLogoNishiConsult {
+    width: 30vw;
+    position: relative;
+    left: 15vw;
+    top: 13vh;
   }
 
-  #h3-nishiconsult{
-    position:relative;
-    left:0vw;
-    top:5vh;
+  #h3-nishiconsult {
+    position: relative;
+    left: 0vw;
+    top: 5vh;
     font-size: calc(2.7vw + 1vh);
     font-family: "Roboto", sans-serif;
   }
 
-  footer{
-    position:relative;
-    border:0px solid black;
-    top:70vh;
+  footer {
+    position: relative;
+    border: 0px solid black;
+    top: 70vh;
     background-color: rgba(194, 194, 196, 0.788);
-    height:24vh;
+    height: 24vh;
     width: 100%;
     text-align: center;
   }
 
-  #iconeEmail{
-    position:relative;
-    left:-5vw;
-    top:2vh;
-    width:7.4vw;
+  #iconeEmail {
+    position: relative;
+    left: -5vw;
+    top: 2vh;
+    width: 7.4vw;
   }
-  
-  #iconeWhatssap{
-    position:relative;
-    top:2.5vh;
-    left:7vw;
-    width:7.1vw;
+
+  #iconeWhatssap {
+    position: relative;
+    top: 2.5vh;
+    left: 7vw;
+    width: 7.1vw;
   }
-  
-  #div-tell{
+
+  #div-tell {
     border: 0px solid black;
-    position:relative;
-    top:5.5vh;
+    position: relative;
+    top: 5.5vh;
     font-size: calc(2.3vw + 1vh);
     font-family: "Quicksand", sans-serif;
   }
-  
-  #div-copyright{
+
+  #div-copyright {
     width: 90vw;
-    border:0px solid black;
-    position:relative;
-    top:8vh;
-    left:4vw;
+    border: 0px solid black;
+    position: relative;
+    top: 8vh;
+    left: 4vw;
     font-family: "Quicksand", sans-serif;
     font-size: calc(1.8vw + 0.8vh);
   }
-
 }

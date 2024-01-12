@@ -4,6 +4,12 @@ let xEstado = "menu";
 
 let divMenuHrs = document.querySelector("#divMenuHrs");
 
+let menuComOptions = document.querySelector("#menuComOptions");
+
+let divHrMenuCelular = document.querySelector("#div-hr-menu-celular")
+
+let divxcelular = document.querySelector("#div-x-celular");
+
 divMenuHrs.addEventListener("click", async () => {
   console.log(divMenuHrs)
   if (xEstado === "menu") {
@@ -28,16 +34,18 @@ divMenuHrs.addEventListener("click", async () => {
   }
 });
 
-let menuComOptions = document.querySelector("#menuComOptions");
+
 
 document.addEventListener("click", (event) => {
   if (
     !menuComOptions.contains(event.target) &&
     !divMenuHrs.contains(event.target) &&
+    !divHrMenuCelular.contains(event.target) &&
     xEstado === "x"
   ) {
     menuComOptions.style.opacity = "0";
     menuComOptions.style.height = "0px";
+    menuComOptions.style.width = "0px";
 
     document.querySelector("#hrMenuLinha1").style.transform = "rotate(0deg)";
     document.querySelector("#hrMenuLinha2").style.transform = "rotate(0deg)";
@@ -47,3 +55,21 @@ document.addEventListener("click", (event) => {
     xEstado = "menu";
   }
 });
+
+divHrMenuCelular.addEventListener("click", ()=>{
+  console.log(menuComOptions)
+  menuComOptions.style.opacity = "1";
+  menuComOptions.style.height = "60vh";
+  menuComOptions.style.width = "80vw";
+  xEstado = "x"
+})
+
+
+
+divxcelular.addEventListener("click",()=>{
+  menuComOptions.style.opacity = "0";
+  menuComOptions.style.width = "0px";
+  menuComOptions.style.height = "0px";
+  xEstado="menu"
+})
+
