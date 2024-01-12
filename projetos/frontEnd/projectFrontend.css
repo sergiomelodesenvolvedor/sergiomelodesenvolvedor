@@ -377,4 +377,58 @@
     font-weight: 100;
     color: gray;
   }
+
+  #cardMaConsultoriaHospitalar{
+    background-color: white;
+    width: 60vw;
+    height: 50vh;
+    border: 0px solid black;
+    border-radius: 5vw;
+    position: relative;
+    top: 10vh;
+    left: 20vw;
+    cursor: pointer;
+
+  }
+
+
+  #imgLogoMaConsultoriaHospitalar{
+    width:50vw;
+    position:relative;
+    left:6vw
+  }
+
+  .divNomeLinkProjeto{
+    text-align: center;
+  }
+
+  #h3-maconsultoriahospitalar{
+    position:relative;
+    left:0vw;
+    font-size: calc(2.7vw + 1vh);
+  }
+
+  #cardMaNishiConsult{
+    background-color: white;
+    width: 60vw;
+    height: 50vh;
+    border: 0px solid black;
+    border-radius: 5vw;
+    position: relative;
+    top: 26vh;
+    left: 20vw;
+    cursor: pointer;
+  }
+
+  #imgLogoNishiConsult{
+    width:30vw;
+    position:relative;
+    left:15vw
+  }
+
+  #h3-nishiconsult{
+    position:relative;
+    left:0vw;
+    font-size: calc(2.7vw + 1vh);
+  }
 }
