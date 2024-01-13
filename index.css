@@ -515,8 +515,10 @@ svg:hover #fillRect {
     width:30vw;
     position:relative;
     border:0px solid black;
+    left:9.6vw;
     font-family: Roboto;
     font-size: 8vw;
+    display: block;
     color:rgba(0, 0, 63, 0.788);
   }
   .spanDescricaoAboutme{
