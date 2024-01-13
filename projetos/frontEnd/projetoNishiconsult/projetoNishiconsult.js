@@ -73,3 +73,38 @@ divxcelular.addEventListener("click",()=>{
   xEstado="menu"
 })
 
+
+
+async function getLanguageFromIp(){
+
+
+  try{
+      const response = await fetch("https://api.ipdata.co?api-key=cdc3dfda63544dcf952da93a67ac6eef2d9f94e302e1e2bea48bb359")
+      const data = await response.json();
+      return data.country_code.toLowerCase()
+  }
+
+  catch(error){
+      console.error("Erro ao obter idioma do IP",error)
+      return 'pt-BR'
+  }
+
+}
+
+async function translate(language){    
+  if(await language==="br"){
+    let descricaoNishiconsult = document.querySelector("#descricao-nishiconsult")
+    descricaoNishiconsult.innerHTML = "O sistema Prisioner Control tem como finalidade realizar o cadastro de pessoas detidas.<br /> Cada registro de detento pode ser consultado por usuários comuns ou inserido e <br />editado por usuários master. Além disso, o usuário master tem a capacidade de cadastrar novos <br /> usuários no banco de dados.<br/> Para a implementação deste projeto, foram empregadas as tecnologias:<br/> <b>HTML, CSS, JavaScript, Node.js e MySQL</b>.<br/> Abaixo, apresentamos um gif ilustrando o funcionamento do sistema."
+  
+    let h1NishiConsult = document.querySelector("#h1-nishi-consult");
+    h1NishiConsult.innerText = "Prisioner Control";
+
+    let linkMenuMyWorksFront = document.querySelector("#linkMenuMyWorksFront")
+    linkMenuMyWorksFront.innerText = "Trabalhos Front-End";
+
+    let linkMenuMyWorksBack = document.querySelector("#linkMenuMyWorksBack")
+    linkMenuMyWorksBack.innerText = "Trabalhos Back-End"
+  
+  }}
+  
+  translate(getLanguageFromIp())
