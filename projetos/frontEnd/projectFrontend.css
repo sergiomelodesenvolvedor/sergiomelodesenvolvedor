@@ -180,7 +180,7 @@
     border: 1px solid black;
     border-radius: 1vw;
     position: absolute;
-    top: 28vh;
+    top: 26.6vh;
     left: 30vw;
 
     background-color: white;
@@ -200,7 +200,7 @@
 
   #divNomeLinkProjeto2 {
     position: relative;
-    top: 18vh;
+    top: 20vh;
   }
 
   #h3-nishiconsult {
