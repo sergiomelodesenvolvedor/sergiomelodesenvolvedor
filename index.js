@@ -20,7 +20,6 @@ async function translate(language){
     if(await language==="br"){
         let h1FullStackWeb = document.querySelector(".h1FullStackWeb")
         h1FullStackWeb.innerText = "Desenvolvedor Web Full-Stack";
-        h1FullStackWeb.style.fontSize="3vw";
 
         let sectionDescricao = document.querySelector(".sectionDescricao");
         sectionDescricao.innerText = "Eu desenvolvo sites completos e responsivos que trazem valores aos seus negócios."
