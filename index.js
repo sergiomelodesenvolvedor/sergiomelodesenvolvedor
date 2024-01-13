@@ -46,10 +46,10 @@ async function translate(language){
         spanDescricaoTrabalhosBackend.innerText = "Aqui estão todos meus projetos Back-End."
 
         let textFrontEnd1 = document.querySelectorAll(".textFrontEnd")
-        textFrontEnd1[0].textContent = "Ver meus trabalhos"
+        textFrontEnd1[0].textContent = "Ver trabalhos"
 
         let textFrontEnd2 = document.querySelectorAll(".textFrontEnd")
-        textFrontEnd2[1].textContent = "Ver meus trabalhos"
+        textFrontEnd2[1].textContent = "Ver trabalhos"
 
         let h1AboutMe = document.querySelector(".h1AboutMe")
         h1AboutMe.innerText = "Então, quem sou eu?"
