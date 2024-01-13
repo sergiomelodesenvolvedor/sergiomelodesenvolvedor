@@ -92,3 +92,32 @@ divxcelular.addEventListener("click",()=>{
 
 
 
+
+
+async function getLanguageFromIp(){
+
+
+  try{
+      const response = await fetch("https://api.ipdata.co?api-key=cdc3dfda63544dcf952da93a67ac6eef2d9f94e302e1e2bea48bb359")
+      const data = await response.json();
+      return data.country_code.toLowerCase()
+  }
+
+  catch(error){
+      console.error("Erro ao obter idioma do IP",error)
+      return 'pt-BR'
+  }
+
+}
+
+async function translate(language){    
+  if(await language==="br"){
+    let h2MyWorks = document.querySelector("#h2MyWorks")
+    h2MyWorks.innerText = "Meus Projetos Front-End"
+
+    let h3ClickOnTheProject = document.querySelector("#h3-click-on-the-project")
+    h3ClickOnTheProject.innerText="Clique no projeto que você deseja ver"
+
+  }}
+
+  translate(getLanguageFromIp())
