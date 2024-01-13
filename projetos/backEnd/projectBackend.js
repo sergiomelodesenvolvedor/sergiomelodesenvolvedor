@@ -1,7 +1,7 @@
 let cardNishi = document.querySelector("#cardMaNishiConsult");
 
 cardNishi.addEventListener("click", () => {
-  window.open("./projetoNishiconsult/projetoNishiconsult.html", "_blank");
+  window.open("../frontEnd/projetoNishiconsult/projetoNishiconsult.html", "_blank");
 });
 
 //aqui pra baixo é a função de abrir e fechar menu
