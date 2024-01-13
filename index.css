@@ -346,7 +346,7 @@ svg:hover #fillRect {
     border: 0px solid black;
     width: 100vw;
     font-size: calc(1.8vw + 1.8vh);
-    top: 1vh;
+    top: -1vh;
     left: -2vw;
   }
 
