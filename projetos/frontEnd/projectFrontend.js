@@ -118,6 +118,14 @@ async function translate(language){
     let h3ClickOnTheProject = document.querySelector("#h3-click-on-the-project")
     h3ClickOnTheProject.innerText="Clique no projeto que você deseja ver"
 
+    let linkMenuHome = document.querySelector("#linkMenuHome")
+    linkMenuHome.innerText = "Home"
+
+    let linkMenuMyWorksFront = document.querySelector("#linkMenuMyWorksFront")
+    linkMenuMyWorksFront.innerText = "Trabalhos Front-End";
+
+    let linkMenuMyWorksBack = document.querySelector("#linkMenuMyWorksBack")
+    linkMenuMyWorksBack.innerText = "Trabalhos Back-End"
   }}
 
   translate(getLanguageFromIp())
