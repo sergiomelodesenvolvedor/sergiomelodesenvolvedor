@@ -426,6 +426,8 @@ svg:hover #fillRect {
     text-align: center;
   }
   #divSpanDescricaoTrabalhosFrontend{
+    width: 100vw;
+    border:1px solid black;
     text-align: center;
   }
 
