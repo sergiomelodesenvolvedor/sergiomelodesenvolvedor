@@ -34,10 +34,10 @@ async function translate(language){
         h1Contactme.innerText = "Contate-me";
 
         let h1MeusProjetosFrontend = document.querySelector(".h1MeusProjetosFrontend")
-        h1MeusProjetosFrontend.innerText = "Meus Projetos Front-End"
+        h1MeusProjetosFrontend.innerText = "Projetos Front-End"
 
         let h1MeusProjetosBackend = document.querySelector(".h1MeusProjetosBackend")
-        h1MeusProjetosBackend.innerText = "Meus Projetos Back-End"
+        h1MeusProjetosBackend.innerText = "Projetos Back-End"
 
         let spanDescricaoTrabalhosFrontend = document.querySelector(".spanDescricaoTrabalhosFrontend")
         spanDescricaoTrabalhosFrontend.innerText = "Aqui estão todos meus projetos Front-End."
