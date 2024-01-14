@@ -578,7 +578,7 @@ svg:hover #fillRect {
   
   #div-copyright{
     width: 100vw;
-    border:0px solid black;
+    border:1px solid black;
     position:relative;
     top:10vh;
     font-family: "Quicksand", sans-serif;
