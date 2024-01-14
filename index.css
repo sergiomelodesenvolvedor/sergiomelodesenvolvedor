@@ -425,14 +425,16 @@ svg:hover #fillRect {
     font-size:10vw;
     text-align: center;
   }
-  
+  #divSpanDescricaoTrabalhosFrontend{
+    text-align: center;
+  }
+
   .spanDescricaoTrabalhosFrontend{
     position:relative;
-    left:13vw;
     top:0vh;
     font-family: Quicksand;
     font-size:7vw;
-    border:0px solid black;
+    border:1px solid black;
     display: block;
     width:80vw;
   }
@@ -487,9 +489,13 @@ svg:hover #fillRect {
     text-align: center;
   }
   
+  #divSpanDescricaoTrabalhosBackend{
+    text-align: center;
+    border: 1px solid black;
+  }
+
   .spanDescricaoTrabalhosBackend{
     position:relative;
-    left:13vw;
     top:0vh;
     font-family: Quicksand;
     font-size:7vw;
