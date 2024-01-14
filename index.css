@@ -427,17 +427,18 @@ svg:hover #fillRect {
   }
   #divSpanDescricaoTrabalhosFrontend{
     width: 100vw;
-    border:1px solid black;
+    border:0px solid black;
     text-align: center;
   }
 
   .spanDescricaoTrabalhosFrontend{
     position:relative;
     top:0vh;
+    left:0vw;
     font-family: Quicksand;
     font-size:7vw;
-    border:1px solid black;
-    display: block;
+    border:0px solid black;
+    display: inline-block;
     width:80vw;
   }
   .svgButtonFrontend{
@@ -493,16 +494,17 @@ svg:hover #fillRect {
   
   #divSpanDescricaoTrabalhosBackend{
     text-align: center;
-    border: 1px solid black;
+    border: 0px solid black;
   }
 
   .spanDescricaoTrabalhosBackend{
     position:relative;
     top:0vh;
+    left:0vw;
     font-family: Quicksand;
     font-size:7vw;
     border:0px solid black;
-    display: block;
+    display: inline-block;
     width:80vw;
   }
 
@@ -585,8 +587,8 @@ svg:hover #fillRect {
   }
   
   #div-copyright{
-    width: 100vw;
-    border:1px solid black;
+    width: 95vw;
+    border:0px solid black;
     position:relative;
     top:10vh;
     font-family: "Quicksand", sans-serif;
