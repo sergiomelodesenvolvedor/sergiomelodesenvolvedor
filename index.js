@@ -56,12 +56,52 @@ async function translate(language){
 
         let spanDescricaoAboutme = document.querySelector(".spanDescricaoAboutme")
         spanDescricaoAboutme.innerText = "Meu nome é Sergio, um entusiasta apaixonado pelo desenvolvimento web full-stack, com formação na Trybe e estudos em andamento na área de Ciência da Computação. Minha jornada me permitiu adquirir experiência tanto no front-end, com foco na experiência do usuário, quanto no desenvolvimento robusto de back-end. Estou constantemente em busca de conhecimento e ansioso para colaborar em projetos inovadores. Juntos, podemos criar algo incrível!"
+    
     }   
 
     
 }
 
-
 translate(getLanguageFromIp())
+
+document.addEventListener("DOMContentLoaded", async ()=>{
+    
+
+    if(window.innerWidth>980){
+        
+        let headerNome = document.querySelector(".headerNome")
+        headerNome.style.top = "5vh";
+        headerNome.style.opacity = "1";
+        
+        let h1FullStackWeb = document.querySelector(".h1FullStackWeb")
+        h1FullStackWeb.style.left = "0vw";
+        h1FullStackWeb.style.opacity="1"
+
+        let sectionDescricao = document.querySelector(".sectionDescricao")
+        sectionDescricao.style.top = "-4vh";
+        sectionDescricao.style.opacity = "1"
+    
+        let imgFotoJunior = document.querySelector(".imgFotoJunior");
+        imgFotoJunior.style.opacity="1";
+        
+        let h1Contactme = document.querySelector(".h1Contactme");
+        h1Contactme.style.top = "20vh";
+        h1Contactme.style.opacity = "1"
+
+        let divEmail = document.querySelector(".divEmail");
+        divEmail.style.opacity="1";
+
+        let divWhatssap = document.querySelector(".divWhatssap")
+        divWhatssap.style.opacity = "1";
+
+        let spanExperienciaFrontEnd = document.querySelector(".spanExperienciaFrontEnd")
+        spanExperienciaFrontEnd.style.opacity = "1"
+
+        let spanExperienciaBackEnd = document.querySelector(".spanExperienciaBackEnd")
+        spanExperienciaBackEnd.style.opacity = "1"
+    }
+    
+
+});
 
 

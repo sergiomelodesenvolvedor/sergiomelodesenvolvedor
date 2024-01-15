@@ -20,7 +20,9 @@ body {
   width: 28vh;
   position: relative;
   left: 2vw;
-  top: 5vh;
+  top: 0vh; 
+  opacity: 0;
+  transition: top 0.3s ease, opacity 1.5s ease ;
   border: 0px solid black;
 }
 .sectionNomeEDescricao {
@@ -34,6 +36,8 @@ body {
   position: absolute;
   left: 54vw;
   top: 30vh;
+  opacity: 0;
+  transition: opacity 1s ease;
   width: 10vw;
   z-index: 9999;
 }
@@ -42,6 +46,10 @@ body {
   color: rgb(186, 255, 206);
   font-family: "Roboto", sans-serif;
   font-size: 3.5vw;
+  position:relative;
+  transition:left 1s ease, opacity 1.5s ease;
+  left:-18vw;
+  opacity: 0;
 }
 
 .sectionDescricao {
@@ -49,7 +57,9 @@ body {
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 1.7vw;
-  top: -4vh;
+  top: 0vh;
+  opacity: 0;
+  transition:top 1s ease, opacity 1.5s ease;
   border: 0px solid black;
   width: 36vw;
 }
@@ -58,6 +68,8 @@ body {
   position: relative;
   top: 33vh;
   left: 2vw;
+  opacity: 0;
+  transition: opacity 1s ease;
   font-family: "Quicksand", sans-serif;
   color: white;
   float: left;
@@ -67,6 +79,8 @@ body {
   position: relative;
   top: 33vh;
   left: 6vw;
+  opacity: 0;
+  transition: opacity 1s ease;
   font-family: "Quicksand", sans-serif;
   color: white;
   border: 0px solid black;
@@ -86,7 +100,9 @@ body {
 .h1Contactme {
   position: relative;
   left: 9vw;
-  top: 20vh;
+  top: 10vh;
+  opacity: 0;
+  transition:top 1s ease,opacity 2s ease;
   border: 0px solid black;
   width: 22vw;
   color: rgba(0, 0, 63, 0.788);
@@ -99,6 +115,8 @@ body {
   border: 0px solid black;
   width: 100%;
   text-align: center;
+  opacity: 0;
+  transition: opacity 1s ease;
   top: 29vh;
   font-size: 1.8vw;
   color: gray;
@@ -108,6 +126,8 @@ body {
 .divWhatssap {
   position: relative;
   top: 39vh;
+  opacity: 0;
+  transition: opacity 1s ease;
   font-size: 1.8vw;
   color: gray;
   font-family: "Roboto", sans-serif;
