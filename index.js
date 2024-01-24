@@ -25,9 +25,9 @@ document.addEventListener("DOMContentLoaded", () => {
   setTimeout(() => {
     divLoad.style.opacity = "0";
     console.log("teaste")
-  },4000);
+  },6000);
 
   setTimeout(() => {
     divLoad.style.display = "none";
-  }, 5000);
+  }, 7000);
 });
