@@ -59,12 +59,12 @@
     -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
     animation: sk-bouncedelay 1.4s infinite ease-in-out both;
   }
-    #svg-load text.desktop {
-      font-size: 6vw;
+  #svg-load text.desktop {
+    font-size: 6vw;
+  }
+  #svg-load text.desktop2 {
+      font-size: 2vw;
     }
-    #svg-load text.desktop2 {
-        font-size: 2vw;
-      }
   }
 
   @media (max-width: 576px) {
@@ -80,10 +80,10 @@
     }
 
     #svg-load text.mobile {
-        font-size: 7vw;
+        font-size: 9vw;
       }
       #svg-load text.mobile2 {
-        font-size: 5vw;
+        font-size: 7vw;
       }
   }
   

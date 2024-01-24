@@ -2,6 +2,8 @@ let textTitle = document.querySelector("#sergio-melo-desenvolvedor-text");
 let textSubTitle = document.querySelector("#apaixonado-por-tecnologia-text");
 let divCarregamento = document.querySelector(".div-carregamento");
 
+alert(window.innerWidth+"x"+window.innerHeight)
+
 document.querySelector("#svg-load").style.display = "block";
 
 textTitle.addEventListener("animationend", function () {
