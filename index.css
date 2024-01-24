@@ -59,12 +59,21 @@
     -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
     animation: sk-bouncedelay 1.4s infinite ease-in-out both;
   }
+
+  .svg-logo-desktop{
+    border: 0px solid black;
+    width: 100vw;
+    height:20vh;
+  }
+
   #svg-load text.desktop {
     font-size: 6vw;
   }
   #svg-load text.desktop2 {
       font-size: 2vw;
     }
+
+
   }
 
   @media (max-width: 576px) {
@@ -78,6 +87,11 @@
       -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
       animation: sk-bouncedelay 1.4s infinite ease-in-out both;
     }
+    .svg-logo-celular{
+      border: 0px solid black;
+      width:100vw;
+      height:20vh;
+    } 
 
     #svg-load text.mobile {
         font-size: 9vw;
