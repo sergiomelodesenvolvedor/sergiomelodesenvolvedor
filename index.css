@@ -57,10 +57,10 @@
 
   @media (max-width: 576px) {
     #svg-load text.mobile {
-        font-size: 6vw;
+        font-size: 7vw;
       }
       #svg-load text.mobile2 {
-        font-size: 4vw;
+        font-size: 5vw;
       }
   }
   
