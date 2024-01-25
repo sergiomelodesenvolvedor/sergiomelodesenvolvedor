@@ -47,6 +47,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   setTimeout(() => {
     divLoad.style.display = "none";
-  }, 8500);
+  },8500);
 });
 
