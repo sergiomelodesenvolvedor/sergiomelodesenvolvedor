@@ -144,7 +144,12 @@
   }
 }
 
-#div-load{
+#svg-logo{
+  transition: opacity 1s ease;
   opacity: 0;
+}
+
+#div-load{
+  
   transition: opacity 3s ease;
 }

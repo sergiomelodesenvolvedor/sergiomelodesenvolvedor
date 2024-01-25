@@ -2,16 +2,17 @@ let textTitle = document.querySelector("#sergio-melo-desenvolvedor-text");
 let textSubTitle = document.querySelector("#apaixonado-por-tecnologia-text");
 let divCarregamento = document.querySelector(".div-carregamento");
 
+
 function AumentaOpacity(){
 
- let divLoad = document.querySelector("#div-load")
+ let svglogo = document.querySelector("#svg-logo")
  
- let divLoadPromisse = new Promise(function(resolve,_reject){
-  divLoad.addEventListener('load',resolve);
- })
- divLoadPromisse.then(
-  divLoad.style.opacity="1"
- )
+  setTimeout(()=>{
+    svglogo.style.opacity="1"
+  },1000)
+  
+  
+ 
 
   setTimeout(()=>{
 //alert(window.innerWidth+"x"+window.innerHeight)
@@ -48,3 +49,4 @@ document.addEventListener("DOMContentLoaded", () => {
     divLoad.style.display = "none";
   }, 8500);
 });
+
