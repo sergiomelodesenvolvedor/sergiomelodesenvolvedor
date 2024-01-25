@@ -4,7 +4,14 @@ let divCarregamento = document.querySelector(".div-carregamento");
 
 function AumentaOpacity(){
 
-  document.querySelector("#div-load").style.opacity="1"
+ let divLoad = document.querySelector("#div-load")
+ 
+ let divLoadPromisse = new Promise(function(resolve,_reject){
+  divLoad.addEventListener('load',resolve);
+ })
+ divLoadPromisse.then(
+  divLoad.style.opacity="1"
+ )
 
   setTimeout(()=>{
 //alert(window.innerWidth+"x"+window.innerHeight)
@@ -19,7 +26,7 @@ textTitle.addEventListener("animationend", function () {
 let strokeDashOffSet = 0;
 function animaLogo() {
   requestAnimationFrame(animaLogo);
-  strokeDashOffSet += 9;
+  strokeDashOffSet += 3;
   document.querySelector("#svg-logo").style.strokeDashoffset = strokeDashOffSet;
 }
 setTimeout(() => {
@@ -39,5 +46,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
   setTimeout(() => {
     divLoad.style.display = "none";
-  }, 7000);
+  }, 8500);
 });
