@@ -20,7 +20,7 @@
   </head>
 
   <!--aqui começa a div de carregamento-->
-  <body style="margin: 0">
+  <body style="margin: 0;height:100%">
     <img
       id="imgChuvisco"
       src="gif_otimizado.gif?2"
@@ -131,12 +131,12 @@
 
     <!--aqui acaba a tela div de carregamento-->
     <div
-      class="container-fluid vh-100 ps-0"
-      style="border: 0px solid black"
+      class="container-fluid position-absolute z-index-0 vh-100 ps-0"
+      style="border: 0px solid yellow;"
       id="divTelaCarregada"
     >
-      <div class="row" style="border: 0px solid pink">
-        <div class="col col-12">
+      <div class="row ms-0" style="border: 0px solid pink">
+        <div class="col col-12 ps-0 ms-0" style="border:0px solid purple">
           <nav
             class="nav vw-100 navbar-expand-lg navbar-dark bg-dark"
             style="border: 0px solid green"
@@ -149,8 +149,8 @@
                   class="svg-logo-celular-carregada svg-logo-desktop-carregada"
                   height="12vh"
                   width="10vw"
-                  viewBox="0 0 131 100"
                   fill="none"
+                  viewBox="0 0 131 100"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
@@ -252,7 +252,7 @@
         </div>
       </div>
 
-      <div class="row mt-5 ms-0" style="border: 0px solid black">
+      <div class="row mt-5 ms-2" style="border: 0px solid black">
         <div
           class="col-12 ms-0 ps-0 mt-0 d-flex align-items-center justify-content-center"
           style="border: 0px solid purple"
@@ -283,6 +283,12 @@
             />
           </svg>
         </div>
+      </div>
+    </div>
+
+    <div class="container position:relative; z-index-0" style="border:0px solid green;position:relative;top:12vh;height:87.5vh">
+      <div class="row" style="border: 0px solid green">
+        <div class="col-12"></div>
       </div>
     </div>
 
