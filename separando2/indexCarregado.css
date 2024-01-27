@@ -160,7 +160,7 @@
         transform: rotate(0deg);
     }   
     50%{
-        transform: rotate(-5deg);
+        transform: rotate(-15deg);
     }
 
     100%{
@@ -177,7 +177,7 @@
         transform: rotate(0deg);
     }   
     50%{
-        transform: rotate(5deg);
+        transform: rotate(15deg);
     }
 
     100%{
@@ -193,7 +193,7 @@
         transform: rotate(0deg);
     }   
     50%{
-        transform: rotate(-5deg);
+        transform: rotate(-15deg);
     }
 
     100%{
