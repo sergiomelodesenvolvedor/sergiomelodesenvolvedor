@@ -149,3 +149,54 @@
         height:100%;
     }
 }
+
+
+#svg-letra-s{
+    animation:5s girarAntiHorario ease-in-out infinite 
+}
+
+@keyframes girarAntiHorario{
+    0%{
+        transform: rotate(0deg);
+    }   
+    50%{
+        transform: rotate(-5deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+#svg-letra-m{
+    animation:5s girarAntiHorario2 ease-in-out infinite 
+}
+
+@keyframes girarAntiHorario2{
+    0%{
+        transform: rotate(0deg);
+    }   
+    50%{
+        transform: rotate(5deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
+}
+#svg-letra-d{
+    animation:5s girarAntiHorario3 ease-in-out infinite 
+}
+
+@keyframes girarAntiHorario3{
+    0%{
+        transform: rotate(0deg);
+    }   
+    50%{
+        transform: rotate(-5deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
+}
