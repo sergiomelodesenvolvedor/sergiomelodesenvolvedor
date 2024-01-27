@@ -14,13 +14,13 @@
     .svg-letra-m-celular{
         border:0px solid green;
         opacity: 0.1;
-        width:100%;
+        width:85%;
         height:100%;
     } 
     .svg-letra-d-celular{
-        border:0px solid green;
+        border:1px solid green;
         opacity: 0.1;
-        width:100%;
+        width:85%;
         height:100%;
     }
 }
@@ -44,13 +44,13 @@
     .svg-letra-m-celular{
         border:0px solid green;
         opacity: 0.1;
-        width:100%;
+        width:85%;
         height:80%;
     } 
     .svg-letra-d-celular{
         border:0px solid green;
         opacity: 0.1;
-        width:100%;
+        width:90%;
         height:100%;
     }
 }
@@ -130,8 +130,8 @@
     .svg-letra-s-desktop{
         border:0px solid green;
         opacity: 0.1;
-        width:40%;
         height:100%;
+        width:40%;
         
     }    
 
@@ -143,7 +143,7 @@
     }
 
     .svg-letra-d-desktop{
-        border:1px solid green;
+        border:0px solid green;
         opacity: 0.1;
         width:40%;
         height:100%;
