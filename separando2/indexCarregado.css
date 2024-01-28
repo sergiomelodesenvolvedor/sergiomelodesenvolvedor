@@ -23,6 +23,11 @@
         width:85%;
         height:100%;
     }
+
+    .div-row-letra-d-xs{
+        position:relative;
+        top:25vh
+    }
 }
 
 
@@ -50,8 +55,13 @@
     .svg-letra-d-celular{
         border:0px solid green;
         opacity: 0.1;
-        width:90%;
+        width:40%;
         height:100%;
+    }
+
+    .div-row-letra-d-sm{
+        position:relative;
+        top:0vh
     }
 }
 
@@ -86,6 +96,11 @@
         height:100%;
         
     }
+
+    .div-row-letra-d-md{
+        position:relative;
+        top:20vh
+    }
 }
 
 @media (min-width: 992px) and (max-width:1199px) {
@@ -115,9 +130,12 @@
         opacity: 0.1;
         width:40%;
         height:100%;
-        
     }
 
+    .div-row-letra-d-lg{
+        position:relative;
+        top:10vh
+    }
 }
 
 @media (min-width: 1200px) {
@@ -148,6 +166,12 @@
         width:40%;
         height:100%;
     }
+
+    .div-row-letra-d-xs{
+        position:relative;
+        top:5vh
+    }
+
 }
 
 
