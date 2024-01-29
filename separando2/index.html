@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt">
   <head>
-    <script></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initia-scale=1.0" />
     <link
@@ -44,7 +44,7 @@
     <div
       id="div-load"
       class="container-fluid pt-5 div-carregamento vh-100 ms-0 me-0 text-center"
-      style="border: 0px solid gray; "
+      style="border: 0px solid gray; display:none "
     >
       <div
         class="row d-flex align-items-center vw-100 mt-5"
@@ -181,7 +181,7 @@
                 </svg>
               </a>
               <button
-                class="navbar-toggler float-end mt-3 mt-sm-2"
+                class="navbar-toggler d-block d-md-none float-end mt-3 mt-sm-2"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#menuComItens"
@@ -315,8 +315,8 @@
       <div class="row d-flex  align-items-center" style="border: 0px solid green">
         <div class="col-12 text-center" style="border: 0px solid black;position:relative;top:17vh;">
           <img class="img-fluid" src="./fotojunior.png">
-          <h1
-          class="h1 display-5"
+          <h1 id="h1-desenvolvedor-web-full-stack"
+          class="h1 display-2"
             style="
               text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
               font-family: 'Bebas Neue', sans-serif;
@@ -324,20 +324,35 @@
               color: black;
             "
           >
-            Desenvolvedor Web<br />
-            Full-Stack
+            Sérgio Nogueira
           </h1>
-          <h3 style='font-family: "Roboto", sans-serif;font-weight: 300;' class="h3 display-7">Eu desenvolvo websites que agregam<br/> valores ao seu negócio.</h3>
+          <h3 style='font-family: "Roboto", sans-serif;font-weight: 300;' class="h3 display-7">Websites Responsivos e dinâmicos.</h3>
         </div>
       </div>
     </div>
+    
   </div>
+
+  <div class="container vh-100 mt-5 ms-0" style="border:1px solid black;position:relative;top:15vh;">
+    <div class="row">
+      <div class="col-1 mt-5" style="border:0px solid black;height:300px">
+        <svg height="160%" style="border:0px solid green;">
+          <line x1="0" y1="0" x2="0" y2="500" stroke="gray" stroke-width="6" />
+          <circle cx="0" cy="250" r="30" fill="gray" stroke="none" stroke-width="5" />
+        </svg>
+      </div>
+    </div>
+  </div>
+  
     <script src="loading.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script>
+      
+    </script>
     <script src="indexCarregado.js"></script>
   </body>
 </html>
