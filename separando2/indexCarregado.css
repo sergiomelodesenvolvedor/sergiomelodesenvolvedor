@@ -27,6 +27,12 @@
     position: relative;
     top: 20vh;
   }
+
+  #container-parte-2{
+    top: 35vh
+  }
+  
+  
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
@@ -58,6 +64,10 @@
   .div-row-letra-d-sm {
     position: relative;
     top: -0vh;
+  }
+
+  #container-parte-2{
+    top: 38vh
   }
 }
 
@@ -92,6 +102,9 @@
   .div-row-letra-d-md {
     position: relative;
     top: 10vh;
+  }
+  #container-parte-2{
+    top: 32vh
   }
 }
 
@@ -128,6 +141,10 @@
     position: relative;
     top: 5vh;
   }
+
+  #container-parte-2{
+    top: 32vh
+  }
 }
 
 @media (min-width: 1200px) {
@@ -161,6 +178,10 @@
   .div-row-letra-d-xl {
     position: relative;
     top: -5vh;
+  }
+
+  #container-parte-2{
+    top: 32vh
   }
 }
 
@@ -214,7 +235,7 @@
   }
 }
 
-#tudoDepoisDeCarregado {
+#container-parte-1 {
   display: none;
   opacity: 0;
   transition:opacity 1s ease;

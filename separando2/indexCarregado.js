@@ -1,12 +1,12 @@
-let tudoDepoisDeCarregado = document.querySelector("#tudoDepoisDeCarregado");
+let containerParte1 = document.querySelector("#container-parte-1");
 
 window.addEventListener("load", () => {
   setTimeout(() => {
-    tudoDepoisDeCarregado.style.display = "block";
+    containerParte1.style.display = "block";
   }, 0 /* 9000 */);
 
   setTimeout(() => {
-    tudoDepoisDeCarregado.style.opacity = "1";
+    containerParte1.style.opacity = "1";
     // Configuração do Typed.js
     var options = {
       strings: ["", "Desenvolvedor Web <br/> Full Stack"],
