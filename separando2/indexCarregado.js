@@ -36,20 +36,25 @@ svgCanto1.style.height = colTudoMinhaHistoria.offsetHeight;
 let divTodasAsPartes = document.querySelector("#div-todas-as-partes");
 let divQueSeEsconde = document.querySelector("#div-que-se-esconde");
 let posicaoPagina = 0;
-divTodasAsPartes.addEventListener("wheel", (event) => {
-  if (event.deltaY > 0) {
-    if (posicaoPagina !== -114) {
-      posicaoPagina -= 114;
-      divQueSeEsconde.style.transform = `translateY(${posicaoPagina}vh)`;
-    }
-  }
-  if (event.deltaY < 0) {
-    if (posicaoPagina !== 0) {
-    posicaoPagina += 114;
-    divQueSeEsconde.style.transform = `translateY(${posicaoPagina}vh)`;
-    }
+
+
+if(window.innerWidth>=992){
+    divTodasAsPartes.addEventListener("wheel", (event) => {
+        if (event.deltaY > 0) {
+          if (posicaoPagina !== -228) {
+            posicaoPagina -= 114;
+            divQueSeEsconde.style.transform = `translateY(${posicaoPagina}vh)`;
+          }
+        }
+        if (event.deltaY < 0) {
+          if (posicaoPagina !== 0) {
+          posicaoPagina += 114;
+          divQueSeEsconde.style.transform = `translateY(${posicaoPagina}vh)`;
+          }
+      }
+      });      
 }
-});
+
 /* 
 h1MinhaHistoria.style.border = "1px solid black";
 

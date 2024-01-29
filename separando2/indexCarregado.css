@@ -145,6 +145,10 @@
   #container-parte-2{
     top: 32vh
   }
+
+  #div-todas-as-partes{
+    overflow: hidden; height: 100vh
+  }
 }
 
 @media (min-width: 1200px) {
@@ -182,6 +186,10 @@
 
   #container-parte-2{
     top: 32vh
+  }
+
+  #div-todas-as-partes{
+    overflow: hidden; height: 100vh
   }
 }
 
