@@ -21,17 +21,36 @@ window.addEventListener("load", () => {
   }, 0 /* 9100 */);
 });
 
-
-let line1 = document.querySelector("#line1")
-let svgCanto1= document.querySelector("#svg-canto-1")
-let circleFora1= document.querySelector("#circle-fora-1")
-let circleDentro1= document.querySelector("#circle-dentro-1")
-let colTudoMinhaHistoria = document.querySelector("#col-tudo-minha-historia")
-
+let line1 = document.querySelector("#line1");
+let svgCanto1 = document.querySelector("#svg-canto-1");
+let circleFora1 = document.querySelector("#circle-fora-1");
+let circleDentro1 = document.querySelector("#circle-dentro-1");
+let colTudoMinhaHistoria = document.querySelector("#col-tudo-minha-historia");
 
 //aqui estou ajustando a primeira linha do canto para redimensionar de acordo com o tamanho da tela
-line1.setAttribute('y2','1000vh');
-circleFora1.setAttribute('cy',colTudoMinhaHistoria.offsetHeight/2)
-circleDentro1.setAttribute('cy',colTudoMinhaHistoria.offsetHeight/2)
-svgCanto1.style.height=colTudoMinhaHistoria.offsetHeight
-    
+line1.setAttribute("y2", "1000vh");
+circleFora1.setAttribute("cy", colTudoMinhaHistoria.offsetHeight / 2);
+circleDentro1.setAttribute("cy", colTudoMinhaHistoria.offsetHeight / 2);
+svgCanto1.style.height = colTudoMinhaHistoria.offsetHeight;
+
+let divTodasAsPartes = document.querySelector("#div-todas-as-partes");
+let divQueSeEsconde = document.querySelector("#div-que-se-esconde");
+let posicaoPagina = 0;
+divTodasAsPartes.addEventListener("wheel", (event) => {
+  if (event.deltaY > 0) {
+    if (posicaoPagina !== -114) {
+      posicaoPagina -= 114;
+      divQueSeEsconde.style.transform = `translateY(${posicaoPagina}vh)`;
+    }
+  }
+  if (event.deltaY < 0) {
+    if (posicaoPagina !== 0) {
+    posicaoPagina += 114;
+    divQueSeEsconde.style.transform = `translateY(${posicaoPagina}vh)`;
+    }
+}
+});
+/* 
+h1MinhaHistoria.style.border = "1px solid black";
+
+containerParte1.style.border = "1px solid black"; */
