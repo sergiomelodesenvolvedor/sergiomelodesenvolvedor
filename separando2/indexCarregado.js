@@ -44,7 +44,7 @@ setTimeout(() => {
   circleDentro1.setAttribute("cy", colTudoMinhaHistoria.offsetHeight / 2);
 
   svgCanto1.style.height = colTudoMinhaHistoria.offsetHeight;
-}, 9100);
+}, 10000);
 
 let divQueSeEsconde = document.querySelector("#div-que-se-esconde");
 let posicaoPagina = 0;
