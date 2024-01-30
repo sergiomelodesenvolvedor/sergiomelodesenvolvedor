@@ -46,16 +46,24 @@ setTimeout(() => {
   svgCanto1.style.height = colTudoMinhaHistoria.offsetHeight;
 }, 10000);
 
+
+//aqui estou fazendo a logica para responsivisar para landscape e portrait, a linha do canto
+let controleAlturaAnteriorOuProxima = 0
+
+  
 window.addEventListener('orientationchange',()=>{
   setTimeout(()=>{
-    let colTudoMinhaHistoria2 = document.querySelector("#col-tudo-minha-historia");
+  let divTudoMinhaHistoriaConteudo = document.querySelector("#div-tudo-minha-historia-conteudo")
+
   line1.setAttribute("y2", "1000vh");
-  circleFora1.setAttribute("cy", colTudoMinhaHistoria2.offsetHeight / 2);
-  circleDentro1.setAttribute("cy", colTudoMinhaHistoria2.offsetHeight / 2);
-  console.log(colTudoMinhaHistoria2.offsetHeight)
-  svgCanto1.style.height = colTudoMinhaHistoria2.offsetHeight;
-},0)
+  circleFora1.setAttribute("cy", divTudoMinhaHistoriaConteudo.offsetHeight / 2);
+  circleDentro1.setAttribute("cy", divTudoMinhaHistoriaConteudo.offsetHeight / 2);
+
+  svgCanto1.style.height = divTudoMinhaHistoriaConteudo.offsetHeight;
+},10)
 })
+
+//aqui acaba a logica para responsivisar a linha do canto (portrait e landscape)
 
 let divQueSeEsconde = document.querySelector("#div-que-se-esconde");
 let posicaoPagina = 0;
