@@ -8,16 +8,27 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     divTodasAsPartes.style.opacity = "1";
     // Configuração do Typed.js
-    var options = {
-      strings: ["", "Desenvolvedor Web <br/> Full Stack"],
-      typeSpeed: 50, // Velocidade de digitação em milissegundos
-      backSpeed: 50, // Velocidade de apagar em milissegundos
-      startDelay: 800, // Atraso antes de começar a digitar em milissegundos
-      loop: false, // Se deve repetir a animação
+    var options1 = {
+        strings: ["", "Desenvolvedor Web <br/> Full Stack"],
+        typeSpeed: 25, // Velocidade de digitação em milissegundos
+        backSpeed: 50, // Velocidade de apagar em milissegundos
+        startDelay: 800, // Atraso antes de começar a digitar em milissegundos
+        loop: false, // Se deve repetir a animação
+        showCursor: false,
     };
 
+      var options2 = {
+        strings: ["", "Websites responsivos e dinâmicos"],
+        typeSpeed: 25, // Velocidade de digitação em milissegundos
+        backSpeed: 50, // Velocidade de apagar em milissegundos
+        startDelay: 4200, // Atraso antes de começar a digitar em milissegundos
+        loop: false, // Se deve repetir a animação
+        showCursor: false,
+      };
+
     // Inicializa o Typed.js no elemento com o ID "typed-output"
-    var typed = new Typed("#h1-desenvolvedor-web-full-stack", options);
+    var typed = new Typed("#h1-desenvolvedor-web-full-stack", options1);
+    var typed2 = new Typed("#h3-websites-responsivos-e-dinamicos", options2);
   }, 9100 /* 9100 */);
 });
 
