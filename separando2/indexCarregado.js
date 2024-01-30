@@ -46,6 +46,17 @@ setTimeout(() => {
   svgCanto1.style.height = colTudoMinhaHistoria.offsetHeight;
 }, 10000);
 
+window.addEventListener('orientationchange',()=>{
+  setTimeout(()=>{
+    let colTudoMinhaHistoria2 = document.querySelector("#col-tudo-minha-historia");
+  line1.setAttribute("y2", "1000vh");
+  circleFora1.setAttribute("cy", colTudoMinhaHistoria2.offsetHeight / 2);
+  circleDentro1.setAttribute("cy", colTudoMinhaHistoria2.offsetHeight / 2);
+  console.log(colTudoMinhaHistoria2.offsetHeight)
+  svgCanto1.style.height = colTudoMinhaHistoria2.offsetHeight;
+},0)
+})
+
 let divQueSeEsconde = document.querySelector("#div-que-se-esconde");
 let posicaoPagina = 0;
 
