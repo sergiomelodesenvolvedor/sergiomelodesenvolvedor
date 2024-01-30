@@ -38,28 +38,51 @@ let divQueSeEsconde = document.querySelector("#div-que-se-esconde");
 let posicaoPagina = 0;
 
 let ultimoTempoDoWhell = 0;
-if (window.innerWidth >= 992) {
-  divTodasAsPartes.addEventListener("wheel", (event) => {
-    const agora = new Date().getTime();
-
-    if (agora - ultimoTempoDoWhell > 800) {
-      if (event.deltaY > 0) {
-        if (posicaoPagina !== -228) {
-          posicaoPagina -= 114;
-          divQueSeEsconde.style.transform = `translateY(${posicaoPagina}vh)`;
+if (window.innerWidth >= 992 && window.innerWidth <=1200) {
+    divTodasAsPartes.addEventListener("wheel", (event) => {
+      const agora = new Date().getTime();
+  
+      if (agora - ultimoTempoDoWhell > 500) {
+        if (event.deltaY > 0) {
+          if (posicaoPagina !== -234) {
+            posicaoPagina -= 117;
+            divQueSeEsconde.style.transform = `translateY(${posicaoPagina}vh)`;
+          }
         }
-      }
-      if (event.deltaY < 0) {
-        if (posicaoPagina !== 0) {
-          posicaoPagina += 114;
-          divQueSeEsconde.style.transform = `translateY(${posicaoPagina}vh)`;
+        if (event.deltaY < 0) {
+          if (posicaoPagina !== 0) {
+            posicaoPagina += 117;
+            divQueSeEsconde.style.transform = `translateY(${posicaoPagina}vh)`;
+          }
         }
+        ultimoTempoDoWhell=agora
       }
-      ultimoTempoDoWhell=agora
-    }
-  });
-}
+    });
+  }
 
+  
+  if (window.innerWidth >= 1200) {
+    divTodasAsPartes.addEventListener("wheel", (event) => {
+      const agora = new Date().getTime();
+  
+      if (agora - ultimoTempoDoWhell > 500) {
+        if (event.deltaY > 0) {
+          if (posicaoPagina !== -210) {
+            posicaoPagina -= 105;
+            divQueSeEsconde.style.transform = `translateY(${posicaoPagina}vh)`;
+          }
+        }
+        if (event.deltaY < 0) {
+          if (posicaoPagina !== 0) {
+            posicaoPagina += 105;
+            divQueSeEsconde.style.transform = `translateY(${posicaoPagina}vh)`;
+          }
+        }
+        ultimoTempoDoWhell=agora
+      }
+    });
+  }
+  
 /* 
 h1MinhaHistoria.style.border = "1px solid black";
 
