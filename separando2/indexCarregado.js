@@ -37,22 +37,27 @@ let divTodasAsPartes = document.querySelector("#div-todas-as-partes");
 let divQueSeEsconde = document.querySelector("#div-que-se-esconde");
 let posicaoPagina = 0;
 
+let ultimoTempoDoWhell = 0;
+if (window.innerWidth >= 992) {
+  divTodasAsPartes.addEventListener("wheel", (event) => {
+    const agora = new Date().getTime();
 
-if(window.innerWidth>=992){
-    divTodasAsPartes.addEventListener("wheel", (event) => {
-        if (event.deltaY > 0) {
-          if (posicaoPagina !== -228) {
-            posicaoPagina -= 114;
-            divQueSeEsconde.style.transform = `translateY(${posicaoPagina}vh)`;
-          }
+    if (agora - ultimoTempoDoWhell > 800) {
+      if (event.deltaY > 0) {
+        if (posicaoPagina !== -228) {
+          posicaoPagina -= 114;
+          divQueSeEsconde.style.transform = `translateY(${posicaoPagina}vh)`;
         }
-        if (event.deltaY < 0) {
-          if (posicaoPagina !== 0) {
+      }
+      if (event.deltaY < 0) {
+        if (posicaoPagina !== 0) {
           posicaoPagina += 114;
           divQueSeEsconde.style.transform = `translateY(${posicaoPagina}vh)`;
-          }
+        }
       }
-      });      
+      ultimoTempoDoWhell=agora
+    }
+  });
 }
 
 /* 
