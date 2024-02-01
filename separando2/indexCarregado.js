@@ -85,26 +85,52 @@ window.addEventListener('resize',()=>{
 
 
 
+//a partir daqui vou fazer a parte de rolar o conteudo para cima quando usar o scroll
 
 let divQueSeEsconde = document.querySelector("#div-que-se-esconde");
 let posicaoPagina = 0;
 
 let ultimoTempoDoWhell = 0;
-if (window.innerWidth >= 992 && window.innerWidth <= 1200) {
+
+
+
+function calcularPosicaoRelativaAPagina(elemento) {
+  var posicao = 0;
+
+  while (elemento) {
+      posicao += elemento.offsetTop;
+      elemento = elemento.offsetParent;
+  }
+
+  return posicao;
+}
+
+
+if (window.innerWidth >= 992 && window.innerWidth <= 2000) {
   divTodasAsPartes.addEventListener("wheel", (event) => {
     const agora = new Date().getTime();
-
+    let divTudoMinhaHistoriaConteudo = document.querySelector("#div-tudo-minha-historia-conteudo")
+    posicaoScrollParte2=calcularPosicaoRelativaAPagina(divTudoMinhaHistoriaConteudo)+(window.innerHeight-calcularPosicaoRelativaAPagina(divTudoMinhaHistoriaConteudo))/2
     if (agora - ultimoTempoDoWhell > 500) {
       if (event.deltaY > 0) {
-        if (posicaoPagina !== -234) {
-          posicaoPagina -= 117;
-          divQueSeEsconde.style.transform = `translateY(${posicaoPagina}vh)`;
+        posicaoPagina+=1
+        if (posicaoPagina === 0) {     
+          divQueSeEsconde.style.transform = `translateY(0px)`;
+          
+        }
+        else if(posicaoPagina === 1){
+          
+          divQueSeEsconde.style.transform=`translateY(${-posicaoScrollParte2}px)`
         }
       }
       if (event.deltaY < 0) {
-        if (posicaoPagina !== 0) {
-          posicaoPagina += 117;
-          divQueSeEsconde.style.transform = `translateY(${posicaoPagina}vh)`;
+        posicaoPagina-=1
+        if (posicaoPagina === 1) {
+          divQueSeEsconde.style.transform = `translateY(${posicaoScrollParte2}px)`;
+        }
+        else if(posicaoPagina===0){
+          console.log("teste")
+          divQueSeEsconde.style.transform = `translateY(0px)`;
         }
       }
       ultimoTempoDoWhell = agora;
@@ -112,24 +138,3 @@ if (window.innerWidth >= 992 && window.innerWidth <= 1200) {
   });
 }
 
-if (window.innerWidth >= 1200) {
-  divTodasAsPartes.addEventListener("wheel", (event) => {
-    const agora = new Date().getTime();
-
-    if (agora - ultimoTempoDoWhell > 500) {
-      if (event.deltaY > 0) {
-        if (posicaoPagina !== -210) {
-          posicaoPagina -= 105;
-          divQueSeEsconde.style.transform = `translateY(${posicaoPagina}vh)`;
-        }
-      }
-      if (event.deltaY < 0) {
-        if (posicaoPagina !== 0) {
-          posicaoPagina += 105;
-          divQueSeEsconde.style.transform = `translateY(${posicaoPagina}vh)`;
-        }
-      }
-      ultimoTempoDoWhell = agora;
-    }
-  });
-}
