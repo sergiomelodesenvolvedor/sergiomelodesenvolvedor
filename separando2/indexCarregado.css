@@ -233,65 +233,43 @@
   }
 }
 
-#svg-letra-s {
-  animation: 5s girarAntiHorario ease-in-out infinite;
-}
-
-@keyframes girarAntiHorario {
-  0% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(-15deg);
-  }
-
-  100% {
-    transform: rotate(0deg);
+@media (max-width:393px) and (min-height:706px) {
+  #container-parte-2{
+    top: 10vh
   }
 }
 
-#svg-letra-m {
-  animation: 5s girarAntiHorario2 ease-in-out infinite;
-}
-
-@keyframes girarAntiHorario2 {
-  0% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(15deg);
-  }
-
-  100% {
-    transform: rotate(0deg);
-  }
-}
-#svg-letra-d {
-  animation: 5s girarAntiHorario3 ease-in-out infinite;
-}
-
-@keyframes girarAntiHorario3 {
-  0% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(-15deg);
-  }
-
-  100% {
-    transform: rotate(0deg);
+@media (max-width:480px) and (min-height:820px) {
+  #container-parte-2{
+    top: 0vh
   }
 }
 
-#div-todas-as-partes{
-  transition:opacity 3s ease;
-  display: none;
-  opacity: 0;
+
+@media (max-width:600px) and (min-height:900px) {
+  #container-parte-2{
+    top: 0vh
+  }
 }
-#div-que-se-esconde{
-  position:relative;
-  transition:transform 0.8s ease;
+
+@media (max-width:800px) and (min-height:1024px) {
+  #container-parte-2{
+    top: 0vh
+  }
 }
+
+@media (max-width:820px) and (min-height:1024px) {
+  #container-parte-2{
+    top: 0vh
+  }
+}
+
+@media (max-width:1024px) and (min-height:1024px) {
+  #container-parte-2{
+    top: 0vh
+  }
+}
+
 
 @media screen and (max-height: 424px) and (orientation:landscape) {
   .svg-logo-celular-carregada {
@@ -330,4 +308,67 @@
 }
 
 
+
+
+
+#svg-letra-s {
+  animation: 5s girarAntiHorario ease-in-out infinite;
+}
+
+@keyframes girarAntiHorario {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-15deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+#svg-letra-m {
+  animation: 5s girarAntiHorario2 ease-in-out infinite;
+}
+
+
+@keyframes girarAntiHorario2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(15deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+#svg-letra-d {
+  animation: 5s girarAntiHorario3 ease-in-out infinite;
+}
+
+@keyframes girarAntiHorario3 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-15deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+#div-todas-as-partes{
+  transition:opacity 3s ease;
+  display: block;
+  opacity: 1;
+}
+#div-que-se-esconde{
+  position:relative;
+  transition:transform 0.8s ease;
+}
 

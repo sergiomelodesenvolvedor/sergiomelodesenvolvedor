@@ -39,11 +39,12 @@ let circleDentro1 = document.querySelector("#circle-dentro-1");
 let colTudoMinhaHistoria = document.querySelector("#col-tudo-minha-historia");
 //aqui estou ajustando a primeira linha do canto para redimensionar de acordo com o tamanho da tela
 setTimeout(() => {
+  let divTudoMinhaHistoriaConteudo = document.querySelector("#div-tudo-minha-historia-conteudo")
   line1.setAttribute("y2", "1000vh");
-  circleFora1.setAttribute("cy", colTudoMinhaHistoria.offsetHeight / 2);
-  circleDentro1.setAttribute("cy", colTudoMinhaHistoria.offsetHeight / 2);
+  circleFora1.setAttribute("cy", divTudoMinhaHistoriaConteudo.offsetHeight / 2);
+  circleDentro1.setAttribute("cy", divTudoMinhaHistoriaConteudo.offsetHeight / 2);
 
-  svgCanto1.style.height = colTudoMinhaHistoria.offsetHeight;
+  svgCanto1.style.height = divTudoMinhaHistoriaConteudo.offsetHeight;
 }, 10000);
 
 
@@ -53,17 +54,37 @@ let controleAlturaAnteriorOuProxima = 0
   
 window.addEventListener('orientationchange',()=>{
   setTimeout(()=>{
-  let divTudoMinhaHistoriaConteudo = document.querySelector("#div-tudo-minha-historia-conteudo")
+  let divTudoMinhaHistoriaConteudo2 = document.querySelector("#div-tudo-minha-historia-conteudo")
 
   line1.setAttribute("y2", "1000vh");
-  circleFora1.setAttribute("cy", divTudoMinhaHistoriaConteudo.offsetHeight / 2);
-  circleDentro1.setAttribute("cy", divTudoMinhaHistoriaConteudo.offsetHeight / 2);
+  circleFora1.setAttribute("cy", divTudoMinhaHistoriaConteudo2.offsetHeight / 2);
+  circleDentro1.setAttribute("cy", divTudoMinhaHistoriaConteudo2.offsetHeight / 2);
 
-  svgCanto1.style.height = divTudoMinhaHistoriaConteudo.offsetHeight;
+  svgCanto1.style.height = divTudoMinhaHistoriaConteudo2.offsetHeight;
 },10)
 })
 
 //aqui acaba a logica para responsivisar a linha do canto (portrait e landscape)
+console.log(window.innerWidth)
+console.log(window.innerHeight)
+
+
+//aqui começa a logica para responsivisar a linha do canto mas no envento resize
+
+window.addEventListener('resize',()=>{
+  setTimeout(()=>{
+  let divTudoMinhaHistoriaConteudo2 = document.querySelector("#div-tudo-minha-historia-conteudo")
+
+  line1.setAttribute("y2", "1000vh");
+  circleFora1.setAttribute("cy", divTudoMinhaHistoriaConteudo2.offsetHeight / 2);
+  circleDentro1.setAttribute("cy", divTudoMinhaHistoriaConteudo2.offsetHeight / 2);
+
+  svgCanto1.style.height = divTudoMinhaHistoriaConteudo2.offsetHeight;
+},10)
+})
+
+
+
 
 let divQueSeEsconde = document.querySelector("#div-que-se-esconde");
 let posicaoPagina = 0;
