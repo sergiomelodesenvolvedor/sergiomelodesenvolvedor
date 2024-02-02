@@ -111,28 +111,29 @@ if (window.innerWidth >= 992 && window.innerWidth <= 2000) {
     const agora = new Date().getTime();
     let divTudoMinhaHistoriaConteudo = document.querySelector("#div-tudo-minha-historia-conteudo")
     posicaoScrollParte2=calcularPosicaoRelativaAPagina(divTudoMinhaHistoriaConteudo)+(window.innerHeight-calcularPosicaoRelativaAPagina(divTudoMinhaHistoriaConteudo))/2
-    if (agora - ultimoTempoDoWhell > 500) {
+    if (agora - ultimoTempoDoWhell > 1) {
       if (event.deltaY > 0) {
-        posicaoPagina+=1
+        
         if (posicaoPagina === 0) {     
           divQueSeEsconde.style.transform = `translateY(0px)`;
-          
+
         }
         else if(posicaoPagina === 1){
           
           divQueSeEsconde.style.transform=`translateY(${-posicaoScrollParte2}px)`
         }
+        posicaoPagina+=1
       }
       if (event.deltaY < 0) {
-        posicaoPagina-=1
-        if (posicaoPagina === 1) {
-          divQueSeEsconde.style.transform = `translateY(${posicaoScrollParte2}px)`;
-        }
-        else if(posicaoPagina===0){
-          console.log("teste")
+        
+        if (posicaoPagina === 0) {
+          divQueSeEsconde.style.transform = `translateY(0px)`;
+        }else if(posicaoPagina===1){
           divQueSeEsconde.style.transform = `translateY(0px)`;
         }
-      }
+        posicaoPagina-=1;
+        
+             }
       ultimoTempoDoWhell = agora;
     }
   });
