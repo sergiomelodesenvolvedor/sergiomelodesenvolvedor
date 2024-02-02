@@ -110,7 +110,8 @@ if (window.innerWidth >= 992 && window.innerWidth <= 2000) {
   divTodasAsPartes.addEventListener("wheel", (event) => {
     const agora = new Date().getTime();
     let divTudoMinhaHistoriaConteudo = document.querySelector("#div-tudo-minha-historia-conteudo")
-    posicaoScrollParte2=calcularPosicaoRelativaAPagina(divTudoMinhaHistoriaConteudo)+(window.innerHeight-calcularPosicaoRelativaAPagina(divTudoMinhaHistoriaConteudo))/2
+    posicaoScrollParte2=calcularPosicaoRelativaAPagina(divTudoMinhaHistoriaConteudo)-(window.innerHeight-divTudoMinhaHistoriaConteudo.offsetHeight)/2//conta para deixar o scroll centralizado na parte 2
+    console.log(posicaoScrollParte2)
     if (agora - ultimoTempoDoWhell > 1) {
       if (event.deltaY > 0) {
         
