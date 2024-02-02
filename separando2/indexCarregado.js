@@ -3,7 +3,7 @@ let divTodasAsPartes = document.querySelector("#div-todas-as-partes");
 window.addEventListener("load", () => {
   setTimeout(() => {
     divTodasAsPartes.style.display = "block";
-  }, 9000 /* 9000 */);
+  }, 9000 /* 9000 */)
 
   setTimeout(() => {
     divTodasAsPartes.style.opacity = "1";
@@ -169,36 +169,39 @@ if (window.innerWidth >= 992 && window.innerWidth <= 2000) {
       ultimoTempoDoWhell = agora;
     }
   });
+
+  window.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowDown") {
+      if(posicaoPagina===1){
+  
+      }else{
+        posicaoPagina += 1;
+      }
+      if (posicaoPagina === 0) {
+        divQueSeEsconde.style.transform = `translateY(0px)`;
+        posicaoPagina += 1;
+      } else if (posicaoPagina === 1) {
+        divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte2}px)`;
+      }
+    }
+  
+    if (event.key === "ArrowUp") {
+      if(posicaoPagina===0){
+  
+      }else{
+        posicaoPagina -= 1;
+      }
+      
+  
+      if (posicaoPagina === 0) {
+        divQueSeEsconde.style.transform = `translateY(0px)`;
+      } else if (posicaoPagina === 1) {
+        divQueSeEsconde.style.transform = `translateY(0px)`;
+        posicaoPagina -= 1;
+      }
+    }
+  });
+  
+
 }
 
-window.addEventListener("keydown", (event) => {
-  if (event.key === "ArrowDown") {
-    if(posicaoPagina===1){
-
-    }else{
-      posicaoPagina += 1;
-    }
-    if (posicaoPagina === 0) {
-      divQueSeEsconde.style.transform = `translateY(0px)`;
-      posicaoPagina += 1;
-    } else if (posicaoPagina === 1) {
-      divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte2}px)`;
-    }
-  }
-
-  if (event.key === "ArrowUp") {
-    if(posicaoPagina===0){
-
-    }else{
-      posicaoPagina -= 1;
-    }
-    
-
-    if (posicaoPagina === 0) {
-      divQueSeEsconde.style.transform = `translateY(0px)`;
-    } else if (posicaoPagina === 1) {
-      divQueSeEsconde.style.transform = `translateY(0px)`;
-      posicaoPagina -= 1;
-    }
-  }
-});

@@ -30,23 +30,24 @@
   </head>
 
   <!--aqui começa a div de carregamento-->
-  <body style="margin: 0; height: 100%">
+  <body style="margin: 0px; height: 100%">
     <img
       height="100vh"
       id="imgChuvisco"
       src="gif_otimizado.gif?2"
       style="
-        border: 0px solid purple;
+        border: 0px solid green;
         opacity: 0.17;
         position: fixed;
         z-index: -1;
+        width:100%;
       "
     />
 
     <div
       id="div-load"
       class="container-fluid pt-5 div-carregamento vh-100 ms-0 me-0 text-center"
-      style="border: 0px solid gray;display: none;"
+      style="border: 0px solid gray; display: none"
     >
       <div
         class="row d-flex align-items-center vw-100 mt-5"
@@ -142,13 +143,17 @@
 
     <!--aqui acaba a tela div de carregamento-->
 
-    <div id="div-todas-as-partes" class="container-fluid ps-0" style="">
+    <div
+      id="div-todas-as-partes"
+      class="container-fluid p-0 p"
+      style="border:0px solid green;"
+    >
       <div
         id="div-que-se-esconde"
         class="container-fluid ps-0"
-        style="border: 0px solid purple"
+        style="border: 0px solid purple; "
       >
-        <div class="container-fluid ps-0" id="container-parte-1">
+         <div class="container-fluid ps-0" id="container-parte-1">
           <div
             class="container-fluid position-absolute z-index-0 vh-100 ps-0"
             style="border: 0px solid yellow"
@@ -413,7 +418,10 @@
               class="col col-10 mt-0 h-auto"
               style="border: 0px solid black"
             >
-              <div id="div-tudo-minha-historia-conteudo" style="border:0px solid pink">
+              <div
+                id="div-tudo-minha-historia-conteudo"
+                style="border: 0px solid pink"
+              >
                 <div class="row mt-0">
                   <div class="col-12 mt-0" style="border: 0px solid black">
                     <h1 id="h1-minha-historia" style="color: #001c3b">
@@ -451,14 +459,64 @@
             </div>
           </div>
         </div>
-      </div>
+
+        <div
+          id="container-parte-3"
+          class="container-fluid mt-0 ms-0"
+          style="
+            border: 0px solid black;
+            position: relative;
+            top: 30vh;
+            width: 100vw;
+          "
+        >
+          <div class="row ps-0">
+            <div class="col-12 text-center">
+              <h1
+                class="text-primary display-3"
+                style="font-family: var(--bs-font-sans-serif)"
+              >
+                Projetos Front-End
+              </h1>
+            </div>
+            <div class="col-12 ps-0">
+              <div id="div-svg-button-frontend">
+                <svg
+                  class="svgButtonFrontend"
+                  style="border: 0px solid black; height: 5vh"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    id="fillRect"
+                    width="0"
+                    height="9999"
+                    rx="0"
+                    ry="0"
+                    fill="blue"
+                  ></rect>
+                  <text
+                    class="textFrontEnd"
+                    x="30vw"
+                    y="3.7vh"
+                    text-anchor="middle"
+                    font-size="20"
+                    fill="blue"
+                  >
+                    See my works
+                  </text>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
     </div>
     <script src="loading.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
-    ></script>
+    ></script> 
     <script></script>
     <script src="indexCarregado.js"></script>
   </body>
