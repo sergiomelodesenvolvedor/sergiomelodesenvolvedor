@@ -201,7 +201,18 @@ if (window.innerWidth >= 992 && window.innerWidth <= 2000) {
       }
     }
   });
-  
-
 }
+
+//aqui acaba a parte de ajustar a rolagem de tela para desktop
+
+
+//aqui começa a parte de fazer o svg retangulo preencher frontend e backend
+
+let rectMeusTrabalhos = document.querySelectorAll(".fillRect");
+let svgButtonBackEnd = document.querySelector("#svgButtonBackEnd");
+
+svgButtonBackEnd.addEventListener('mouseout',()=>{
+  let larguraRectMeusTrabalhos = parseFloat(rectMeusTrabalhos[1].getAttribute('width'))
+  alert(larguraRectMeusTrabalhos)
+})
 

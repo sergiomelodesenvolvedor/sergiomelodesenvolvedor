@@ -40,7 +40,7 @@
         opacity: 0.17;
         position: fixed;
         z-index: -1;
-        width:100%;
+        width: 100%;
       "
     />
 
@@ -146,14 +146,14 @@
     <div
       id="div-todas-as-partes"
       class="container-fluid p-0 p"
-      style="border:0px solid green;"
+      style="border: 1px solid green; height: 600vh"
     >
       <div
         id="div-que-se-esconde"
         class="container-fluid ps-0"
-        style="border: 0px solid purple; "
+        style="border: 0px solid purple"
       >
-         <div class="container-fluid ps-0" id="container-parte-1">
+        <div class="container-fluid ps-0" id="container-parte-1">
           <div
             class="container-fluid position-absolute z-index-0 vh-100 ps-0"
             style="border: 0px solid yellow"
@@ -479,15 +479,20 @@
                 Projetos Front-End
               </h1>
             </div>
-            <div class="col-12 ps-0">
-              <div id="div-svg-button-frontend">
+            <div class="col-12 p-0">
+              <div class="col-12 text-center">
+                <div class="text mt-2 fs-2">
+                  Aqui estão todos os meus projetos em Front-End.
+                </div>
+              </div>
+              <div id="div-svg-button-frontend" class="text-center mt-4">
                 <svg
-                  class="svgButtonFrontend"
-                  style="border: 0px solid black; height: 5vh"
+                  class="svgButton"
+                  style="border: 1px solid black; height: 5vh"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <rect
-                    id="fillRect"
+                    class="fillRect"
                     width="0"
                     height="9999"
                     rx="0"
@@ -496,8 +501,71 @@
                   ></rect>
                   <text
                     class="textFrontEnd"
-                    x="30vw"
-                    y="3.7vh"
+                    x="50%"
+                    y="50%"
+                    alignment-baseline="middle"
+                    text-anchor="middle"
+                    font-size="20"
+                    fill="blue"
+                  >
+                    See my works
+                  </text>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="row ps-0 mt-5">
+            <div class="col-12 text-center">
+              <h1
+                class="text-primary display-3"
+                style="font-family: var(--bs-font-sans-serif)"
+              >
+                Projetos Back-End
+              </h1>
+            </div>
+            <div class="col-12 p-0">
+              <div class="col-12 text-center">
+                <div class="text mt-2 fs-2">
+                  Aqui estão todos os meus projetos em Back-End.
+                </div>
+              </div>
+              <div id="div-svg-button-frontend" class="text-center mt-4">
+                <svg
+                  id="svgButtonBackEnd"
+                  class="svgButton"
+                  style="border: 1px solid black; height: 5vh;cursor:pointer"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    class="fillRect"
+                    width="0%"
+                    height="9999"
+                    rx="0"
+                    ry="0"
+                    fill="blue"
+                  >
+                    <animate
+                      attributeName="width"
+                      from="0"
+                      to="100%"
+                      dur="0.5s"
+                      fill="freeze"
+                      begin="svgButton.mouseover"
+                    />
+                    <animate
+                      attributeName="width"
+                      to="0"
+                      dur="1s"
+                      fill="freeze"
+                      begin="svgButton.mouseout"
+                    />
+                  </rect>
+                  <text
+                    class="textFrontEnd"
+                    x="50%"
+                    y="50%"
+                    alignment-baseline="middle"
                     text-anchor="middle"
                     font-size="20"
                     fill="blue"
@@ -509,14 +577,14 @@
             </div>
           </div>
         </div>
-       </div>
+      </div>
     </div>
     <script src="loading.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
-    ></script> 
+    ></script>
     <script></script>
     <script src="indexCarregado.js"></script>
   </body>
