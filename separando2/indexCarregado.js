@@ -104,7 +104,7 @@ function calcularPosicaoRelativaAPagina(elemento) {
 
   return posicao;
 }
-
+//aqui estou ajustando o scroll para desktop
 
 if (window.innerWidth >= 992 && window.innerWidth <= 2000) {
   divTodasAsPartes.addEventListener("wheel", (event) => {
