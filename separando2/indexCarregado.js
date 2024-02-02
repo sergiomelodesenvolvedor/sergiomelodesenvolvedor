@@ -209,10 +209,39 @@ if (window.innerWidth >= 992 && window.innerWidth <= 2000) {
 //aqui começa a parte de fazer o svg retangulo preencher frontend e backend
 
 let rectMeusTrabalhos = document.querySelectorAll(".fillRect");
-let svgButtonBackEnd = document.querySelector("#svgButtonBackEnd");
+
+
+
+let svgButtonFrontEnd = document.querySelector("#svg-button-frontend");
+let textFrontEnd = document.querySelector("#textFrontEnd")
+
+svgButtonFrontEnd.addEventListener('mouseover',()=>{
+  
+  rectMeusTrabalhos[0].setAttribute('width','100%')
+  textFrontEnd.setAttribute('fill','white')
+})
+
+svgButtonFrontEnd.addEventListener('mouseout',()=>{
+  
+  rectMeusTrabalhos[0].setAttribute('width','0%')
+  textFrontEnd.setAttribute('fill','blue')
+})
+
+
+
+let svgButtonBackEnd = document.querySelector("#svg-button-backend");
+let textBackEnd = document.querySelector("#textBackEnd")
+
+
+svgButtonBackEnd.addEventListener('mouseover',()=>{
+  
+  rectMeusTrabalhos[1].setAttribute('width','100%')
+  textBackEnd.setAttribute('fill','white')
+})
 
 svgButtonBackEnd.addEventListener('mouseout',()=>{
-  let larguraRectMeusTrabalhos = parseFloat(rectMeusTrabalhos[1].getAttribute('width'))
-  alert(larguraRectMeusTrabalhos)
+  
+  rectMeusTrabalhos[1].setAttribute('width','0%')
+  textBackEnd.setAttribute('fill','blue')
 })
 

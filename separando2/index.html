@@ -146,7 +146,7 @@
     <div
       id="div-todas-as-partes"
       class="container-fluid p-0 p"
-      style="border: 1px solid green; height: 600vh"
+      style="border: 0px solid green; height: 600vh"
     >
       <div
         id="div-que-se-esconde"
@@ -487,11 +487,13 @@
               </div>
               <div id="div-svg-button-frontend" class="text-center mt-4">
                 <svg
+                  id="svg-button-frontend"
                   class="svgButton"
-                  style="border: 1px solid black; height: 5vh"
+                  style="border: 1px solid black;"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <rect
+                    
                     class="fillRect"
                     width="0"
                     height="9999"
@@ -500,6 +502,7 @@
                     fill="blue"
                   ></rect>
                   <text
+                    id="textFrontEnd"
                     class="textFrontEnd"
                     x="50%"
                     y="50%"
@@ -530,11 +533,11 @@
                   Aqui estão todos os meus projetos em Back-End.
                 </div>
               </div>
-              <div id="div-svg-button-frontend" class="text-center mt-4">
+              <div id="div-svg-button-backend" class="text-center mt-4">
                 <svg
-                  id="svgButtonBackEnd"
+                  id="svg-button-backend"
                   class="svgButton"
-                  style="border: 1px solid black; height: 5vh;cursor:pointer"
+                  style="border: 1px solid black;"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <rect
@@ -545,24 +548,10 @@
                     ry="0"
                     fill="blue"
                   >
-                    <animate
-                      attributeName="width"
-                      from="0"
-                      to="100%"
-                      dur="0.5s"
-                      fill="freeze"
-                      begin="svgButton.mouseover"
-                    />
-                    <animate
-                      attributeName="width"
-                      to="0"
-                      dur="1s"
-                      fill="freeze"
-                      begin="svgButton.mouseout"
-                    />
                   </rect>
                   <text
-                    class="textFrontEnd"
+                    id="textBackEnd"
+                    class="textBackEnd"
                     x="50%"
                     y="50%"
                     alignment-baseline="middle"

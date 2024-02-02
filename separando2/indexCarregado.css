@@ -373,3 +373,17 @@
   transition:transform 0.8s ease;
 }
 
+#svg-button-frontend{
+  height: 5vh;
+  cursor:pointer;
+}
+
+#svg-button-backend{
+  height: 5vh;
+  cursor:pointer
+}
+
+.fillRect{
+  transition:width 0.5s ease;
+}
+
