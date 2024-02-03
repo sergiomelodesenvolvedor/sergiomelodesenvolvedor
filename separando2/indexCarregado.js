@@ -3,7 +3,7 @@ let divTodasAsPartes = document.querySelector("#div-todas-as-partes");
 window.addEventListener("load", () => {
   setTimeout(() => {
     divTodasAsPartes.style.display = "block";
-  }, 9000 /* 9000 */)
+  }, 9000 /* 9000 */);
 
   setTimeout(() => {
     divTodasAsPartes.style.opacity = "1";
@@ -103,19 +103,6 @@ window.addEventListener("resize", () => {
 
 //a partir daqui vou fazer a parte de rolar o conteudo para cima quando usar o scroll
 
-let divQueSeEsconde = document.querySelector("#div-que-se-esconde");
-let posicaoPagina = 0;
-
-let ultimoTempoDoWhell = 0;
-
-let divTudoMinhaHistoriaConteudo = document.querySelector(
-  "#div-tudo-minha-historia-conteudo"
-);
-
-let posicaoScrollParte2 =
-  calcularPosicaoRelativaAPagina(divTudoMinhaHistoriaConteudo) -
-  (window.innerHeight - divTudoMinhaHistoriaConteudo.offsetHeight) / 2; //conta para deixar o scroll centralizado na parte 2
-
 function calcularPosicaoRelativaAPagina(elemento) {
   var posicao = 0;
 
@@ -126,45 +113,68 @@ function calcularPosicaoRelativaAPagina(elemento) {
 
   return posicao;
 }
+
+let divQueSeEsconde = document.querySelector("#div-que-se-esconde");
+let posicaoPagina = 0;
+let ultimoTempoDoWhell = 0;
+
+let divTudoMinhaHistoriaConteudo = document.querySelector(
+  "#div-tudo-minha-historia-conteudo"
+);
+let containerParte3 = document.querySelector("#container-parte-3")
+
+let posicaoScrollParte2 =
+  calcularPosicaoRelativaAPagina(divTudoMinhaHistoriaConteudo) -
+  (window.innerHeight - divTudoMinhaHistoriaConteudo.offsetHeight) / 2; //conta para deixar o scroll centralizado na parte 2
+
+  let posicaoScrollParte3 = calcularPosicaoRelativaAPagina(containerParte3)-(window.innerHeight - containerParte3.offsetHeight)/2;
+  
 //aqui estou ajustando o botão de scroll para rolar o conteudo para cima ou para baixo nos dispositivos desktop
 
 if (window.innerWidth >= 992 && window.innerWidth <= 2000) {
   divTodasAsPartes.addEventListener("wheel", (event) => {
+    
     const agora = new Date().getTime();
 
-    if (agora - ultimoTempoDoWhell > 0) {
+    if (agora - ultimoTempoDoWhell > 500) {
+      
       if (event.deltaY > 0) {
-        
-        if(posicaoPagina===1){
-
-        }else{
+        if (posicaoPagina === 2) {
+        } else {
           posicaoPagina += 1;
         }
-        
+
         if (posicaoPagina === 0) {
           divQueSeEsconde.style.transform = `translateY(0px)`;
           posicaoPagina += 1;
         } else if (posicaoPagina === 1) {
           divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte2}px)`;
-          console.log(posicaoPagina)
+          console.log(posicaoPagina);
         }
-        console.log(posicaoPagina)
+        else if (posicaoPagina === 2) {
+          divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte3}px)`;
+          console.log(posicaoPagina);
+        }
+        console.log(posicaoPagina);
       }
       if (event.deltaY < 0) {
-        if(posicaoPagina===0){
-
-        }else{
-          posicaoPagina -= 1;
-        }
         
+
         if (posicaoPagina === 0) {
           divQueSeEsconde.style.transform = `translateY(0px)`;
         } else if (posicaoPagina === 1) {
           divQueSeEsconde.style.transform = `translateY(0px)`;
           posicaoPagina -= 1;
-          console.log(posicaoPagina)
+          console.log(posicaoPagina);
+          console.log("lsdkjflkj")
+          }
+        else if (posicaoPagina === 2) {
+          divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte2}px)`;
+          posicaoPagina -= 1;
+          console.log(posicaoPagina);
+          console.log(posicaoScrollParte3)
         }
-        console.log(posicaoPagina)
+        console.log(posicaoPagina);
       }
       ultimoTempoDoWhell = agora;
     }
@@ -172,9 +182,8 @@ if (window.innerWidth >= 992 && window.innerWidth <= 2000) {
 
   window.addEventListener("keydown", (event) => {
     if (event.key === "ArrowDown") {
-      if(posicaoPagina===1){
-  
-      }else{
+      if (posicaoPagina === 1) {
+      } else {
         posicaoPagina += 1;
       }
       if (posicaoPagina === 0) {
@@ -184,15 +193,13 @@ if (window.innerWidth >= 992 && window.innerWidth <= 2000) {
         divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte2}px)`;
       }
     }
-  
+
     if (event.key === "ArrowUp") {
-      if(posicaoPagina===0){
-  
-      }else{
+      if (posicaoPagina === 0) {
+      } else {
         posicaoPagina -= 1;
       }
-      
-  
+
       if (posicaoPagina === 0) {
         divQueSeEsconde.style.transform = `translateY(0px)`;
       } else if (posicaoPagina === 1) {
@@ -205,43 +212,32 @@ if (window.innerWidth >= 992 && window.innerWidth <= 2000) {
 
 //aqui acaba a parte de ajustar a rolagem de tela para desktop
 
-
 //aqui começa a parte de fazer o svg retangulo preencher frontend e backend
 
 let rectMeusTrabalhos = document.querySelectorAll(".fillRect");
 
-
-
 let svgButtonFrontEnd = document.querySelector("#svg-button-frontend");
-let textFrontEnd = document.querySelector("#textFrontEnd")
+let textFrontEnd = document.querySelector("#textFrontEnd");
 
-svgButtonFrontEnd.addEventListener('mouseover',()=>{
-  
-  rectMeusTrabalhos[0].setAttribute('width','100%')
-  textFrontEnd.setAttribute('fill','white')
-})
+svgButtonFrontEnd.addEventListener("mouseover", () => {
+  rectMeusTrabalhos[0].setAttribute("width", "100%");
+  textFrontEnd.setAttribute("fill", "white");
+});
 
-svgButtonFrontEnd.addEventListener('mouseout',()=>{
-  
-  rectMeusTrabalhos[0].setAttribute('width','0%')
-  textFrontEnd.setAttribute('fill','blue')
-})
-
-
+svgButtonFrontEnd.addEventListener("mouseout", () => {
+  rectMeusTrabalhos[0].setAttribute("width", "0%");
+  textFrontEnd.setAttribute("fill", "blue");
+});
 
 let svgButtonBackEnd = document.querySelector("#svg-button-backend");
-let textBackEnd = document.querySelector("#textBackEnd")
+let textBackEnd = document.querySelector("#textBackEnd");
 
+svgButtonBackEnd.addEventListener("mouseover", () => {
+  rectMeusTrabalhos[1].setAttribute("width", "100%");
+  textBackEnd.setAttribute("fill", "white");
+});
 
-svgButtonBackEnd.addEventListener('mouseover',()=>{
-  
-  rectMeusTrabalhos[1].setAttribute('width','100%')
-  textBackEnd.setAttribute('fill','white')
-})
-
-svgButtonBackEnd.addEventListener('mouseout',()=>{
-  
-  rectMeusTrabalhos[1].setAttribute('width','0%')
-  textBackEnd.setAttribute('fill','blue')
-})
-
+svgButtonBackEnd.addEventListener("mouseout", () => {
+  rectMeusTrabalhos[1].setAttribute("width", "0%");
+  textBackEnd.setAttribute("fill", "blue");
+});
