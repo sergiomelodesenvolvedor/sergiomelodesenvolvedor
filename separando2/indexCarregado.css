@@ -389,15 +389,24 @@
   }
 }
 
-@media screen and (max-height: 360px) and (orientation: landscape) {
+@media screen and (min-height: 360px) and (orientation: landscape) {
+  
+  #container-parte-2 {
+    top: 60vh;
+  }
+  #container-parte-3 {
+    top: 80vh;
+    border: 0px solid black;
+  }
+
   #container-parte-4 {
     border: 0px solid black;
     position: relative;
-    top: 130vh;
+    top: 115vh;
   }
 }
 
-@media screen and (max-height: 424px) and (orientation: landscape) {
+@media screen and (min-height: 424px) and (orientation: landscape) {
   .svg-logo-celular-carregada {
     width: 21vw;
     height: 12vh;
@@ -431,14 +440,39 @@
     border: 0px solid black;
     top: 62vh;
   }
+
+  #container-parte-4 {
+    border: 0px solid black;
+    position: relative;
+    top: 120vh;
+  }
 }
 
-@media screen and (max-height: 640px) and (orientation: landscape) {
+@media screen and (min-height: 640px) and (orientation: landscape) {
   #container-parte-3 {
     border: 0px solid black;
     top: 90vh;
   }
 
+  #container-parte-4 {
+    border: 0px solid black;
+    position: relative;
+    top: 110vh;
+  }
+  
+}
+
+@media screen and (min-height: 1024px) and (orientation: landscape) {
+  #container-parte-3 {
+    border: 0px solid black;
+    top: 50vh;
+  }
+
+  #container-parte-4 {
+    border: 0px solid black;
+    position: relative;
+    top: 80vh;
+  }
   
 }
 
