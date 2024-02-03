@@ -376,6 +376,17 @@
   #container-parte-2 {
     top: 0vh;
   }
+
+  #container-parte-3 {
+    top: 15vh;
+    border: 0px solid black;
+  }
+
+  #container-parte-4 {
+    border: 0px solid black;
+    position: relative;
+    top: 31vh;
+  }
 }
 
 @media screen and (max-height: 360px) and (orientation: landscape) {
