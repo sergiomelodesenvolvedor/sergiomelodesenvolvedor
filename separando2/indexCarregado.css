@@ -178,6 +178,11 @@
     border: 0px solid black;
   }
 
+  #container-parte-4 {
+    border: 0px solid black;
+    position: relative;
+    top: 69vh;
+  }
   
 }
 
@@ -228,6 +233,12 @@
     top: 55vh;
     border: 0px solid black;
   }
+
+  #container-parte-4 {
+    border: 0px solid black;
+    position: relative;
+    top: 75vh;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -276,6 +287,12 @@
     top: 55vh;
     border: 0px solid black;
   }
+
+  #container-parte-4 {
+    border: 0px solid black;
+    position: relative;
+    top: 75vh;
+  }
 }
 
 @media (max-width: 393px) and (min-height: 706px) {
@@ -286,6 +303,12 @@
     top: 25vh;
     border: 0px solid black;
   }
+
+  #container-parte-4 {
+    border: 0px solid black;
+    position: relative;
+    top: 42vh;
+  }
 }
 
 @media (max-width: 480px) and (min-height: 820px) {
@@ -295,6 +318,12 @@
 
   #container-parte-3 {
     top: 15vh;
+  }
+
+  #container-parte-4 {
+    border: 0px solid black;
+    position: relative;
+    top: 31vh;
   }
 }
 
@@ -307,6 +336,12 @@
     top: 15vh;
     border: 0px solid black;
   }
+
+  #container-parte-4 {
+    border: 0px solid black;
+    position: relative;
+    top: 35vh;
+  }
 }
 
 @media (max-width: 800px) and (min-height: 1024px) {
@@ -317,6 +352,12 @@
   #container-parte-3 {
     top: 15vh;
     border: 0px solid black;
+  }
+
+  #container-parte-4 {
+    border: 0px solid black;
+    position: relative;
+    top: 31vh;
   }
 }
 
@@ -334,6 +375,14 @@
 @media (max-width: 1024px) and (min-height: 1024px) {
   #container-parte-2 {
     top: 0vh;
+  }
+}
+
+@media screen and (max-height: 360px) and (orientation: landscape) {
+  #container-parte-4 {
+    border: 0px solid black;
+    position: relative;
+    top: 130vh;
   }
 }
 
@@ -378,6 +427,8 @@
     border: 0px solid black;
     top: 90vh;
   }
+
+  
 }
 
 #svg-letra-s {
