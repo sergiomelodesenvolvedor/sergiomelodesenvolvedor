@@ -130,7 +130,7 @@ let posicaoScrollParte2 =
   let posicaoScrollParte3 = calcularPosicaoRelativaAPagina(containerParte3)-(window.innerHeight - containerParte3.offsetHeight)/2;
   
 //aqui estou ajustando o botão de scroll para rolar o conteudo para cima ou para baixo nos dispositivos desktop
-alert(window.innerWidth+'x'+window.innerHeight)
+
 if (window.innerWidth >= 992 && window.innerWidth <= 2000) {
   divTodasAsPartes.addEventListener("wheel", (event) => {
     
