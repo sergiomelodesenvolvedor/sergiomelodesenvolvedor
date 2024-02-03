@@ -129,6 +129,12 @@
     top: 50vh;
     border: 0px solid black;
   }
+
+  #container-parte-4 {
+    border: 0px solid black;
+    position: relative;
+    top: 69vh;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
