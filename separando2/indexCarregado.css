@@ -407,6 +407,22 @@
   }
 }
 
+@media (min-height: 260px) and (orientation: landscape) {
+  #container-parte-2 {
+    top: 90vh;
+  }
+  #container-parte-3 {
+    top: 125vh;
+    border: 0px solid black;
+  }
+
+  #container-parte-4 {
+    border: 0px solid black;
+    position: relative;
+    top: 165vh;
+  }
+}
+
 @media (min-height: 360px) and (orientation: landscape) {
   
   #container-parte-2 {
@@ -491,6 +507,7 @@
   }
   
 }
+
 
 @media (min-height: 1024px) and (orientation: landscape) {
   
