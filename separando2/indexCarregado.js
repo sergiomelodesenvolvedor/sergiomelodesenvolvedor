@@ -205,7 +205,7 @@ if (window.innerWidth >= 992 && window.innerWidth <= 2000) {
         }
       }
     });
-  }, 9500);
+  }, 0/* 9500 */);
 }
 
 //aqui acaba a parte de ajustar a rolagem de tela para desktop
