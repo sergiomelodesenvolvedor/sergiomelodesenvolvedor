@@ -75,7 +75,7 @@
   #div-home-rodape {
     font-size: 4vw;
     position: relative;
-    left: 22vw;
+    left: 27vw;
     top: 1vh;
     border:1px solid black
   }
@@ -93,7 +93,7 @@
   #div-sobre-mim-rodape{
     font-size: 4vw;
     position: relative;
-    left: 5vw;
+    left: 10vw;
     top: 2vh;
     border:1px solid black
   }
@@ -101,7 +101,7 @@
   #div-meus-trabalhos-rodape{
     font-size: 4vw;
     position: relative;
-    left: 5vw;
+    left: 10vw;
     top: 2.9vh;
     border:1px solid black
   }
