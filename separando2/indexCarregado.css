@@ -75,8 +75,9 @@
   #div-home-rodape {
     font-size: 4vw;
     position: relative;
-    left: 20vw;
+    left: 22vw;
     top: 1vh;
+    border:1px solid black
   }
 
   #div-telefone-rodape {
@@ -92,15 +93,17 @@
   #div-sobre-mim-rodape{
     font-size: 4vw;
     position: relative;
-    left: 3vw;
+    left: 5vw;
     top: 2vh;
+    border:1px solid black
   }
 
   #div-meus-trabalhos-rodape{
     font-size: 4vw;
     position: relative;
-    left: 3vw;
+    left: 5vw;
     top: 2.9vh;
+    border:1px solid black
   }
 
   #div-pai-div-hr-rodape{
