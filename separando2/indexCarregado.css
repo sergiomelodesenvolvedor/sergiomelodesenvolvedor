@@ -28,6 +28,11 @@
     top: 20vh;
   }
 
+  #div-todas-as-partes{
+    height:200vh
+  }
+
+
   #container-parte-2 {
     top: 22vh;
   }
@@ -46,7 +51,7 @@
   #container-parte-5 {
     position:relative;
     top:80vh;
-    height: 30vh;
+    height: 34vh;
   }
 
   #svg-logo-carregada-rodape {
