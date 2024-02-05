@@ -42,6 +42,79 @@
     position: relative;
     top: 64vh;
   }
+
+  #container-parte-5 {
+    position:relative;
+    top:50vh;
+    height: 30vh;
+  }
+
+  #svg-logo-carregada-rodape {
+    position: relative;
+    top: 0vh;
+    left: 2vw;
+    border: 0px solid yellow;
+  }
+
+  #div-envie-me-uma-mensagem {
+    position: relative;
+    left: 3vw;
+    font-size: 3.4vw;
+    width: 50vw;
+    border: 0px solid black;
+  }
+
+  #div-email-rodape {
+    position: relative;
+    top: 3vh;
+    left: 3vw;
+    font-size: 2.8vw;
+    border: 0px solid black;
+  }
+
+  #div-home-rodape {
+    font-size: 3vw;
+    position: relative;
+    left: 17vw;
+    top: 1vh;
+  }
+
+  #div-telefone-rodape {
+    position: relative;
+    left:3vw;
+    top:4vh;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 2.8vw;
+    color: rgb(200, 255, 203);
+    border: 0px solid rgb(166, 255, 154);
+  }
+
+  #div-sobre-mim-rodape{
+    font-size: 3vw;
+    position: relative;
+    left: 0vw;
+    top: 2vh;
+  }
+
+  #div-meus-trabalhos-rodape{
+    font-size: 3vw;
+    position: relative;
+    left: 0vw;
+    top: 2.9vh;
+  }
+
+  #div-pai-div-hr-rodape{
+    position:relative;
+    top:3vh;
+  }
+
+  #div-copyright-rodape{
+    position:relative;
+    left:3vw;
+    top:2vh;
+    font-size:3vw;
+  }
+ 
 }
 
 @media (min-width: 424px) and (max-width: 576px) {
@@ -183,7 +256,6 @@
     position: relative;
     top: 69vh;
   }
-  
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -372,7 +444,6 @@
   }
 }
 
-
 @media (min-width: 912px) and (min-height: 1024px) {
   #container-parte-2 {
     top: -15vh;
@@ -388,7 +459,6 @@
     border: 0px solid black;
   }
 }
-
 
 @media (min-width: 1024px) and (min-height: 1024px) {
   #container-parte-2 {
@@ -424,7 +494,6 @@
 }
 
 @media (min-height: 360px) and (orientation: landscape) {
-  
   #container-parte-2 {
     top: 60vh;
   }
@@ -488,13 +557,11 @@
 }
 
 @media (min-height: 640px) and (orientation: landscape) {
-  
   #container-parte-2 {
     border: 0px solid black;
     top: 10vh;
   }
 
-  
   #container-parte-3 {
     border: 0px solid black;
     top: 30vh;
@@ -505,12 +572,9 @@
     position: relative;
     top: 50vh;
   }
-  
 }
 
-
 @media (min-height: 1024px) and (orientation: landscape) {
-  
   #container-parte-3 {
     border: 0px solid black;
     top: 50vh;
@@ -521,7 +585,6 @@
     position: relative;
     top: 80vh;
   }
-  
 }
 
 #svg-letra-s {
