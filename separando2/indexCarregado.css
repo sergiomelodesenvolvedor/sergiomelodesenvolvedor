@@ -925,6 +925,12 @@
     position: relative;
     top: 170vh;
   }
+  #container-parte-5 {
+
+    position:relative;
+    top:210vh;
+
+  }
 }
 
 @media (min-height: 360px) and (orientation: landscape) {
@@ -995,6 +1001,12 @@
     top: 75vh;
   }
 
+  #container-parte-5 {
+
+    position:relative;
+    top:110vh;
+
+  }
   
 }
 
@@ -1014,6 +1026,7 @@
     position: relative;
     top: 50vh;
   }
+  
 }
 
 @media (min-height: 1024px) and (orientation: landscape) {
@@ -1027,6 +1040,9 @@
     position: relative;
     top: 80vh;
   }
+
+  
+
 }
 
 #svg-letra-s {
