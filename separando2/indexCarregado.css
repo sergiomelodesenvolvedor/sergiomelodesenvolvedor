@@ -938,6 +938,12 @@
     position: relative;
     top: 115vh;
   }
+  
+  #container-parte-5 {
+    position:relative;
+    top:145vh;
+    height: calc(22vh + 29vw);
+  }
 }
 
 @media (min-height: 424px) and (orientation: landscape) {
@@ -985,6 +991,8 @@
     position: relative;
     top: 75vh;
   }
+
+  
 }
 
 @media (min-height: 640px) and (orientation: landscape) {
