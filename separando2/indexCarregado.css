@@ -637,6 +637,9 @@
 }
 
 @media (min-width: 1200px) {
+  #div-todas-as-partes{
+    height:100vh
+  }
   .svg-logo-celular-carregada {
     width: 21vw;
     height: 12vh;
@@ -788,7 +791,7 @@
   #container-parte-5 {
     position:relative;
     top:55vh;
-    height: calc(18vh + 25vw);
+    height: calc(18vh + 28vw);
   }
 }
 
