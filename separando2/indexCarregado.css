@@ -929,7 +929,7 @@
 
     position:relative;
     top:210vh;
-    height:110vh
+    height:calc(40vh + 27vw)
   }
 }
 
