@@ -82,7 +82,7 @@
     position: relative;
     left: 27vw;
     top: 1vh;
-    border:1px solid black
+    border:0px solid black
   }
 
   #div-telefone-rodape {
@@ -100,7 +100,7 @@
     position: relative;
     left: 10vw;
     top: 2vh;
-    border:1px solid black
+    border:0px solid black
   }
 
   #div-meus-trabalhos-rodape{
@@ -108,7 +108,7 @@
     position: relative;
     left: 10vw;
     top: 2.9vh;
-    border:1px solid black
+    border:0px solid black
   }
 
   #div-pai-div-hr-rodape{
