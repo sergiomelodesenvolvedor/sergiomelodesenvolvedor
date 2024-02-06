@@ -212,7 +212,7 @@ if (window.innerWidth >= 992 && window.innerWidth <= 2000) {
 
 //aqui começa a parte de fazer o svg retangulo preencher frontend e backend
 
-alert(window.innerWidth+'x'+window.innerHeight)
+
 
 let rectMeusTrabalhos = document.querySelectorAll(".fillRect");
 
