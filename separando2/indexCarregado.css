@@ -169,6 +169,81 @@
     position: relative;
     top: 69vh;
   }
+
+  #container-parte-5 {
+    position:relative;
+    top:80vh;
+    height: 34vh;
+  }
+
+  #svg-logo-carregada-rodape {
+    position: relative;
+    top: 0vh;
+    left: 2vw;
+    border: 0px solid yellow;
+  }
+
+  #div-envie-me-uma-mensagem {
+    position: relative;
+    left: 3vw;
+    font-size: 3.4vw;
+    width: 50vw;
+    border: 0px solid black;
+  }
+
+  #div-email-rodape {
+    position: relative;
+    top: 3vh;
+    left: 3vw;
+    font-size: 2.8vw;
+    border: 0px solid black;
+  }
+
+  #div-home-rodape {
+    font-size: 4vw;
+    position: relative;
+    left: 27vw;
+    top: 1vh;
+    border:0px solid black
+  }
+
+  #div-telefone-rodape {
+    position: relative;
+    left:3vw;
+    top:4vh;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 2.8vw;
+    color: rgb(200, 255, 203);
+    border: 0px solid rgb(166, 255, 154);
+  }
+
+  #div-sobre-mim-rodape{
+    font-size: 4vw;
+    position: relative;
+    left: 10vw;
+    top: 2vh;
+    border:0px solid black
+  }
+
+  #div-meus-trabalhos-rodape{
+    font-size: 4vw;
+    position: relative;
+    left: 10vw;
+    top: 2.9vh;
+    border:0px solid black
+  }
+
+  #div-pai-div-hr-rodape{
+    position: relative;
+    top: 3vh;
+  }
+
+  #div-copyright-rodape{
+    position:relative;
+    left:3vw;
+    top:2vh;
+    font-size:3vw;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
