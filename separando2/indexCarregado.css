@@ -929,7 +929,7 @@
 
     position:relative;
     top:210vh;
-
+    height:110vh
   }
 }
 
@@ -1026,6 +1026,8 @@
     position: relative;
     top: 50vh;
   }
+
+  
   
 }
 
