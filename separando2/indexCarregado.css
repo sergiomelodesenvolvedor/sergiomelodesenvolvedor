@@ -806,6 +806,12 @@
     position: relative;
     top: 31vh;
   }
+
+  #container-parte-5 {
+    position:relative;
+    top:55vh;
+    height: calc(18vh + 25vw);
+  }
 }
 
 @media (min-width: 600px) and (min-height: 900px) {
@@ -823,6 +829,11 @@
     position: relative;
     top: 35vh;
   }
+  #container-parte-5 {
+    position:relative;
+    top:55vh;
+    height: calc(18vh + 31vw);
+  }
 }
 
 @media (min-width: 800px) and (min-height: 1024px) {
@@ -839,6 +850,11 @@
     border: 0px solid black;
     position: relative;
     top: 19vh;
+  }
+  #container-parte-5 {
+    position:relative;
+    top:55vh;
+    height: calc(22vh + 29vw);
   }
 }
 
@@ -866,6 +882,12 @@
   #container-parte-4 {
     top: 25vh;
     border: 0px solid black;
+  }
+
+  #container-parte-5 {
+    position:relative;
+    top:45vh;
+    height: calc(22vh + 29vw);
   }
 }
 
