@@ -533,8 +533,9 @@
   }
 
   #div-todas-as-partes {
+    display: contents;
     overflow: hidden;
-    height: 100vh;
+   
   }
 
   #container-parte-3 {
@@ -632,6 +633,7 @@
 
 @media (min-width: 1080px) {
   #div-todas-as-partes {
+    overflow: hidden;
     height: 100vh;
   }
 }
