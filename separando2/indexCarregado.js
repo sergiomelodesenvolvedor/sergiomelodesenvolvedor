@@ -125,7 +125,7 @@ let containerParte3 = document.querySelector("#container-parte-3");
 
 //aqui estou ajustando o botão de scroll para rolar o conteudo para cima ou para baixo nos dispositivos desktop
 
-if (window.innerWidth >= 992 && window.innerWidth <= 2000) {
+if (window.innerWidth >= 1080) {
   setTimeout(() => {
     let posicaoScrollParte2 =
       calcularPosicaoRelativaAPagina(divTudoMinhaHistoriaConteudo) -
