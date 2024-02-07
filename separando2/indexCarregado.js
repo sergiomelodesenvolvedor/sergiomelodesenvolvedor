@@ -112,6 +112,7 @@ function calcularPosicaoRelativaAPagina(elemento) {
   return posicao;
 }
 
+alert(window.innerHeight)
 let divQueSeEsconde = document.querySelector("#div-que-se-esconde");
 let posicaoPagina = 0;
 let ultimoTempoDoWhell = 0;
@@ -120,6 +121,10 @@ let divTudoMinhaHistoriaConteudo = document.querySelector(
   "#div-tudo-minha-historia-conteudo"
 );
 let containerParte3 = document.querySelector("#container-parte-3");
+
+let containerParte4 = document.querySelector("#container-parte-4")
+
+let containerParte5 = document.querySelector("#container-parte-5")
 
 //aqui estou ajustando o botão de scroll para rolar o conteudo para cima ou para baixo nos dispositivos desktop
 
@@ -131,9 +136,17 @@ let containerParte3 = document.querySelector("#container-parte-3");
         calcularPosicaoRelativaAPagina(divTudoMinhaHistoriaConteudo) -
         (window.innerHeight - divTudoMinhaHistoriaConteudo.offsetHeight) / 2; //conta para deixar o scroll centralizado na parte 2
 
-    var posicaoScrollParte3 =
+        var posicaoScrollParte3 =
         calcularPosicaoRelativaAPagina(containerParte3) -
         (window.innerHeight - containerParte3.offsetHeight) / 2;
+
+        var posicaoScrollParte4 =
+        calcularPosicaoRelativaAPagina(containerParte4) -
+        (window.innerHeight - containerParte4.offsetHeight) / 2;
+
+        var posicaoScrollParte5 =
+        calcularPosicaoRelativaAPagina(containerParte5) -
+        (window.innerHeight - containerParte5.offsetHeight) / 2;
 
 
 
@@ -141,7 +154,7 @@ let containerParte3 = document.querySelector("#container-parte-3");
 
     if (agora - ultimoTempoDoWhell > 500) {
       if (event.deltaY > 0) {
-        if (posicaoPagina === 2) {
+        if (posicaoPagina === 4) {
         } else {
           posicaoPagina += 1;
         }
@@ -153,8 +166,14 @@ let containerParte3 = document.querySelector("#container-parte-3");
           divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte2}px)`;
           
         } else if (posicaoPagina === 2) {
-          divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte3}px)`;
-       
+          divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte3}px)`;       
+        
+        }else if(posicaoPagina === 3){
+          divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte4}px)`;
+        }
+
+        else if(posicaoPagina === 4){
+          divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte5}px)`;
         }
         
       }
@@ -167,6 +186,18 @@ let containerParte3 = document.querySelector("#container-parte-3");
           
         } else if (posicaoPagina === 2) {
           divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte2}px)`;
+          posicaoPagina -= 1;
+         
+        }
+
+        else if (posicaoPagina === 3) {
+          divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte3}px)`;
+          posicaoPagina -= 1;
+         
+        }
+
+        else if (posicaoPagina === 4) {
+          divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte4}px)`;
           posicaoPagina -= 1;
          
         }
@@ -224,19 +255,12 @@ window.addEventListener("resize", () => {
   
   if (window.innerWidth <= 1080) {
     
-    divTodasAsPartes.removeEventListener("wheel", funcaoDeRolagem);
+    divTodasAsPartes.removeEventListener("wheel", funcaoDeRolagem);//aqui vai remover a função de rolagem para telas menores que 1080px
     
-    setTimeout(()=>{
-      let containerParte5 = document.querySelector("#container-parte-5");
-        divQueSeEsconde.style.height = `${
-          calcularPosicaoRelativaAPagina(containerParte5) +
-          containerParte5.offsetHeight
-        }px`;
-      },200)
-
+    divQueSeEsconde.style.transform = "translateY(0px)"//quando a tela for para 1080px a div que se esconde volta para o estado inicial
   }
   else{
-    divTodasAsPartes.addEventListener('wheel',funcaoDeRolagem)
+    divTodasAsPartes.addEventListener('wheel',funcaoDeRolagem)//caso redimensione a tela para uma altura que é maior que 1080px a adiciona a função de rolagem
   }
 });
 

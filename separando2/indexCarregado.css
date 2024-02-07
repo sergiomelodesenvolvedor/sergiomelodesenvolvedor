@@ -694,7 +694,7 @@
   #container-parte-5 {
     position: relative;
     top: 95vh;
-    height: calc(34vh + 32vw);
+    height: 100vh;
   }
 
   #svg-logo-carregada-rodape {
@@ -1002,8 +1002,10 @@
   #container-parte-5 {
     position: relative;
     top: 110vh;
+    height:100vh  
   }
 }
+
 
 @media (min-height: 640px) and (orientation: landscape) {
   #container-parte-2 {
