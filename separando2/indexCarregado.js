@@ -76,8 +76,6 @@ window.addEventListener("orientationchange", () => {
 });
 
 //aqui acaba a logica para responsivisar a linha do canto (portrait e landscape)
-console.log(window.innerWidth);
-console.log(window.innerHeight);
 
 //aqui começa a logica para responsivisar a linha do canto mas no envento resize
 
@@ -127,9 +125,18 @@ let containerParte3 = document.querySelector("#container-parte-3");
 
 
   
-  
   function funcaoDeRolagem(event){
-       
+    
+    var posicaoScrollParte2 =
+        calcularPosicaoRelativaAPagina(divTudoMinhaHistoriaConteudo) -
+        (window.innerHeight - divTudoMinhaHistoriaConteudo.offsetHeight) / 2; //conta para deixar o scroll centralizado na parte 2
+
+    var posicaoScrollParte3 =
+        calcularPosicaoRelativaAPagina(containerParte3) -
+        (window.innerHeight - containerParte3.offsetHeight) / 2;
+
+
+
     const agora = new Date().getTime();
 
     if (agora - ultimoTempoDoWhell > 500) {
@@ -144,12 +151,12 @@ let containerParte3 = document.querySelector("#container-parte-3");
           posicaoPagina += 1;
         } else if (posicaoPagina === 1) {
           divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte2}px)`;
-          console.log(posicaoPagina);
+          
         } else if (posicaoPagina === 2) {
           divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte3}px)`;
-          console.log(posicaoPagina);
+       
         }
-        console.log(posicaoPagina);
+        
       }
       if (event.deltaY < 0) {
         if (posicaoPagina === 0) {
@@ -157,22 +164,19 @@ let containerParte3 = document.querySelector("#container-parte-3");
         } else if (posicaoPagina === 1) {
           divQueSeEsconde.style.transform = `translateY(0px)`;
           posicaoPagina -= 1;
-          console.log(posicaoPagina);
-          console.log("lsdkjflkj");
+          
         } else if (posicaoPagina === 2) {
           divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte2}px)`;
           posicaoPagina -= 1;
-          console.log(posicaoPagina);
-          console.log(posicaoScrollParte3);
+         
         }
-        console.log(posicaoPagina);
+        
       }
       ultimoTempoDoWhell = agora;
     }
   }
 
   
-
   if (window.innerWidth >= 1080) {
     setTimeout(() => {
       posicaoScrollParte2 =
@@ -230,17 +234,19 @@ let containerParte3 = document.querySelector("#container-parte-3");
 //aqui acaba a parte de ajustar a rolagem de tela para desktop
 
 window.addEventListener("resize", () => {
-  console.log(window.innerWidth)
+  
   if (window.innerWidth <= 1080) {
     
     divTodasAsPartes.removeEventListener("wheel", funcaoDeRolagem);
+    
     setTimeout(()=>{
-    let containerParte5 = document.querySelector("#container-parte-5");
-      divQueSeEsconde.style.height = `${
-        calcularPosicaoRelativaAPagina(containerParte5) +
-        containerParte5.offsetHeight
-      }px`;
-    },100)
+      let containerParte5 = document.querySelector("#container-parte-5");
+        divQueSeEsconde.style.height = `${
+          calcularPosicaoRelativaAPagina(containerParte5) +
+          containerParte5.offsetHeight
+        }px`;
+      },200)
+
   }
   else{
     divTodasAsPartes.addEventListener('wheel',funcaoDeRolagem)
