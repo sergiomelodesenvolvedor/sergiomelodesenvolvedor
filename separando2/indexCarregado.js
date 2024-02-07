@@ -220,19 +220,6 @@ let containerParte3 = document.querySelector("#container-parte-3");
     }, 0 /* 9500 */);
   }
 
-
-
-
-/* else{
-  let containerParte5 = document.querySelector("#container-parte-5")
-  console.log(containerParte5)
-  divQueSeEsconde.style.height=`${calcularPosicaoRelativaAPagina(containerParte5)+containerParte5.offsetHeight}px`
-    console.log(`${calcularPosicaoRelativaAPagina(containerParte5)+containerParte5.offsetHeight}px`)
-
-}
- */
-//aqui acaba a parte de ajustar a rolagem de tela para desktop
-
 window.addEventListener("resize", () => {
   
   if (window.innerWidth <= 1080) {
@@ -252,6 +239,9 @@ window.addEventListener("resize", () => {
     divTodasAsPartes.addEventListener('wheel',funcaoDeRolagem)
   }
 });
+
+//aqui acaba a parte de ajustar a rolagem de tela para desktop
+
 
 //aqui começa a parte de fazer o svg retangulo preencher frontend e backend
 
