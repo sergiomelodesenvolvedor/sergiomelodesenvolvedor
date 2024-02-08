@@ -279,6 +279,10 @@ let linkTopoSobreMim = document.querySelector("#link-topo-sobre-mim");
 
 let linkTopoMeusProjetos = document.querySelector("#link-topo-meus-projetos");
 
+let linkTopoContateMe = document.querySelector("#link-topo-contate-me");
+
+let linkTopoRodape = document.querySelector("#link-topo-rodape");
+
 linkTopoSobreMim.addEventListener("click", () => {
   var posicaoScrollParte2 =
     calcularPosicaoRelativaAPagina(divTudoMinhaHistoriaConteudo) -
@@ -295,4 +299,23 @@ linkTopoMeusProjetos.addEventListener("click", () => {
 
   divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte3}px)`;
   posicaoPagina=2
+});
+
+
+linkTopoContateMe.addEventListener("click", () => {
+  var posicaoScrollParte4 =
+    calcularPosicaoRelativaAPagina(containerParte4) -
+    (window.innerHeight - containerParte4.offsetHeight) / 2; //conta para deixar o scroll centralizado na parte 2
+
+  divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte4}px)`;
+  posicaoPagina=3
+});
+
+linkTopoRodape.addEventListener("click", () => {
+  var posicaoScrollParte5 =
+    calcularPosicaoRelativaAPagina(containerParte5) -
+    (window.innerHeight - containerParte5.offsetHeight) / 2; //conta para deixar o scroll centralizado na parte 2
+
+  divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte5}px)`;
+  posicaoPagina=4
 });
