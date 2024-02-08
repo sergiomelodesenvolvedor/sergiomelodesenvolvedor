@@ -205,10 +205,10 @@
                         />
                       </svg>
                     </a>
-                      <a href="#" id="link-topo-sobre-mim" class="navbar-brand d-none d-md-inline ms-5">Sobre mim</a>
-                      <a href="#" id="link-topo-meus-projetos" class="navbar-brand d-none d-md-inline ms-5">Meus projetos</a>
-                      <a href="#" id="link-topo-contate-me" class="navbar-brand d-none d-md-inline ms-5">Contate-me</a>
-                      <a href="#" id="link-topo-rodape" class="navbar-brand d-none d-md-inline ms-5">Rodapé</a>
+                      <a href="#" id="link-topo-sobre-mim" class="navbar-brand d-none d-md-inline ms-2">Sobre mim</a>
+                      <a href="#" id="link-topo-meus-projetos" class="navbar-brand d-none d-md-inline ms-3">Meus projetos</a>
+                      <a href="#" id="link-topo-contate-me" class="navbar-brand d-none d-md-inline ms-3">Contate-me</a>
+                      <a href="#" id="link-topo-rodape" class="navbar-brand d-none d-md-inline ms-3">Rodapé</a>
                     
                     <button
                       class="navbar-toggler d-block d-md-none float-end mt-3 mt-sm-2"
@@ -590,13 +590,13 @@
             </div>
             <div class="row" style="border: 0px solid purple">
               <div class="col-12 text-center mt-5">
-                Nome: <input type="text" style="width: 60vw" />
+                Nome: <input id="inputNome" type="text" style="width: 60vw" />
               </div>
               <div
                 class="col-12 text-center mt-5"
                 style="border: 0px solid green"
               >
-                E-mail: <input type="email" style="width: 60vw" />
+                E-mail: <input id="inputEmail" type="email" style="width: 60vw" />
               </div>
               <div
                 class="col-12 text-center mt-5 position-relative"
@@ -608,6 +608,7 @@
                     style="border: 0px solid black"
                   >
                     <textarea
+                      id="text-area-mensagem"
                       type="email"
                       placeholder="Digíte sua mensagem..."
                       style="width: 64vw; height: 15vh"
@@ -616,7 +617,7 @@
                 </div>
               </div>
               <div class="col-12 text-center mt-5">
-                <button class="btn btn-primary">Enviar</button>
+                <button id="buttonEnviarMensagem" class="btn btn-primary">Enviar</button>
               </div>
             </div>
           </div>
@@ -711,7 +712,7 @@
             <div class="col-4" id="div-sobre-mim-rodape">
               <a class=""
                 id="link-sobre-mim-rodape"
-                href="#"
+                
                 style="
                   text-decoration: none;
                   color: rgb(200, 255, 203);
@@ -726,7 +727,6 @@
             <div class="col-4" style="" id="div-meus-trabalhos-rodape">
               <a class=""
                 id="link-meus-trabalhos-rodape"
-                href="#"
                 style="
                   text-decoration: none;
                   color: rgb(200, 255, 203);

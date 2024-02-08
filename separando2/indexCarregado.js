@@ -235,7 +235,7 @@ window.addEventListener("resize", () => {
     divTodasAsPartes.removeEventListener("wheel", funcaoDeRolagem); //aqui vai remover a função de rolagem para telas menores que 1080px
 
     divQueSeEsconde.style.transform = "translateY(0px)"; //quando a tela for para 1080px a div que se esconde volta para o estado inicial
-    posicaoPagina=0
+    posicaoPagina = 0;
   } else {
     divTodasAsPartes.addEventListener("wheel", funcaoDeRolagem); //caso redimensione a tela para uma altura que é maior que 1080px a adiciona a função de rolagem
   }
@@ -298,9 +298,8 @@ linkTopoMeusProjetos.addEventListener("click", () => {
     (window.innerHeight - containerParte3.offsetHeight) / 2; //conta para deixar o scroll centralizado na parte 3
 
   divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte3}px)`;
-  posicaoPagina=2
+  posicaoPagina = 2;
 });
-
 
 linkTopoContateMe.addEventListener("click", () => {
   var posicaoScrollParte4 =
@@ -308,7 +307,7 @@ linkTopoContateMe.addEventListener("click", () => {
     (window.innerHeight - containerParte4.offsetHeight) / 2; //conta para deixar o scroll centralizado na parte 4
 
   divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte4}px)`;
-  posicaoPagina=3
+  posicaoPagina = 3;
 });
 
 linkTopoRodape.addEventListener("click", () => {
@@ -317,42 +316,75 @@ linkTopoRodape.addEventListener("click", () => {
     (window.innerHeight - containerParte5.offsetHeight) / 2; //conta para deixar o scroll centralizado na parte 5
 
   divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte5}px)`;
-  posicaoPagina=4
+  posicaoPagina = 4;
 });
 
-
 //aqui vou fazer a parte de rolar a pagina quando clicar nos links do rodape para tela grande
-
 
 let linkHomeRodape = document.querySelector("#link-home-rodape");
 
 let linkSobreMimRodape = document.querySelector("#link-sobre-mim-rodape");
 
-let linkMeusTrabalhosRodape = document.querySelector("#link-meus-trabalhos-rodape");
+let linkMeusTrabalhosRodape = document.querySelector(
+  "#link-meus-trabalhos-rodape"
+);
 
 linkHomeRodape.addEventListener("click", () => {
-    
   divQueSeEsconde.style.transform = `translateY(0px)`;
   posicaoPagina = 0;
 });
 
-
-
 linkSobreMimRodape.addEventListener("click", () => {
-  var posicaoScrollParte2 =
-    calcularPosicaoRelativaAPagina(divTudoMinhaHistoriaConteudo) -
-    (window.innerHeight - divTudoMinhaHistoriaConteudo.offsetHeight) / 2; //conta para deixar o scroll centralizado na parte 2
+  if (window.innerWidth >= 1080) {
+    var posicaoScrollParte2 =
+      calcularPosicaoRelativaAPagina(divTudoMinhaHistoriaConteudo) -
+      (window.innerHeight - divTudoMinhaHistoriaConteudo.offsetHeight) / 2; //conta para deixar o scroll centralizado na parte 2
 
-  divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte2}px)`;
-  posicaoPagina = 1;
+    divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte2}px)`;
+    posicaoPagina = 1;
+  } else {
+    var posicaoScrollParte2 = calcularPosicaoRelativaAPagina(
+      divTudoMinhaHistoriaConteudo
+    );
 
+    window.scrollTo({
+      top: posicaoScrollParte2,
+      behavior: 'smooth'
+    })
+    
+  }
 });
 
 linkMeusTrabalhosRodape.addEventListener("click", () => {
-  var posicaoScrollParte3 =
-    calcularPosicaoRelativaAPagina(containerParte3) -
-    (window.innerHeight - containerParte3.offsetHeight) / 2; //conta para deixar o scroll centralizado na parte 3
+  if (window.innerWidth >= 1080) {
+    var posicaoScrollParte3 =
+      calcularPosicaoRelativaAPagina(containerParte3) -
+      (window.innerHeight - containerParte3.offsetHeight) / 2; //conta para deixar o scroll centralizado na parte 3
 
-  divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte3}px)`;
-  posicaoPagina=2
+    divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte3}px)`;
+    posicaoPagina = 2;
+  } else {
+    var posicaoScrollParte3 = calcularPosicaoRelativaAPagina(containerParte3);
+    window.scrollTo({
+      top: posicaoScrollParte3,
+      behavior: 'smooth'
+    })
+  }
 });
+
+//aqui estou fazendo a função para enviar o e-mail
+
+function sendEmail() {
+  const nome = document.querySelector("#inputNome").value;
+  const email = document.querySelector("#inputEmail").value;
+  const mensagem = document.querySelector("#text-area-mensagem").value;
+  const mailtoLink = `mailto:sergiomelo.desenvolvedor@gmail.com?subject=Contato%20de%20${encodeURIComponent(
+    nome
+  )}&body=${encodeURIComponent(
+    mensagem
+  )}%0A%0AResponder%20para%20${encodeURIComponent(email)}`;
+
+  window.location.href = mailtoLink;
+  alert(nome + " " + email + " " + mensagem);
+}
+buttonEnviarMensagem.addEventListener("click", sendEmail);
