@@ -14,14 +14,14 @@ window.addEventListener("load", () => {
       backSpeed: 50, // Velocidade de apagar em milissegundos
       startDelay: 800, // Atraso antes de começar a digitar em milissegundos
       loop: false, // Se deve repetir a animação
-      showCursor: false,
+      showCursor: true,
     };
 
     var options2 = {
       strings: ["", "Websites responsivos e dinâmicos"],
       typeSpeed: 25, // Velocidade de digitação em milissegundos
       backSpeed: 50, // Velocidade de apagar em milissegundos
-      startDelay: 4200, // Atraso antes de começar a digitar em milissegundos
+      startDelay: 5000, // Atraso antes de começar a digitar em milissegundos
       loop: false, // Se deve repetir a animação
       showCursor: false,
     };
@@ -227,7 +227,7 @@ if (window.innerWidth >= 1080) {
         }
       }
     });
-  }, 0 /* 9500 */);
+  }, 9500 /* 9500 */);
 }
 
 window.addEventListener("resize", () => {

@@ -1095,8 +1095,8 @@
 
 #div-todas-as-partes {
   transition: opacity 3s ease;
-  display: block;
-  opacity: 1;
+  display: none;
+  opacity: 0;
 }
 #div-que-se-esconde {
   position: relative;
