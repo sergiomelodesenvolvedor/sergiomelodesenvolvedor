@@ -295,7 +295,7 @@ linkTopoSobreMim.addEventListener("click", () => {
 linkTopoMeusProjetos.addEventListener("click", () => {
   var posicaoScrollParte3 =
     calcularPosicaoRelativaAPagina(containerParte3) -
-    (window.innerHeight - containerParte3.offsetHeight) / 2; //conta para deixar o scroll centralizado na parte 2
+    (window.innerHeight - containerParte3.offsetHeight) / 2; //conta para deixar o scroll centralizado na parte 3
 
   divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte3}px)`;
   posicaoPagina=2
@@ -305,7 +305,7 @@ linkTopoMeusProjetos.addEventListener("click", () => {
 linkTopoContateMe.addEventListener("click", () => {
   var posicaoScrollParte4 =
     calcularPosicaoRelativaAPagina(containerParte4) -
-    (window.innerHeight - containerParte4.offsetHeight) / 2; //conta para deixar o scroll centralizado na parte 2
+    (window.innerHeight - containerParte4.offsetHeight) / 2; //conta para deixar o scroll centralizado na parte 4
 
   divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte4}px)`;
   posicaoPagina=3
@@ -314,8 +314,45 @@ linkTopoContateMe.addEventListener("click", () => {
 linkTopoRodape.addEventListener("click", () => {
   var posicaoScrollParte5 =
     calcularPosicaoRelativaAPagina(containerParte5) -
-    (window.innerHeight - containerParte5.offsetHeight) / 2; //conta para deixar o scroll centralizado na parte 2
+    (window.innerHeight - containerParte5.offsetHeight) / 2; //conta para deixar o scroll centralizado na parte 5
 
   divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte5}px)`;
   posicaoPagina=4
+});
+
+
+//aqui vou fazer a parte de rolar a pagina quando clicar nos links do rodape para tela grande
+
+
+let linkHomeRodape = document.querySelector("#link-home-rodape");
+
+let linkSobreMimRodape = document.querySelector("#link-sobre-mim-rodape");
+
+let linkMeusTrabalhosRodape = document.querySelector("#link-meus-trabalhos-rodape");
+
+linkHomeRodape.addEventListener("click", () => {
+    
+  divQueSeEsconde.style.transform = `translateY(0px)`;
+  posicaoPagina = 0;
+});
+
+
+
+linkSobreMimRodape.addEventListener("click", () => {
+  var posicaoScrollParte2 =
+    calcularPosicaoRelativaAPagina(divTudoMinhaHistoriaConteudo) -
+    (window.innerHeight - divTudoMinhaHistoriaConteudo.offsetHeight) / 2; //conta para deixar o scroll centralizado na parte 2
+
+  divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte2}px)`;
+  posicaoPagina = 1;
+
+});
+
+linkMeusTrabalhosRodape.addEventListener("click", () => {
+  var posicaoScrollParte3 =
+    calcularPosicaoRelativaAPagina(containerParte3) -
+    (window.innerHeight - containerParte3.offsetHeight) / 2; //conta para deixar o scroll centralizado na parte 3
+
+  divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte3}px)`;
+  posicaoPagina=2
 });
