@@ -388,3 +388,6 @@ function sendEmail() {
   alert(nome + " " + email + " " + mensagem);
 }
 buttonEnviarMensagem.addEventListener("click", sendEmail);
+
+
+alert(window.innerWidth+'x'+window.innerHeight)

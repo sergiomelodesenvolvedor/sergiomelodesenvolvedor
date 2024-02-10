@@ -154,19 +154,19 @@
     }
 
     #svg-letra-s-fundo{
-        transform:translate(-2vw,22vh) !important;
+        transform:translate(-1vw,20vh) !important;
         stroke:"yellow";
         fill:"green"
     }
 
     #svg-letra-m-fundo{
-        transform:translate(3vw,27vh) !important;
+        transform:translate(5vw,22vh) !important;
         stroke:"yellow";
         fill:"green"
     }
 
     #svg-letra-d-fundo{
-        transform:translate(13vw,25vh) !important;
+        transform:translate(10vw,25vh) !important;
         stroke:"yellow";
         fill:"green"
     }
@@ -178,7 +178,7 @@
     }
 
     #svg-letra-s-fundo{
-        transform:translate(0vw,7vh) !important;
+        transform:translate(2vw,7vh) !important;
         stroke:"yellow";
         fill:"green"
     }
@@ -190,7 +190,7 @@
     }
 
     #svg-letra-d-fundo{
-        transform:translate(10vw,10vh) !important;
+        transform:translate(10vw,8vh) !important;
         stroke:"yellow";
         fill:"green"
     }
