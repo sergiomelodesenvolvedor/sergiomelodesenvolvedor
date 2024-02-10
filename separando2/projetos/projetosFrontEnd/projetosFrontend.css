@@ -150,23 +150,47 @@
 @media (min-width: 1200px) {
 
     #svg-letras{
-        transform: scale(1.4)
+        transform: scale(1)
     }
 
     #svg-letra-s-fundo{
-        transform:translate(7vw,8vh) !important;
+        transform:translate(-2vw,22vh) !important;
         stroke:"yellow";
         fill:"green"
     }
 
     #svg-letra-m-fundo{
-        transform:translate(8vw,25vh) !important;
+        transform:translate(3vw,27vh) !important;
         stroke:"yellow";
         fill:"green"
     }
 
     #svg-letra-d-fundo{
-        transform:translate(13vw,17vh) !important;
+        transform:translate(13vw,25vh) !important;
+        stroke:"yellow";
+        fill:"green"
+    }
+}
+
+@media (max-width: 1300px) and (min-height:900px) {
+    #svg-letras{
+        transform: scale(1.1)
+    }
+
+    #svg-letra-s-fundo{
+        transform:translate(0vw,7vh) !important;
+        stroke:"yellow";
+        fill:"green"
+    }
+
+    #svg-letra-m-fundo{
+        transform:translate(5vw,17vh) !important;
+        stroke:"yellow";
+        fill:"green"
+    }
+
+    #svg-letra-d-fundo{
+        transform:translate(10vw,10vh) !important;
         stroke:"yellow";
         fill:"green"
     }
