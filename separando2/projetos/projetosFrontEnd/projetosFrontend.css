@@ -6,19 +6,22 @@
     }
 
     #svg-letra-s-fundo{
-        transform:translate(23vw,7vh) !important;
+        transition: transform 2.3s ease-in-out;
+        transform:translate(23vw,7vh) ;
         stroke:"yellow";
         fill:"green"
     }
 
     #svg-letra-m-fundo{
-        transform:translate(18vw,25vh) !important;
+        transition: transform 3.3s ease-in-out;
+        transform:translate(18vw,25vh) ;
         stroke:"yellow";
         fill:"green"
     }
 
     #svg-letra-d-fundo{
-        transform:translate(17vw,15vh) !important;
+        transition: transform 2.3s ease-in-out;
+        transform:translate(17vw,15vh) ;
         stroke:"yellow";
         fill:"green"
     }
@@ -31,19 +34,22 @@
     }
 
     #svg-letra-s-fundo{
-        transform:translate(10vw,8vh) !important;
+        transition: transform 2.3s ease-in-out;
+        transform:translate(10vw,8vh) ;
         stroke:"yellow";
         fill:"green"
     }
 
     #svg-letra-m-fundo{
-        transform:translate(10vw,25vh) !important;
+        transition: transform 3.3s ease-in-out;
+        transform:translate(10vw,25vh) ;
         stroke:"yellow";
         fill:"green"
     }
 
     #svg-letra-d-fundo{
-        transform:translate(13vw,15vh) !important;
+        transition: transform 2.3s ease-in-out;
+        transform:translate(13vw,15vh) ;
         stroke:"yellow";
         fill:"green"
     }
@@ -55,19 +61,22 @@
     }
 
     #svg-letra-s-fundo{
-        transform:translate(7vw,3vh) !important;
+        transition: transform 2.3s ease-in-out;
+        transform:translate(7vw,3vh) ;
         stroke:"yellow";
         fill:"green"
     }
 
     #svg-letra-m-fundo{
-        transform:translate(8vw,21vh) !important;
+        transition: transform 3.3s ease-in-out;
+        transform:translate(8vw,21vh) ;
         stroke:"yellow";
         fill:"green"
     }
 
     #svg-letra-d-fundo{
-        transform:translate(13vw,12vh) !important;
+        transition: transform 2.3s ease-in-out;
+        transform:translate(13vw,12vh) ;
         stroke:"yellow";
         fill:"green"
     }
@@ -80,19 +89,22 @@
     }
 
     #svg-letra-s-fundo{
-        transform:translate(8.1vw,4vh) !important;
+        transition: transform 2.3s ease-in-out;
+        transform:translate(8.1vw,4vh) ;
         stroke:"yellow";
         fill:"green"
     }
 
     #svg-letra-m-fundo{
-        transform:translate(4vw,17vh) !important;
+        transition: transform 3.3s ease-in-out;
+        transform:translate(4vw,17vh) ;
         stroke:"yellow";
         fill:"green"
     }
 
     #svg-letra-d-fundo{
-        transform:translate(8vw,10vh) !important;
+        transition: transform 2.3s ease-in-out;
+        transform:translate(8vw,10vh) ;
         stroke:"yellow";
         fill:"green"
     }
@@ -105,19 +117,22 @@
     }
 
     #svg-letra-s-fundo{
-        transform:translate(3vw,7vh) !important;
+        transition: transform 2.3s ease-in-out;
+        transform:translate(3vw,7vh) ;
         stroke:"yellow";
         fill:"green"
     }
 
     #svg-letra-m-fundo{
-        transform:translate(4vw,17vh) !important;
+        transition: transform 3.3s ease-in-out;
+        transform:translate(4vw,17vh) ;
         stroke:"yellow";
         fill:"green"
     }
 
     #svg-letra-d-fundo{
-        transform:translate(9vw,13vh) !important;
+        transition: transform 2.3s ease-in-out;
+        transform:translate(9vw,13vh) ;
         stroke:"yellow";
         fill:"green"
     }
@@ -129,19 +144,22 @@
     }
 
     #svg-letra-s-fundo{
-        transform:translate(7vw,5vh) !important;
+        transition: transform 2.3s ease-in-out;
+        transform:translate(7vw,5vh) ;
         stroke:"yellow";
         fill:"green"
     }
 
     #svg-letra-m-fundo{
-        transform:translate(4vw,13vh) !important;
+        transition: transform 3.3s ease-in-out;
+        transform:translate(4vw,13vh) ;
         stroke:"yellow";
         fill:"green"
     }
 
     #svg-letra-d-fundo{
-        transform:translate(7vw,9vh) !important;
+        transition: transform 2.3s ease-in-out;
+        transform:translate(7vw,9vh) ;
         stroke:"yellow";
         fill:"green"
     }
@@ -154,19 +172,22 @@
     }
 
     #svg-letra-s-fundo{
-        transform:translate(-1vw,20vh) !important;
+        transition: transform 2.3s ease-in-out;
+        transform:translate(-1vw,20vh);
         stroke:"yellow";
         fill:"green"
     }
 
     #svg-letra-m-fundo{
-        transform:translate(5vw,22vh) !important;
+        transition: transform 3.3s ease-in-out;
+        transform:translate(5vw,22vh) ;
         stroke:"yellow";
         fill:"green"
     }
 
     #svg-letra-d-fundo{
-        transform:translate(10vw,25vh) !important;
+        transition: transform 2.3s ease-in-out;
+        transform:translate(10vw,25vh) ;
         stroke:"yellow";
         fill:"green"
     }
@@ -178,20 +199,37 @@
     }
 
     #svg-letra-s-fundo{
-        transform:translate(2vw,7vh) !important;
+        transition: transform 2.3s ease-in-out;
+        transform:translate(2vw,7vh) ;
         stroke:"yellow";
         fill:"green"
     }
 
     #svg-letra-m-fundo{
-        transform:translate(5vw,17vh) !important;
+        transition: transform 3.3s ease-in-out;
+        transform:translate(5vw,17vh) ;
         stroke:"yellow";
         fill:"green"
     }
 
     #svg-letra-d-fundo{
-        transform:translate(10vw,8vh) !important;
+        transition: transform 2.3s ease-in-out;
+        transform:translate(10vw,8vh) ;
         stroke:"yellow";
         fill:"green"
     }
+}
+
+@keyframes girarAntiHorario {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(-15deg);
+    }
+  
+    100% {
+      transform: rotate(0deg);
+    }
+
 }
