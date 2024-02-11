@@ -70,9 +70,9 @@ let subirDescerLetraS = async () => {
   };
 
 
-  //alert(window.innerWidth+'x'+window.innerHeight)
+  alert(window.innerWidth+'x'+window.innerHeight)
   window.addEventListener('resize',()=>{
-    SvgLetraSfundo.removeEventListener('transitionend',transitionedLetraDFundo)
+    SvgLetraSfundo.removeEventListener('transitionend',transitionedLetraSFundo)
     subirDescerLetraS();
     
     SvgLetraMfundo.removeEventListener('transitionend',transitionedLetraMFundo)
@@ -82,11 +82,11 @@ let subirDescerLetraS = async () => {
     subirDescerLetraD();
     
     
+    
   })
   
-//for(let x=0;x<=10;x+=1){
     subirDescerLetraS();
     subirDescerLetraM();
-    
     subirDescerLetraD();
-//}
+    
+    

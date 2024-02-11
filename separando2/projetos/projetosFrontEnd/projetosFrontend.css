@@ -62,21 +62,21 @@
 
     #svg-letra-s-fundo{
         transition: transform 2.3s ease-in-out;
-        transform:translate(5vw,16vh) ;
+        transform:translate(5vw,25vh) ;
         stroke:"yellow";
         fill:"green"
     }
 
     #svg-letra-m-fundo{
         transition: transform 3.3s ease-in-out;
-        transform:translate(10vw,21vh) ;
+        transform:translate(9vw,25vh) ;
         stroke:"yellow";
         fill:"green"
     }
 
     #svg-letra-d-fundo{
         transition: transform 2.3s ease-in-out;
-        transform:translate(14vw,20vh) ;
+        transform:translate(12vw,28vh) ;
         stroke:"yellow";
         fill:"green"
     }
@@ -165,33 +165,90 @@
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (min-height:529px) {
 
     #svg-letras{
-        transform: scale(1)
+        transform: scale(1.2)
     }
 
     #svg-letra-s-fundo{
         transition: transform 2.3s ease-in-out;
-        transform:translate(-1vw,20vh);
+        transform:translate(2vw,22vh);
         stroke:"yellow";
         fill:"green"
     }
 
     #svg-letra-m-fundo{
         transition: transform 3.3s ease-in-out;
-        transform:translate(5vw,22vh) ;
+        transform:translate(6vw,24vh) ;
         stroke:"yellow";
         fill:"green"
     }
 
     #svg-letra-d-fundo{
         transition: transform 2.3s ease-in-out;
-        transform:translate(10vw,25vh) ;
+        transform:translate(9vw,25vh) ;
         stroke:"yellow";
         fill:"green"
     }
 }
+
+@media (min-width: 1200px) and (min-height:900px) {
+    #svg-letras{
+        transform: scale(1.2)
+    }
+
+    #svg-letra-s-fundo{
+        transition: transform 2.3s ease-in-out;
+        transform:translate(2vw,13vh);
+        stroke:"yellow";
+        fill:"green"
+    }
+
+    #svg-letra-m-fundo{
+        transition: transform 3.3s ease-in-out;
+        transform:translate(6vw,13vh) ;
+        stroke:"yellow";
+        fill:"green"
+    }
+
+    #svg-letra-d-fundo{
+        transition: transform 2.3s ease-in-out;
+        transform:translate(9vw,14vh) ;
+        stroke:"yellow";
+        fill:"green"
+    }
+}
+
+
+@media (min-width: 1280px) and (min-height:620px) {
+    #svg-letras{
+        transform: scale(1.2)
+    }
+
+    #svg-letra-s-fundo{
+        transition: transform 2.3s ease-in-out;
+        transform:translate(2vw,20vh);
+        stroke:"yellow";
+        fill:"green"
+    }
+
+    #svg-letra-m-fundo{
+        transition: transform 3.3s ease-in-out;
+        transform:translate(6vw,20vh) ;
+        stroke:"yellow";
+        fill:"green"
+    }
+
+    #svg-letra-d-fundo{
+        transition: transform 2.3s ease-in-out;
+        transform:translate(9vw,22vh) ;
+        stroke:"yellow";
+        fill:"green"
+    }
+}
+
+
 
 @media (min-width: 600px) and (min-height:980px){
     #svg-letras{
@@ -246,6 +303,34 @@
         fill:"green"
     }
 }
+
+@media (min-width: 1440px) and (min-height:485px) {
+       #svg-letras{
+        transform: scale(1.2)
+    }
+
+    #svg-letra-s-fundo{
+        transition: transform 2.3s ease-in-out;
+        transform:translate(1vw,25vh) ;
+        stroke:"yellow";
+        fill:"green"
+    }
+
+    #svg-letra-m-fundo{
+        transition: transform 3.3s ease-in-out;
+        transform:translate(5vw,25vh) ;
+        stroke:"yellow";
+        fill:"green"
+    }
+
+    #svg-letra-d-fundo{
+        transition: transform 2.3s ease-in-out;
+        transform:translate(9.2vw,29vh) ;
+        stroke:"yellow";
+        fill:"green"
+    } 
+}
+
 
 @keyframes girarAntiHorario {
     0% {
