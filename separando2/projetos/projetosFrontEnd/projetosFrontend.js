@@ -70,7 +70,7 @@ let subirDescerLetraS = async () => {
   };
 
 
-  alert(window.innerWidth+'x'+window.innerHeight)
+  //alert(window.innerWidth+'x'+window.innerHeight)
   window.addEventListener('resize',()=>{
     SvgLetraSfundo.removeEventListener('transitionend',transitionedLetraSFundo)
     subirDescerLetraS();

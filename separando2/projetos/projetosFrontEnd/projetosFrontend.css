@@ -110,6 +110,9 @@
     }
 }
 
+
+
+
 @media (min-width: 992px) and (max-width: 1199px) {
 
     #svg-letras{
@@ -138,7 +141,37 @@
     }
 }
 
-@media (max-width: 1024px) and (min-height: 1200px) {
+
+
+@media (min-width: 1024px) and (min-height: 952px) {
+
+    #svg-letras{
+        transform: scale(1.5)
+    }
+
+    #svg-letra-s-fundo{
+        transition: transform 2.3s ease-in-out;
+        transform:translate(7vw,8vh) ;
+        stroke:"yellow";
+        fill:"green"
+    }
+
+    #svg-letra-m-fundo{
+        transition: transform 3.3s ease-in-out;
+        transform:translate(4vw,16vh) ;
+        stroke:"yellow";
+        fill:"green"
+    }
+
+    #svg-letra-d-fundo{
+        transition: transform 2.3s ease-in-out;
+        transform:translate(7vw,14vh) ;
+        stroke:"yellow";
+        fill:"green"
+    }
+}
+
+@media (min-width: 1024px) and (min-height: 1200px) {
     #svg-letras{
         transform: scale(1.9)
     }
@@ -254,7 +287,7 @@
 
 
 
-@media (min-width: 600px) and (min-height:980px){
+@media (min-width: 600px) and (min-height:960px){
     #svg-letras{
         transform: scale(2)
     }
@@ -276,6 +309,88 @@
     #svg-letra-d-fundo{
         transition: transform 2.3s ease-in-out;
         transform:translate(10vw,13vh) ;
+        stroke:"yellow";
+        fill:"green"
+    }
+}
+
+@media (min-width: 768px) and (min-height:1024px){
+    #svg-letras{
+        transform: scale(1.5)
+    }
+
+    #svg-letra-s-fundo{
+        transition: transform 2.3s ease-in-out;
+        transform:translate(11vw,6vh);
+        stroke:"yellow";
+        fill:"green"
+    }
+
+    #svg-letra-m-fundo{
+        transition: transform 3.3s ease-in-out;
+        transform:translate(5vw,17vh) ;
+        stroke:"yellow";
+        fill:"green"
+    }
+
+    #svg-letra-d-fundo{
+        transition: transform 2.3s ease-in-out;
+        transform:translate(10vw,13vh) ;
+        stroke:"yellow";
+        fill:"green"
+    }
+}
+
+@media (min-width: 992px) and (min-height:1199px){
+
+    #svg-letras{
+        transform: scale(1.7)
+    }
+
+    #svg-letra-s-fundo{
+        transition: transform 2.3s ease-in-out;
+        transform:translate(5vw,6vh) ;
+        stroke:"yellow";
+        fill:"green"
+    }
+
+    #svg-letra-m-fundo{
+        transition: transform 3.3s ease-in-out;
+        transform:translate(4vw,14vh) ;
+        stroke:"yellow";
+        fill:"green"
+    }
+
+    #svg-letra-d-fundo{
+        transition: transform 2.3s ease-in-out;
+        transform:translate(8vw,13vh) ;
+        stroke:"yellow";
+        fill:"green"
+    }
+}
+
+@media (min-width: 768px) and (min-height: 1280px) {
+    #svg-letras{
+        transform: scale(1.5)
+    }
+
+    #svg-letra-s-fundo{
+        transition: transform 2.3s ease-in-out;
+        transform:translate(9vw,4vh);
+        stroke:"yellow";
+        fill:"green"
+    }
+
+    #svg-letra-m-fundo{
+        transition: transform 3.3s ease-in-out;
+        transform:translate(3vw,13vh) ;
+        stroke:"yellow";
+        fill:"green"
+    }
+
+    #svg-letra-d-fundo{
+        transition: transform 2.3s ease-in-out;
+        transform:translate(6.5vw,10vh) ;
         stroke:"yellow";
         fill:"green"
     }
