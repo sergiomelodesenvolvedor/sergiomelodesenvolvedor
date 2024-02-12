@@ -44,7 +44,7 @@
     font-size: calc(3.9vw + 3.9vh);
   }
 
-  #text-card-prisioner-control {
+  #text-card-ma-consultoria {
     font-size: calc(2.2vw + 2.2vh);
   }
 }
@@ -95,7 +95,7 @@
     font-size: calc(3.9vw + 3.9vh);
   }
 
-  #text-card-prisioner-control {
+  #text-card-ma-consultoria {
     font-size: calc(2.2vw + 2.2vh);
   }
 }
@@ -146,7 +146,7 @@
     font-size: calc(3.9vw + 3.9vh);
   }
 
-  #text-card-prisioner-control {
+  #text-card-ma-consultoria {
     font-size: calc(2.2vw + 2.2vh);
   }
 }
@@ -201,7 +201,7 @@
     font-size: calc(2.7vw + 2.7vh);
   }
 
-  #text-card-prisioner-control {
+  #text-card-ma-consultoria {
     position: relative;
     top: 1vh;
     font-size: calc(2.2vw + 2.2vh);
@@ -258,7 +258,7 @@
     font-size: calc(2.7vw + 2.7vh);
   }
 
-  #text-card-prisioner-control {
+  #text-card-ma-consultoria {
     position: relative;
     top: 1vh;
     font-size: calc(2.2vw + 2.2vh);
@@ -342,17 +342,17 @@
     font-size: calc(2.7vw + 2.7vh);
   }
 
-  #text-card-prisioner-control {
+  #text-card-ma-consultoria {
     position: relative;
     top: 1vh;
     font-size: calc(2.2vw + 2.2vh);
   }
 }
-
 @media (min-width: 1200px) and (min-height: 529px) {
   #svg-letras {
     transform: scale(1.2);
   }
+
 
   #svg-letra-s-fundo {
     transition: transform 2.3s ease-in-out;
@@ -412,7 +412,7 @@
   #text-card-ma-consultoria {
     position: relative;
     top: -4vh;
-    font-size: calc(1.18vw + 1.18vh);
+    font-size: calc(1.2vw + 1.2vh);
   }
 }
 
@@ -440,6 +440,46 @@
     transform: translate(9vw, 22vh);
     stroke: "yellow";
     fill: "green";
+  }
+
+  #div-card-prisioner {
+    height: 60vh;
+    left: 50vh;
+  }
+  #div-card-ma-consultoria {
+    height: 60vh;
+    left: 60vh;
+  }
+  #div-title-meus-projetos {
+    font-size: 39pt;
+    font-family: "Roboto";
+    color: rgb(100, 97, 97);
+    position: relative;
+    top: 10vh;
+  }
+
+  #title-card-prisioner-control {
+    position: relative;
+    top: 1vh;
+    font-size: calc(1.7vw + 1.7vh);
+  }
+
+  #text-card-prisioner-control {
+    position: relative;
+    top: 4vh;
+    font-size: calc(1.2vw + 1.2vh);
+  }
+
+  #title-card-ma-consultoria {
+    position: relative;
+    top: 4vh;
+    font-size: calc(1.2vw + 1.2vh);
+  }
+
+  #text-card-ma-consultoria {
+    position: relative;
+    top: 8vh;
+    font-size: calc(1.2vw + 1.2vh);
   }
 }
 
