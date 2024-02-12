@@ -193,7 +193,7 @@
 
   #text-card-prisioner-control {
     position: relative;
-    top: 4vh;
+    top: 1vh;
     font-size: calc(2.2vw + 2.2vh);
   }
 
@@ -290,6 +290,38 @@
     stroke: "yellow";
     fill: "green";
   }
+
+
+  #div-title-meus-projetos {
+    font-size: 39pt;
+    font-family: "Roboto";
+    color: rgb(100, 97, 97);
+    position: relative;
+    top: 10vh;
+  }
+
+  #title-card-prisioner-control {
+    position: relative;
+    top: 1vh;
+    font-size: calc(2.7vw + 2.7vh);
+  }
+
+  #text-card-prisioner-control {
+    position: relative;
+    top: 1vh;
+    font-size: calc(2.2vw + 2.2vh);
+  }
+
+  #title-card-ma-consultoria {
+    font-size: calc(2.7vw + 2.7vh);
+  }
+
+  #text-card-ma-consultoria {
+    position: relative;
+    top: 1vh;
+    font-size: calc(2.2vw + 2.2vh);
+  }
+  
 }
 
 @media (min-width: 1024px) and (min-height: 1200px) {
@@ -377,7 +409,9 @@
 
   #div-card-prisioner {
     height: 60vh;
-    left: 50vh;
+    left: 60vh;
+    position:relative;
+    
   }
   #div-card-ma-consultoria {
     height: 60vh;
@@ -393,25 +427,25 @@
 
   #title-card-prisioner-control {
     position: relative;
-    top: 1vh;
-    font-size: calc(1.7vw + 1.7vh);
+    top: 0vh;
+    font-size: calc(1.5vw + 1.5vh);
   }
 
   #text-card-prisioner-control {
     position: relative;
-    top: 4vh;
+    top: -1vh;
     font-size: calc(1.2vw + 1.2vh);
   }
 
   #title-card-ma-consultoria {
     position: relative;
-    top: -5vh;
-    font-size: calc(1.2vw + 1.2vh);
+    top: -2vh;
+    font-size: calc(1.5vw + 1.5vh);
   }
 
   #text-card-ma-consultoria {
     position: relative;
-    top: -4vh;
+    top: -3vh;
     font-size: calc(1.2vw + 1.2vh);
   }
 }
@@ -508,6 +542,49 @@
     stroke: "yellow";
     fill: "green";
   }
+
+  #div-card-prisioner {
+    height: 43vh;
+    left: 30vh;
+    position:relative;
+    
+  }
+  #div-card-ma-consultoria {
+    height: 43vh;
+    left: 45vh;
+  }
+  #div-title-meus-projetos {
+    font-size: 39pt;
+    font-family: "Roboto";
+    color: rgb(100, 97, 97);
+    position: relative;
+    top: 10vh;
+  }
+
+  #title-card-prisioner-control {
+    position: relative;
+    top: 0vh;
+    font-size: calc(1.5vw + 1.5vh);
+  }
+
+  #text-card-prisioner-control {
+    position: relative;
+    top: -1vh;
+    font-size: calc(1.2vw + 1.2vh);
+  }
+
+  #title-card-ma-consultoria {
+    position: relative;
+    top: -2vh;
+    font-size: calc(1.5vw + 1.5vh);
+  }
+
+  #text-card-ma-consultoria {
+    position: relative;
+    top: -3vh;
+    font-size: calc(1.2vw + 1.2vh);
+  }
+
 }
 
 @media (min-width: 600px) and (min-height: 960px) {
@@ -669,6 +746,49 @@
     transform: translate(9.2vw, 29vh);
     stroke: "yellow";
     fill: "green";
+  }
+
+  #div-title-meus-projetos {
+    font-size: 39pt;
+    font-family: "Roboto";
+    color: rgb(100, 97, 97);
+    position: relative;
+    top: -5vh;
+  }
+
+  #card-prisioner{
+    position:relative;
+    top:-22vh;
+    left:25vw
+  }
+
+  #card-ma-consultoria{
+    position:relative;
+    top:-22vh;
+    left:27vw
+  }
+  #title-card-prisioner-control {
+    position: relative;
+    top: 0vh;
+    font-size: calc(1.7vw + 1.7vh);
+  }
+
+  #text-card-prisioner-control {
+    position: relative;
+    top: 0vh;
+    font-size: calc(1.2vw + 1.2vh);
+  }
+
+  #title-card-ma-consultoria {
+    position: relative;
+    top: -2vh;
+    font-size: calc(1.7vw + 1.7vh);
+  }
+
+  #text-card-ma-consultoria {
+    position: relative;
+    top: -2vh;
+    font-size: calc(1.2vw + 1.2vh);
   }
 }
 
