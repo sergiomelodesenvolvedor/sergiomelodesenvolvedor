@@ -75,21 +75,21 @@
 
   #svg-letra-s-fundo {
     transition: transform 2.3s ease-in-out;
-    transform: translate(23vw, 8vh);
+    transform: translate(23vw, 18vw);
     stroke: "yellow";
     fill: "green";
   }
 
   #svg-letra-m-fundo {
     transition: transform 3.3s ease-in-out;
-    transform: translate(18vw, 25vh);
+    transform: translate(18vw, 55vw);
     stroke: "yellow";
     fill: "green";
   }
 
   #svg-letra-d-fundo {
     transition: transform 2.3s ease-in-out;
-    transform: translate(17vw, 15vh);
+    transform: translate(17vw, 39vw);
     stroke: "yellow";
     fill: "green";
   }
@@ -169,20 +169,36 @@
     top: 10vh;
   }
 
+  #div-card-prisioner {
+    border:0px solid black;
+    width:55vw;
+    height: 70vw;
+    left: 20vw;
+    position:relative;  
+  }
+
+  #div-card-ma-consultoria {
+    border:0px solid black;
+    width:55vw;
+    height: 70vw;
+    left: 20vw;
+    position:relative;  
+  }
+
   #title-card-prisioner-control {
-    font-size: calc(3.9vw + 3.9vh);
+    font-size: calc(3.9vw + 1.9vh);
   }
 
   #text-card-prisioner-control {
-    font-size: calc(2.2vw + 2.2vh);
+    font-size: calc(4.8vw + 0vh);
   }
 
   #title-card-ma-consultoria {
-    font-size: calc(3.9vw + 3.9vh);
+    font-size: calc(3.9vw + 1.9vh);
   }
 
   #text-card-ma-consultoria {
-    font-size: calc(2.2vw + 2.2vh);
+    font-size: calc(4.8vw + 0vh);
   }
 }
 
@@ -220,20 +236,37 @@
     top: 10vh;
   }
 
+
+  #div-card-prisioner {
+    border:0px solid black;
+    width:51vw;
+    height: 55vw;
+    left: 25vw;
+    position:relative;  
+  }
+
+  #div-card-ma-consultoria {
+    border:0px solid black;
+    width:51vw;
+    height: 55vw;
+    left: 25vw;
+    position:relative;  
+  }
+
   #title-card-prisioner-control {
-    font-size: calc(3.9vw + 3.9vh);
+    font-size: calc(4.9vw + 0vh);
   }
 
   #text-card-prisioner-control {
-    font-size: calc(2.2vw + 2.2vh);
+    font-size: calc(4.2vw + 0vh);
   }
 
   #title-card-ma-consultoria {
-    font-size: calc(3.9vw + 3.9vh);
+    font-size: calc(4.9vw + 0vh);
   }
 
   #text-card-ma-consultoria {
-    font-size: calc(2.2vw + 2.2vh);
+    font-size: calc(4.2vw + 0vh);
   }
 }
 
@@ -563,11 +596,11 @@
   }
 
   #div-card-prisioner {
-    height: 60vh;
+    height: 50vh;
     left: 50vh;
   }
   #div-card-ma-consultoria {
-    height: 60vh;
+    height: 50vh;
     left: 60vh;
   }
   #div-title-meus-projetos {
@@ -580,25 +613,25 @@
 
   #title-card-prisioner-control {
     position: relative;
-    top: 1vh;
-    font-size: calc(1.7vw + 1.7vh);
+    top: 0vh;
+    font-size: calc(1.2vw + 1.2vh);
   }
 
   #text-card-prisioner-control {
     position: relative;
-    top: 4vh;
+    top: 2vh;
     font-size: calc(1.2vw + 1.2vh);
   }
 
   #title-card-ma-consultoria {
     position: relative;
-    top: 4vh;
+    top: 0vh;
     font-size: calc(1.2vw + 1.2vh);
   }
 
   #text-card-ma-consultoria {
     position: relative;
-    top: 8vh;
+    top: 0vh;
     font-size: calc(1.2vw + 1.2vh);
   }
 }
