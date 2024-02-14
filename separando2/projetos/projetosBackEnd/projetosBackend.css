@@ -596,15 +596,16 @@
   }
 
   #div-card-prisioner {
-    height: 37vw;
-    left: 19vw;
+    position:relative;
+    height: 25vw;
+    left: 28vw;
   }
   #div-card-ma-consultoria {
-    height: 37vw;
-    left: 18vw;
+    height: 25vw;
+    left: 29vw;
   }
   #div-title-meus-projetos {
-    font-size: 48pt;
+    font-size: 39pt;
     font-family: "Roboto";
     color: rgb(100, 97, 97);
     position: relative;
@@ -614,25 +615,25 @@
   #title-card-prisioner-control {
     position: relative;
     top: 0vh;
-    font-size: calc(3.2vw + 0vh);
+    font-size: calc(2.2vw + 0vh);
   }
 
   #text-card-prisioner-control {
     position: relative;
     top: 0vh;
-    font-size: calc(2.4vw + 0vh);
+    font-size: calc(1.6vw + 0vh);
   }
 
   #title-card-ma-consultoria {
     position: relative;
     top: 5vh;
-    font-size: calc(3vw + 0vh);
+    font-size: calc(1.9vw + 0vh);
   }
 
   #text-card-ma-consultoria {
     position: relative;
-    top: 10vh;
-    font-size: calc(2.4vw + 0vh);
+    top: 5vh;
+    font-size: calc(1.6vw + 0vh);
   }
 }
 
@@ -663,12 +664,14 @@
   }
 
   #div-card-prisioner {
-    height: 60vh;
-    left: 19vw;
+    width:25vw;
+    height: 38vw;
+    left: 15vw;
   }
   #div-card-ma-consultoria {
-    height: 60vh;
-    left: 18vw;
+    width:25vw;
+    height: 38vw;
+    left: 24vw;
   }
   #div-title-meus-projetos {
     font-size: 48pt;
@@ -698,7 +701,7 @@
 
   #text-card-ma-consultoria {
     position: relative;
-    top: 12vh;
+    top: 10vh;
     font-size: calc(2.4vw + 0vh);
   }
 
