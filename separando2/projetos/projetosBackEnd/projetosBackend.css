@@ -917,21 +917,21 @@
 
   #svg-letra-s-fundo {
     transition: transform 2.3s ease-in-out;
-    transform: translate(1vw, 25vh);
+    transform: translate(1vw, 10vh);
     stroke: "yellow";
     fill: "green";
   }
 
   #svg-letra-m-fundo {
     transition: transform 3.3s ease-in-out;
-    transform: translate(5vw, 25vh);
+    transform: translate(5vw, 15vh);
     stroke: "yellow";
     fill: "green";
   }
 
   #svg-letra-d-fundo {
     transition: transform 2.3s ease-in-out;
-    transform: translate(9.2vw, 29vh);
+    transform: translate(7.2vw, 12vh);
     stroke: "yellow";
     fill: "green";
   }
