@@ -599,11 +599,11 @@
   }
 
   #div-card-prisioner {
-    height: 38vw;
+    height: 26vw;
     left: 19vw;
   }
   #div-card-ma-consultoria {
-    height: 38vw;
+    height: 26vw;
     left: 18vw;
   }
   #div-title-meus-projetos {
@@ -617,25 +617,25 @@
   #title-card-prisioner-control {
     position: relative;
     top: 2vh;
-    font-size: calc(3.2vw + 0vh);
+    font-size: calc(2.2vw + 0vh);
   }
 
   #text-card-prisioner-control {
     position: relative;
     top: 4vh;
-    font-size: calc(2.4vw + 0vh);
+    font-size: calc(1.8vw + 0vh);
   }
 
   #title-card-ma-consultoria {
     position: relative;
-    top: 9vh;
-    font-size: calc(3vw + 0vh);
+    top: 7vh;
+    font-size: calc(2vw + 0vh);
   }
 
   #text-card-ma-consultoria {
     position: relative;
-    top: 12vh;
-    font-size: calc(2.4vw + 0vh);
+    top: 8vh;
+    font-size: calc(1.8vw + 0vh);
   }
 
 }
