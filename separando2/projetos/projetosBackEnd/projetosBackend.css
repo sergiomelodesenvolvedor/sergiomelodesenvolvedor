@@ -944,41 +944,43 @@
     font-family: "Roboto";
     color: rgb(100, 97, 97);
     position: relative;
-    top: -5vh;
+    top: 5vw;
   }
 
   #card-prisioner{
     position:relative;
-    top:-15vh;
+    height:37vw;
+    top:0vw;
     left:2vw
   }
 
   #card-ma-consultoria{
     position:relative;
-    top:-15vh;
+    height:37vw;
+    top:0vw;
     left:2vw
   }
   #title-card-prisioner-control {
     position: relative;
-    top: 0vh;
+    top: 0vw;
     font-size: calc(2.7vw + 0vh);
   }
 
   #text-card-prisioner-control {
     position: relative;
-    top: 7vh;
+    top: 2vw;
     font-size: calc(2.4vw + 0vh);
   }
 
   #title-card-ma-consultoria {
     position: relative;
-    top: 8vh;
+    top: 1vw;
     font-size: calc(2.7vw + 0vh);
   }
 
   #text-card-ma-consultoria {
     position: relative;
-    top: 16vh;
+    top: 2vw;
     font-size: calc(2.4vw + 0vh);
   }
 }
