@@ -693,8 +693,9 @@
 
   #container-parte-5 {
     position: relative;
+    border:0px solid green;  
     top: 95vh;
-    height: 100vh;
+    height: 100vh !important;
   }
 
   #svg-logo-carregada-rodape {

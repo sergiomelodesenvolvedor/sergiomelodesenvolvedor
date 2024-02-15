@@ -260,6 +260,10 @@ svgButtonFrontEnd.addEventListener("mouseout", () => {
   textFrontEnd.setAttribute("fill", "blue");
 });
 
+svgButtonFrontEnd.addEventListener('click',()=>{
+  window.location.href="projetos/projetosFrontEnd/projetosFrontend.html"
+})
+
 let svgButtonBackEnd = document.querySelector("#svg-button-backend");
 let textBackEnd = document.querySelector("#textBackEnd");
 
@@ -393,4 +397,4 @@ function sendEmail() {
 buttonEnviarMensagem.addEventListener("click", sendEmail);
 
 
-//alert(window.innerWidth+'x'+window.innerHeight)
+alert(window.innerWidth+'x'+window.innerHeight)
