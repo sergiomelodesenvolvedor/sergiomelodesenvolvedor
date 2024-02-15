@@ -432,25 +432,25 @@
 
   #title-card-prisioner-control {
     position: relative;
-    top: 2vh;
+    top: 0vw;
     font-size: calc(2.8vw + 0vh);
   }
 
   #text-card-prisioner-control {
     position: relative;
-    top: 4vh;
+    top: 2vw;
     font-size: calc(2.1vw + 0vh);
   }
 
   #title-card-ma-consultoria {
     position: relative;
-    top: 5vh;
+    top: 2vw;
     font-size: calc(2.5vw + 0vh);
   }
 
   #text-card-ma-consultoria {
     position: relative;
-    top: 7vh;
+    top: 3vw;
     font-size: calc(2.1vw + 0vh);
   }
   
