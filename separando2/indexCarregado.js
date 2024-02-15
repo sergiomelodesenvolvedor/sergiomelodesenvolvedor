@@ -273,6 +273,9 @@ svgButtonBackEnd.addEventListener("mouseout", () => {
   textBackEnd.setAttribute("fill", "blue");
 });
 
+svgButtonBackEnd.addEventListener('click',()=>{
+  window.location.href="projetos/projetosBackEnd/projetosBackend.html"
+})
 //aqui vou fazer a parte de rolar a pagina quando clicar nos links do topo para tela grande
 
 let linkTopoSobreMim = document.querySelector("#link-topo-sobre-mim");
