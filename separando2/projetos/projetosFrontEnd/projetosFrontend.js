@@ -1,0 +1,1 @@
+alert(window.innerWidth+'x'+window.innerHeight)
