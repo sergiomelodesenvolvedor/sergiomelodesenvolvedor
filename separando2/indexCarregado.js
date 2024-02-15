@@ -393,4 +393,4 @@ function sendEmail() {
 buttonEnviarMensagem.addEventListener("click", sendEmail);
 
 
-alert(window.innerWidth+'x'+window.innerHeight)
+//alert(window.innerWidth+'x'+window.innerHeight)
