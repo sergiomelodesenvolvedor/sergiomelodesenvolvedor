@@ -707,7 +707,7 @@
     font-size: 3vw;
   
 }
-}
+
 @media (min-width: 1200px) {
   .svg-logo-celular-carregada {
     width: 21vw;
@@ -1186,4 +1186,5 @@
 
 .fillRect {
   transition: width 0.5s ease;
+}
 }
