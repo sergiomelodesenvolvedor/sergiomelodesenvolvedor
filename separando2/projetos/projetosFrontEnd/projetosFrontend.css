@@ -768,13 +768,13 @@
 
   #div-pai-div-hr-rodape {
     position: relative;
-    top: 3vh;
+    top: 11vh;
   }
 
   #div-copyright-rodape {
     position: relative;
     left: 3vw;
-    top: 2vh;
+    top: 11vh;
     font-size: 3vw;
   }
 }
