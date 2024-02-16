@@ -1,5 +1,4 @@
-@media(max-width:389px){
-
+@media (max-width: 389px) {
   #svg-letras {
     transform: scale(2);
   }
@@ -25,7 +24,6 @@
     fill: "green";
   }
 
-  
   #div-title-meus-projetos {
     font-size: 27pt;
     font-family: "Roboto";
@@ -35,24 +33,23 @@
   }
 
   #div-card-prisioner {
-    border:0px solid black;
-    width:60vw;
+    border: 0px solid black;
+    width: 60vw;
     height: 50vh;
     left: 20vw;
-    position:relative;  
+    position: relative;
   }
 
   #div-card-ma-consultoria {
-    border:0px solid black;
-    width:60vw;
+    border: 0px solid black;
+    width: 60vw;
     height: 50vh;
     left: 20vw;
-    position:relative;  
+    position: relative;
   }
 
-
   #title-card-prisioner-control {
-    position:relative;
+    position: relative;
     font-size: calc(1.8vw + 2.7vh);
   }
 
@@ -68,7 +65,8 @@
     font-size: calc(2.2vw + 2.2vh);
   }
 }
-@media (min-width:390px) and (max-width: 424px) {
+
+@media (min-width: 390px) and (max-width: 424px) {
   #svg-letras {
     transform: scale(2);
   }
@@ -103,19 +101,19 @@
   }
 
   #div-card-prisioner {
-    border:0px solid black;
-    width:60vw;
+    border: 0px solid black;
+    width: 60vw;
     height: 50vh;
     left: 20vw;
-    position:relative;  
+    position: relative;
   }
 
   #div-card-ma-consultoria {
-    border:0px solid black;
-    width:60vw;
+    border: 0px solid black;
+    width: 60vw;
     height: 50vh;
     left: 20vw;
-    position:relative;  
+    position: relative;
   }
 
   #title-card-prisioner-control {
@@ -170,19 +168,19 @@
   }
 
   #div-card-prisioner {
-    border:0px solid black;
-    width:55vw;
+    border: 0px solid black;
+    width: 55vw;
     height: 70vw;
     left: 20vw;
-    position:relative;  
+    position: relative;
   }
 
   #div-card-ma-consultoria {
-    border:0px solid black;
-    width:55vw;
+    border: 0px solid black;
+    width: 55vw;
     height: 70vw;
     left: 20vw;
-    position:relative;  
+    position: relative;
   }
 
   #title-card-prisioner-control {
@@ -236,21 +234,20 @@
     top: 10vh;
   }
 
-
   #div-card-prisioner {
-    border:0px solid black;
-    width:51vw;
+    border: 0px solid black;
+    width: 51vw;
     height: 55vw;
     left: 25vw;
-    position:relative;  
+    position: relative;
   }
 
   #div-card-ma-consultoria {
-    border:0px solid black;
-    width:51vw;
+    border: 0px solid black;
+    width: 51vw;
     height: 55vw;
     left: 25vw;
-    position:relative;  
+    position: relative;
   }
 
   #title-card-prisioner-control {
@@ -410,15 +407,13 @@
     fill: "green";
   }
 
-  
-
   #div-card-prisioner {
-    width:21vw;
+    width: 21vw;
     height: 35vw;
     left: 19vw;
   }
   #div-card-ma-consultoria {
-    width:21vw;
+    width: 21vw;
     height: 35vw;
     left: 24vw;
   }
@@ -453,7 +448,6 @@
     top: 3vw;
     font-size: calc(2.1vw + 0vh);
   }
-  
 }
 
 @media (min-width: 1024px) and (min-height: 952px) {
@@ -481,7 +475,6 @@
     stroke: "yellow";
     fill: "green";
   }
-
 
   #div-title-meus-projetos {
     font-size: 39pt;
@@ -512,7 +505,6 @@
     top: 1vh;
     font-size: calc(2.2vw + 2.2vh);
   }
-  
 }
 
 @media (min-width: 1024px) and (min-height: 1200px) {
@@ -576,7 +568,6 @@
     transform: scale(1.2);
   }
 
-
   #svg-letra-s-fundo {
     transition: transform 2.3s ease-in-out;
     transform: translate(2vw, 22vh);
@@ -637,7 +628,6 @@
     top: 8vh;
     font-size: calc(1.8vw + 0vh);
   }
-
 }
 
 @media (min-width: 1200px) and (min-height: 620px) {
@@ -667,7 +657,7 @@
   }
 
   #div-card-prisioner {
-    position:relative;
+    position: relative;
     height: 25vw;
     left: 22vw;
   }
@@ -706,6 +696,87 @@
     top: 5vh;
     font-size: calc(1.6vw + 0vh);
   }
+
+  #container-parte-5 {
+    position: relative;
+    border:0px solid green;  
+    top: 20vh;
+    height: 100vh !important;
+  }
+
+  #svg-logo-carregada-rodape {
+    width: 20vw;
+    height: calc(15vh + 5vw);
+  }
+  #svg-logo-carregada-rodape {
+    position: relative;
+    top: 3vh;
+    left: 2vw;
+    border: 0px solid yellow;
+  }
+
+  #div-envie-me-uma-mensagem {
+    position: relative;
+    left: 3vw;
+    top: 3vh;
+    font-size: 3.4vw;
+    width: 50vw;
+    border: 0px solid black;
+  }
+
+  #div-email-rodape {
+    position: relative;
+    top: 4vh;
+    left: 3vw;
+    font-size: 2.8vw;
+    border: 0px solid black;
+  }
+
+  #div-home-rodape {
+    font-size: 4vw;
+    position: relative;
+    left: 27vw;
+    top: 1vh;
+    border: 0px solid black;
+  }
+
+  #div-telefone-rodape {
+    position: relative;
+    left: 3vw;
+    top: 4vh;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 2.8vw;
+    color: rgb(200, 255, 203);
+    border: 0px solid rgb(166, 255, 154);
+  }
+
+  #div-sobre-mim-rodape {
+    font-size: 4vw;
+    position: relative;
+    left: 10vw;
+    top: 2vh;
+    border: 0px solid black;
+  }
+
+  #div-meus-trabalhos-rodape {
+    font-size: 4vw;
+    position: relative;
+    left: 10vw;
+    top: 2.9vh;
+    border: 0px solid black;
+  }
+
+  #div-pai-div-hr-rodape {
+    position: relative;
+    top: 3vh;
+  }
+
+  #div-copyright-rodape {
+    position: relative;
+    left: 3vw;
+    top: 2vh;
+    font-size: 3vw;
+  }
 }
 
 @media (min-width: 1200px) and (min-height: 900px) {
@@ -735,12 +806,12 @@
   }
 
   #div-card-prisioner {
-    width:25vw;
+    width: 25vw;
     height: 38vw;
     left: 15vw;
   }
   #div-card-ma-consultoria {
-    width:25vw;
+    width: 25vw;
     height: 38vw;
     left: 24vw;
   }
@@ -775,7 +846,6 @@
     top: 10vh;
     font-size: calc(2.4vw + 0vh);
   }
-
 }
 
 @media (min-width: 600px) and (min-height: 960px) {
@@ -947,18 +1017,18 @@
     top: 5vw;
   }
 
-  #card-prisioner{
-    position:relative;
-    height:37vw;
-    top:0vw;
-    left:2vw
+  #card-prisioner {
+    position: relative;
+    height: 37vw;
+    top: 0vw;
+    left: 2vw;
   }
 
-  #card-ma-consultoria{
-    position:relative;
-    height:37vw;
-    top:0vw;
-    left:2vw
+  #card-ma-consultoria {
+    position: relative;
+    height: 37vw;
+    top: 0vw;
+    left: 2vw;
   }
   #title-card-prisioner-control {
     position: relative;
@@ -986,7 +1056,6 @@
 }
 
 @media (min-width: 1440px) and (min-height: 900px) {
-
   #svg-letras {
     transform: scale(1.2);
   }
@@ -1020,18 +1089,18 @@
     top: 4vw;
   }
 
-  #card-prisioner{
-    position:relative;
-    top:0vh;
-    left:2vw;
-    height:37vw;
+  #card-prisioner {
+    position: relative;
+    top: 0vh;
+    left: 2vw;
+    height: 37vw;
   }
 
-  #card-ma-consultoria{
-    position:relative;
-    top:0vh;
-    left:2vw;
-    height:37vw;
+  #card-ma-consultoria {
+    position: relative;
+    top: 0vh;
+    left: 2vw;
+    height: 37vw;
   }
   #title-card-prisioner-control {
     position: relative;
@@ -1057,7 +1126,6 @@
     font-size: calc(2.4vw + 0vh);
   }
 }
-
 
 @keyframes girarAntiHorario {
   0% {
