@@ -395,10 +395,16 @@
 
   .div-row-letra-d-md {
     position: relative;
-    top: 10vh;
+    top: 10vw;
   }
+
+  #container-parte-1{
+    height:90vw;
+    border:0px solid black
+  }
+
   #container-parte-2 {
-    top: 32vw;
+    top: 22vw;
   }
 
   #container-parte-3 {
