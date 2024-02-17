@@ -1345,12 +1345,7 @@
   }
 }
 
-#div-todas-as-partes {
-  transition: opacity 3s ease;
-  display: none;
-  opacity: 0;
-  
-}
+
 #div-que-se-esconde {
   position: relative;
   transition: transform 0.8s ease;
