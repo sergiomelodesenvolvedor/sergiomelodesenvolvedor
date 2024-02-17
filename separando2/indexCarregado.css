@@ -742,7 +742,7 @@
   }
 
   #container-parte-2 {
-    top: 32vh;
+    top: 32vw;
   }
 
   #div-todas-as-partes {
@@ -965,21 +965,92 @@
 }
 
 @media (min-width: 1024px)  and (min-height: 1024px) {
+  #link-topo-sobre-mim{
+    font-size:2vw;
+    position:relative;
+    left:0vw;
+  }
+  
+  #link-topo-meus-projetos{
+    font-size: 2vw;
+    position:relative;
+    left:1vw;
+  }
+
+  #link-topo-contate-me{
+    font-size: 2vw;
+    position:relative;
+    left:2vw;
+  }
+
+  #link-topo-rodape{
+    font-size:2vw;
+    position:relative;
+    left:3vw;
+  }
+
+  #h1-desenvolvedor-web-full-stack{
+    font-size:5vw;
+  }
+
+  #h3-websites-responsivos-e-dinamicos{
+    font-size:2.5vw;
+  }
+
   #container-parte-2 {
-    top: -15vh;
+    top: 15vw;
+    
+  }
+
+
+  #h1-minha-historia{
+    font-size:3vw;
+  }
+
+  #texto-minha-historia{
+    font-size:2vw !important;
   }
 
   #container-parte-3 {
-    top: 0vh;
+    top: 35vw;
     border: 0px solid black;
+  }
+
+  #h1-projetos-frontend{
+    font-size:6vw !important;
+  }
+
+  #div-text-projetos-frontend{
+    font-size:2.5vw !important;
+  }
+
+  #svg-button-frontend text{
+    font-size:2vw !important;
+  }
+
+  #h1-projetos-backend{
+    font-size:6vw !important;
+  }
+
+  #div-text-projetos-backend{
+    font-size:2.5vw !important;
+  }
+
+  #svg-button-backend text{
+    font-size:2vw !important;
   }
 
   #container-parte-4 {
     border: 0px solid black;
     position: relative;
-    top: 19vh;
+    top: 110vh;
   }
 
+  #container-parte-5 {
+    position: relative;
+    top: 50vh;
+    height: calc(22vh + 29vw);
+  }
   
 }
 
@@ -1102,6 +1173,8 @@
 }
 
 @media (min-height: 1024px) and (max-width:1080px) and (orientation: landscape) {
+  
+  
   #container-parte-3 {
     border: 0px solid black;
     top: 50vh;
