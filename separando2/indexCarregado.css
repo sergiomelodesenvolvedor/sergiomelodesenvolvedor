@@ -416,23 +416,23 @@
   }
 
   #container-parte-2 {
-    top: 22vw;
+    top: 0vw;
   }
 
   #container-parte-3 {
-    top: 50vw;
+    top: 20vw;
     border: 0px solid black;
   }
 
   #container-parte-4 {
     border: 0px solid black;
     position: relative;
-    top: 65vw;
+    top: 45vw;
   }
 
   #container-parte-5 {
     position: relative;
-    top: 80vw;
+    top: 70vw;
     height: calc(44vw);
   }
 
