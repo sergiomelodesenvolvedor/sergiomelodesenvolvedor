@@ -28,9 +28,15 @@
     top: 20vh;
   }
 
+  #container-parte-1 {
+  height:170vw;
+  border:0px solid black;
+  }
+
+
   #container-parte-2 {
     
-    top: 22vh;
+    top: 22vw;
   }
 
   #container-parte-3 {
