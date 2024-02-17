@@ -398,24 +398,24 @@
     top: 10vh;
   }
   #container-parte-2 {
-    top: 32vh;
+    top: 32vw;
   }
 
   #container-parte-3 {
-    top: 55vh;
+    top: 50vw;
     border: 0px solid black;
   }
 
   #container-parte-4 {
     border: 0px solid black;
     position: relative;
-    top: 69vh;
+    top: 65vw;
   }
 
   #container-parte-5 {
     position: relative;
-    top: 80vh;
-    height: calc(38vh + 23vw);
+    top: 80vw;
+    height: calc(44vw);
   }
 
   #svg-logo-carregada-rodape {
