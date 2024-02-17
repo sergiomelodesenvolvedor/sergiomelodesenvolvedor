@@ -866,23 +866,110 @@
 }
 
 @media (min-width: 480px) and (min-height: 820px) {
+  
+  #link-topo-sobre-mim{
+    font-size:2vw;
+    position:relative;
+    left:0vw;
+  }
+  
+  #link-topo-meus-projetos{
+    font-size: 2vw;
+    position:relative;
+    left:1vw;
+  }
+
+  #link-topo-contate-me{
+    font-size: 2vw;
+    position:relative;
+    left:2vw;
+  }
+
+  #link-topo-rodape{
+    font-size:2vw;
+    position:relative;
+    left:3vw;
+  }
+
+  #h1-desenvolvedor-web-full-stack{
+    font-size:5vw;
+  }
+
+  #h3-websites-responsivos-e-dinamicos{
+    font-size:2.5vw;
+  }
+
   #container-parte-2 {
-    top: 0vh;
+    top: 15vw;
+    
+  }
+
+
+  #h1-minha-historia{
+    font-size:3vw;
+  }
+
+  #texto-minha-historia{
+    font-size:2.3vw !important;
   }
 
   #container-parte-3 {
-    top: 15vh;
+    top: 25vw !important;
+    border: 0px solid black;
   }
+
+  #h1-projetos-frontend{
+    font-size:6vw !important;
+  }
+
+  #div-text-projetos-frontend{
+    font-size:2.5vw !important;
+  }
+
+  #svg-button-frontend text{
+    font-size:2vw !important;
+  }
+
+  #h1-projetos-backend{
+    font-size:6vw !important;
+  }
+
+  #div-text-projetos-backend{
+    font-size:2.5vw !important;
+  }
+
+  #svg-button-backend text{
+    font-size:2vw !important;
+  }
+  
 
   #container-parte-4 {
     border: 0px solid black;
     position: relative;
-    top: 31vh;
+    top: 51vw;
+  }
+
+  #div-input-nome{
+    font-size:2.2vw !important;
+  }
+
+  #div-input-email{
+    font-size:2.2vw !important;
+  }
+
+  #text-area-mensagem{
+    font-size:2vw;
+  }
+
+  #buttonEnviarMensagem{
+    width:10vw;
+    height:3vw;
+    font-size:1.6vw;
   }
 
   #container-parte-5 {
     position: relative;
-    top: 55vh;
+    top: 105vh;
     height: calc(18vh + 25vw);
   }
 }
@@ -1043,12 +1130,30 @@
   #container-parte-4 {
     border: 0px solid black;
     position: relative;
-    top: 110vh;
+    top: 40vw;
+  }
+
+  #div-input-nome{
+    font-size:2.2vw !important;
+  }
+
+  #div-input-email{
+    font-size:2.2vw !important;
+  }
+
+  #text-area-mensagem{
+    font-size:2vw;
+  }
+
+  #buttonEnviarMensagem{
+    width:10vw;
+    height:3vw;
+    font-size:1.6vw;
   }
 
   #container-parte-5 {
     position: relative;
-    top: 50vh;
+    top: 54vw;
     height: calc(22vh + 29vw);
   }
   
