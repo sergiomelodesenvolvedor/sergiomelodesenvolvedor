@@ -880,7 +880,7 @@
   #container-parte-5 {
     position: relative;
     top: 55vh;
-    height: calc(18vh + 28vw);
+    height: calc(100vh);
   }
 }
 
