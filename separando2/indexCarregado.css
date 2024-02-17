@@ -180,12 +180,13 @@
   #container-parte-5 {
     position: relative;
     top: 180vw;
-    height: calc(47vw);
+    height: calc(63vw);
   }
 
   #svg-logo-carregada-rodape {
     position: relative;
-    top: 3vh;
+    top: 3vw;
+    height:20vw;
     left: 2vw;
     border: 0px solid yellow;
   }
@@ -302,8 +303,8 @@
 
   #container-parte-5 {
     position: relative;
-    top: 150vh;
-    height: calc(42vw + 0vh);
+    top: 250vw;
+    height: calc(60vw + 0vh);
   }
 
   #svg-logo-carregada-rodape {
@@ -433,15 +434,13 @@
   #container-parte-5 {
     position: relative;
     top: 70vw;
-    height: calc(44vw);
+    height: calc(50vw);
   }
+
 
   #svg-logo-carregada-rodape {
     width: 20vw;
-    height: calc(10vh + 3vw);
-  }
-
-  #svg-logo-carregada-rodape {
+    height: calc(13vw);
     position: relative;
     top: 3vh;
     left: 2vw;
@@ -650,7 +649,7 @@
     border: 0px solid black;
     position: relative;
     top: 110vh;
-    height:100vh !important
+    height:100vh 
   }
 
   #svg-logo-carregada-rodape {
@@ -785,7 +784,7 @@
     position: relative;
     border:0px solid green;  
     top: 140vh;
-    height: 100vh !important;
+    height: 100vh;
   }
 
   #svg-logo-carregada-rodape {
@@ -1174,7 +1173,81 @@
   #container-parte-5 {
     position: relative;
     top: 54vw;
-    height: calc(22vh + 29vw);
+    height: calc(100vh);
+  }
+
+  
+
+  #svg-logo-carregada-rodape {
+    position: relative;
+    width:20vw;
+    height:10vw;
+    top: 0vw;
+    left: 2vw;
+    border: 0px solid yellow;
+  }
+
+  #div-envie-me-uma-mensagem {
+    position: relative;
+    left: 3vw;
+    top: 0vw;
+    font-size: 4.4vw;
+    width: 50vw;
+    border: 0px solid black;
+  }
+
+  #div-email-rodape {
+    position: relative;
+    top: 5vw;
+    left: 3vw;
+    font-size: 3.8vw;
+    border: 0px solid black;
+  }
+
+  #div-home-rodape {
+    font-size: 4vw;
+    position: relative;
+    left: 36.2vw;
+    top: 0vw;
+    border: 0px solid black;
+  }
+
+  #div-telefone-rodape {
+    position: relative;
+    left: 3vw;
+    top: 8vw;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 3.8vw;
+    color: rgb(200, 255, 203);
+    border: 0px solid rgb(166, 255, 154);
+  }
+
+  #div-sobre-mim-rodape {
+    font-size: 4vw;
+    position: relative;
+    left: 19.5vw;
+    top: 2vw;
+    border: 0px solid black;
+  }
+
+  #div-meus-trabalhos-rodape {
+    font-size: 4vw;
+    position: relative;
+    left: 19.5vw;
+    top: 3vw;
+    border: 0px solid black;
+  }
+
+  #div-pai-div-hr-rodape {
+    position: relative;
+    top: 5vw;
+  }
+
+  #div-copyright-rodape {
+    position: relative;
+    left: 3vw;
+    top: 5vw;
+    font-size: 4vw;
   }
   
 }
