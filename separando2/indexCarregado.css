@@ -29,6 +29,7 @@
   }
 
   #container-parte-2 {
+    
     top: 22vh;
   }
 
@@ -150,24 +151,29 @@
     top: 20vh;
   }
 
+  #container-parte-1{
+    border:0px solid black;
+    height:100vw;
+  }
+
   #container-parte-2 {
     top: 70vw;
   }
 
   #container-parte-3 {
-    top: 160vh;
+    top: 110vw;
     border: 0px solid black;
   }
 
   #container-parte-4 {
     border: 0px solid black;
     position: relative;
-    top: 130vw;
+    top: 150vw;
   }
 
   #container-parte-5 {
     position: relative;
-    top: 150vw;
+    top: 180vw;
     height: calc(47vw);
   }
 
