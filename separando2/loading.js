@@ -8,7 +8,8 @@ function AumentaOpacity(){
  let svglogo = document.querySelector("#svg-logo")
  
   setTimeout(()=>{
-    svglogo.style.opacity="1"
+    svglogo.style.
+    city="1"
   },1000)
   
   
@@ -17,7 +18,7 @@ function AumentaOpacity(){
   setTimeout(()=>{
 //alert(window.innerWidth+"x"+window.innerHeight)
 
-document.querySelector("#svg-load").style.display = "block";
+
 
 textTitle.addEventListener("animationend", function () {
   // A ação que você quer realizar após a animação

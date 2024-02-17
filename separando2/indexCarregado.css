@@ -741,30 +741,32 @@
     top: -5vh;
   }
 
-  #container-parte-2 {
-    top: 32vw;
-  }
 
   #div-todas-as-partes {
     overflow: hidden;
     height: 100vh;
   }
 
+  #container-parte-2 {
+    top: 24vw;
+  }
+
+
   #container-parte-3 {
-    top: 55vh;
+    top: 40vw;
     border: 0px solid black;
   }
 
   #container-parte-4 {
     border: 0px solid black;
     position: relative;
-    top: 75vh;
+    top: 115vh;
   }
 
   #container-parte-5 {
     position: relative;
     border:0px solid green;  
-    top: 95vh;
+    top: 140vh;
     height: 100vh !important;
   }
 
@@ -1347,6 +1349,7 @@
   transition: opacity 3s ease;
   display: none;
   opacity: 0;
+  
 }
 #div-que-se-esconde {
   position: relative;
