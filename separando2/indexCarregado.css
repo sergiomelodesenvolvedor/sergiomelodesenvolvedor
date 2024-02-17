@@ -40,19 +40,19 @@
   }
 
   #container-parte-3 {
-    top: 45vh;
+    top: 65vw;
     border: 0px solid black;
   }
 
   #container-parte-4 {
     border: 0px solid black;
     position: relative;
-    top: 64vh;
+    top: 104vw;
   }
 
   #container-parte-5 {
     position: relative;
-    top: 80vh;
+    top: 140vw;
     height: calc(30vh + 15vw);
   }
 
