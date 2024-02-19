@@ -136,11 +136,42 @@
 
   #div-copyright-rodape {
     position: relative;
-    width:40vw;
-    border:0px solid black;
+    width: 40vw;
+    border: 0px solid black;
     left: 3vw;
     top: 3vw;
     font-size: 5vw;
+  }
+
+  #menu {
+    top: -2vw;
+    left: -30vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: 1vw;
+    left:-5vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 5vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 10vw;
+    left:-5vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 5vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
   }
 }
 
@@ -356,7 +387,7 @@
   #container-parte-5 {
     position: relative;
     top: 45vw;
-    height: calc(65vw );
+    height: calc(65vw);
   }
 
   #svg-logo-carregada-rodape {
@@ -388,7 +419,7 @@
     position: relative;
     left: 42vw;
     top: 10vw;
-    width:22vw;
+    width: 22vw;
     border: 0px solid black;
   }
 
@@ -532,7 +563,7 @@
     position: relative;
     left: 42vw;
     top: 10vw;
-    width:22vw;
+    width: 22vw;
     border: 0px solid black;
   }
 
@@ -666,7 +697,7 @@
     position: relative;
     left: 42vw;
     top: 8vw;
-    width:22vw;
+    width: 22vw;
     border: 0px solid black;
   }
 
@@ -800,7 +831,7 @@
     position: relative;
     left: 42vw;
     top: 8vw;
-    width:22vw;
+    width: 22vw;
     border: 0px solid black;
   }
 
@@ -946,7 +977,7 @@
     position: relative;
     left: 42vw;
     top: 8vw;
-    width:22vw;
+    width: 22vw;
     border: 0px solid black;
   }
 
@@ -1046,7 +1077,7 @@
   }
 
   #title-card-ma-consultoria {
-    font-size: calc(3..57vw + 0vh);
+    font-size: calc(3.57vw + 0vh);
   }
 
   #text-card-ma-consultoria {
@@ -1090,7 +1121,7 @@
     position: relative;
     left: 42vw;
     top: 8vw;
-    width:22vw;
+    width: 22vw;
     border: 0px solid black;
   }
 
@@ -1224,7 +1255,7 @@
     position: relative;
     left: 42vw;
     top: 8vw;
-    width:22vw;
+    width: 22vw;
     border: 0px solid black;
   }
 
@@ -1340,7 +1371,7 @@
 
   #svg-logo-carregada-rodape {
     position: relative;
-    height:8vw;
+    height: 8vw;
     top: 3vw;
     left: 2vw;
     border: 0px solid yellow;
@@ -1368,7 +1399,7 @@
     position: relative;
     left: 42vw;
     top: 8vw;
-    width:22vw;
+    width: 22vw;
     border: 0px solid black;
   }
 
@@ -1486,7 +1517,7 @@
 
   #svg-logo-carregada-rodape {
     position: relative;
-    height:8vw;
+    height: 8vw;
     top: 3vw;
     left: 2vw;
     border: 0px solid yellow;
@@ -1514,7 +1545,7 @@
     position: relative;
     left: 42vw;
     top: 8vw;
-    width:22vw;
+    width: 22vw;
     border: 0px solid black;
   }
 
@@ -1555,8 +1586,6 @@
     top: 4vw;
     font-size: 4.5vw;
   }
-
-
 }
 
 @media (min-width: 1200px) and (min-height: 900px) {
@@ -1635,7 +1664,7 @@
 
   #svg-logo-carregada-rodape {
     position: relative;
-    height:8vw;
+    height: 8vw;
     top: 3vw;
     left: 2vw;
     border: 0px solid yellow;
@@ -1663,7 +1692,7 @@
     position: relative;
     left: 42vw;
     top: 8vw;
-    width:22vw;
+    width: 22vw;
     border: 0px solid black;
   }
 
@@ -1740,7 +1769,7 @@
 
   #svg-logo-carregada-rodape {
     position: relative;
-    height:8vw;
+    height: 8vw;
     top: 3vw;
     left: 2vw;
     border: 0px solid yellow;
@@ -1768,7 +1797,7 @@
     position: relative;
     left: 42vw;
     top: 8vw;
-    width:22vw;
+    width: 22vw;
     border: 0px solid black;
   }
 
