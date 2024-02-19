@@ -612,7 +612,7 @@
   #div-card-prisioner {
     border: 0px solid black;
     width: 31vw;
-    height: 59vw;
+    height: 69vw;
     left: 29vw;
     position: relative;
   }
@@ -626,7 +626,7 @@
   #text-card-prisioner-control {
     position: relative;
     top: 1vh;
-    font-size: calc(2.2vw + 2.2vh);
+    font-size: calc(1.8vw + 2.2vh);
   }
 
   #title-card-ma-consultoria {
@@ -768,7 +768,7 @@
   #text-card-prisioner-control {
     position: relative;
     top: 1vw;
-    font-size: calc(2.2vw + 2.2vh);
+    font-size: calc(3.5vw);
   }
 
   #title-card-ma-consultoria {
@@ -1506,7 +1506,7 @@
 
   #container-parte-5 {
     position: relative;
-    top: 15vw;
+    top: 30vw;
     height: calc(50vw + 0vh);
   }
 
