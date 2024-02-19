@@ -21,6 +21,11 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Honk&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
     </style>
+
+  <style>
+   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+  </style>
+    
   </head>
 
   <body style="border: 0px solid yellow; height: 100vh">
@@ -103,7 +108,14 @@
           </h1>
         </div>
         <div class="col-3 col-md-3 mt-2" style="border: 0px solid black">
-          <i class="fas fa-bars fa-2x float-end"></i>
+          <i id="menu-hamburger" class="fas fa-bars fa-2x float-end" style="position:relative;z-index:1"></i>
+          <div id="menu" style="transition:opacity 1s ease; position:relative; opacity:0;z-index:0;background-color: rgb(231, 231, 231);height:15vw">
+            <i id="icon-fechar-menu" class="fas fa-sign-out-alt fa-2x" style="position:relative;left:90%;color:rgb(85, 85, 85)"></i>
+            <ul style="list-style-type:none">
+              <li style="position:relative;top:1vw;color:rgb(94, 94, 187);text-decoration:overline; font-family: 'Open Sans', sans-serif;font-size:1.6vw;">Home</li>
+              <li style="position:relative;top:5vw;color:rgb(61, 61, 119);text-decoration:overline; font-family: 'Open Sans', sans-serif;font-size:1.6vw;">Projetos backend</li>
+            </ul>
+          </div>
         </div>
       </div>
       <div class="row" style="border:0px solid black">
