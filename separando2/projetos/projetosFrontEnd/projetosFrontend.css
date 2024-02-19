@@ -152,7 +152,7 @@
 
   #li-home {
     position: relative;
-    top: 1vw;
+    top: -3vw;
     left:-5vw;
     color: rgb(94, 94, 187);
     text-decoration: overline;
@@ -172,6 +172,7 @@
 
   #icon-fechar-menu {
     left: 41vw;
+    font-size:10vw;
   }
 }
 
@@ -315,6 +316,38 @@
     left: 3vw;
     top: 4vw;
     font-size: 4.5vw;
+  }
+
+  #menu {
+    top: -2vw;
+    left: -30vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: -3vw;
+    left:-5vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 5vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 10vw;
+    left:-5vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 5vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    font-size:10vw;
   }
 }
 
@@ -460,6 +493,37 @@
     top: 4vw;
     font-size: 4.5vw;
   }
+  #menu {
+    top: -2vw;
+    left: -30vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: -3vw;
+    left:-5vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 5vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 10vw;
+    left:-5vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 5vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    font-size:10vw;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
@@ -604,6 +668,70 @@
     top: 4vw;
     font-size: 4.5vw;
   }
+
+  #menu {
+    top: -2vw;
+    left: -30vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: -3vw;
+    left:-2vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 5vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 7vw;
+    left:-2vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 5vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    font-size:10vw;
+  }
+
+  #menu {
+    top: -1vw;
+    left: -27vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: -3vw;
+    left:0vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 11vw;
+    left:0vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    font-size:7vw;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -738,6 +866,38 @@
     top: 4vw;
     font-size: 4.5vw;
   }
+
+  #menu {
+    top: -1vw;
+    left: -27vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: -3vw;
+    left:0vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 11vw;
+    left:0vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    font-size:7vw;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -871,6 +1031,38 @@
     left: 3vw;
     top: 4vw;
     font-size: 4.5vw;
+  }
+
+  #menu {
+    top: -1vw;
+    left: -27vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: -3vw;
+    left:0vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 11vw;
+    left:0vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    font-size:7vw;
   }
 }
 
