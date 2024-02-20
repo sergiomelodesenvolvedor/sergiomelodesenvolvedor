@@ -112,3 +112,15 @@ let subirDescerLetraS = async () => {
       menuHamburguer.style.opacity="1"
 
     })
+
+    document.addEventListener("click",(e)=>{
+      let clicouFora = !menu.contains(e.target) && !menuHamburguer.contains(e.target);
+      if(clicouFora){
+        menu.style.opacity="0"
+        menuHamburguer.style.display="block"
+        menuHamburguer.style.opacity="1"
+        
+      }
+      
+    })
+    

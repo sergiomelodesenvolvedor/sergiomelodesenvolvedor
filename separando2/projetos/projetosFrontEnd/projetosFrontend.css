@@ -172,7 +172,7 @@
 
   #icon-fechar-menu {
     left: 41vw;
-    font-size:10vw;
+    font-size:7vw;
   }
 }
 
@@ -347,7 +347,7 @@
 
   #icon-fechar-menu {
     left: 41vw;
-    font-size:10vw;
+    font-size:6vw;
   }
 }
 
@@ -522,7 +522,7 @@
 
   #icon-fechar-menu {
     left: 41vw;
-    font-size:10vw;
+    font-size:7vw;
   }
 }
 
@@ -710,7 +710,7 @@
 
   #li-home {
     position: relative;
-    top: -3vw;
+    top: 4vw;
     left:0vw;
     color: rgb(94, 94, 187);
     text-decoration: overline;
@@ -730,7 +730,7 @@
 
   #icon-fechar-menu {
     left: 41vw;
-    font-size:7vw;
+    font-size:6vw;
   }
 }
 
@@ -1222,7 +1222,7 @@
 
   #li-home {
     position: relative;
-    top: -3vw;
+    top: 3vw;
     width:20vw;
     border:0px solid black;
     left:0vw;
@@ -1244,7 +1244,8 @@
 
   #icon-fechar-menu {
     left: 41vw;
-    font-size:7vw;
+    top:3vw;
+    font-size:5vw;
   }
 }
 
@@ -1668,6 +1669,8 @@
     top: 4vw;
     font-size: 4.5vw;
   }
+
+  
 }
 
 @media (min-width: 1200px) and (min-height: 620px) {
@@ -1813,6 +1816,41 @@
     left: 3vw;
     top: 4vw;
     font-size: 4.5vw;
+  }
+
+  #menu {
+    top: -1vw;
+    left: -27vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: 3vw;
+    width:20vw;
+    border:0px solid black;
+    left:0vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 11vw;
+    left:0vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    top:3vw;
+    font-size:5vw;
   }
 }
 
@@ -1961,6 +1999,41 @@
     top: 4vw;
     font-size: 4.5vw;
   }
+
+  #menu {
+    top: -1vw;
+    left: -27vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: 3vw;
+    width:20vw;
+    border:0px solid black;
+    left:0vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 11vw;
+    left:0vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    top:3vw;
+    font-size:5vw;
+  }
 }
 
 @media (min-width: 600px) and (min-height: 960px) {
@@ -2066,6 +2139,41 @@
     top: 4vw;
     font-size: 4.5vw;
   }
+
+  #menu {
+    top: -1vw;
+    left: -27vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: 3vw;
+    width:20vw;
+    border:0px solid black;
+    left:0vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 11vw;
+    left:0vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    top:3vw;
+    font-size:5vw;
+  }
 }
 
 @media (min-width: 768px) and (min-height: 1024px) {
@@ -2135,6 +2243,41 @@
     top: 5vvw;
     font-size: calc(2.9vw + 0vh);
   }
+
+  #menu {
+    top: -1vw;
+    left: -27vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: 3vw;
+    width:20vw;
+    border:0px solid black;
+    left:0vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 11vw;
+    left:0vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    top:3vw;
+    font-size:5vw;
+  }
 }
 
 @media (min-width: 992px) and (min-height: 1199px) {
@@ -2161,6 +2304,41 @@
     transform: translate(8vw, 13vh);
     stroke: "yellow";
     fill: "green";
+  }
+
+  #menu {
+    top: -1vw;
+    left: -27vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: 3vw;
+    width:20vw;
+    border:0px solid black;
+    left:0vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 11vw;
+    left:0vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    top:3vw;
+    font-size:5vw;
   }
 }
 
@@ -2189,6 +2367,41 @@
     stroke: "yellow";
     fill: "green";
   }
+
+  #menu {
+    top: -1vw;
+    left: -27vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: 3vw;
+    width:20vw;
+    border:0px solid black;
+    left:0vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 11vw;
+    left:0vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    top:3vw;
+    font-size:5vw;
+  }
 }
 
 @media (min-width: 1300px) and (min-height: 900px) {
@@ -2215,6 +2428,41 @@
     transform: translate(10vw, 8vh);
     stroke: "yellow";
     fill: "green";
+  }
+
+  #menu {
+    top: -1vw;
+    left: -27vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: 3vw;
+    width:20vw;
+    border:0px solid black;
+    left:0vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 11vw;
+    left:0vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    top:3vw;
+    font-size:5vw;
   }
 }
 
@@ -2288,6 +2536,41 @@
     top: 2vw;
     font-size: calc(2.4vw + 0vh);
   }
+
+  #menu {
+    top: -1vw;
+    left: -27vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: 3vw;
+    width:20vw;
+    border:0px solid black;
+    left:0vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 11vw;
+    left:0vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    top:3vw;
+    font-size:5vw;
+  }
 }
 
 @media (min-width: 1440px) and (min-height: 900px) {
@@ -2359,6 +2642,41 @@
     position: relative;
     top: 7vw;
     font-size: calc(2.4vw + 0vh);
+  }
+
+  #menu {
+    top: -1vw;
+    left: -27vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: 3vw;
+    width:20vw;
+    border:0px solid black;
+    left:0vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 11vw;
+    left:0vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    top:3vw;
+    font-size:5vw;
   }
 }
 
