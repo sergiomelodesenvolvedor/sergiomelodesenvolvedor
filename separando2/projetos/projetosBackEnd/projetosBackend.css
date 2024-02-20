@@ -142,6 +142,38 @@
     top: 3vw;
     font-size: 5vw;
   }
+
+  #menu {
+    top: -2vw;
+    left: -30vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: -3vw;
+    left:-5vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 5vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 10vw;
+    left:-5vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 5vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    font-size:7vw;
+  }
 }
 
 @media (min-width: 390px) and (max-width: 424px) {
@@ -284,6 +316,38 @@
     left: 3vw;
     top: 4vw;
     font-size: 4.5vw;
+  }
+
+  #menu {
+    top: -2vw;
+    left: -30vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: -3vw;
+    left:-5vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 5vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 10vw;
+    left:-5vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 5vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    font-size:6vw;
   }
 }
 
@@ -429,6 +493,38 @@
     top: 4vw;
     font-size: 4.5vw;
   }
+
+  #menu {
+    top: -2vw;
+    left: -30vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: -3vw;
+    left:-5vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 5vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 10vw;
+    left:-5vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 5vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    font-size:7vw;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
@@ -573,6 +669,38 @@
     top: 4vw;
     font-size: 4.5vw;
   }
+
+  #menu {
+    top: -1vw;
+    left: -27vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: 4vw;
+    left:0vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 11vw;
+    left:0vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    font-size:6vw;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -715,6 +843,40 @@
     top: 4vw;
     font-size: 4.5vw;
   }
+
+  #menu {
+    top: -1vw;
+    left: -27vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: -3vw;
+    width:20vw;
+    border:0px solid black;
+    left:0vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 11vw;
+    left:0vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    font-size:7vw;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -856,6 +1018,38 @@
     left: 3vw;
     top: 4vw;
     font-size: 4.5vw;
+  }
+
+  #menu {
+    top: -1vw;
+    left: -27vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: -3vw;
+    left:0vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 11vw;
+    left:0vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    font-size:7vw;
   }
 }
 
@@ -1002,6 +1196,41 @@
     left: 3vw;
     top: 4vw;
     font-size: 4.5vw;
+  }
+
+  #menu {
+    top: -1vw;
+    left: -27vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: 3vw;
+    width:20vw;
+    border:0px solid black;
+    left:0vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 11vw;
+    left:0vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    top:3vw;
+    font-size:5vw;
   }
 }
 
@@ -1434,6 +1663,41 @@
     top: 4vw;
     font-size: 4.5vw;
   }
+
+  #menu {
+    top: -1vw;
+    left: -27vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: 3vw;
+    width:20vw;
+    border:0px solid black;
+    left:0vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 11vw;
+    left:0vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    top:3vw;
+    font-size:5vw;
+  }
 }
 
 @media (min-width: 1200px) and (min-height: 620px) {
@@ -1582,6 +1846,40 @@
     font-size: 4.5vw;
   }
 
+  #menu {
+    top: -1vw;
+    left: -27vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: 3vw;
+    width:20vw;
+    border:0px solid black;
+    left:0vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 11vw;
+    left:0vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    top:3vw;
+    font-size:5vw;
+  }
 
 }
 
@@ -1730,6 +2028,41 @@
     top: 4vw;
     font-size: 4.5vw;
   }
+
+  #menu {
+    top: -1vw;
+    left: -27vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: 3vw;
+    width:20vw;
+    border:0px solid black;
+    left:0vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 11vw;
+    left:0vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    top:3vw;
+    font-size:5vw;
+  }
 }
 
 @media (min-width: 600px) and (min-height: 960px) {
@@ -1836,6 +2169,41 @@
     top: 4vw;
     font-size: 4.5vw;
   }
+
+  #menu {
+    top: -1vw;
+    left: -27vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: 3vw;
+    width:20vw;
+    border:0px solid black;
+    left:0vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 11vw;
+    left:0vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    top:3vw;
+    font-size:5vw;
+  }
 }
 
 @media (min-width: 768px) and (min-height: 1024px) {
@@ -1905,6 +2273,41 @@
     top: 5vvw;
     font-size: calc(2.9vw + 0vh);
   }
+
+  #menu {
+    top: -1vw;
+    left: -27vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: 3vw;
+    width:20vw;
+    border:0px solid black;
+    left:0vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 11vw;
+    left:0vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    top:3vw;
+    font-size:5vw;
+  }
 }
 
 @media (min-width: 992px) and (min-height: 1199px) {
@@ -1936,6 +2339,41 @@
     width: 32vw;
     height: 45vw;
     left: 29vw;
+  }
+
+  #menu {
+    top: -1vw;
+    left: -27vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: 3vw;
+    width:20vw;
+    border:0px solid black;
+    left:0vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 11vw;
+    left:0vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    top:3vw;
+    font-size:5vw;
   }
 }
 
@@ -1990,6 +2428,41 @@
     transform: translate(10vw, 8vh);
     stroke: "yellow";
     fill: "green";
+  }
+
+  #menu {
+    top: -1vw;
+    left: -27vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: 3vw;
+    width:20vw;
+    border:0px solid black;
+    left:0vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 11vw;
+    left:0vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    top:3vw;
+    font-size:5vw;
   }
 }
 
@@ -2063,6 +2536,41 @@
     top: 2vw;
     font-size: calc(2.4vw + 0vh);
   }
+
+  #menu {
+    top: -1vw;
+    left: -27vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: 3vw;
+    width:20vw;
+    border:0px solid black;
+    left:0vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 11vw;
+    left:0vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    top:3vw;
+    font-size:5vw;
+  }
 }
 
 @media (min-width: 1440px) and (min-height: 900px) {
@@ -2134,6 +2642,41 @@
     position: relative;
     top: 7vw;
     font-size: calc(2.4vw + 0vh);
+  }
+
+  #menu {
+    top: -1vw;
+    left: -27vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: 3vw;
+    width:20vw;
+    border:0px solid black;
+    left:0vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 11vw;
+    left:0vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    top:3vw;
+    font-size:5vw;
   }
 }
 

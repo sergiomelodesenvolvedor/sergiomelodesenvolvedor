@@ -1670,6 +1670,41 @@
     font-size: 4.5vw;
   }
 
+  #menu {
+    top: -1vw;
+    left: -27vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: 3vw;
+    width:20vw;
+    border:0px solid black;
+    left:0vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 11vw;
+    left:0vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    top:3vw;
+    font-size:5vw;
+  }
+
   
 }
 
@@ -2366,6 +2401,41 @@
     transform: translate(6.5vw, 10vh);
     stroke: "yellow";
     fill: "green";
+  }
+
+  #menu {
+    top: -1vw;
+    left: -27vw;
+    width: 51.4vw;
+    height: 40vw;
+  }
+
+  #li-home {
+    position: relative;
+    top: 3vw;
+    width:20vw;
+    border:0px solid black;
+    left:0vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 11vw;
+    left:0vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+  }
+
+  #icon-fechar-menu {
+    left: 41vw;
+    top:3vw;
+    font-size:5vw;
   }
 
   #menu {
