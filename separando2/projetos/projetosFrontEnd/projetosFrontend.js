@@ -124,5 +124,5 @@ let subirDescerLetraS = async () => {
       
     })
 
-    alert(innerWidth+'x'+innerHeight)
+    // alert(innerWidth+'x'+innerHeight)
     
