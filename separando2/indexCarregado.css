@@ -864,22 +864,22 @@
 
 @media (min-width: 390px) and (min-height: 706px) {
   #container-parte-2 {
-    top: 0vh;
+    top: 20vh;
   }
   #container-parte-3 {
-    top: 20vh;
+    top: 40vh;
     border: 0px solid black;
   }
 
   #container-parte-4 {
     border: 0px solid black;
     position: relative;
-    top: 38vh;
+    top: 63vh;
   }
 
   #container-parte-5 {
     position: relative;
-    top: 55vh;
+    top: 85vh;
     height: calc(100vh);
   }
 }
