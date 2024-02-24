@@ -2773,39 +2773,46 @@
     font-size: calc(2.4vw + 0vh);
   }
 
+  #menu-hamburger{
+    left:-8vw;
+    font-size: 4vw;
+    
+  }
+
   #menu {
-    top: -1vw;
-    left: -27vw;
-    width: 51.4vw;
-    height: 40vw;
+    top: 0vw;
+    left: 59.3vw;
+    width: 40.4vw;
+    height: 25vw;
+    position:absolute;
   }
 
   #li-home {
     position: relative;
-    top: 3vw;
-    width:20vw;
-    border:0px solid black;
+    top: 1vw;
     left:0vw;
+    border:0px solid black;
+    width:15vw;
     color: rgb(94, 94, 187);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 2.5vw;
   }
 
   #li-projetos {
     position: relative;
-    top: 11vw;
+    top: 10vw;
     left:0vw;
     color: rgb(61, 61, 119);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 2.5vw;
   }
 
   #icon-fechar-menu {
-    left: 41vw;
-    top:3vw;
-    font-size:5vw;
+    left: 30vw;
+    top:1vw;
+    font-size:3.5vw;
   }
 }
 
