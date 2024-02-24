@@ -54,6 +54,8 @@
     position: relative;
     top: 140vw;
     height: calc(30vh + 15vw);
+    border:0px solid green;
+    width:100vw;
   }
 
   #svg-logo-carregada-rodape {
@@ -117,6 +119,7 @@
   #div-pai-div-hr-rodape {
     position: relative;
     top: 3vh;
+    
   }
 
   #div-copyright-rodape {
@@ -181,6 +184,7 @@
     position: relative;
     top: 180vw;
     height: calc(63vw);
+    width:100vw;
   }
 
   #svg-logo-carregada-rodape {
@@ -417,24 +421,25 @@
   }
 
   #container-parte-2 {
-    top: 0vw;
+    top: 20vw;
   }
 
   #container-parte-3 {
-    top: 20vw;
+    top: 40vw;
     border: 0px solid black;
   }
 
   #container-parte-4 {
     border: 0px solid black;
     position: relative;
-    top: 45vw;
+    top: 65vw;
   }
 
   #container-parte-5 {
     position: relative;
-    top: 70vw;
+    top: 90vw;
     height: calc(50vw);
+    width:100vw;
   }
 
 
@@ -546,30 +551,30 @@
   }
 
   #container-parte-2 {
-    top: 32vh;
+    top: 0vw;
   }
 
   #container-parte-3 {
-    top: 55vh;
+    top: 25vh;
     border: 0px solid black;
   }
 
   #container-parte-4 {
     border: 0px solid black;
     position: relative;
-    top: 75vh;
+    top: 50vh;
   }
 
   #container-parte-5 {
     position: relative;
-    top: 95vh;
-    height: calc(39vh + 24vw);
+    top: 80vh;
+    height: calc(55vw);
   }
 
 
   #svg-logo-carregada-rodape {
     width: 20vw;
-    height: calc(10vh + 3vw);
+    height: calc(13vw );
     position: relative;
     top: 3vh;
     left: 2vw;
@@ -579,7 +584,7 @@
   #div-envie-me-uma-mensagem {
     position: relative;
     left: 3vw;
-    top: 3vh;
+    top: 3vw;
     font-size: 3.4vw;
     width: 50vw;
     border: 0px solid black;
@@ -587,7 +592,7 @@
 
   #div-email-rodape {
     position: relative;
-    top: 4vh;
+    top: 4vw;
     left: 3vw;
     font-size: 2.8vw;
     border: 0px solid black;
@@ -597,14 +602,14 @@
     font-size: 4vw;
     position: relative;
     left: 27vw;
-    top: 1vh;
+    top: 1vw;
     border: 0px solid black;
   }
 
   #div-telefone-rodape {
     position: relative;
     left: 3vw;
-    top: 4vh;
+    top: 4vw;
     font-family: "Titillium Web", sans-serif;
     font-size: 2.8vw;
     color: rgb(200, 255, 203);
@@ -615,7 +620,7 @@
     font-size: 4vw;
     position: relative;
     left: 10vw;
-    top: 2vh;
+    top: 2vw;
     border: 0px solid black;
   }
 
@@ -623,19 +628,19 @@
     font-size: 4vw;
     position: relative;
     left: 10vw;
-    top: 2.9vh;
+    top: 2.9vw;
     border: 0px solid black;
   }
 
   #div-pai-div-hr-rodape {
     position: relative;
-    top: 3vh;
+    top: 3vw;
   }
 
   #div-copyright-rodape {
     position: relative;
     left: 3vw;
-    top: 2vh;
+    top: 2vw;
     font-size: 3vw;
   }
 }
@@ -864,22 +869,22 @@
 
 @media (min-width: 390px) and (min-height: 706px) {
   #container-parte-2 {
-    top: 20vh;
+    top: 25vw;
   }
   #container-parte-3 {
-    top: 40vh;
+    top: 40vw;
     border: 0px solid black;
   }
 
   #container-parte-4 {
     border: 0px solid black;
     position: relative;
-    top: 63vh;
+    top: 68vw;
   }
 
   #container-parte-5 {
     position: relative;
-    top: 85vh;
+    top: 95vw;
     height: calc(100vh);
   }
 }
