@@ -143,6 +143,11 @@
     font-size: 5vw;
   }
 
+  #menu-hamburger{
+    position:relative;
+    left:-2vw;
+  }
+
   #menu {
     top: 0vw;
     left: 50vw;
@@ -321,6 +326,13 @@
     font-size: 4.5vw;
   }
 
+  #menu-hamburger{
+    position:relative;
+    left:-2vw;
+    font-size:10vw;
+  }
+
+
   #menu {
     top: 3vw;
     left: 52vw;
@@ -328,6 +340,7 @@
     height: 40vw;
     position:absolute;
   }
+
 
   #li-home {
     position: relative;
@@ -2233,6 +2246,13 @@
     left: 3vw;
     top: 4vw;
     font-size: 4.5vw;
+  }
+
+
+  #menu-hamburger{
+    position:relative;
+    left:-2vw;
+    font-size:8vw;
   }
 
   #menu {
