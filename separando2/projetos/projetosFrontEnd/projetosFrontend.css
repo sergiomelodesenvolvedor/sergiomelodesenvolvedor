@@ -144,8 +144,8 @@
   }
 
   #menu {
-    top: -2vw;
-    left: -30vw;
+    top: 0vw;
+    left: 50vw;
     width: 51.4vw;
     height: 40vw;
   }
@@ -154,6 +154,8 @@
     position: relative;
     top: -3vw;
     left:-5vw;
+    border:0px solid black;
+    width:15vw;
     color: rgb(94, 94, 187);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
@@ -171,7 +173,8 @@
   }
 
   #icon-fechar-menu {
-    left: 41vw;
+    left: 42vw;
+    top:3vw;
     font-size:7vw;
   }
 }
@@ -319,16 +322,19 @@
   }
 
   #menu {
-    top: -2vw;
-    left: -30vw;
+    top: 3vw;
+    left: 52vw;
     width: 51.4vw;
     height: 40vw;
+    position:absolute;
   }
 
   #li-home {
     position: relative;
     top: -3vw;
     left:-5vw;
+    border:0px solid black;
+    width:15vw;
     color: rgb(94, 94, 187);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
@@ -494,21 +500,25 @@
     font-size: 4.5vw;
   }
   #menu {
-    top: -2vw;
-    left: -30vw;
+    top: 3vw;
+    left: 52vw;
     width: 51.4vw;
     height: 40vw;
+    position:absolute;
   }
 
   #li-home {
     position: relative;
     top: -3vw;
     left:-5vw;
+    border:0px solid black;
+    width:15vw;
     color: rgb(94, 94, 187);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
     font-size: 5vw;
   }
+
 
   #li-projetos {
     position: relative;
@@ -669,22 +679,7 @@
     font-size: 4.5vw;
   }
 
-  #menu {
-    top: -2vw;
-    left: -30vw;
-    width: 51.4vw;
-    height: 40vw;
-  }
-
-  #li-home {
-    position: relative;
-    top: -3vw;
-    left:-2vw;
-    color: rgb(94, 94, 187);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 5vw;
-  }
+  
 
   #li-projetos {
     position: relative;
@@ -701,37 +696,46 @@
     font-size:10vw;
   }
 
+  
+
   #menu {
-    top: -1vw;
-    left: -27vw;
+    top: 3vw;
+    left: 52vw;
     width: 51.4vw;
     height: 40vw;
+    position:absolute;
   }
 
   #li-home {
     position: relative;
-    top: 4vw;
-    left:0vw;
+    top: 1vw;
+    left:-5vw;
+    border:0px solid black;
+    width:15vw;
     color: rgb(94, 94, 187);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 5vw;
   }
 
   #li-projetos {
     position: relative;
-    top: 11vw;
-    left:0vw;
+    top: 12vw;
+    left:-5vw;
     color: rgb(61, 61, 119);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 5vw;
   }
 
   #icon-fechar-menu {
     left: 41vw;
     font-size:6vw;
   }
+
+  
+
+  
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -867,39 +871,46 @@
     font-size: 4.5vw;
   }
 
+  #menu-hamburger{
+    left:-8vw;
+    font-size: 6vw;
+    
+  }
   #menu {
-    top: -1vw;
-    left: -27vw;
-    width: 51.4vw;
-    height: 40vw;
+    top: 0vw;
+    left: 59.3vw;
+    width: 40.4vw;
+    height: 30vw;
+    position:absolute;
   }
 
   #li-home {
     position: relative;
-    top: -3vw;
-    width:20vw;
-    border:0px solid black;
+    top: 1vw;
     left:0vw;
+    border:0px solid black;
+    width:15vw;
     color: rgb(94, 94, 187);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   #li-projetos {
     position: relative;
-    top: 11vw;
+    top: 10vw;
     left:0vw;
     color: rgb(61, 61, 119);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   #icon-fechar-menu {
-    left: 41vw;
-    font-size:7vw;
+    left: 31vw;
+    font-size:6vw;
   }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -1035,36 +1046,42 @@
     font-size: 4.5vw;
   }
 
+  
+
   #menu {
-    top: -1vw;
-    left: -27vw;
-    width: 51.4vw;
-    height: 40vw;
+    top: 0vw;
+    left: 59.3vw;
+    width: 40.4vw;
+    height: 25vw;
+    position:absolute;
   }
 
   #li-home {
     position: relative;
-    top: -3vw;
+    top: 1vw;
     left:0vw;
+    border:0px solid black;
+    width:15vw;
     color: rgb(94, 94, 187);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   #li-projetos {
     position: relative;
-    top: 11vw;
+    top: 10vw;
     left:0vw;
     color: rgb(61, 61, 119);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   #icon-fechar-menu {
-    left: 41vw;
-    font-size:7vw;
+    left: 36vw;
+    top:1vw;
+    font-size:4vw;
   }
 }
 
@@ -1214,38 +1231,39 @@
   }
 
   #menu {
-    top: -1vw;
-    left: -27vw;
-    width: 51.4vw;
-    height: 40vw;
+    top: 0vw;
+    left: 59.3vw;
+    width: 40.4vw;
+    height: 25vw;
+    position:absolute;
   }
 
   #li-home {
     position: relative;
-    top: 3vw;
-    width:20vw;
-    border:0px solid black;
+    top: 1vw;
     left:0vw;
+    border:0px solid black;
+    width:15vw;
     color: rgb(94, 94, 187);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   #li-projetos {
     position: relative;
-    top: 11vw;
+    top: 10vw;
     left:0vw;
     color: rgb(61, 61, 119);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   #icon-fechar-menu {
-    left: 41vw;
-    top:3vw;
-    font-size:5vw;
+    left: 36vw;
+    top:1vw;
+    font-size:4vw;
   }
 }
 
@@ -1306,7 +1324,7 @@
   }
 
   #title-card-ma-consultoria {
-    font-size: calc(3.57vw + 0vh);
+    font-size: calc(3vw + 0vh);
   }
 
   #text-card-ma-consultoria {
@@ -1390,6 +1408,42 @@
     left: 3vw;
     top: 4vw;
     font-size: 4.5vw;
+  }
+
+  #menu {
+    top: 0vw;
+    left: 59.3vw;
+    width: 40.4vw;
+    height: 25vw;
+    position:absolute;
+  }
+
+  #li-home {
+    position: relative;
+    top: 1vw;
+    left:0vw;
+    border:0px solid black;
+    width:15vw;
+    color: rgb(94, 94, 187);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 3vw;
+  }
+
+  #li-projetos {
+    position: relative;
+    top: 10vw;
+    left:0vw;
+    color: rgb(61, 61, 119);
+    text-decoration: overline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 3vw;
+  }
+
+  #icon-fechar-menu {
+    left: 36vw;
+    top:1vw;
+    font-size:4vw;
   }
 }
 
@@ -1525,6 +1579,8 @@
     top: 4vw;
     font-size: 4.5vw;
   }
+
+  
 }
 @media (min-width: 1200px) and (min-height: 0px) {
   #svg-letras {
@@ -1558,7 +1614,7 @@
   }
   #div-card-ma-consultoria {
     height: 26vw;
-    left: 18vw;
+    left: 38vw;
   }
   #div-title-meus-projetos {
     font-size: 48pt;
@@ -1576,25 +1632,25 @@
 
   #text-card-prisioner-control {
     position: relative;
-    top: 4vh;
+    top: 0vw;
     font-size: calc(1.8vw + 0vh);
   }
 
   #title-card-ma-consultoria {
     position: relative;
-    top: 7vh;
-    font-size: calc(2vw + 0vh);
+    top: 0vw;
+    font-size: calc(1.7vw + 0vh);
   }
 
   #text-card-ma-consultoria {
     position: relative;
-    top: 8vh;
+    top: 0vw;
     font-size: calc(1.8vw + 0vh);
   }
 
   #container-parte-5 {
     position: relative;
-    top: 45vw;
+    top: 25vw;
     height: calc(50vw + 0vh);
   }
 
@@ -1672,39 +1728,39 @@
 
   #menu {
     top: 0vw;
-    left: -15vw;
-    width: 37.4vw;
-    height: 30vw;
+    left: 69.3vw;
+    width: 35.4vw;
+    height: 25vw;
+    position:absolute;
   }
 
   #li-home {
     position: relative;
-    top: 3vw;
-    width:20vw;
-    border:0px solid black;
+    top: 1vw;
     left:0vw;
+    border:0px solid black;
+    width:15vw;
     color: rgb(94, 94, 187);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   #li-projetos {
     position: relative;
-    top: 11vw;
+    top: 10vw;
     left:0vw;
     color: rgb(61, 61, 119);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   #icon-fechar-menu {
-    left: 31vw;
-    top:3vw;
-    font-size:5vw;
+    left: 26vw;
+    top:1vw;
+    font-size:3vw;
   }
-
   
 }
 
@@ -1855,38 +1911,40 @@
 
   #menu {
     top: 0vw;
-    left: -15vw;
-    width: 37.4vw;
-    height: 30vw;
+    left: 69.3vw;
+    width: 35.4vw;
+    height: 25vw;
+    position:absolute;
   }
 
   #li-home {
     position: relative;
-    top: 3vw;
-    width:20vw;
-    border:0px solid black;
+    top: 1vw;
     left:0vw;
+    border:0px solid black;
+    width:15vw;
     color: rgb(94, 94, 187);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   #li-projetos {
     position: relative;
-    top: 11vw;
+    top: 10vw;
     left:0vw;
     color: rgb(61, 61, 119);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   #icon-fechar-menu {
-    left: 31vw;
-    top:3vw;
-    font-size:5vw;
+    left: 26vw;
+    top:1vw;
+    font-size:3vw;
   }
+  
 }
 
 @media (min-width: 1200px) and (min-height: 900px) {
@@ -2037,38 +2095,40 @@
 
   #menu {
     top: 0vw;
-    left: -15vw;
-    width: 37.4vw;
-    height: 30vw;
+    left: 69.3vw;
+    width: 35.4vw;
+    height: 25vw;
+    position:absolute;
   }
 
   #li-home {
     position: relative;
-    top: 3vw;
-    width:20vw;
-    border:0px solid black;
+    top: 1vw;
     left:0vw;
+    border:0px solid black;
+    width:15vw;
     color: rgb(94, 94, 187);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   #li-projetos {
     position: relative;
-    top: 11vw;
+    top: 10vw;
     left:0vw;
     color: rgb(61, 61, 119);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   #icon-fechar-menu {
-    left: 31vw;
-    top:3vw;
-    font-size:5vw;
+    left: 26vw;
+    top:1vw;
+    font-size:3vw;
   }
+  
 }
 
 @media (min-width: 600px) and (min-height: 960px) {
@@ -2176,39 +2236,41 @@
   }
 
   #menu {
-    top: -1vw;
-    left: -27vw;
-    width: 51.4vw;
-    height: 40vw;
+    top: 0vw;
+    left: 65.3vw;
+    width: 35.4vw;
+    height: 25vw;
+    position:absolute;
   }
 
   #li-home {
     position: relative;
-    top: 3vw;
-    width:20vw;
-    border:0px solid black;
+    top: 1vw;
     left:0vw;
+    border:0px solid black;
+    width:15vw;
     color: rgb(94, 94, 187);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   #li-projetos {
     position: relative;
-    top: 11vw;
+    top: 7vw;
     left:0vw;
     color: rgb(61, 61, 119);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   #icon-fechar-menu {
-    left: 41vw;
-    top:3vw;
+    left: 26vw;
+    top:1vw;
     font-size:5vw;
   }
+  
 }
 
 @media (min-width: 768px) and (min-height: 1024px) {
@@ -2280,39 +2342,41 @@
   }
 
   #menu {
-    top: -1vw;
-    left: -27vw;
-    width: 51.4vw;
-    height: 40vw;
+    top: 0vw;
+    left: 60.3vw;
+    width: 35.4vw;
+    height: 25vw;
+    position:absolute;
   }
 
   #li-home {
     position: relative;
-    top: 3vw;
-    width:20vw;
-    border:0px solid black;
+    top: 1vw;
     left:0vw;
+    border:0px solid black;
+    width:15vw;
     color: rgb(94, 94, 187);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   #li-projetos {
     position: relative;
-    top: 11vw;
+    top: 7vw;
     left:0vw;
     color: rgb(61, 61, 119);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   #icon-fechar-menu {
-    left: 41vw;
-    top:3vw;
+    left: 26vw;
+    top:1vw;
     font-size:5vw;
   }
+  
 }
 
 @media (min-width: 992px) and (min-height: 1199px) {
@@ -2341,39 +2405,47 @@
     fill: "green";
   }
 
+
+  #menu-hamburger{
+    left:-8vw;
+    font-size: 6vw;
+    
+  }
+
   #menu {
-    top: -1vw;
-    left: -27vw;
-    width: 51.4vw;
-    height: 40vw;
+    top: 0vw;
+    left: 59.3vw;
+    width: 40.4vw;
+    height: 25vw;
+    position:absolute;
   }
 
   #li-home {
     position: relative;
-    top: 3vw;
-    width:20vw;
-    border:0px solid black;
+    top: 1vw;
     left:0vw;
+    border:0px solid black;
+    width:15vw;
     color: rgb(94, 94, 187);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   #li-projetos {
     position: relative;
-    top: 11vw;
+    top: 10vw;
     left:0vw;
     color: rgb(61, 61, 119);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   #icon-fechar-menu {
-    left: 41vw;
-    top:3vw;
-    font-size:5vw;
+    left: 30vw;
+    top:1vw;
+    font-size:4vw;
   }
 }
 
@@ -2403,75 +2475,48 @@
     fill: "green";
   }
 
+  #menu-hamburger{
+    left:-8vw;
+    font-size: 6vw;
+    
+  }
+
   #menu {
-    top: -1vw;
-    left: -27vw;
-    width: 51.4vw;
-    height: 40vw;
+    top: 0vw;
+    left: 59.3vw;
+    width: 40.4vw;
+    height: 25vw;
+    position:absolute;
   }
 
   #li-home {
     position: relative;
-    top: 3vw;
-    width:20vw;
-    border:0px solid black;
+    top: 1vw;
     left:0vw;
+    border:0px solid black;
+    width:15vw;
     color: rgb(94, 94, 187);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   #li-projetos {
     position: relative;
-    top: 11vw;
+    top: 10vw;
     left:0vw;
     color: rgb(61, 61, 119);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   #icon-fechar-menu {
-    left: 41vw;
-    top:3vw;
+    left: 30vw;
+    top:1vw;
     font-size:5vw;
   }
 
-  #menu {
-    top: -1vw;
-    left: -27vw;
-    width: 51.4vw;
-    height: 40vw;
-  }
-
-  #li-home {
-    position: relative;
-    top: 3vw;
-    width:20vw;
-    border:0px solid black;
-    left:0vw;
-    color: rgb(94, 94, 187);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
-  }
-
-  #li-projetos {
-    position: relative;
-    top: 11vw;
-    left:0vw;
-    color: rgb(61, 61, 119);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
-  }
-
-  #icon-fechar-menu {
-    left: 41vw;
-    top:3vw;
-    font-size:5vw;
-  }
 }
 
 @media (min-width: 1300px) and (min-height: 900px) {
@@ -2500,39 +2545,46 @@
     fill: "green";
   }
 
+  #menu-hamburger{
+    left:-8vw;
+    font-size: 6vw;
+    
+  }
+
   #menu {
-    top: -1vw;
-    left: -27vw;
-    width: 51.4vw;
-    height: 40vw;
+    top: 0vw;
+    left: 59.3vw;
+    width: 40.4vw;
+    height: 25vw;
+    position:absolute;
   }
 
   #li-home {
     position: relative;
-    top: 3vw;
-    width:20vw;
-    border:0px solid black;
+    top: 1vw;
     left:0vw;
+    border:0px solid black;
+    width:15vw;
     color: rgb(94, 94, 187);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 2.5vw;
   }
 
   #li-projetos {
     position: relative;
-    top: 11vw;
+    top: 10vw;
     left:0vw;
     color: rgb(61, 61, 119);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 2.5vw;
   }
 
   #icon-fechar-menu {
-    left: 41vw;
-    top:3vw;
-    font-size:5vw;
+    left: 30vw;
+    top:1vw;
+    font-size:3.5vw;
   }
 }
 
@@ -2607,39 +2659,46 @@
     font-size: calc(2.4vw + 0vh);
   }
 
+  #menu-hamburger{
+    left:-8vw;
+    font-size: 4vw;
+    
+  }
+
   #menu {
-    top: -1vw;
-    left: -27vw;
-    width: 51.4vw;
-    height: 40vw;
+    top: 0vw;
+    left: 59.3vw;
+    width: 40.4vw;
+    height: 25vw;
+    position:absolute;
   }
 
   #li-home {
     position: relative;
-    top: 3vw;
-    width:20vw;
-    border:0px solid black;
+    top: 1vw;
     left:0vw;
+    border:0px solid black;
+    width:15vw;
     color: rgb(94, 94, 187);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 2.5vw;
   }
 
   #li-projetos {
     position: relative;
-    top: 11vw;
+    top: 10vw;
     left:0vw;
     color: rgb(61, 61, 119);
     text-decoration: overline;
     font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 2.5vw;
   }
 
   #icon-fechar-menu {
-    left: 41vw;
-    top:3vw;
-    font-size:5vw;
+    left: 30vw;
+    top:1vw;
+    font-size:3.5vw;
   }
 }
 

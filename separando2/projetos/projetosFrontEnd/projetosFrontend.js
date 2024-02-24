@@ -100,6 +100,7 @@ let subirDescerLetraS = async () => {
     
     menuHamburguer.addEventListener('click',()=>{
     menu.style.display="block"
+    menu.style.position="absolute"
     
     menuHamburguer.style.opacity="0";
     menuHamburguer.style.display="none";  
