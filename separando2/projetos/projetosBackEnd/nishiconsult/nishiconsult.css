@@ -292,7 +292,7 @@
     }
 
     #title-sergio{
-        font-size:8vw;
+        font-size:4vw;
     }
 
     #container-parte-2{
@@ -301,7 +301,7 @@
     }
 
     #title-prisioner-control{
-        font-size:5.5vw;
+        font-size:3.5vw;
     
     }
 
@@ -311,13 +311,13 @@
     }
 
     #text-prisioner-control{
-        font-size:3.5vw;
+        font-size:2.5vw;
     }
 
 
     #container-parte-4{
         position:relative;
-        top:50vw;
+        top:40vw;
        
     }
         
@@ -325,8 +325,8 @@
         position:relative;
         z-index:1;
 
-        width:100vw;
-        height:90vw;
+        width:80vw;
+        
     }
     
 
