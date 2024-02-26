@@ -301,7 +301,7 @@
     }
 
     #title-prisioner-control{
-        font-size:9.5vw;
+        font-size:5.5vw;
     
     }
 
@@ -318,11 +318,13 @@
     #container-parte-4{
         position:relative;
         top:50vw;
+       
     }
         
     #gif-nishi{
         position:relative;
         z-index:1;
+
         width:100vw;
         height:90vw;
     }
