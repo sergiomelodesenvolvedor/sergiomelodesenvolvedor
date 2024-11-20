@@ -32,48 +32,7 @@ window.addEventListener("load", () => {
   }, 9100 /* 9100 */);
 });
 
-let line1 = document.querySelector("#line1");
-let svgCanto1 = document.querySelector("#svg-canto-1");
-let circleFora1 = document.querySelector("#circle-fora-1");
-let circleDentro1 = document.querySelector("#circle-dentro-1");
-let colTudoMinhaHistoria = document.querySelector("#col-tudo-minha-historia");
-//aqui estou ajustando a primeira linha do canto para redimensionar de acordo com o tamanho da tela
-setTimeout(() => {
-  let divTudoMinhaHistoriaConteudo = document.querySelector(
-    "#div-tudo-minha-historia-conteudo"
-  );
-  line1.setAttribute("y2", "1000vh");
-  circleFora1.setAttribute("cy", divTudoMinhaHistoriaConteudo.offsetHeight / 2);
-  circleDentro1.setAttribute(
-    "cy",
-    divTudoMinhaHistoriaConteudo.offsetHeight / 2
-  );
 
-  svgCanto1.style.height = divTudoMinhaHistoriaConteudo.offsetHeight;
-}, 10000);
-
-//aqui estou fazendo a logica para responsivisar para landscape e portrait, a linha do canto
-let controleAlturaAnteriorOuProxima = 0;
-
-window.addEventListener("orientationchange", () => {
-  setTimeout(() => {
-    let divTudoMinhaHistoriaConteudo2 = document.querySelector(
-      "#div-tudo-minha-historia-conteudo"
-    );
-
-    line1.setAttribute("y2", "1000vh");
-    circleFora1.setAttribute(
-      "cy",
-      divTudoMinhaHistoriaConteudo2.offsetHeight / 2
-    );
-    circleDentro1.setAttribute(
-      "cy",
-      divTudoMinhaHistoriaConteudo2.offsetHeight / 2
-    );
-
-    svgCanto1.style.height = divTudoMinhaHistoriaConteudo2.offsetHeight;
-  }, 10);
-});
 
 //aqui acaba a logica para responsivisar a linha do canto (portrait e landscape)
 
