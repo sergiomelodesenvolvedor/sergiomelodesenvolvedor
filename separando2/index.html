@@ -49,9 +49,10 @@
     />
 
     <div
+      
       id="div-load"
       class="container-fluid pt-5 div-carregamento vh-100 ms-0 me-0 text-center"
-      style="border: 0px solid gray;"
+      style="border: 0px solid gray;display:none"
     >
       <div
         class="row d-flex align-items-center vw-100 mt-5"
@@ -150,7 +151,7 @@
     <div
       id="div-todas-as-partes"
       class="container-fluid p-0 p"
-      style="border: 0px solid green;display:none;opacity: 0;transition: opacity 3s ease;"
+      style="border: 0px solid green;display:block;opacity: 1;transition: opacity 3s ease;"
     >
       <div
         id="div-que-se-esconde"
@@ -170,8 +171,10 @@
                 style="border: 0px solid purple"
               >
                 <nav
+                  id="nav-header"
                   class="nav vw-100 navbar-dark bg-dark"
                   style="border: 0px solid green"
+
                 >
                   <div class="container-fluid" style="border: 0px solid yellow">
                     <a
@@ -181,12 +184,9 @@
                     >
                       <svg
                         id="svg-logo-carregada"
-                        style="border: 0px solid red"
                         class="svg-logo-celular-carregada svg-logo-desktop-carregada"
-                        height="12vh"
-                        width="10vw"
                         fill="none"
-                        viewBox="0 0 131 100"
+                        viewBox="15 0 100 100"
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
@@ -212,6 +212,7 @@
                       <a href="#" id="link-topo-rodape" class="navbar-brand d-none d-md-inline ms-3">Rodapé</a>
                     
                     <button
+                      id="menu-hamburguer"
                       class="navbar-toggler d-block d-md-none float-end mt-3 mt-sm-2"
                       type="button"
                       data-bs-toggle="collapse"
