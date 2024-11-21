@@ -80,7 +80,6 @@
     font-size: 10vw;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-family: 'Bebas Neue', sans-serif;
-
     color: black;
 
   }
@@ -202,6 +201,11 @@
     height: 100%;
   }
 
+  .div-row-letra-d-xs {
+    position: relative;
+    top: 20vh;
+  }
+
   #div-todas-as-partes {
     width: 100vw;
 
@@ -227,7 +231,7 @@
     left: 30vw;
     color: white;
     font-size: 9vw;
-    left: 50vw;
+    left: 40vw;
     top: 3vw;
     border: 3px solid rgb(226, 226, 226);
     padding: 1.5vw;
@@ -243,19 +247,27 @@
 
 
   #container-parte-3 {
-    top: -50vw;
+    top: -30vw;
     border: 0px solid black;
+  }
+
+  #h1-desenvolvedor-web-full-stack {
+    font-size: 10vw;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+
   }
 
   #container-parte-4 {
     border: 0px solid black;
     position: relative;
-    top: 20vw;
+    top: 0vw;
   }
 
   #container-parte-5 {
     position: relative;
-    top: 50vw;
+    top: 30vw;
     height: 63vw;
     border: 0px solid green;
     width: 100vw;
@@ -364,6 +376,11 @@
     height: 100%;
   }
 
+  .div-row-letra-d-xs {
+    position: relative;
+    top: 20vh;
+  }
+
   #div-todas-as-partes {
     width: 100vw;
 
@@ -389,7 +406,7 @@
     left: 30vw;
     color: white;
     font-size: 9vw;
-    left: 50vw;
+    left: 40vw;
     top: 3vw;
     border: 3px solid rgb(226, 226, 226);
     padding: 1.5vw;
@@ -398,28 +415,37 @@
   }
 
   #container-parte-1 {
-    height: 170vw;
-    position: relative;
-    top: 20vw;
+    height: 90vw;
     border: 0px solid black;
+    position:relative;
+    top:10vw;
   }
 
 
 
   #container-parte-3 {
-    top: -80vw;
+    position:relative;
+    top: 20vw;
     border: 0px solid black;
+  }
+
+  #h1-desenvolvedor-web-full-stack {
+    font-size: 10vw;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+
   }
 
   #container-parte-4 {
     border: 0px solid black;
     position: relative;
-    top: -60vw;
+    top: 45vw;
   }
 
   #container-parte-5 {
     position: relative;
-    top: 0vw;
+    top: 70vw;
     height: 63vw;
     border: 0px solid green;
     width: 100vw;
@@ -528,62 +554,105 @@
     height: 100%;
   }
 
-  .div-row-letra-d-md {
+  .div-row-letra-d-xs {
     position: relative;
-    top: 10vw;
+    top: 20vh;
+  }
+
+  #div-todas-as-partes {
+    width: 100vw;
+
+  }
+
+  #nav-header {
+    position: relative;
+    height: 20vw;
+    width: 100vw;
+  }
+
+  #svg-logo-carregada {
+    border: 0px solid yellow;
+    width: 30vw;
+    height: 17vw;
+    position: relative;
+    top: 1.5vw;
+  }
+
+  #menu-hamburguer {
+    position: relative;
+    top: 0vw;
+    left: 30vw;
+    color: white;
+    font-size: 9vw;
+    left: 40vw;
+    top: 3vw;
+    border: 3px solid rgb(226, 226, 226);
+    padding: 1.5vw;
+    border-radius: 3vw;
+
   }
 
   #container-parte-1 {
     height: 90vw;
-    border: 0px solid black
+    border: 0px solid yellow;
+    position:relative;
+    top:25vw;
   }
 
-  #container-parte-2 {
-    top: 20vw;
-  }
+
 
   #container-parte-3 {
-    top: 40vw;
+    position:relative;
+    top: 20vw;
     border: 0px solid black;
+  }
+
+  #h1-desenvolvedor-web-full-stack {
+    font-size: 10vw;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+
   }
 
   #container-parte-4 {
     border: 0px solid black;
     position: relative;
-    top: 65vw;
+    top: 45vw;
   }
 
   #container-parte-5 {
     position: relative;
-    top: 90vw;
-    height: calc(50vw);
+    top: 70vw;
+    height: 63vw;
+    border: 0px solid green;
     width: 100vw;
   }
 
-
   #svg-logo-carregada-rodape {
-    width: 20vw;
-    height: calc(13vw);
     position: relative;
-    top: 3vh;
+    top: 3vw;
     left: 2vw;
+    height: 20vw;
+    width: 27vw;
+
     border: 0px solid yellow;
   }
 
   #div-envie-me-uma-mensagem {
     position: relative;
     left: 3vw;
-    top: 3vh;
-    font-size: 3.4vw;
+    top: 5vw;
+    font-size: 3.8vw;
     width: 50vw;
     border: 0px solid black;
   }
 
   #div-email-rodape {
     position: relative;
-    top: 4vh;
+    top: 8vw;
     left: 3vw;
-    font-size: 2.8vw;
+    font-size: 3.4vw;
     border: 0px solid black;
   }
 
@@ -591,16 +660,16 @@
     font-size: 4vw;
     position: relative;
     left: 27vw;
-    top: 1vh;
+    top: 1vw;
     border: 0px solid black;
   }
 
   #div-telefone-rodape {
     position: relative;
     left: 3vw;
-    top: 4vh;
+    top: 11vw;
     font-family: "Titillium Web", sans-serif;
-    font-size: 2.8vw;
+    font-size: 3.2vw;
     color: rgb(200, 255, 203);
     border: 0px solid rgb(166, 255, 154);
   }
@@ -609,7 +678,7 @@
     font-size: 4vw;
     position: relative;
     left: 10vw;
-    top: 2vh;
+    top: 3vw;
     border: 0px solid black;
   }
 
@@ -617,22 +686,25 @@
     font-size: 4vw;
     position: relative;
     left: 10vw;
-    top: 2.9vh;
+    top: 4.9vw;
     border: 0px solid black;
   }
 
   #div-pai-div-hr-rodape {
     position: relative;
-    top: 3vh;
+    top: 3vw;
+
   }
 
   #div-copyright-rodape {
     position: relative;
     left: 3vw;
-    top: 2vh;
+    top: 3vw;
     font-size: 3vw;
   }
 }
+
+
 
 @media (min-width: 992px) {
   .svg-logo-celular-carregada {
@@ -662,57 +734,134 @@
     height: 100%;
   }
 
-  .div-row-letra-d-lg {
-    border: 0px solid black;
+  .div-row-letra-d-xs {
     position: relative;
-    top: 5vh;
+    top: 20vh;
   }
 
-  #container-parte-2 {
-    top: 0vw;
+  #div-todas-as-partes {
+    width: 100vw;
+
   }
+
+  #nav-header {
+    position: relative;
+    height: 13vw;
+    width: 100vw;
+  }
+
+  #svg-logo-carregada {
+    border: 0px solid yellow;
+    width: 17vw;
+    height: 10vw;
+    position: relative;
+    top: 1.5vw;
+  }
+
+  #link-topo-sobre-mim{
+    position:relative;
+    top:3vw;
+    left:2vw;
+    font-size:3vw;
+  }
+  #link-topo-meus-projetos{
+    position:relative;
+    
+    top:3vw;
+    left:2vw;
+    font-size:3vw;
+  }
+  #link-topo-contate-me{
+    position:relative;
+    
+    top:3vw;
+    left:2vw;
+    font-size:3vw;
+  }
+  #link-topo-rodape{
+    position:relative;
+    
+    top:3vw;
+    left:2vw;
+    font-size:3vw;
+  }
+
+  #menu-hamburguer {
+    display:none;
+    position: relative;
+    top: 0vw;
+    left: 30vw;
+    color: white;
+    font-size: 9vw;
+    left: 40vw;
+    top: 3vw;
+    border: 3px solid rgb(226, 226, 226);
+    padding: 1.5vw;
+    border-radius: 3vw;
+
+  }
+
+  #container-parte-1 {
+    height: 65vw;
+    border: 0px solid yellow;
+    position:relative;
+    top:15vw;
+  }
+
+
 
   #container-parte-3 {
-    top: 25vh;
+    position:relative;
+    top: 0vw;
     border: 0px solid black;
+  }
+
+  #h1-desenvolvedor-web-full-stack {
+    font-size: 5vw;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+
   }
 
   #container-parte-4 {
     border: 0px solid black;
     position: relative;
-    top: 50vh;
+    top: 15vw;
   }
 
   #container-parte-5 {
     position: relative;
-    top: 80vh;
-    height: calc(55vw);
+    top: 30vw;
+    height: 63vw;
+    border: 0px solid green;
+    width: 100vw;
   }
 
-
   #svg-logo-carregada-rodape {
-    width: 20vw;
-    height: calc(13vw);
     position: relative;
-    top: 3vh;
+    top: 3vw;
     left: 2vw;
+    height: 20vw;
+    width: 27vw;
+
     border: 0px solid yellow;
   }
 
   #div-envie-me-uma-mensagem {
     position: relative;
     left: 3vw;
-    top: 3vw;
-    font-size: 3.4vw;
+    top: 5vw;
+    font-size: 3.8vw;
     width: 50vw;
     border: 0px solid black;
   }
 
   #div-email-rodape {
     position: relative;
-    top: 4vw;
+    top: 8vw;
     left: 3vw;
-    font-size: 2.8vw;
+    font-size: 3.4vw;
     border: 0px solid black;
   }
 
@@ -727,9 +876,9 @@
   #div-telefone-rodape {
     position: relative;
     left: 3vw;
-    top: 4vw;
+    top: 11vw;
     font-family: "Titillium Web", sans-serif;
-    font-size: 2.8vw;
+    font-size: 3.2vw;
     color: rgb(200, 255, 203);
     border: 0px solid rgb(166, 255, 154);
   }
@@ -738,7 +887,7 @@
     font-size: 4vw;
     position: relative;
     left: 10vw;
-    top: 2vw;
+    top: 3vw;
     border: 0px solid black;
   }
 
@@ -746,19 +895,20 @@
     font-size: 4vw;
     position: relative;
     left: 10vw;
-    top: 2.9vw;
+    top: 4.9vw;
     border: 0px solid black;
   }
 
   #div-pai-div-hr-rodape {
     position: relative;
     top: 3vw;
+
   }
 
   #div-copyright-rodape {
     position: relative;
     left: 3vw;
-    top: 2vw;
+    top: 3vw;
     font-size: 3vw;
   }
 }
@@ -837,5 +987,4 @@
 
 .fillRect {
   transition: width 0.5s ease;
-}
 }
