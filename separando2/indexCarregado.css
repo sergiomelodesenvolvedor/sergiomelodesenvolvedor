@@ -935,12 +935,12 @@
   #container-parte-4 {
     border: 0px solid black;
     position: relative;
-    top: 15vw;
+    top: 30vw;
   }
 
   #container-parte-5 {
     position: relative;
-    top: 30vw;
+    top: 50vw;
     height: 58vw;
     border: 0px solid green;
     width: 100vw;
