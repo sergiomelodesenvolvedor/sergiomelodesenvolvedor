@@ -1,4 +1,4 @@
-/* let textTitle = document.querySelector("#sergio-melo-desenvolvedor-text");
+let textTitle = document.querySelector("#sergio-melo-desenvolvedor-text");
 let textSubTitle = document.querySelector("#apaixonado-por-tecnologia-text");
 let divCarregamento = document.querySelector(".div-carregamento");
 
@@ -51,4 +51,3 @@ document.addEventListener("DOMContentLoaded", () => {
   },8500);
 });
 
- */
