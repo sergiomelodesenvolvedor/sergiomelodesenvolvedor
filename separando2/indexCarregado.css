@@ -734,6 +734,26 @@
     height: 100%;
   }
 
+  #letra-s{
+    position:fixed;
+    top:15vw;
+    border:0px solid black;
+    width:100vw;
+  }
+  #letra-m{
+    position:fixed;
+    top:10vw;
+    left:20vw;
+    width:100vw;
+  }
+
+  #letra-d{
+    position:fixed;
+    top:40vw;
+    left:-5vw;
+    width:100vw;
+  }
+
   .div-row-letra-d-xs {
     position: relative;
     top: 20vh;
@@ -813,7 +833,7 @@
   #container-parte-3 {
     position:relative;
     top: 0vw;
-    border: 0px solid black;
+    border:0px solid black;
   }
 
   #h1-desenvolvedor-web-full-stack {
@@ -833,17 +853,17 @@
   #container-parte-5 {
     position: relative;
     top: 30vw;
-    height: 63vw;
+    height: 58vw;
     border: 0px solid green;
     width: 100vw;
   }
 
   #svg-logo-carregada-rodape {
     position: relative;
-    top: 3vw;
+    top: 0vw;
     left: 2vw;
     height: 20vw;
-    width: 27vw;
+    width: 15vw;
 
     border: 0px solid yellow;
   }
@@ -851,7 +871,7 @@
   #div-envie-me-uma-mensagem {
     position: relative;
     left: 3vw;
-    top: 5vw;
+    top: 0vw;
     font-size: 3.8vw;
     width: 50vw;
     border: 0px solid black;
@@ -859,7 +879,7 @@
 
   #div-email-rodape {
     position: relative;
-    top: 8vw;
+    top: 2vw;
     left: 3vw;
     font-size: 3.4vw;
     border: 0px solid black;
@@ -876,7 +896,7 @@
   #div-telefone-rodape {
     position: relative;
     left: 3vw;
-    top: 11vw;
+    top: 5vw;
     font-family: "Titillium Web", sans-serif;
     font-size: 3.2vw;
     color: rgb(200, 255, 203);
@@ -901,7 +921,7 @@
 
   #div-pai-div-hr-rodape {
     position: relative;
-    top: 3vw;
+    top: 4vw;
 
   }
 
@@ -913,7 +933,9 @@
   }
 }
 
-
+body {
+  overflow-x: hidden; /* Desativa a rolagem horizontal */
+}
 
 #svg-letra-s {
   animation: 5s girarAntiHorario ease-in-out infinite;

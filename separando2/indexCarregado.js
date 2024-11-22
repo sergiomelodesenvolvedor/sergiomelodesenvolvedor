@@ -34,175 +34,20 @@ window.addEventListener("load", () => {
 
 
 
-//aqui acaba a logica para responsivisar a linha do canto (portrait e landscape)
 
-//aqui começa a logica para responsivisar a linha do canto mas no envento resize
 
-window.addEventListener("resize", () => {
-  setTimeout(() => {
-    let divTudoMinhaHistoriaConteudo2 = document.querySelector(
-      "#div-tudo-minha-historia-conteudo"
-    );
 
-    line1.setAttribute("y2", "1000vh");
-    circleFora1.setAttribute(
-      "cy",
-      divTudoMinhaHistoriaConteudo2.offsetHeight / 2
-    );
-    circleDentro1.setAttribute(
-      "cy",
-      divTudoMinhaHistoriaConteudo2.offsetHeight / 2
-    );
 
-    svgCanto1.style.height = divTudoMinhaHistoriaConteudo2.offsetHeight;
-  }, 10);
-});
-
-//a partir daqui vou fazer a parte de rolar o conteudo para cima quando usar o scroll
-
-function calcularPosicaoRelativaAPagina(elemento) {
-  var posicao = 0;
-
-  while (elemento) {
-    posicao += elemento.offsetTop;
-    elemento = elemento.offsetParent;
-  }
-
-  return posicao;
-}
-
-let divQueSeEsconde = document.querySelector("#div-que-se-esconde");
-let posicaoPagina = 0;
-let ultimoTempoDoWhell = 0;
-
-let divTudoMinhaHistoriaConteudo = document.querySelector(
-  "#div-tudo-minha-historia-conteudo"
-);
 let containerParte3 = document.querySelector("#container-parte-3");
 
 let containerParte4 = document.querySelector("#container-parte-4");
 
 let containerParte5 = document.querySelector("#container-parte-5");
 
-//aqui estou ajustando o botão de scroll para rolar o conteudo para cima ou para baixo nos dispositivos desktop
 
-function funcaoDeRolagem(event) {
-  var posicaoScrollParte2 =
-    calcularPosicaoRelativaAPagina(divTudoMinhaHistoriaConteudo) -
-    (window.innerHeight - divTudoMinhaHistoriaConteudo.offsetHeight) / 2; //conta para deixar o scroll centralizado na parte 2
 
-  var posicaoScrollParte3 =
-    calcularPosicaoRelativaAPagina(containerParte3) -
-    (window.innerHeight - containerParte3.offsetHeight) / 2;
 
-  var posicaoScrollParte4 =
-    calcularPosicaoRelativaAPagina(containerParte4) -
-    (window.innerHeight - containerParte4.offsetHeight) / 2;
 
-  var posicaoScrollParte5 =
-    calcularPosicaoRelativaAPagina(containerParte5) -
-    (window.innerHeight - containerParte5.offsetHeight) / 2;
-
-  const agora = new Date().getTime();
-
-  if (agora - ultimoTempoDoWhell > 500) {
-    if (event.deltaY > 0) {
-      if (posicaoPagina === 4) {
-      } else {
-        posicaoPagina += 1;
-      }
-
-      if (posicaoPagina === 0) {
-        divQueSeEsconde.style.transform = `translateY(0px)`;
-        posicaoPagina += 1;
-      } else if (posicaoPagina === 1) {
-        divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte2}px)`;
-      } else if (posicaoPagina === 2) {
-        divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte3}px)`;
-      } else if (posicaoPagina === 3) {
-        divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte4}px)`;
-      } else if (posicaoPagina === 4) {
-        divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte5}px)`;
-      }
-    }
-    if (event.deltaY < 0) {
-      if (posicaoPagina === 0) {
-        divQueSeEsconde.style.transform = `translateY(0px)`;
-      } else if (posicaoPagina === 1) {
-        divQueSeEsconde.style.transform = `translateY(0px)`;
-        posicaoPagina -= 1;
-      } else if (posicaoPagina === 2) {
-        divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte2}px)`;
-        posicaoPagina -= 1;
-      } else if (posicaoPagina === 3) {
-        divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte3}px)`;
-        posicaoPagina -= 1;
-      } else if (posicaoPagina === 4) {
-        divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte4}px)`;
-        posicaoPagina -= 1;
-      }
-    }
-    ultimoTempoDoWhell = agora;
-  }
-}
-
-if (window.innerWidth >= 1080) {
-  setTimeout(() => {
-    posicaoScrollParte2 =
-      calcularPosicaoRelativaAPagina(divTudoMinhaHistoriaConteudo) -
-      (window.innerHeight - divTudoMinhaHistoriaConteudo.offsetHeight) / 2; //conta para deixar o scroll centralizado na parte 2
-
-    posicaoScrollParte3 =
-      calcularPosicaoRelativaAPagina(containerParte3) -
-      (window.innerHeight - containerParte3.offsetHeight) / 2;
-
-    divTodasAsPartes.addEventListener("wheel", funcaoDeRolagem);
-
-    window.addEventListener("keydown", (event) => {
-      if (event.key === "ArrowDown") {
-        if (posicaoPagina === 1) {
-        } else {
-          posicaoPagina += 1;
-        }
-        if (posicaoPagina === 0) {
-          divQueSeEsconde.style.transform = `translateY(0px)`;
-          posicaoPagina += 1;
-        } else if (posicaoPagina === 1) {
-          divQueSeEsconde.style.transform = `translateY(${-posicaoScrollParte2}px)`;
-        }
-      }
-
-      if (event.key === "ArrowUp") {
-        if (posicaoPagina === 0) {
-        } else {
-          posicaoPagina -= 1;
-        }
-
-        if (posicaoPagina === 0) {
-          divQueSeEsconde.style.transform = `translateY(0px)`;
-        } else if (posicaoPagina === 1) {
-          divQueSeEsconde.style.transform = `translateY(0px)`;
-          posicaoPagina -= 1;
-        }
-      }
-    });
-  }, 9500 /* 9500 */);
-}
-
-window.addEventListener("resize", () => {
-  if (window.innerWidth <= 1080) {
-    divTodasAsPartes.removeEventListener("wheel", funcaoDeRolagem); //aqui vai remover a função de rolagem para telas menores que 1080px
-
-    divQueSeEsconde.style.transform = "translateY(0px)"; //quando a tela for para 1080px a div que se esconde volta para o estado inicial
-    posicaoPagina = 0;
-  } else {
-    divTodasAsPartes.addEventListener("wheel", funcaoDeRolagem); //caso redimensione a tela para uma altura que é maior que 1080px a adiciona a função de rolagem
-  }
-});
-
-//aqui acaba a parte de ajustar a rolagem de tela para desktop
-
-//aqui começa a parte de fazer o svg retangulo preencher frontend e backend
 
 let rectMeusTrabalhos = document.querySelectorAll(".fillRect");
 
@@ -239,7 +84,6 @@ svgButtonBackEnd.addEventListener("mouseout", () => {
 svgButtonBackEnd.addEventListener('click',()=>{
   window.location.href="projetos/projetosBackEnd/projetosBackend.html"
 })
-//aqui vou fazer a parte de rolar a pagina quando clicar nos links do topo para tela grande
 
 let linkTopoSobreMim = document.querySelector("#link-topo-sobre-mim");
 
