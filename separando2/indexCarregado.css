@@ -124,6 +124,34 @@
     top: 50vw;
   }
 
+  #inputNome{
+    border-radius: 1.5vw;
+    border:1px solid rgb(197, 197, 197);
+    height:9vw;
+    
+  }
+
+  #inputEmail{
+    border-radius: 1.5vw;
+    border:1px solid rgb(197, 197, 197);
+    height:9vw;
+  }
+
+  #text-area-mensagem{
+    width: 60vw;
+    height: 30vw;
+    border-radius: 0.5vw;
+    border:1px solid rgb(197, 197, 197)
+  }
+
+  #buttonEnviarMensagem{
+    height: 10vw;
+    width:60vw;
+    font-weight: bolder;
+    font-size: 4vw;
+  }
+
+
   #container-parte-5 {
     position: relative;
     top: 90vw;
@@ -334,6 +362,34 @@
     position: relative;
     top: 0vw;
   }
+
+  #inputNome{
+    border-radius: 1.5vw;
+    border:1px solid rgb(197, 197, 197);
+    height:9vw;
+    
+  }
+
+  #inputEmail{
+    border-radius: 1.5vw;
+    border:1px solid rgb(197, 197, 197);
+    height:9vw;
+  }
+
+  #text-area-mensagem{
+    width: 60vw;
+    height: 30vw;
+    border-radius: 0.5vw;
+    border:1px solid rgb(197, 197, 197)
+  }
+
+  #buttonEnviarMensagem{
+    height: 10vw;
+    width:60vw;
+    font-weight: bolder;
+    font-size: 4vw;
+  }
+
 
   #container-parte-5 {
     position: relative;
@@ -551,6 +607,35 @@
     top: 55vw;
   }
 
+
+  #inputNome{
+    border-radius: 1.5vw;
+    border:1px solid rgb(197, 197, 197);
+    height:9vw;
+    
+  }
+
+  #inputEmail{
+    border-radius: 1.5vw;
+    border:1px solid rgb(197, 197, 197);
+    height:9vw;
+  }
+
+  #text-area-mensagem{
+    width: 60vw;
+    height: 30vw;
+    border-radius: 0.5vw;
+    border:1px solid rgb(197, 197, 197)
+  }
+
+  #buttonEnviarMensagem{
+    height: 10vw;
+    width:60vw;
+    font-weight: bolder;
+    font-size: 4vw;
+  }
+
+
   #container-parte-5 {
     position: relative;
     top: 70vw;
@@ -724,7 +809,7 @@
     height: 90vw;
     border: 0px solid yellow;
     position:relative;
-    top:25vw;
+    top:17vw;
   }
 
 
@@ -767,6 +852,34 @@
     border: 0px solid black;
     position: relative;
     top: 45vw;
+  }
+
+
+  #inputNome{
+    border-radius: 1.5vw;
+    border:1px solid rgb(197, 197, 197);
+    height:7vw;
+    
+  }
+
+  #inputEmail{
+    border-radius: 1.5vw;
+    border:1px solid rgb(197, 197, 197);
+    height:7vw;
+  }
+
+  #text-area-mensagem{
+    width: 60vw;
+    height: 20vw;
+    border-radius: 0.5vw;
+    border:1px solid rgb(197, 197, 197)
+  }
+
+  #buttonEnviarMensagem{
+    height: 7.7vw;
+    width:60vw;
+    font-weight: bolder;
+    font-size: 4vw;
   }
 
   #container-parte-5 {
@@ -980,7 +1093,7 @@
 
   #container-parte-3 {
     position:relative;
-    top: 6vw;
+    top: 11vw;
     border:0px solid black;
   }
 
