@@ -101,6 +101,23 @@
 
   }
 
+  #svg-button-frontend {
+    
+    cursor: pointer;
+    border: 1px solid black;
+    height: 15vw;
+    
+  }
+
+
+  #svg-button-backend {
+    
+    cursor: pointer;
+    border: 1px solid black;
+    height: 15vw;
+    
+  }
+
   #container-parte-4 {
     border: 0px solid black;
     position: relative;
@@ -294,6 +311,24 @@
 
   }
 
+
+  #svg-button-frontend {
+    
+    cursor: pointer;
+    border: 1px solid black;
+    height: 11vw;
+    
+  }
+
+
+  #svg-button-backend {
+    
+    cursor: pointer;
+    border: 1px solid black;
+    height: 11vw;
+    
+  }
+
   #container-parte-4 {
     border: 0px solid black;
     position: relative;
@@ -481,7 +516,7 @@
 
   #container-parte-3 {
     position:relative;
-    top: 20vw;
+    top: 30vw;
     border: 0px solid black;
   }
 
@@ -493,10 +528,27 @@
 
   }
 
+  #svg-button-frontend {
+    
+    cursor: pointer;
+    border: 1px solid black;
+    height: 10vw;
+    
+  }
+
+
+  #svg-button-backend {
+    
+    cursor: pointer;
+    border: 1px solid black;
+    height: 10vw;
+    
+  }
+
   #container-parte-4 {
     border: 0px solid black;
     position: relative;
-    top: 45vw;
+    top: 55vw;
   }
 
   #container-parte-5 {
@@ -690,6 +742,26 @@
     color: black;
 
   }
+
+
+  #svg-button-frontend {
+    
+    cursor: pointer;
+    border: 1px solid black;
+    height: 6vw;
+    
+  }
+
+
+  #svg-button-backend {
+    
+    cursor: pointer;
+    border: 1px solid black;
+    height: 6vw;
+    
+  }
+
+
 
   #container-parte-4 {
     border: 0px solid black;
@@ -923,10 +995,23 @@
   #h1-projetos-frontend{
     font-size:6vw;
   }
-
+  #svg-button-frontend {
+    
+    cursor: pointer;
+    border: 1px solid black; height: 5vw
+  }
+  
+  
   #h1-projetos-backend{
     font-size:6vw;
   }
+
+  #svg-button-backend {
+    border: 1px solid black;
+    height: 5vw;
+    cursor: pointer;
+  }
+  
 
   #h3-websites-responsivos-e-dinamicos{
     font-size:2.5vw;
@@ -1085,15 +1170,6 @@ body {
   transition: transform 0.8s ease;
 }
 
-#svg-button-frontend {
-  height: 7vw;
-  cursor: pointer;
-}
-
-#svg-button-backend {
-  height: 7vh;
-  cursor: pointer;
-}
 
 .fillRect {
   transition: width 0.5s ease;
