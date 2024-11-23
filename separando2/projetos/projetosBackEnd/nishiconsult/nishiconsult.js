@@ -31,3 +31,17 @@ document.addEventListener("click", (e) => {
 
 })
 
+
+document.querySelector("#li-home").addEventListener('click',()=>{
+    window.location.href="../../../index.html"
+})
+
+
+document.querySelector("#li-projetos-backend").addEventListener('click',()=>{
+    window.location.href="../projetosBackend.html"
+})
+
+document.querySelector("#li-projetos-frontend").addEventListener('click',()=>{
+    window.location.href="../../projetosFrontEnd/projetosFrontend.html"
+})
+

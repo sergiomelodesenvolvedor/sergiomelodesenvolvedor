@@ -23,6 +23,64 @@
         font-size: 8vw;
     }
 
+    
+    #menu{
+        position:relative;
+        right: 5vw;
+        top:0vw;
+        border:0px solid black;
+        width: 65.7vw;
+        height:60vw;
+        color:rgb(94, 94, 187);
+        text-decoration: overline;
+        font-size:6.5vw;
+        background-color:rgb(231, 231, 231);
+        box-shadow: rgba(0, 0, 0, 0.2) -3px 5px 10px;
+        z-index: 2;
+        display:none;
+    }
+
+    #icon-fechar-menu{
+        position:relative;
+        left:57vw !important;
+        top:-0vw !important;
+        font-size:8vw;
+    }
+
+    #li-home{
+        
+        position:relative;
+        left:-1.5vw;
+        top:0vw;
+        cursor:pointer;
+    }
+
+    li:hover{
+        color:blue
+    }
+
+    #li-projetos-backend{
+        position:relative;
+        left:-1.5vw;
+        top:8vw;
+        cursor:pointer;
+    }
+
+    #li-projetos-frontend{
+        position:relative;
+        top:15vw;
+        left:-1.5vw;
+        cursor:pointer;
+    }
+
+    #div-menu{
+        z-index:2;
+        border:0px solid black;
+        height:12.3vw;
+    }
+
+
+
     #container-parte-2 {
         position: relative;
         top: 17vw;
@@ -208,8 +266,10 @@
     }
 
     #menu{
+        position:relative;
+        right: 1.5vw;
         border:0px solid black;
-        width: 13.7vw;
+        width: 15.7vw;
         height:12vw;
         color:rgb(94, 94, 187);
         text-decoration: overline;
@@ -217,18 +277,33 @@
         background-color:rgb(231, 231, 231);
         box-shadow: rgba(0, 0, 0, 0.2) -3px 5px 10px;
         z-index: 2;
+        display:none;
     }
 
     #li-home{
+        
         position:relative;
         left:-1.5vw;
-        top:1vw;
+        top:-1vw;
+        cursor:pointer;
     }
 
-    #li-projetos{
+    li:hover{
+        color:blue
+    }
+
+    #li-projetos-backend{
         position:relative;
         left:-1.5vw;
-        top:3vw;
+        top:0.5vw;
+        cursor:pointer;
+    }
+
+    #li-projetos-frontend{
+        position:relative;
+        left:-1.5vw;
+        top:2vw;
+        cursor:pointer;
     }
 
     #div-menu{
