@@ -204,7 +204,37 @@
     }
 
     #title-sergio {
-        font-size: 8vw;
+        font-size: 4vw;
+    }
+
+    #menu{
+        border:0px solid black;
+        width: 13.7vw;
+        height:12vw;
+        color:rgb(94, 94, 187);
+        text-decoration: overline;
+        font-size:1.5vw;
+        background-color:rgb(231, 231, 231);
+        box-shadow: rgba(0, 0, 0, 0.2) -3px 5px 10px;
+        z-index: 2;
+    }
+
+    #li-home{
+        position:relative;
+        left:-1.5vw;
+        top:1vw;
+    }
+
+    #li-projetos{
+        position:relative;
+        left:-1.5vw;
+        top:3vw;
+    }
+
+    #div-menu{
+        z-index:2;
+        border:0px solid black;
+        height:12.3vw;
     }
 
     #container-parte-2 {
@@ -213,7 +243,7 @@
     }
 
     #title-prisioner-control {
-        font-size: 9.5vw;
+        font-size: 4.5vw;
 
     }
 
@@ -223,20 +253,20 @@
     }
 
     #text-prisioner-control {
-        font-size: 3.5vw;
+        font-size: 2.5vw;
     }
 
 
     #container-parte-4 {
         position: relative;
-        top: 50vw;
+        top: 30vw;
     }
 
     #gif-nishi {
         position: relative;
         z-index: 1;
-        width: 100vw;
-        height: 90vw;
+        width: 60vw;
+        height: 40vw;
     }
 
 
