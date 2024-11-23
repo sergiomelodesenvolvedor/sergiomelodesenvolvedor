@@ -914,14 +914,14 @@
 
   #nav-header {
     position: relative;
-    height: 13vw;
+    height: 8.5vw;
     width: 100vw;
   }
 
   #svg-logo-carregada {
     border: 0px solid yellow;
-    width: 17vw;
-    height: 10vw;
+    width: 10vw;
+    height: 6vw;
     position: relative;
     top: 1.5vw;
   }
@@ -929,29 +929,29 @@
   #link-topo-sobre-mim{
     position:relative;
     top:3vw;
-    left:2vw;
-    font-size:3vw;
+    left:10vw;
+    font-size:2vw;
   }
   #link-topo-meus-projetos{
     position:relative;
     
     top:3vw;
-    left:2vw;
-    font-size:3vw;
+    left:15vw;
+    font-size:2vw;
   }
   #link-topo-contate-me{
     position:relative;
     
     top:3vw;
-    left:2vw;
-    font-size:3vw;
+    left:20vw;
+    font-size:2vw;
   }
   #link-topo-rodape{
     position:relative;
     
     top:3vw;
-    left:2vw;
-    font-size:3vw;
+    left:25vw;
+    font-size:2vw;
   }
 
   #menu-hamburguer {
@@ -980,7 +980,7 @@
 
   #container-parte-3 {
     position:relative;
-    top: 10vw;
+    top: 6vw;
     border:0px solid black;
   }
 
@@ -993,7 +993,7 @@
   }
 
   #h1-projetos-frontend{
-    font-size:6vw;
+    font-size:4.6vw;
   }
   #svg-button-frontend {
     
@@ -1003,7 +1003,7 @@
   
   
   #h1-projetos-backend{
-    font-size:6vw;
+    font-size:4.6vw;
   }
 
   #svg-button-backend {
