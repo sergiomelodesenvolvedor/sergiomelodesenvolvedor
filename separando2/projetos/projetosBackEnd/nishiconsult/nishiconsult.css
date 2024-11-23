@@ -1,334 +1,59 @@
-
-#title-sergio{
-    font-family: "Kanit";    
+#title-sergio {
+    font-family: "Kanit";
 }
 
-#title-prisioner-control{
-    font-family:"Roboto";
-    color:rgb(45, 26, 99);
+#title-prisioner-control {
+    font-family: "Roboto";
+    color: rgb(45, 26, 99);
 }
 
-#text-prisioner-control{
-    font-family:"Quicksand"
-}
-
-
-@media (max-width: 389px) {
-
-    #container-parte-1{
-        position:relative;
-        top:3vw;
-    }
-
-    #title-sergio{
-        font-size:8vw;
-    }
-
-    #container-parte-2{
-        position:relative;
-        top:17vw;
-    }
-
-    #title-prisioner-control{
-        font-size:9.5vw;
-    
-    }
-
-    #container-parte-3{
-        position:relative;
-        top:25vw;
-    }
-
-    #text-prisioner-control{
-        font-size:6vw;
-    }
-
-
-    #container-parte-4{
-        position:relative;
-        top:50vw;
-    }
-        
-    #gif-nishi{
-        position:relative;
-        z-index:1;
-        width:100vw;
-        height:90vw;
-    }
-    
+#text-prisioner-control {
+    font-family: "Quicksand"
 }
 
 
-@media (min-width: 390px) and (max-width: 424px) {
-    #container-parte-1{
-        position:relative;
-        top:3vw;
+@media (max-width: 424px) {
+
+    #container-parte-1 {
+        position: relative;
+        top: 3vw;
     }
 
-    #title-sergio{
-        font-size:8vw;
+    #title-sergio {
+        font-size: 8vw;
     }
 
-    #container-parte-2{
-        position:relative;
-        top:17vw;
+    #container-parte-2 {
+        position: relative;
+        top: 17vw;
     }
 
-    #title-prisioner-control{
-        font-size:9.5vw;
-    
+    #title-prisioner-control {
+        font-size: 9.5vw;
+
     }
 
-    #container-parte-3{
-        position:relative;
-        top:25vw;
+    #container-parte-3 {
+        position: relative;
+        top: 25vw;
     }
 
-    #text-prisioner-control{
-        font-size:6vw;
-    }
-
-
-    #container-parte-4{
-        position:relative;
-        top:50vw;
-    }
-        
-    #gif-nishi{
-        position:relative;
-        z-index:1;
-        width:100vw;
-        height:90vw;
-    }
-    
-
-}
-
-@media (min-width: 424px) and (max-width: 576px) {
-    #container-parte-1{
-        position:relative;
-        top:3vw;
-    }
-
-    #title-sergio{
-        font-size:8vw;
-    }
-
-    #container-parte-2{
-        position:relative;
-        top:17vw;
-    }
-
-    #title-prisioner-control{
-        font-size:9.5vw;
-    
-    }
-
-    #container-parte-3{
-        position:relative;
-        top:25vw;
-    }
-
-    #text-prisioner-control{
-        font-size:6vw;
+    #text-prisioner-control {
+        font-size: 6vw;
     }
 
 
-    #container-parte-4{
-        position:relative;
-        top:50vw;
-    }
-        
-    #gif-nishi{
-        position:relative;
-        z-index:1;
-        width:100vw;
-        height:90vw;
-    }
-    
-
-}
-
-@media (min-width: 576px) and (max-width: 768px) {
-    #container-parte-1{
-        position:relative;
-        top:3vw;
+    #container-parte-4 {
+        position: relative;
+        top: 50vw;
     }
 
-    #title-sergio{
-        font-size:8vw;
+    #gif-nishi {
+        position: relative;
+        z-index: 1;
+        width: 100vw;
+        height: 90vw;
     }
-
-    #container-parte-2{
-        position:relative;
-        top:17vw;
-    }
-
-    #title-prisioner-control{
-        font-size:9.5vw;
-    
-    }
-
-    #container-parte-3{
-        position:relative;
-        top:25vw;
-    }
-
-    #text-prisioner-control{
-        font-size:6vw;
-    }
-
-
-    #container-parte-4{
-        position:relative;
-        top:50vw;
-    }
-        
-    #gif-nishi{
-        position:relative;
-        z-index:1;
-        width:100vw;
-        height:90vw;
-    }
-    
-
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-    #container-parte-1{
-        position:relative;
-        top:3vw;
-    }
-
-    #title-sergio{
-        font-size:8vw;
-    }
-
-    #container-parte-2{
-        position:relative;
-        top:17vw;
-    }
-
-    #title-prisioner-control{
-        font-size:9.5vw;
-    
-    }
-
-    #container-parte-3{
-        position:relative;
-        top:25vw;
-    }
-
-    #text-prisioner-control{
-        font-size:4vw;
-    }
-
-
-    #container-parte-4{
-        position:relative;
-        top:50vw;
-    }
-        
-    #gif-nishi{
-        position:relative;
-        z-index:1;
-        width:100vw;
-        height:90vw;
-    }
-    
-
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    #container-parte-1{
-        position:relative;
-        top:3vw;
-    }
-
-    #title-sergio{
-        font-size:8vw;
-    }
-
-    #container-parte-2{
-        position:relative;
-        top:17vw;
-    }
-
-    #title-prisioner-control{
-        font-size:9.5vw;
-    
-    }
-
-    #container-parte-3{
-        position:relative;
-        top:25vw;
-    }
-
-    #text-prisioner-control{
-        font-size:3.5vw;
-    }
-
-
-    #container-parte-4{
-        position:relative;
-        top:50vw;
-    }
-        
-    #gif-nishi{
-        position:relative;
-        z-index:1;
-        width:100vw;
-        height:90vw;
-    }
-    
-
-}
-
-@media (min-width: 1200px){
-
-    #container-parte-1{
-        position:relative;
-        top:3vw;
-    }
-
-    #title-sergio{
-        font-size:4vw;
-    }
-
-    #container-parte-2{
-        position:relative;
-        top:17vw;
-    }
-
-    #title-prisioner-control{
-        font-size:3.5vw;
-    
-    }
-
-    #container-parte-3{
-        position:relative;
-        top:25vw;
-    }
-
-    #text-prisioner-control{
-        font-size:2.5vw;
-    }
-
-
-    #container-parte-4{
-        position:relative;
-        top:40vw;
-       
-    }
-        
-    #gif-nishi{
-        position:relative;
-        z-index:1;
-
-        width:80vw;
-        
-    }
-    
 
 }
 
@@ -336,4 +61,184 @@
 
 
 
+
+@media (min-width: 426px) and (max-width: 576px) {
+    #container-parte-1 {
+        position: relative;
+        top: 3vw;
+    }
+
+    #title-sergio {
+        font-size: 8vw;
+    }
+
+    #container-parte-2 {
+        position: relative;
+        top: 17vw;
+    }
+
+    #title-prisioner-control {
+        font-size: 9.5vw;
+
+    }
+
+    #container-parte-3 {
+        position: relative;
+        top: 25vw;
+    }
+
+    #text-prisioner-control {
+        font-size: 6vw;
+    }
+
+
+    #container-parte-4 {
+        position: relative;
+        top: 50vw;
+    }
+
+    #gif-nishi {
+        position: relative;
+        z-index: 1;
+        width: 100vw;
+        height: 90vw;
+    }
+
+
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    #container-parte-1 {
+        position: relative;
+        top: 3vw;
+    }
+
+    #title-sergio {
+        font-size: 8vw;
+    }
+
+    #container-parte-2 {
+        position: relative;
+        top: 17vw;
+    }
+
+    #title-prisioner-control {
+        font-size: 9.5vw;
+
+    }
+
+    #container-parte-3 {
+        position: relative;
+        top: 25vw;
+    }
+
+    #text-prisioner-control {
+        font-size: 6vw;
+    }
+
+
+    #container-parte-4 {
+        position: relative;
+        top: 50vw;
+    }
+
+    #gif-nishi {
+        position: relative;
+        z-index: 1;
+        width: 100vw;
+        height: 90vw;
+    }
+
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    #container-parte-1 {
+        position: relative;
+        top: 3vw;
+    }
+
+    #title-sergio {
+        font-size: 8vw;
+    }
+
+    #container-parte-2 {
+        position: relative;
+        top: 17vw;
+    }
+
+    #title-prisioner-control {
+        font-size: 9.5vw;
+
+    }
+
+    #container-parte-3 {
+        position: relative;
+        top: 25vw;
+    }
+
+    #text-prisioner-control {
+        font-size: 4vw;
+    }
+
+
+    #container-parte-4 {
+        position: relative;
+        top: 50vw;
+    }
+
+    #gif-nishi {
+        position: relative;
+        z-index: 1;
+        width: 100vw;
+        height: 90vw;
+    }
+
+
+}
+
+@media (min-width: 992px) {
+    #container-parte-1 {
+        position: relative;
+        top: 3vw;
+    }
+
+    #title-sergio {
+        font-size: 8vw;
+    }
+
+    #container-parte-2 {
+        position: relative;
+        top: 17vw;
+    }
+
+    #title-prisioner-control {
+        font-size: 9.5vw;
+
+    }
+
+    #container-parte-3 {
+        position: relative;
+        top: 25vw;
+    }
+
+    #text-prisioner-control {
+        font-size: 3.5vw;
+    }
+
+
+    #container-parte-4 {
+        position: relative;
+        top: 50vw;
+    }
+
+    #gif-nishi {
+        position: relative;
+        z-index: 1;
+        width: 100vw;
+        height: 90vw;
+    }
+
+
+}
 

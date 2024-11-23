@@ -1023,6 +1023,32 @@
     top: 30vw;
   }
 
+  #inputNome{
+    border-radius: 0.5vw;
+    border:1px solid rgb(197, 197, 197);
+    height:3vw;
+    
+  }
+
+  #inputEmail{
+    border-radius: 0.5vw;
+    border:1px solid rgb(197, 197, 197);
+    height:3vw;
+  }
+
+  #text-area-mensagem{
+    width: 60vw;
+    height: 10vw;
+    border-radius: 0.5vw;
+    border:1px solid rgb(197, 197, 197)
+  }
+
+  #buttonEnviarMensagem{
+    width:60vw;
+    font-weight: bolder;
+    font-size: 1.5vw;
+  }
+
   #container-parte-5 {
     position: relative;
     top: 50vw;
