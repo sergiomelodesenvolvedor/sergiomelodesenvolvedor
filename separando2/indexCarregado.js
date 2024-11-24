@@ -1,9 +1,50 @@
 let divTodasAsPartes = document.querySelector("#div-todas-as-partes");
 
 window.addEventListener("load", () => {
-  setTimeout(() => {
+    if(sessionStorage.getItem('carregou')=='true'){
+    setTimeout(() => {
+      divTodasAsPartes.style.display = "block";
+      
+    }, 9000 /* 9000 */);
+  }else{
     divTodasAsPartes.style.display = "block";
-  }, 9000 /* 9000 */);
+    
+    
+  }
+ 
+  
+  if(sessionStorage.getItem('carregou')=='true'){
+    sessionStorage.removeItem('carregou')
+    
+  setTimeout(() => {
+    divTodasAsPartes.style.opacity = "1";
+    // Configuração do Typed.js
+    var options1 = {
+      strings: ["", "Desenvolvedor Web <br/> Full Stack"],
+      typeSpeed: 25, // Velocidade de digitação em milissegundos
+      backSpeed: 55, // Velocidade de apagar em milissegundos
+      startDelay: 800, // Atraso antes de começar a digitar em milissegundos
+      loop: false, // Se deve repetir a animação
+      showCursor: true,
+    };
+
+    var options2 = {
+      strings: ["", "Websites responsivos e dinâmicos"],
+      typeSpeed: 25, // Velocidade de digitação em milissegundos
+      backSpeed: 55, // Velocidade de apagar em milissegundos
+      startDelay: 5000, // Atraso antes de começar a digitar em milissegundos
+      loop: false, // Se deve repetir a animação
+      showCursor: false,
+    };
+
+    // Inicializa o Typed.js no elemento com o ID "typed-output"
+    var typed = new Typed("#h1-desenvolvedor-web-full-stack", options1);
+    var typed2 = new Typed("#h3-websites-responsivos-e-dinamicos", options2);
+  }, 9100 /* 9100 */);
+  
+}
+else{
+
 
   setTimeout(() => {
     divTodasAsPartes.style.opacity = "1";
@@ -29,7 +70,10 @@ window.addEventListener("load", () => {
     // Inicializa o Typed.js no elemento com o ID "typed-output"
     var typed = new Typed("#h1-desenvolvedor-web-full-stack", options1);
     var typed2 = new Typed("#h3-websites-responsivos-e-dinamicos", options2);
-  }, 9100 /* 9100 */);
+  }, 100 /* 9100 */);
+}
+
+
 });
 
 
@@ -64,8 +108,8 @@ svgButtonFrontEnd.addEventListener("mouseout", () => {
   textFrontEnd.setAttribute("fill", "blue");
 });
 
-svgButtonFrontEnd.addEventListener('click',()=>{
-  window.location.href="projetos/projetosFrontEnd/projetosFrontend.html"
+svgButtonFrontEnd.addEventListener('click', () => {
+  window.location.href = "projetos/projetosFrontEnd/projetosFrontend.html"
 })
 
 let svgButtonBackEnd = document.querySelector("#svg-button-backend");
@@ -81,8 +125,8 @@ svgButtonBackEnd.addEventListener("mouseout", () => {
   textBackEnd.setAttribute("fill", "blue");
 });
 
-svgButtonBackEnd.addEventListener('click',()=>{
-  window.location.href="projetos/projetosBackEnd/projetosBackend.html"
+svgButtonBackEnd.addEventListener('click', () => {
+  window.location.href = "projetos/projetosBackEnd/projetosBackend.html"
 })
 
 let linkTopoSobreMim = document.querySelector("#link-topo-sobre-mim");
@@ -161,7 +205,7 @@ linkSobreMimRodape.addEventListener("click", () => {
       top: posicaoScrollParte2,
       behavior: 'smooth'
     })
-    
+
   }
 });
 

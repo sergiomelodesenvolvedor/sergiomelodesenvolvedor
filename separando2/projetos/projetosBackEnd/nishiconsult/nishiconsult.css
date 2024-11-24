@@ -134,6 +134,65 @@
         position: relative;
         top: 17vw;
     }
+    #menu-hamburger{
+        font-size:9vw;
+        position:relative;
+        right: 3vw;
+    }
+    #menu{
+        position:relative;
+        right: 5vw;
+        top:0vw;
+        border:0px solid black;
+        width: 65.7vw;
+        height:60vw;
+        color:rgb(94, 94, 187);
+        text-decoration: overline;
+        font-size:6.5vw;
+        background-color:rgb(231, 231, 231);
+        box-shadow: rgba(0, 0, 0, 0.2) -3px 5px 10px;
+        z-index: 2;
+        display:none;
+    }
+
+    #icon-fechar-menu{
+        position:relative;
+        left:57vw !important;
+        top:-0vw !important;
+        font-size:8vw;
+    }
+
+    #li-home{
+        
+        position:relative;
+        left:-1.5vw;
+        top:0vw;
+        cursor:pointer;
+    }
+
+    li:hover{
+        color:blue
+    }
+
+    #li-projetos-backend{
+        position:relative;
+        left:-1.5vw;
+        top:8vw;
+        cursor:pointer;
+    }
+
+    #li-projetos-frontend{
+        position:relative;
+        top:15vw;
+        left:-1.5vw;
+        cursor:pointer;
+    }
+
+    #div-menu{
+        z-index:2;
+        border:0px solid black;
+        height:12.3vw;
+    }
 
     #title-prisioner-control {
         font-size: 9.5vw;
@@ -179,6 +238,67 @@
         position: relative;
         top: 17vw;
     }
+    #menu-hamburger{
+        font-size:8vw;
+        position:relative;
+        left:5vw;
+    }
+
+    #menu{
+        position:relative;
+        right: -3vw;
+        top:0vw;
+        border:0px solid black;
+        width: 65.7vw;
+        height:60vw;
+        color:rgb(94, 94, 187);
+        text-decoration: overline;
+        font-size:6.5vw;
+        background-color:rgb(231, 231, 231);
+        box-shadow: rgba(0, 0, 0, 0.2) -3px 5px 10px;
+        z-index: 2;
+        display:none;
+    }
+
+    #icon-fechar-menu{
+        position:relative;
+        left:57vw !important;
+        top:-0vw !important;
+        font-size:8vw;
+    }
+
+    #li-home{
+        
+        position:relative;
+        left:-1.5vw;
+        top:0vw;
+        cursor:pointer;
+    }
+
+    li:hover{
+        color:blue
+    }
+
+    #li-projetos-backend{
+        position:relative;
+        left:-1.5vw;
+        top:8vw;
+        cursor:pointer;
+    }
+
+    #li-projetos-frontend{
+        position:relative;
+        top:15vw;
+        left:-1.5vw;
+        cursor:pointer;
+    }
+
+    #div-menu{
+        z-index:2;
+        border:0px solid black;
+        height:12.3vw;
+    }
+
 
     #title-prisioner-control {
         font-size: 9.5vw;
@@ -225,6 +345,67 @@
         top: 17vw;
     }
 
+    #menu-hamburger{
+        font-size:8vw;
+        position:relative;
+        left:0vw;
+    }
+
+    #menu{
+        position:relative;
+        right: -3vw;
+        top:0vw;
+        border:0px solid black;
+        width: 65.7vw;
+        height:60vw;
+        color:rgb(94, 94, 187);
+        text-decoration: overline;
+        font-size:6.5vw;
+        background-color:rgb(231, 231, 231);
+        box-shadow: rgba(0, 0, 0, 0.2) -3px 5px 10px;
+        z-index: 2;
+        display:none;
+    }
+
+    #icon-fechar-menu{
+        position:relative;
+        left:57vw !important;
+        top:-0vw !important;
+        font-size:8vw;
+    }
+
+    #li-home{
+        
+        position:relative;
+        left:-1.5vw;
+        top:0vw;
+        cursor:pointer;
+    }
+
+    li:hover{
+        color:blue
+    }
+
+    #li-projetos-backend{
+        position:relative;
+        left:-1.5vw;
+        top:8vw;
+        cursor:pointer;
+    }
+
+    #li-projetos-frontend{
+        position:relative;
+        top:15vw;
+        left:-1.5vw;
+        cursor:pointer;
+    }
+
+    #div-menu{
+        z-index:2;
+        border:0px solid black;
+        height:12.3vw;
+    }
+
     #title-prisioner-control {
         font-size: 9.5vw;
 
@@ -236,7 +417,7 @@
     }
 
     #text-prisioner-control {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
 
