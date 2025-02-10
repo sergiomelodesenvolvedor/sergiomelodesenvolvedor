@@ -1,191 +1,6 @@
-@media (max-width: 389px) {
-  #svg-letras {
-    transform: scale(2);
-  }
 
-  #svg-letra-s-fundo {
-    transition: transform 2.3s ease-in-out;
-    transform: translate(23vw, 7vh);
-    stroke: "yellow";
-    fill: "green";
-  }
 
-  #svg-letra-m-fundo {
-    transition: transform 3.3s ease-in-out;
-    transform: translate(18vw, 25vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #svg-letra-d-fundo {
-    transition: transform 2.3s ease-in-out;
-    transform: translate(17vw, 15vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #div-title-meus-projetos {
-    font-size: 27pt;
-    font-family: "Roboto";
-    color: rgb(100, 97, 97);
-    position: relative;
-    top: 10vh;
-  }
-
-  #div-card-prisioner {
-    border: 0px solid black;
-    width: 60vw;
-    height: 100vw;
-    left: 20vw;
-    position: relative;
-  }
-
-  #div-card-ma-consultoria {
-    border: 0px solid black;
-    width: 60vw;
-    height: 100vw;
-    left: 20vw;
-    position: relative;
-  }
-
-  #title-card-prisioner-control {
-    position: relative;
-    font-size: calc(6.8vw);
-  }
-
-  #text-card-prisioner-control {
-    font-size: calc(5.7vw);
-  }
-
-  #title-card-ma-consultoria {
-    font-size: calc(6.8vw);
-  }
-
-  #text-card-ma-consultoria {
-    font-size: calc(5.7vw);
-  }
-
-  #container-parte-5 {
-    position: relative;
-    top: 20vh;
-    height: calc(69vw);
-  }
-
-  #svg-logo-carregada-rodape {
-    position: relative;
-    top: 3vh;
-    left: 2vw;
-    border: 0px solid yellow;
-  }
-
-  #div-envie-me-uma-mensagem {
-    position: relative;
-    left: 3vw;
-    top: 5vw;
-    font-size: 4.4vw;
-    width: 50vw;
-    border: 0px solid black;
-  }
-
-  #div-email-rodape {
-    position: relative;
-    top: 4vh;
-    left: 3vw;
-    font-size: 4vw;
-    border: 0px solid black;
-  }
-
-  #div-home-rodape {
-    font-size: 6vw;
-    position: relative;
-    left: 43vw;
-    top: 1vh;
-    border: 0px solid black;
-  }
-
-  #div-telefone-rodape {
-    position: relative;
-    left: 3vw;
-    top: 4vh;
-    font-family: "Titillium Web", sans-serif;
-    font-size: 4vw;
-    color: rgb(200, 255, 203);
-    border: 0px solid rgb(166, 255, 154);
-  }
-
-  #div-sobre-mim-rodape {
-    font-size: 4vw;
-    position: relative;
-    left: 10vw;
-    top: 2vh;
-    border: 0px solid black;
-  }
-
-  #div-meus-trabalhos-rodape {
-    font-size: 4vw;
-    position: relative;
-    left: 10vw;
-    top: 2.9vh;
-    border: 0px solid black;
-  }
-
-  #div-pai-div-hr-rodape {
-    position: relative;
-    top: 4vw;
-  }
-
-  #div-copyright-rodape {
-    position: relative;
-    width:40vw;
-    border:0px solid black;
-    left: 3vw;
-    top: 3vw;
-    font-size: 5vw;
-  }
-
-  
-  #menu-hamburger{
-    position:relative;
-    left:-2vw;
-  }
-
-  #menu {
-    top: 0vw;
-    left: 50vw;
-    width: 51.4vw;
-    height: 40vw;
-  }
-
-  #li-home {
-    position: relative;
-    top: -3vw;
-    left:-8vw;
-    border:0px solid black;
-    width:15vw;
-    color: rgb(94, 94, 187);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 4.8vw;
-  }
-
-  #li-projetos {
-    position: relative;
-    top: 10vw;
-    left:-8vw;
-    color: rgb(61, 61, 119);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 4.8vw;
-  }
-
-  #icon-fechar-menu {
-    left: 42vw;
-    top:3vw;
-    font-size:7vw;
-  }
-}
-
-@media (min-width: 390px) and (max-width: 424px) {
+@media (max-width: 424px) {
   #svg-letras {
     transform: scale(2);
   }
@@ -212,7 +27,7 @@
   }
 
   #div-title-meus-projetos {
-    font-size: 29pt;
+    font-size: 17vw;
     font-family: "Roboto";
     color: rgb(100, 97, 97);
     position: relative;
@@ -222,7 +37,7 @@
   #div-card-prisioner {
     border: 0px solid black;
     width: 60vw;
-    height: 50vh;
+    height: 145vw;
     left: 20vw;
     position: relative;
   }
@@ -230,71 +45,71 @@
   #div-card-ma-consultoria {
     border: 0px solid black;
     width: 60vw;
-    height: 50vh;
+    height: 50vw;
     left: 20vw;
     position: relative;
   }
 
   #title-card-prisioner-control {
-    font-size: calc(1.3vw + 3.4vh);
+    font-size: calc(10.3vw );
   }
 
   #text-card-prisioner-control {
-    font-size: calc(1.8vw + 2.2vh);
+    font-size: calc(8.4vw);
   }
 
-  #title-card-ma-consultoria {
-    font-size: calc(1.3vw + 3.4vh);
-  }
-
-  #text-card-ma-consultoria {
-    font-size: calc(1.8vw + 2.2vh);
-  }
+  
 
   #container-parte-5 {
     position: relative;
-    top: 45vw;
-    height: calc(30vh + 15vw);
+    top: 90vw;
+    height: 80vw;
+    border: 0px solid green;
+    width: 100vw;
+    z-index:2
   }
 
   #svg-logo-carregada-rodape {
     position: relative;
     top: 3vw;
     left: 2vw;
+    height: 20vw;
+    width: 27vw;
+
     border: 0px solid yellow;
   }
 
   #div-envie-me-uma-mensagem {
     position: relative;
-    top: 4vw;
     left: 3vw;
-    font-size: 4.4vw;
+    top: 5vw;
+    font-size: 3.8vw;
     width: 50vw;
     border: 0px solid black;
   }
 
   #div-email-rodape {
     position: relative;
-    top: 4vh;
+    top: 8vw;
     left: 3vw;
-    font-size: 3.9vw;
+    font-size: 3.4vw;
     border: 0px solid black;
   }
 
   #div-home-rodape {
-    font-size: 6vw;
+    font-size: 4vw;
     position: relative;
-    left: 42vw;
-    top: 10vw;
+    left: 27vw;
+    top: 1vw;
     border: 0px solid black;
   }
 
   #div-telefone-rodape {
     position: relative;
     left: 3vw;
-    top: 7vw;
+    top: 11vw;
     font-family: "Titillium Web", sans-serif;
-    font-size: 3.8vw;
+    font-size: 3.2vw;
     color: rgb(200, 255, 203);
     border: 0px solid rgb(166, 255, 154);
   }
@@ -303,7 +118,7 @@
     font-size: 4vw;
     position: relative;
     left: 10vw;
-    top: 2vh;
+    top: 3vw;
     border: 0px solid black;
   }
 
@@ -311,54 +126,32 @@
     font-size: 4vw;
     position: relative;
     left: 10vw;
-    top: 2.9vh;
+    top: 4.9vw;
     border: 0px solid black;
+    width:41vw;
   }
 
   #div-pai-div-hr-rodape {
     position: relative;
-    top: 5vw;
+    top: 8vw;
+
   }
 
   #div-copyright-rodape {
     position: relative;
     left: 3vw;
-    top: 4vw;
-    font-size: 4.5vw;
+    top: 5vw;
+    font-size: 4vw;
+    border:0px solid black;
+    width:40vw;
   }
 
-  #menu {
-    top: -2vw;
-    left: -30vw;
-    width: 51.4vw;
-    height: 40vw;
-  }
+  
 
-  #li-home {
-    position: relative;
-    top: -3vw;
-    left:-5vw;
-    color: rgb(94, 94, 187);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 5vw;
-  }
+ 
 
-  #li-projetos {
-    position: relative;
-    top: 10vw;
-    left:-5vw;
-    color: rgb(61, 61, 119);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 5vw;
-  }
 
-  #icon-fechar-menu {
-    left: 41vw;
-    font-size:6vw;
-  }
-
+  
   #menu-hamburger{
     position:relative;
     left:-2vw;
@@ -469,82 +262,7 @@
     font-size: calc(4.8vw + 0vh);
   }
 
-  #container-parte-5 {
-    position: relative;
-    top: 45vw;
-    height: calc(65vw );
-  }
-
-  #svg-logo-carregada-rodape {
-    position: relative;
-    top: 3vw;
-    left: 2vw;
-    border: 0px solid yellow;
-  }
-
-  #div-envie-me-uma-mensagem {
-    position: relative;
-    top: 4vw;
-    left: 3vw;
-    font-size: 4.4vw;
-    width: 50vw;
-    border: 0px solid black;
-  }
-
-  #div-email-rodape {
-    position: relative;
-    top: 4vh;
-    left: 3vw;
-    font-size: 3.9vw;
-    border: 0px solid black;
-  }
-
-  #div-home-rodape {
-    font-size: 6vw;
-    position: relative;
-    left: 42vw;
-    top: 10vw;
-    width:22vw;
-    border: 0px solid black;
-  }
-
-  #div-telefone-rodape {
-    position: relative;
-    left: 3vw;
-    top: 7vw;
-    font-family: "Titillium Web", sans-serif;
-    font-size: 3.8vw;
-    color: rgb(200, 255, 203);
-    border: 0px solid rgb(166, 255, 154);
-  }
-
-  #div-sobre-mim-rodape {
-    font-size: 4vw;
-    position: relative;
-    left: 10vw;
-    top: 2vh;
-    border: 0px solid black;
-  }
-
-  #div-meus-trabalhos-rodape {
-    font-size: 4vw;
-    position: relative;
-    left: 10vw;
-    top: 2.9vh;
-    border: 0px solid black;
-  }
-
-  #div-pai-div-hr-rodape {
-    position: relative;
-    top: 5vw;
-  }
-
-  #div-copyright-rodape {
-    position: relative;
-    left: 3vw;
-    top: 4vw;
-    font-size: 4.5vw;
-  }
+  
 
   #menu {
     top: -2vw;
@@ -612,6 +330,93 @@
   #icon-fechar-menu {
     left: 41vw;
     font-size:7vw;
+  }
+
+
+  #container-parte-5 {
+    position: relative;
+    top: 90vw;
+    height: 80vw;
+    border: 0px solid green;
+    width: 100vw;
+    z-index:2
+  }
+
+  #svg-logo-carregada-rodape {
+    position: relative;
+    top: 3vw;
+    left: 2vw;
+    height: 20vw;
+    width: 27vw;
+
+    border: 0px solid yellow;
+  }
+
+  #div-envie-me-uma-mensagem {
+    position: relative;
+    left: 3vw;
+    top: 5vw;
+    font-size: 4vw;
+    width: 50vw;
+    border: 0px solid black;
+  }
+
+  #div-email-rodape {
+    position: relative;
+    top: 8vw;
+    left: 3vw;
+    font-size: 3.4vw;
+    border: 0px solid black;
+  }
+
+  #div-home-rodape {
+    font-size: 4vw;
+    position: relative;
+    left: 29vw;
+    top: 1vw;
+    border: 0px solid black;
+  }
+
+  #div-telefone-rodape {
+    position: relative;
+    left: 3vw;
+    top: 11vw;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 3.2vw;
+    color: rgb(200, 255, 203);
+    border: 0px solid rgb(166, 255, 154);
+  }
+
+  #div-sobre-mim-rodape {
+    font-size: 4vw;
+    position: relative;
+    left: 12vw;
+    top: 3vw;
+    border: 0px solid black;
+  }
+
+  #div-meus-trabalhos-rodape {
+    font-size: 4vw;
+    position: relative;
+    left: 12vw;
+    top: 4.9vw;
+    border: 0px solid black;
+    width:38vw;
+  }
+
+  #div-pai-div-hr-rodape {
+    position: relative;
+    top: 8vw;
+
+  }
+
+  #div-copyright-rodape {
+    position: relative;
+    left: 3vw;
+    top: 10vw;
+    font-size: 4vw;
+    border:0px solid black;
+    width:40vw;
   }
 }
 
@@ -681,82 +486,6 @@
     font-size: calc(4.2vw + 0vh);
   }
 
-  #container-parte-5 {
-    position: relative;
-    top: 45vw;
-    height: calc(55vw + 0vh);
-  }
-
-  #svg-logo-carregada-rodape {
-    position: relative;
-    top: 3vw;
-    left: 2vw;
-    border: 0px solid yellow;
-  }
-
-  #div-envie-me-uma-mensagem {
-    position: relative;
-    top: 4vw;
-    left: 3vw;
-    font-size: 4.4vw;
-    width: 50vw;
-    border: 0px solid black;
-  }
-
-  #div-email-rodape {
-    position: relative;
-    top: 4vh;
-    left: 3vw;
-    font-size: 3.9vw;
-    border: 0px solid black;
-  }
-
-  #div-home-rodape {
-    font-size: 6vw;
-    position: relative;
-    left: 42vw;
-    top: 10vw;
-    width:22vw;
-    border: 0px solid black;
-  }
-
-  #div-telefone-rodape {
-    position: relative;
-    left: 3vw;
-    top: 7vw;
-    font-family: "Titillium Web", sans-serif;
-    font-size: 3.8vw;
-    color: rgb(200, 255, 203);
-    border: 0px solid rgb(166, 255, 154);
-  }
-
-  #div-sobre-mim-rodape {
-    font-size: 4vw;
-    position: relative;
-    left: 10vw;
-    top: 2vh;
-    border: 0px solid black;
-  }
-
-  #div-meus-trabalhos-rodape {
-    font-size: 4vw;
-    position: relative;
-    left: 10vw;
-    top: 2.9vh;
-    border: 0px solid black;
-  }
-
-  #div-pai-div-hr-rodape {
-    position: relative;
-    top: 5vw;
-  }
-
-  #div-copyright-rodape {
-    position: relative;
-    left: 3vw;
-    top: 4vw;
-    font-size: 4.5vw;
-  }
 
   #menu {
     top: -1vw;
@@ -823,6 +552,92 @@
   #icon-fechar-menu {
     left: 41vw;
     font-size:6vw;
+  }
+
+  #container-parte-5 {
+    position: relative;
+    top: 30vw;
+    height: 80vw;
+    border: 0px solid green;
+    width: 100vw;
+    z-index:2
+  }
+
+  #svg-logo-carregada-rodape {
+    position: relative;
+    top: 3vw;
+    left: 2vw;
+    height: 20vw;
+    width: 27vw;
+
+    border: 0px solid yellow;
+  }
+
+  #div-envie-me-uma-mensagem {
+    position: relative;
+    left: 3vw;
+    top: 5vw;
+    font-size: 4vw;
+    width: 50vw;
+    border: 0px solid black;
+  }
+
+  #div-email-rodape {
+    position: relative;
+    top: 8vw;
+    left: 3vw;
+    font-size: 3.4vw;
+    border: 0px solid black;
+  }
+
+  #div-home-rodape {
+    font-size: 4vw;
+    position: relative;
+    left: 29vw;
+    top: 1vw;
+    border: 0px solid black;
+  }
+
+  #div-telefone-rodape {
+    position: relative;
+    left: 3vw;
+    top: 11vw;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 3.2vw;
+    color: rgb(200, 255, 203);
+    border: 0px solid rgb(166, 255, 154);
+  }
+
+  #div-sobre-mim-rodape {
+    font-size: 4vw;
+    position: relative;
+    left: 12vw;
+    top: 3vw;
+    border: 0px solid black;
+  }
+
+  #div-meus-trabalhos-rodape {
+    font-size: 4vw;
+    position: relative;
+    left: 12vw;
+    top: 4.9vw;
+    border: 0px solid black;
+    width:38vw;
+  }
+
+  #div-pai-div-hr-rodape {
+    position: relative;
+    top: 8vw;
+
+  }
+
+  #div-copyright-rodape {
+    position: relative;
+    left: 3vw;
+    top: 10vw;
+    font-size: 4vw;
+    border:0px solid black;
+    width:40vw;
   }
 
 
@@ -892,82 +707,7 @@
     font-size: calc(2.2vw + 2.2vh);
   }
 
-  #container-parte-5 {
-    position: relative;
-    top: 30vw;
-    height: calc(55vw + 0vh);
-  }
-
-  #svg-logo-carregada-rodape {
-    position: relative;
-    top: 3vw;
-    left: 2vw;
-    border: 0px solid yellow;
-  }
-
-  #div-envie-me-uma-mensagem {
-    position: relative;
-    top: 4vw;
-    left: 3vw;
-    font-size: 4.4vw;
-    width: 50vw;
-    border: 0px solid black;
-  }
-
-  #div-email-rodape {
-    position: relative;
-    top: 5vw;
-    left: 3vw;
-    font-size: 3.9vw;
-    border: 0px solid black;
-  }
-
-  #div-home-rodape {
-    font-size: 6vw;
-    position: relative;
-    left: 42vw;
-    top: 8vw;
-    width:22vw;
-    border: 0px solid black;
-  }
-
-  #div-telefone-rodape {
-    position: relative;
-    left: 3vw;
-    top: 6vw;
-    font-family: "Titillium Web", sans-serif;
-    font-size: 3.8vw;
-    color: rgb(200, 255, 203);
-    border: 0px solid rgb(166, 255, 154);
-  }
-
-  #div-sobre-mim-rodape {
-    font-size: 4vw;
-    position: relative;
-    left: 10vw;
-    top: 2vh;
-    border: 0px solid black;
-  }
-
-  #div-meus-trabalhos-rodape {
-    font-size: 4vw;
-    position: relative;
-    left: 10vw;
-    top: 2.9vh;
-    border: 0px solid black;
-  }
-
-  #div-pai-div-hr-rodape {
-    position: relative;
-    top: 5vw;
-  }
-
-  #div-copyright-rodape {
-    position: relative;
-    left: 3vw;
-    top: 4vw;
-    font-size: 4.5vw;
-  }
+ 
   #menu-hamburger{
     left:-8vw;
     font-size: 6vw;
@@ -1007,9 +747,95 @@
     left: 31vw;
     font-size:6vw;
   }
+
+  #container-parte-5 {
+    position: relative;
+    top: 30vw;
+    height: 80vw;
+    border: 0px solid green;
+    width: 100vw;
+    z-index:2
+  }
+
+  #svg-logo-carregada-rodape {
+    position: relative;
+    top: 3vw;
+    left: 2vw;
+    height: 20vw;
+    width: 27vw;
+
+    border: 0px solid yellow;
+  }
+
+  #div-envie-me-uma-mensagem {
+    position: relative;
+    left: 3vw;
+    top: 5vw;
+    font-size: 4vw;
+    width: 50vw;
+    border: 0px solid black;
+  }
+
+  #div-email-rodape {
+    position: relative;
+    top: 8vw;
+    left: 3vw;
+    font-size: 3.4vw;
+    border: 0px solid black;
+  }
+
+  #div-home-rodape {
+    font-size: 4vw;
+    position: relative;
+    left: 29vw;
+    top: 1vw;
+    border: 0px solid black;
+  }
+
+  #div-telefone-rodape {
+    position: relative;
+    left: 3vw;
+    top: 11vw;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 3.2vw;
+    color: rgb(200, 255, 203);
+    border: 0px solid rgb(166, 255, 154);
+  }
+
+  #div-sobre-mim-rodape {
+    font-size: 4vw;
+    position: relative;
+    left: 12vw;
+    top: 3vw;
+    border: 0px solid black;
+  }
+
+  #div-meus-trabalhos-rodape {
+    font-size: 4vw;
+    position: relative;
+    left: 12vw;
+    top: 4.9vw;
+    border: 0px solid black;
+    width:38vw;
+  }
+
+  #div-pai-div-hr-rodape {
+    position: relative;
+    top: 8vw;
+
+  }
+
+  #div-copyright-rodape {
+    position: relative;
+    left: 3vw;
+    top: 10vw;
+    font-size: 4vw;
+    border:0px solid black;
+    width:40vw;
+  }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) {
   #svg-letras {
     transform: scale(1);
   }
@@ -1187,1797 +1013,7 @@
   }
 }
 
-@media (min-width: 1024px) and (min-height: 500px) {
-  #svg-letras {
-    transform: scale(1.5);
-  }
 
-  #svg-letra-s-fundo {
-    transition: transform 2.3s ease-in-out;
-    transform: translate(7vw, 8vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #svg-letra-m-fundo {
-    transition: transform 3.3s ease-in-out;
-    transform: translate(4vw, 16vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #svg-letra-d-fundo {
-    transition: transform 2.3s ease-in-out;
-    transform: translate(7vw, 14vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #div-card-prisioner {
-    width: 21vw;
-    height: 35vw;
-    left: 37vw;
-  }
-  #div-card-ma-consultoria {
-    width: 21vw;
-    height: 35vw;
-    left: 24vw;
-  }
-  #div-title-meus-projetos {
-    font-size: 40pt;
-    font-family: "Roboto";
-    color: rgb(100, 97, 97);
-    position: relative;
-    top: 10vh;
-  }
-
-  #title-card-prisioner-control {
-    position: relative;
-    top: 0vw;
-    font-size: calc(2.8vw + 0vh);
-  }
-
-  #text-card-prisioner-control {
-    position: relative;
-    top: 2vw;
-    font-size: calc(2.1vw + 0vh);
-  }
-
-  #title-card-ma-consultoria {
-    position: relative;
-    top: 2vw;
-    font-size: calc(2.5vw + 0vh);
-  }
-
-  #text-card-ma-consultoria {
-    position: relative;
-    top: 3vw;
-    font-size: calc(2.1vw + 0vh);
-  }
-
-  #container-parte-5 {
-    position: relative;
-    top: 25vw;
-    height: calc(50vw + 0vh);
-  }
-
-  #svg-logo-carregada-rodape {
-    position: relative;
-    top: 3vw;
-    left: 2vw;
-    border: 0px solid yellow;
-  }
-
-  #div-envie-me-uma-mensagem {
-    position: relative;
-    top: 4vw;
-    left: 3vw;
-    font-size: 4.4vw;
-    width: 50vw;
-    border: 0px solid black;
-  }
-
-  #div-email-rodape {
-    position: relative;
-    top: 5vw;
-    left: 3vw;
-    font-size: 3.9vw;
-    border: 0px solid black;
-  }
-
-  #div-home-rodape {
-    font-size: 5vw;
-    position: relative;
-    left: 42vw;
-    top: 8vw;
-    width:22vw;
-    border: 0px solid black;
-  }
-
-  #div-telefone-rodape {
-    position: relative;
-    left: 3vw;
-    top: 4vw;
-    font-family: "Titillium Web", sans-serif;
-    font-size: 3.8vw;
-    color: rgb(200, 255, 203);
-    border: 0px solid rgb(166, 255, 154);
-  }
-
-  #div-sobre-mim-rodape {
-    font-size: 4vw;
-    position: relative;
-    left: 10vw;
-    top: 2vh;
-    border: 0px solid black;
-  }
-
-  #div-meus-trabalhos-rodape {
-    font-size: 4vw;
-    position: relative;
-    left: 10vw;
-    top: 2.9vh;
-    border: 0px solid black;
-  }
-
-  #div-pai-div-hr-rodape {
-    position: relative;
-    top: 5vw;
-  }
-
-  #div-copyright-rodape {
-    position: relative;
-    left: 3vw;
-    top: 4vw;
-    font-size: 4.5vw;
-  }
-
-  #menu {
-    top: 0vw;
-    left: 59.3vw;
-    width: 40.4vw;
-    height: 25vw;
-    position:absolute;
-  }
-
-  #li-home {
-    position: relative;
-    top: 1vw;
-    left:0vw;
-    border:0px solid black;
-    width:15vw;
-    color: rgb(94, 94, 187);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 3vw;
-  }
-
-  #li-projetos {
-    position: relative;
-    top: 10vw;
-    left:0vw;
-    color: rgb(61, 61, 119);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 3vw;
-  }
-
-  #icon-fechar-menu {
-    left: 36vw;
-    top:1vw;
-    font-size:4vw;
-  }
-}
-
-@media (min-width: 1024px) and (min-height: 952px) {
-  #svg-letras {
-    transform: scale(1.5);
-  }
-
-  #svg-letra-s-fundo {
-    transition: transform 2.3s ease-in-out;
-    transform: translate(7vw, 8vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #svg-letra-m-fundo {
-    transition: transform 3.3s ease-in-out;
-    transform: translate(4vw, 16vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #svg-letra-d-fundo {
-    transition: transform 2.3s ease-in-out;
-    transform: translate(7vw, 14vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #div-title-meus-projetos {
-    font-size: 39pt;
-    font-family: "Roboto";
-    color: rgb(100, 97, 97);
-    position: relative;
-    top: 10vh;
-  }
-
-  #div-card-prisioner {
-    width: 32vw;
-    height: 45vw;
-    left: 29vw;
-  }
-  #div-card-ma-consultoria {
-    width: 25vw;
-    height: 45vw;
-    left: 24vw;
-  }
-  #title-card-prisioner-control {
-    position: relative;
-    top: 1vh;
-    font-size: calc(3.4vw + 0vh);
-  }
-
-  #text-card-prisioner-control {
-    position: relative;
-    top: 2vw;
-    font-size: calc(2.8vw + 0vh);
-  }
-
-  #title-card-ma-consultoria {
-    font-size: calc(3..57vw + 0vh);
-  }
-
-  #text-card-ma-consultoria {
-    position: relative;
-    top: 5vw;
-    font-size: calc(2.8vw + 0vh);
-  }
-
-  #container-parte-5 {
-    position: relative;
-    top: 45vw;
-    height: calc(50vw + 0vh);
-  }
-
-  #svg-logo-carregada-rodape {
-    position: relative;
-    top: 3vw;
-    left: 2vw;
-    border: 0px solid yellow;
-  }
-
-  #div-envie-me-uma-mensagem {
-    position: relative;
-    top: 4vw;
-    left: 3vw;
-    font-size: 4.4vw;
-    width: 50vw;
-    border: 0px solid black;
-  }
-
-  #div-email-rodape {
-    position: relative;
-    top: 5vw;
-    left: 3vw;
-    font-size: 3.9vw;
-    border: 0px solid black;
-  }
-
-  #div-home-rodape {
-    font-size: 5vw;
-    position: relative;
-    left: 42vw;
-    top: 8vw;
-    width:22vw;
-    border: 0px solid black;
-  }
-
-  #div-telefone-rodape {
-    position: relative;
-    left: 3vw;
-    top: 4vw;
-    font-family: "Titillium Web", sans-serif;
-    font-size: 3.8vw;
-    color: rgb(200, 255, 203);
-    border: 0px solid rgb(166, 255, 154);
-  }
-
-  #div-sobre-mim-rodape {
-    font-size: 4vw;
-    position: relative;
-    left: 10vw;
-    top: 2vh;
-    border: 0px solid black;
-  }
-
-  #div-meus-trabalhos-rodape {
-    font-size: 4vw;
-    position: relative;
-    left: 10vw;
-    top: 2.9vh;
-    border: 0px solid black;
-  }
-
-  #div-pai-div-hr-rodape {
-    position: relative;
-    top: 5vw;
-  }
-
-  #div-copyright-rodape {
-    position: relative;
-    left: 3vw;
-    top: 4vw;
-    font-size: 4.5vw;
-  }
-
-  #menu {
-    top: 0vw;
-    left: 59.3vw;
-    width: 40.4vw;
-    height: 25vw;
-    position:absolute;
-  }
-
-  #li-home {
-    position: relative;
-    top: 1vw;
-    left:0vw;
-    border:0px solid black;
-    width:15vw;
-    color: rgb(94, 94, 187);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 3vw;
-  }
-
-  #li-projetos {
-    position: relative;
-    top: 10vw;
-    left:0vw;
-    color: rgb(61, 61, 119);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 3vw;
-  }
-
-  #icon-fechar-menu {
-    left: 36vw;
-    top:1vw;
-    font-size:4vw;
-  }
-}
-
-@media (min-width: 1024px) and (min-height: 1200px) {
-  #svg-letras {
-    transform: scale(1.9);
-  }
-
-  #svg-letra-s-fundo {
-    transition: transform 2.3s ease-in-out;
-    transform: translate(7vw, 5vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #svg-letra-m-fundo {
-    transition: transform 3.3s ease-in-out;
-    transform: translate(4vw, 13vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #svg-letra-d-fundo {
-    transition: transform 2.3s ease-in-out;
-    transform: translate(7vw, 9vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #div-title-meus-projetos {
-    font-size: 39pt;
-    font-family: "Roboto";
-    color: rgb(100, 97, 97);
-    position: relative;
-    top: 10vh;
-  }
-
-  #div-card-prisioner {
-    width: 32vw;
-    height: 45vw;
-    
-    left: 29vw;
-  }
-
-  #title-card-prisioner-control {
-    position: relative;
-    top: 1vh;
-    font-size: calc(2.7vw + 2.7vh);
-  }
-
-  #text-card-prisioner-control {
-    position: relative;
-    top: 4vh;
-    font-size: calc(2.2vw + 2.2vh);
-  }
-
-  #title-card-ma-consultoria {
-    font-size: calc(2.7vw + 2.7vh);
-  }
-
-  #text-card-ma-consultoria {
-    position: relative;
-    top: 1vh;
-    font-size: calc(2.2vw + 2.2vh);
-  }
-  
-  
-
-  #container-parte-5 {
-    position: relative;
-    top: 45vw;
-    height: calc(55vw + 0vh);
-  }
-
-  #svg-logo-carregada-rodape {
-    position: relative;
-    top: 3vw;
-    left: 2vw;
-    border: 0px solid yellow;
-  }
-
-  #div-envie-me-uma-mensagem {
-    position: relative;
-    top: 4vw;
-    left: 3vw;
-    font-size: 4.4vw;
-    width: 50vw;
-    border: 0px solid black;
-  }
-
-  #div-email-rodape {
-    position: relative;
-    top: 5vw;
-    left: 3vw;
-    font-size: 3.9vw;
-    border: 0px solid black;
-  }
-
-  #div-home-rodape {
-    font-size: 5vw;
-    position: relative;
-    left: 42vw;
-    top: 8vw;
-    width:22vw;
-    border: 0px solid black;
-  }
-
-  #div-telefone-rodape {
-    position: relative;
-    left: 3vw;
-    top: 4vw;
-    font-family: "Titillium Web", sans-serif;
-    font-size: 3.8vw;
-    color: rgb(200, 255, 203);
-    border: 0px solid rgb(166, 255, 154);
-  }
-
-  #div-sobre-mim-rodape {
-    font-size: 4vw;
-    position: relative;
-    left: 10vw;
-    top: 2vh;
-    border: 0px solid black;
-  }
-
-  #div-meus-trabalhos-rodape {
-    font-size: 4vw;
-    position: relative;
-    left: 10vw;
-    top: 2.9vh;
-    border: 0px solid black;
-  }
-
-  #div-pai-div-hr-rodape {
-    position: relative;
-    top: 5vw;
-  }
-
-  #div-copyright-rodape {
-    position: relative;
-    left: 3vw;
-    top: 4vw;
-    font-size: 4.5vw;
-  }
-}
-@media (min-width: 1200px) and (min-height: 0px) {
-  #svg-letras {
-    transform: scale(1.2);
-  }
-
-  #svg-letra-s-fundo {
-    transition: transform 2.3s ease-in-out;
-    transform: translate(2vw, 22vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #svg-letra-m-fundo {
-    transition: transform 3.3s ease-in-out;
-    transform: translate(6vw, 24vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #svg-letra-d-fundo {
-    transition: transform 2.3s ease-in-out;
-    transform: translate(9vw, 25vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #div-card-prisioner {
-    height: 26vw;
-    left: 19vw;
-  }
-  #div-card-ma-consultoria {
-    height: 26vw;
-    left: 18vw;
-  }
-  #div-title-meus-projetos {
-    font-size: 48pt;
-    font-family: "Roboto";
-    color: rgb(100, 97, 97);
-    position: relative;
-    top: 10vh;
-  }
-
-  #title-card-prisioner-control {
-    position: relative;
-    top: 2vh;
-    font-size: calc(2.2vw + 0vh);
-  }
-
-  #text-card-prisioner-control {
-    position: relative;
-    top: 4vh;
-    font-size: calc(1.8vw + 0vh);
-  }
-
-  #title-card-ma-consultoria {
-    position: relative;
-    top: 7vh;
-    font-size: calc(2vw + 0vh);
-  }
-
-  #text-card-ma-consultoria {
-    position: relative;
-    top: 8vh;
-    font-size: calc(1.8vw + 0vh);
-  }
-
-  #container-parte-5 {
-    position: relative;
-    top: 45vw;
-    height: calc(50vw + 0vh);
-  }
-
-  #svg-logo-carregada-rodape {
-    position: relative;
-    height:8vw;
-    top: 3vw;
-    left: 2vw;
-    border: 0px solid yellow;
-  }
-
-  #div-envie-me-uma-mensagem {
-    position: relative;
-    top: 4vw;
-    left: 3vw;
-    font-size: 4.4vw;
-    width: 50vw;
-    border: 0px solid black;
-  }
-
-  #div-email-rodape {
-    position: relative;
-    top: 5vw;
-    left: 3vw;
-    font-size: 3.9vw;
-    border: 0px solid black;
-  }
-
-  #div-home-rodape {
-    font-size: 5vw;
-    position: relative;
-    left: 42vw;
-    top: 8vw;
-    width:22vw;
-    border: 0px solid black;
-  }
-
-  #div-telefone-rodape {
-    position: relative;
-    left: 3vw;
-    top: 4vw;
-    font-family: "Titillium Web", sans-serif;
-    font-size: 3.8vw;
-    color: rgb(200, 255, 203);
-    border: 0px solid rgb(166, 255, 154);
-  }
-
-  #div-sobre-mim-rodape {
-    font-size: 4vw;
-    position: relative;
-    left: 10vw;
-    top: 2vh;
-    border: 0px solid black;
-  }
-
-  #div-meus-trabalhos-rodape {
-    font-size: 4vw;
-    position: relative;
-    left: 10vw;
-    top: 2.9vh;
-    border: 0px solid black;
-  }
-
-  #div-pai-div-hr-rodape {
-    position: relative;
-    top: 5vw;
-  }
-
-  #div-copyright-rodape {
-    position: relative;
-    left: 3vw;
-    top: 4vw;
-    font-size: 4.5vw;
-  }
-
-  #menu {
-    top: 0vw;
-    left: 69.3vw;
-    width: 35.4vw;
-    height: 25vw;
-    position:absolute;
-  }
-
-  #li-home {
-    position: relative;
-    top: 1vw;
-    left:0vw;
-    border:0px solid black;
-    width:15vw;
-    color: rgb(94, 94, 187);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 3vw;
-  }
-
-  #li-projetos {
-    position: relative;
-    top: 10vw;
-    left:0vw;
-    color: rgb(61, 61, 119);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 3vw;
-  }
-
-  #icon-fechar-menu {
-    left: 26vw;
-    top:1vw;
-    font-size:3vw;
-  }
-}
-
-@media (min-width: 1200px) and (min-height: 620px) {
-  #svg-letras {
-    transform: scale(1.2);
-  }
-
-  #svg-letra-s-fundo {
-    transition: transform 2.3s ease-in-out;
-    transform: translate(2vw, 20vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #svg-letra-m-fundo {
-    transition: transform 3.3s ease-in-out;
-    transform: translate(6vw, 20vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #svg-letra-d-fundo {
-    transition: transform 2.3s ease-in-out;
-    transform: translate(9vw, 22vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #div-card-prisioner {
-    position: relative;
-    height: 25vw;
-    left:36vw;
-    border:0px solid green !important;
-  }
-  #div-card-ma-consultoria {
-    height: 25vw;
-    left: 22vw;
-  }
-  #div-title-meus-projetos {
-    font-size: 39pt;
-    font-family: "Roboto";
-    color: rgb(100, 97, 97);
-    position: relative;
-    top: 10vh;
-  }
-
-  #title-card-prisioner-control {
-    position: relative;
-    top: 0vh;
-    font-size: calc(2.2vw + 0vh);
-  }
-
-  #text-card-prisioner-control {
-    position: relative;
-    top: 0vh;
-    font-size: calc(1.6vw + 0vh);
-  }
-
-  #title-card-ma-consultoria {
-    position: relative;
-    top: 5vh;
-    font-size: calc(1.9vw + 0vh);
-  }
-
-  #text-card-ma-consultoria {
-    position: relative;
-    top: 5vh;
-    font-size: calc(1.6vw + 0vh);
-  }
-
-  #container-parte-5 {
-    position: relative;
-    top: 30vw;
-    height: calc(50vw + 0vh);
-  }
-
-  #svg-logo-carregada-rodape {
-    position: relative;
-    height:8vw;
-    top: 3vw;
-    left: 2vw;
-    border: 0px solid yellow;
-  }
-
-  #div-envie-me-uma-mensagem {
-    position: relative;
-    top: 4vw;
-    left: 3vw;
-    font-size: 4.4vw;
-    width: 50vw;
-    border: 0px solid black;
-  }
-
-  #div-email-rodape {
-    position: relative;
-    top: 5vw;
-    left: 3vw;
-    font-size: 3.9vw;
-    border: 0px solid black;
-  }
-
-  #div-home-rodape {
-    font-size: 5vw;
-    position: relative;
-    left: 42vw;
-    top: 8vw;
-    width:22vw;
-    border: 0px solid black;
-  }
-
-  #div-telefone-rodape {
-    position: relative;
-    left: 3vw;
-    top: 4vw;
-    font-family: "Titillium Web", sans-serif;
-    font-size: 3.8vw;
-    color: rgb(200, 255, 203);
-    border: 0px solid rgb(166, 255, 154);
-  }
-
-  #div-sobre-mim-rodape {
-    font-size: 4vw;
-    position: relative;
-    left: 10vw;
-    top: 2vh;
-    border: 0px solid black;
-  }
-
-  #div-meus-trabalhos-rodape {
-    font-size: 4vw;
-    position: relative;
-    left: 10vw;
-    top: 2.9vh;
-    border: 0px solid black;
-  }
-
-  #div-pai-div-hr-rodape {
-    position: relative;
-    top: 5vw;
-  }
-
-  #div-copyright-rodape {
-    position: relative;
-    left: 3vw;
-    top: 4vw;
-    font-size: 4.5vw;
-  }
-
-  #menu {
-    top: 0vw;
-    left: 69.3vw;
-    width: 35.4vw;
-    height: 25vw;
-    position:absolute;
-  }
-
-  #li-home {
-    position: relative;
-    top: 1vw;
-    left:0vw;
-    border:0px solid black;
-    width:15vw;
-    color: rgb(94, 94, 187);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 3vw;
-  }
-
-  #li-projetos {
-    position: relative;
-    top: 10vw;
-    left:0vw;
-    color: rgb(61, 61, 119);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 3vw;
-  }
-
-  #icon-fechar-menu {
-    left: 26vw;
-    top:1vw;
-    font-size:3vw;
-  }
-
-}
-
-@media (min-width: 1200px) and (min-height: 900px) {
-  #svg-letras {
-    transform: scale(1.2);
-  }
-
-  #svg-letra-s-fundo {
-    transition: transform 2.3s ease-in-out;
-    transform: translate(2vw, 13vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #svg-letra-m-fundo {
-    transition: transform 3.3s ease-in-out;
-    transform: translate(6vw, 13vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #svg-letra-d-fundo {
-    transition: transform 2.3s ease-in-out;
-    transform: translate(9vw, 14vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #div-card-prisioner {
-    width: 25vw;
-    height: 38vw;
-    left: 15vw;
-  }
-  #div-card-ma-consultoria {
-    width: 25vw;
-    height: 38vw;
-    left: 24vw;
-  }
-  #div-title-meus-projetos {
-    font-size: 48pt;
-    font-family: "Roboto";
-    color: rgb(100, 97, 97);
-    position: relative;
-    top: 10vh;
-  }
-
-  #title-card-prisioner-control {
-    position: relative;
-    top: 2vh;
-    font-size: calc(3.2vw + 0vh);
-  }
-
-  #text-card-prisioner-control {
-    position: relative;
-    top: 4vh;
-    font-size: calc(2.4vw + 0vh);
-  }
-
-  #title-card-ma-consultoria {
-    position: relative;
-    top: 9vh;
-    font-size: calc(3vw + 0vh);
-  }
-
-  #text-card-ma-consultoria {
-    position: relative;
-    top: 10vh;
-    font-size: calc(2.4vw + 0vh);
-  }
-
-  #container-parte-5 {
-    position: relative;
-    top: 20vw;
-    height: calc(50vw + 0vh);
-  }
-
-  #svg-logo-carregada-rodape {
-    position: relative;
-    height:8vw;
-    top: 3vw;
-    left: 2vw;
-    border: 0px solid yellow;
-  }
-
-  #div-envie-me-uma-mensagem {
-    position: relative;
-    top: 4vw;
-    left: 3vw;
-    font-size: 4.4vw;
-    width: 50vw;
-    border: 0px solid black;
-  }
-
-  #div-email-rodape {
-    position: relative;
-    top: 5vw;
-    left: 3vw;
-    font-size: 3.9vw;
-    border: 0px solid black;
-  }
-
-  #div-home-rodape {
-    font-size: 5vw;
-    position: relative;
-    left: 42vw;
-    top: 8vw;
-    width:22vw;
-    border: 0px solid black;
-  }
-
-  #div-telefone-rodape {
-    position: relative;
-    left: 3vw;
-    top: 4vw;
-    font-family: "Titillium Web", sans-serif;
-    font-size: 3.8vw;
-    color: rgb(200, 255, 203);
-    border: 0px solid rgb(166, 255, 154);
-  }
-
-  #div-sobre-mim-rodape {
-    font-size: 4vw;
-    position: relative;
-    left: 10vw;
-    top: 2vh;
-    border: 0px solid black;
-  }
-
-  #div-meus-trabalhos-rodape {
-    font-size: 4vw;
-    position: relative;
-    left: 10vw;
-    top: 2.9vh;
-    border: 0px solid black;
-  }
-
-  #div-pai-div-hr-rodape {
-    position: relative;
-    top: 5vw;
-  }
-
-  #div-copyright-rodape {
-    position: relative;
-    left: 3vw;
-    top: 4vw;
-    font-size: 4.5vw;
-  }
-
-  #menu {
-    top: 0vw;
-    left: 69.3vw;
-    width: 35.4vw;
-    height: 25vw;
-    position:absolute;
-  }
-
-  #li-home {
-    position: relative;
-    top: 1vw;
-    left:0vw;
-    border:0px solid black;
-    width:15vw;
-    color: rgb(94, 94, 187);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 3vw;
-  }
-
-  #li-projetos {
-    position: relative;
-    top: 10vw;
-    left:0vw;
-    color: rgb(61, 61, 119);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 3vw;
-  }
-
-  #icon-fechar-menu {
-    left: 26vw;
-    top:1vw;
-    font-size:3vw;
-  }
-}
-
-@media (min-width: 600px) and (min-height: 960px) {
-  #svg-letras {
-    transform: scale(2);
-  }
-
-  #svg-letra-s-fundo {
-    transition: transform 2.3s ease-in-out;
-    transform: translate(11vw, 6vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #svg-letra-m-fundo {
-    transition: transform 3.3s ease-in-out;
-    transform: translate(5vw, 17vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-  
-
-  #svg-letra-d-fundo {
-    transition: transform 2.3s ease-in-out;
-    transform: translate(10vw, 13vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #container-parte-5 {
-    position: relative;
-    top: 30vw;
-    height: calc(54vw + 0vh);
-  }
-
-  #svg-logo-carregada-rodape {
-    position: relative;
-    height:8vw;
-    top: 3vw;
-    left: 2vw;
-    border: 0px solid yellow;
-  }
-
-  #div-envie-me-uma-mensagem {
-    position: relative;
-    top: 4vw;
-    left: 3vw;
-    font-size: 4.4vw;
-    width: 50vw;
-    border: 0px solid black;
-  }
-
-  #div-email-rodape {
-    position: relative;
-    top: 5vw;
-    left: 3vw;
-    font-size: 3.9vw;
-    border: 0px solid black;
-  }
-
-  #div-home-rodape {
-    font-size: 5vw;
-    position: relative;
-    left: 42vw;
-    top: 8vw;
-    width:22vw;
-    border: 0px solid black;
-  }
-
-  #div-telefone-rodape {
-    position: relative;
-    left: 3vw;
-    top: 4vw;
-    font-family: "Titillium Web", sans-serif;
-    font-size: 3.8vw;
-    color: rgb(200, 255, 203);
-    border: 0px solid rgb(166, 255, 154);
-  }
-
-  #div-sobre-mim-rodape {
-    font-size: 4vw;
-    position: relative;
-    left: 10vw;
-    top: 2vh;
-    border: 0px solid black;
-  }
-
-  #div-meus-trabalhos-rodape {
-    font-size: 4vw;
-    position: relative;
-    left: 10vw;
-    top: 2.9vh;
-    border: 0px solid black;
-  }
-
-  #div-pai-div-hr-rodape {
-    position: relative;
-    top: 5vw;
-  }
-
-  #div-copyright-rodape {
-    position: relative;
-    left: 3vw;
-    top: 4vw;
-    font-size: 4.5vw;
-  }
-
-  #menu {
-    top: 0vw;
-    left: 65.3vw;
-    width: 35.4vw;
-    height: 25vw;
-    position:absolute;
-  }
-
-  #li-home {
-    position: relative;
-    top: 1vw;
-    left:0vw;
-    border:0px solid black;
-    width:15vw;
-    color: rgb(94, 94, 187);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 3vw;
-  }
-
-  #li-projetos {
-    position: relative;
-    top: 7vw;
-    left:0vw;
-    color: rgb(61, 61, 119);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 3vw;
-  }
-
-  #icon-fechar-menu {
-    left: 26vw;
-    top:1vw;
-    font-size:5vw;
-  }
-
-
-}
-
-@media (min-width: 768px) and (min-height: 1024px) {
-  #svg-letras {
-    transform: scale(1.5);
-  }
-
-  #svg-letra-s-fundo {
-    transition: transform 2.3s ease-in-out;
-    transform: translate(11vw, 6vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #svg-letra-m-fundo {
-    transition: transform 3.3s ease-in-out;
-    transform: translate(5vw, 17vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #svg-letra-d-fundo {
-    transition: transform 2.3s ease-in-out;
-    transform: translate(10vw, 13vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #div-card-prisioner {
-    width: 30vw;
-    height: 49vw;
-    left: 31vw;
-  }
-  #div-card-ma-consultoria {
-    width: 30vw;
-    height: 49vw;
-    left: 12vw;
-  }
-  #div-title-meus-projetos {
-    font-size: 48pt;
-    font-family: "Roboto";
-    color: rgb(100, 97, 97);
-    position: relative;
-    top: 10vh;
-  }
-
-  #title-card-prisioner-control {
-    position: relative;
-    top: 2vh;
-    font-size: calc(4.2vw + 0vh);
-  }
-
-  #text-card-prisioner-control {
-    position: relative;
-    top: 4vw;
-    font-size: calc(2.9vw + 0vh);
-  }
-
-  #title-card-ma-consultoria {
-    position: relative;
-    top: 1vw;
-    font-size: calc(4.2vw + 0vh);
-  }
-
-  #text-card-ma-consultoria {
-    position: relative;
-    top: 5vvw;
-    font-size: calc(2.9vw + 0vh);
-  }
-
-  #li-home {
-    position: relative;
-    top: 1vw;
-    left:0vw;
-    border:0px solid black;
-    width:15vw;
-    color: rgb(94, 94, 187);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 3vw;
-  }
-
-  #li-projetos {
-    position: relative;
-    top: 7vw;
-    left:0vw;
-    color: rgb(61, 61, 119);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 3vw;
-  }
-
-  #icon-fechar-menu {
-    left: 26vw;
-    top:1vw;
-    font-size:5vw;
-  }
-}
-
-@media (min-width: 992px) and (min-height: 1199px) {
-  #svg-letras {
-    transform: scale(1.7);
-  }
-
-  #svg-letra-s-fundo {
-    transition: transform 2.3s ease-in-out;
-    transform: translate(5vw, 6vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #svg-letra-m-fundo {
-    transition: transform 3.3s ease-in-out;
-    transform: translate(4vw, 14vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #svg-letra-d-fundo {
-    transition: transform 2.3s ease-in-out;
-    transform: translate(8vw, 13vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-  #div-card-prisioner {
-    width: 32vw;
-    height: 45vw;
-    left: 29vw;
-  }
-
-  #menu {
-    top: 0vw;
-    left: 59.3vw;
-    width: 40.4vw;
-    height: 25vw;
-    position:absolute;
-  }
-
-  #li-home {
-    position: relative;
-    top: 1vw;
-    left:0vw;
-    border:0px solid black;
-    width:15vw;
-    color: rgb(94, 94, 187);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 3vw;
-  }
-
-  #li-projetos {
-    position: relative;
-    top: 10vw;
-    left:0vw;
-    color: rgb(61, 61, 119);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 3vw;
-  }
-
-  #icon-fechar-menu {
-    left: 30vw;
-    top:1vw;
-    font-size:4vw;
-  }
-}
-
-@media (min-width: 768px) and (min-height: 1280px) {
-  #svg-letras {
-    transform: scale(1.5);
-  }
-
-  #svg-letra-s-fundo {
-    transition: transform 2.3s ease-in-out;
-    transform: translate(9vw, 4vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #svg-letra-m-fundo {
-    transition: transform 3.3s ease-in-out;
-    transform: translate(3vw, 13vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #svg-letra-d-fundo {
-    transition: transform 2.3s ease-in-out;
-    transform: translate(6.5vw, 10vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #menu-hamburger{
-    left:-8vw;
-    font-size: 6vw;
-    
-  }
-
-  #menu {
-    top: 0vw;
-    left: 59.3vw;
-    width: 40.4vw;
-    height: 25vw;
-    position:absolute;
-  }
-
-  #li-home {
-    position: relative;
-    top: 1vw;
-    left:0vw;
-    border:0px solid black;
-    width:15vw;
-    color: rgb(94, 94, 187);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 3vw;
-  }
-
-  #li-projetos {
-    position: relative;
-    top: 10vw;
-    left:0vw;
-    color: rgb(61, 61, 119);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 3vw;
-  }
-
-  #icon-fechar-menu {
-    left: 30vw;
-    top:1vw;
-    font-size:5vw;
-  }
-}
-
-@media (min-width: 1300px) and (min-height: 900px) {
-  #svg-letras {
-    transform: scale(1.1);
-  }
-
-  #svg-letra-s-fundo {
-    transition: transform 2.3s ease-in-out;
-    transform: translate(2vw, 7vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #svg-letra-m-fundo {
-    transition: transform 3.3s ease-in-out;
-    transform: translate(5vw, 17vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #svg-letra-d-fundo {
-    transition: transform 2.3s ease-in-out;
-    transform: translate(10vw, 8vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #menu {
-    top: -1vw;
-    left: -27vw;
-    width: 51.4vw;
-    height: 40vw;
-  }
-
-  #li-home {
-    position: relative;
-    top: 3vw;
-    width:20vw;
-    border:0px solid black;
-    left:0vw;
-    color: rgb(94, 94, 187);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
-  }
-
-  #li-projetos {
-    position: relative;
-    top: 11vw;
-    left:0vw;
-    color: rgb(61, 61, 119);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
-  }
-
-  #icon-fechar-menu {
-    left: 41vw;
-    top:3vw;
-    font-size:5vw;
-  }
-
-  #menu {
-    top: 0vw;
-    left: 59.3vw;
-    width: 40.4vw;
-    height: 25vw;
-    position:absolute;
-  }
-
-  #li-home {
-    position: relative;
-    top: 1vw;
-    left:0vw;
-    border:0px solid black;
-    width:15vw;
-    color: rgb(94, 94, 187);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 2.5vw;
-  }
-
-  #li-projetos {
-    position: relative;
-    top: 10vw;
-    left:0vw;
-    color: rgb(61, 61, 119);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 2.5vw;
-  }
-
-  #icon-fechar-menu {
-    left: 30vw;
-    top:1vw;
-    font-size:3.5vw;
-  }
-}
-
-@media (min-width: 1440px) and (min-height: 485px) {
-  #svg-letras {
-    transform: scale(1.2);
-  }
-
-  #svg-letra-s-fundo {
-    transition: transform 2.3s ease-in-out;
-    transform: translate(1vw, 25vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #svg-letra-m-fundo {
-    transition: transform 3.3s ease-in-out;
-    transform: translate(5vw, 25vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #svg-letra-d-fundo {
-    transition: transform 2.3s ease-in-out;
-    transform: translate(9.2vw, 29vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #div-title-meus-projetos {
-    font-size: 39pt;
-    font-family: "Roboto";
-    color: rgb(100, 97, 97);
-    position: relative;
-    top: 5vw;
-  }
-
-  #card-prisioner {
-    position: relative;
-    height: 37vw;
-    top: 0vw;
-    left: 2vw;
-  }
-
-  #card-ma-consultoria {
-    position: relative;
-    height: 37vw;
-    top: 0vw;
-    left: 2vw;
-  }
-  #title-card-prisioner-control {
-    position: relative;
-    top: 0vw;
-    font-size: calc(2.7vw + 0vh);
-  }
-
-  #text-card-prisioner-control {
-    position: relative;
-    top: 2vw;
-    font-size: calc(2.4vw + 0vh);
-  }
-
-  #title-card-ma-consultoria {
-    position: relative;
-    top: 1vw;
-    font-size: calc(2.7vw + 0vh);
-  }
-
-  #text-card-ma-consultoria {
-    position: relative;
-    top: 2vw;
-    font-size: calc(2.4vw + 0vh);
-  }
-
-  #menu {
-    top: -1vw;
-    left: -27vw;
-    width: 51.4vw;
-    height: 40vw;
-  }
-
-  #li-home {
-    position: relative;
-    top: 3vw;
-    width:20vw;
-    border:0px solid black;
-    left:0vw;
-    color: rgb(94, 94, 187);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
-  }
-
-  #li-projetos {
-    position: relative;
-    top: 11vw;
-    left:0vw;
-    color: rgb(61, 61, 119);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
-  }
-
-  #icon-fechar-menu {
-    left: 41vw;
-    top:3vw;
-    font-size:5vw;
-  }
-
-  #menu-hamburger{
-    left:-8vw;
-    font-size: 4vw;
-    
-  }
-
-  #menu {
-    top: 0vw;
-    left: 59.3vw;
-    width: 40.4vw;
-    height: 25vw;
-    position:absolute;
-  }
-
-  #li-home {
-    position: relative;
-    top: 1vw;
-    left:0vw;
-    border:0px solid black;
-    width:15vw;
-    color: rgb(94, 94, 187);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 2.5vw;
-  }
-
-  #li-projetos {
-    position: relative;
-    top: 10vw;
-    left:0vw;
-    color: rgb(61, 61, 119);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 2.5vw;
-  }
-
-  #icon-fechar-menu {
-    left: 30vw;
-    top:1vw;
-    font-size:3.5vw;
-  }
-}
-
-@media (min-width: 1440px) and (min-height: 900px) {
-  #svg-letras {
-    transform: scale(1.2);
-  }
-
-  #svg-letra-s-fundo {
-    transition: transform 2.3s ease-in-out;
-    transform: translate(1vw, 10vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #svg-letra-m-fundo {
-    transition: transform 3.3s ease-in-out;
-    transform: translate(5vw, 15vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #svg-letra-d-fundo {
-    transition: transform 2.3s ease-in-out;
-    transform: translate(7.2vw, 12vh);
-    stroke: "yellow";
-    fill: "green";
-  }
-
-  #div-title-meus-projetos {
-    font-size: 50pt;
-    font-family: "Roboto";
-    color: rgb(100, 97, 97);
-    position: relative;
-    top: 4vw;
-  }
-
-  #card-prisioner {
-    position: relative;
-    top: 0vh;
-    left: 2vw;
-    height: 37vw;
-  }
-
-  #card-ma-consultoria {
-    position: relative;
-    top: 0vh;
-    left: 2vw;
-    height: 37vw;
-  }
-  #title-card-prisioner-control {
-    position: relative;
-    top: 0vh;
-    font-size: calc(2.7vw + 0vh);
-  }
-
-  #text-card-prisioner-control {
-    position: relative;
-    top: 4vw;
-    font-size: calc(2.4vw + 0vh);
-  }
-
-  #title-card-ma-consultoria {
-    position: relative;
-    top: 8vh;
-    font-size: calc(2.7vw + 0vh);
-  }
-
-  #text-card-ma-consultoria {
-    position: relative;
-    top: 7vw;
-    font-size: calc(2.4vw + 0vh);
-  }
-
-  #menu-hamburger{
-    left:-8vw;
-    font-size: 4vw;
-    
-  }
-
-  #menu {
-    top: 0vw;
-    left: 59.3vw;
-    width: 40.4vw;
-    height: 25vw;
-    position:absolute;
-  }
-
-  #li-home {
-    position: relative;
-    top: 1vw;
-    left:0vw;
-    border:0px solid black;
-    width:15vw;
-    color: rgb(94, 94, 187);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 2.5vw;
-  }
-
-  #li-projetos {
-    position: relative;
-    top: 10vw;
-    left:0vw;
-    color: rgb(61, 61, 119);
-    text-decoration: overline;
-    font-family: "Open Sans", sans-serif;
-    font-size: 2.5vw;
-  }
-
-  #icon-fechar-menu {
-    left: 30vw;
-    top:1vw;
-    font-size:3.5vw;
-  }
-  
-}
 
 @keyframes girarAntiHorario {
   0% {
